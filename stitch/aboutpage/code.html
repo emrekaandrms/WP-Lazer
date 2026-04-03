@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&amp;family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "surface-bright": "#3a3939",
+                        "background": "#131313",
+                        "surface-container-low": "#1c1b1b",
+                        "primary-fixed": "#d8e2ff",
+                        "secondary-container": "#fe6500",
+                        "surface-dim": "#131313",
+                        "surface-container": "#201f1f",
+                        "on-tertiary": "#303030",
+                        "on-surface": "#e5e2e1",
+                        "on-secondary-container": "#541d00",
+                        "on-error": "#690005",
+                        "error-container": "#93000a",
+                        "inverse-on-surface": "#313030",
+                        "surface-container-high": "#2a2a2a",
+                        "surface": "#131313",
+                        "surface-container-lowest": "#0e0e0e",
+                        "tertiary": "#c8c6c5",
+                        "error": "#ffb4ab",
+                        "on-primary-container": "#00285b",
+                        "inverse-surface": "#e5e2e1",
+                        "secondary-fixed": "#ffdbcd",
+                        "surface-tint": "#adc7ff",
+                        "tertiary-fixed-dim": "#c8c6c5",
+                        "primary": "#adc7ff",
+                        "tertiary-container": "#929090",
+                        "on-primary-fixed-variant": "#004493",
+                        "on-tertiary-fixed": "#1b1b1c",
+                        "secondary": "#ffb596",
+                        "primary-container": "#4a8eff",
+                        "on-secondary-fixed": "#360f00",
+                        "outline-variant": "#414754",
+                        "secondary-fixed-dim": "#ffb596",
+                        "on-error-container": "#ffdad6",
+                        "inverse-primary": "#005bc0",
+                        "on-secondary": "#581e00",
+                        "primary-fixed-dim": "#adc7ff",
+                        "on-tertiary-fixed-variant": "#474746",
+                        "outline": "#8b90a0",
+                        "on-surface-variant": "#c1c6d7",
+                        "on-secondary-fixed-variant": "#7c2e00",
+                        "on-background": "#e5e2e1",
+                        "on-tertiary-container": "#2a2a2a",
+                        "on-primary-fixed": "#001a41",
+                        "tertiary-fixed": "#e5e2e1",
+                        "surface-variant": "#353534",
+                        "surface-container-highest": "#353534",
+                        "on-primary": "#002e68"
+                    },
+                    fontFamily: {
+                        "headline": ["Space Grotesk"],
+                        "body": ["Inter"],
+                        "label": ["Space Grotesk"]
+                    },
+                    borderRadius: { "DEFAULT": "0px", "lg": "0px", "xl": "0px", "full": "9999px" },
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        body {
+            background-color: #131313;
+            color: #e5e2e1;
+            font-family: 'Inter', sans-serif;
+        }
+        .header-anchor {
+            font-family: 'Space Grotesk', sans-serif;
+            font-weight: 800;
+            letter-spacing: 0.1em;
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background selection:bg-primary selection:text-on-primary">
+<!-- Top Navigation -->
+<nav class="fixed top-0 w-full z-50 rounded-none border-b border-[#414754]/20 bg-[#131313] dark:bg-[#0E0E0E] flex justify-between items-center px-6 py-3 w-full font-['Space_Grotesk'] uppercase tracking-tighter text-sm">
+<div class="text-xl font-bold tracking-widest text-[#ADC7FF] uppercase">PRECISION CNC</div>
+<div class="hidden md:flex items-center gap-8">
+<a class="text-[#C8C6C5] hover:text-[#ADC7FF] transition-colors" href="#">Bearings</a>
+<a class="text-[#C8C6C5] hover:text-[#ADC7FF] transition-colors" href="#">Linear Rails</a>
+<a class="text-[#C8C6C5] hover:text-[#ADC7FF] transition-colors" href="#">CNC Tools</a>
+<a class="text-[#C8C6C5] hover:text-[#ADC7FF] transition-colors" href="#">Motors</a>
+<a class="text-[#C8C6C5] hover:text-[#ADC7FF] transition-colors" href="#">Controllers</a>
+<a class="text-[#C8C6C5] hover:text-[#ADC7FF] transition-colors" href="#">Spare Parts</a>
+</div>
+<div class="flex items-center gap-4">
+<button class="material-symbols-outlined text-[#C8C6C5] hover:bg-[#2A2A2A] p-2 transition-all">language</button>
+<button class="material-symbols-outlined text-[#C8C6C5] hover:bg-[#2A2A2A] p-2 transition-all">settings</button>
+<button class="bg-[#4a8eff] text-[#00285b] px-4 py-2 font-bold hover:bg-[#ADC7FF] transition-all active:scale-95">Get a Quote</button>
+</div>
+</nav>
+<main class="pt-16">
+<!-- Hero Section -->
+<section class="relative min-h-[921px] flex items-center overflow-hidden bg-surface-container-lowest">
+<div class="absolute inset-0 opacity-40 mix-blend-luminosity">
+<img class="w-full h-full object-cover" data-alt="Close up of high precision CNC machined steel component" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC8QqoJ0j67FQcgmz7VjEDfQ_ik8IhxDixwGfgU67gBNZHGs9A9ICJ1MxZYzx4QIxUf_vKWCbU_zjYImdUycZpOroAxbrWB2vSGi_Et7qY6NFrzAOicpUP4Q6yuMcoCibozqsd03Yo3XLjTtbBN8tqTUcRgp3efbn_lAKlR2fTcsjgRKl5Mf3JbDVVfdTnpp7SV16fUr9_uzGT7yaHvmcUyfPPDK5khA2HJppGf9uCUsLN6yQiqy6TmWAc8hlGSbGSMnMkYE2zX274"/>
+<div class="absolute inset-0 bg-gradient-to-r from-background via-background/60 to-transparent"></div>
+</div>
+<div class="relative z-10 container mx-auto px-6 grid grid-cols-1 md:grid-cols-12 gap-12 items-center">
+<div class="md:col-span-8 lg:col-span-7">
+<span class="inline-block py-1 px-3 border border-primary/30 text-primary font-label text-xs tracking-widest uppercase mb-6">Established 1988 — High Precision Engineering</span>
+<h1 class="text-5xl md:text-7xl lg:text-8xl font-headline font-bold uppercase tracking-tighter leading-[0.9] text-on-surface mb-8">
+                        THE CORE OF <span class="text-primary">MODERN</span> MANUFACTURING
+                    </h1>
+<p class="text-lg md:text-xl text-outline font-body max-w-2xl leading-relaxed mb-10">
+                        For over three decades, INDUSTRIAL PRECISION OPS has been the silent engine behind global production lines. We engineer, source, and deliver the critical components that define the limits of mechanical performance.
+                    </p>
+<div class="flex flex-wrap gap-4">
+<button class="px-8 py-4 bg-primary text-on-primary font-label font-bold uppercase tracking-widest hover:brightness-110 active:scale-95 transition-all">Explore Components</button>
+<button class="px-8 py-4 border border-outline-variant text-on-surface font-label font-bold uppercase tracking-widest hover:bg-surface-container-high transition-all">Our Capabilities</button>
+</div>
+</div>
+</div>
+<!-- Blueprint Overlay Elements -->
+<div class="absolute top-20 right-10 hidden lg:block opacity-20 pointer-events-none">
+<div class="border-l border-t border-outline-variant w-48 h-48 flex flex-col justify-end items-end p-4">
+<span class="font-label text-[10px] text-outline uppercase tracking-widest">TOLERANCE_CHECK.V2</span>
+<span class="font-label text-xs text-primary">0.001mm_ACCURACY</span>
+</div>
+</div>
+</section>
+<!-- Values Section (Bento Grid) -->
+<section class="py-24 bg-surface px-6">
+<div class="container mx-auto">
+<div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
+<div class="max-w-2xl">
+<h2 class="text-3xl md:text-5xl font-headline font-bold uppercase tracking-tighter text-on-surface">MECHANICAL RIGOR</h2>
+<p class="text-outline mt-4 font-body">Our values aren't slogans; they are the tolerances we live by in every CNC spindle, bearing, and motor we supply.</p>
+</div>
+<div class="h-px flex-grow bg-outline-variant/20 mx-12 hidden md:block"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-px bg-outline-variant/20">
+<!-- Value 1: Precision -->
+<div class="bg-surface-container p-10 group hover:bg-surface-container-high transition-all duration-300">
+<div class="mb-8 flex justify-between items-start">
+<span class="material-symbols-outlined text-4xl text-primary" data-weight="fill">straighten</span>
+<span class="text-xs font-label text-outline/50">VAL_01</span>
+</div>
+<h3 class="text-2xl font-headline font-bold uppercase mb-4 text-on-surface">PRECISION</h3>
+<p class="text-outline font-body text-sm leading-relaxed">Absolute adherence to technical specifications. We utilize laser-calibrated verification systems to ensure every part matches the blueprint exactly.</p>
+</div>
+<!-- Value 2: Reliability -->
+<div class="bg-surface-container p-10 group hover:bg-surface-container-high transition-all duration-300">
+<div class="mb-8 flex justify-between items-start">
+<span class="material-symbols-outlined text-4xl text-primary" data-weight="fill">verified_user</span>
+<span class="text-xs font-label text-outline/50">VAL_02</span>
+</div>
+<h3 class="text-2xl font-headline font-bold uppercase mb-4 text-on-surface">RELIABILITY</h3>
+<p class="text-outline font-body text-sm leading-relaxed">Engineered for 24/7 industrial cycles. Our components undergo extreme stress-testing to mitigate downtime and maximize MTBF (Mean Time Between Failures).</p>
+</div>
+<!-- Value 3: Engineering Support -->
+<div class="bg-surface-container p-10 group hover:bg-surface-container-high transition-all duration-300">
+<div class="mb-8 flex justify-between items-start">
+<span class="material-symbols-outlined text-4xl text-primary" data-weight="fill">architecture</span>
+<span class="text-xs font-label text-outline/50">VAL_03</span>
+</div>
+<h3 class="text-2xl font-headline font-bold uppercase mb-4 text-on-surface">ENGINEERING SUPPORT</h3>
+<p class="text-outline font-body text-sm leading-relaxed">Integration isn't an afterthought. Our team of senior mechanical engineers provides direct implementation support for complex CNC arrays and custom motion paths.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Timeline Section (Horizontal Blueprint Style) -->
+<section class="py-24 bg-surface-container-lowest overflow-hidden">
+<div class="container mx-auto px-6">
+<div class="mb-20">
+<h2 class="text-3xl font-headline font-bold uppercase tracking-widest text-on-surface">OPERATIONAL EVOLUTION</h2>
+<div class="w-24 h-1 bg-primary mt-4"></div>
+</div>
+<div class="relative flex flex-col md:flex-row gap-12 md:gap-0">
+<!-- Line -->
+<div class="absolute top-1/2 left-0 w-full h-px bg-outline-variant/30 hidden md:block"></div>
+<!-- Year 1 -->
+<div class="flex-1 relative md:pb-16 md:pt-0">
+<div class="bg-surface-container-high w-fit p-4 mb-6 border-l-4 border-primary">
+<span class="font-headline text-2xl font-black text-on-surface">1988</span>
+</div>
+<div class="md:absolute md:top-1/2 md:left-0 md:w-4 md:h-4 md:bg-primary md:-translate-y-1/2 md:translate-x-[-8px]"></div>
+<h4 class="font-headline text-lg font-bold uppercase text-on-surface mb-2">FOUNDATION</h4>
+<p class="text-outline text-xs uppercase font-label">Establishment of the precision workshop in Detroit. Focus on automotive tool-steel components.</p>
+</div>
+<!-- Year 2 -->
+<div class="flex-1 relative md:pt-16 md:pb-0">
+<div class="bg-surface-container-high w-fit p-4 mb-6 md:mt-24 border-l-4 border-primary">
+<span class="font-headline text-2xl font-black text-on-surface">2005</span>
+</div>
+<div class="md:absolute md:top-1/2 md:left-0 md:w-4 md:h-4 md:bg-primary md:-translate-y-1/2 md:translate-x-[-8px]"></div>
+<h4 class="font-headline text-lg font-bold uppercase text-on-surface mb-2">ISO 9001 CERTIFICATION</h4>
+<p class="text-outline text-xs uppercase font-label">Global standardization of quality management systems and expansion into linear motion technology.</p>
+</div>
+<!-- Year 3 -->
+<div class="flex-1 relative md:pb-16 md:pt-0">
+<div class="bg-surface-container-high w-fit p-4 mb-6 border-l-4 border-primary">
+<span class="font-headline text-2xl font-black text-on-surface">2014</span>
+</div>
+<div class="md:absolute md:top-1/2 md:left-0 md:w-4 md:h-4 md:bg-primary md:-translate-y-1/2 md:translate-x-[-8px]"></div>
+<h4 class="font-headline text-lg font-bold uppercase text-on-surface mb-2">CNC ECOSYSTEM LAUNCH</h4>
+<p class="text-outline text-xs uppercase font-label">Launch of integrated control systems and smart-spindle monitoring software API.</p>
+</div>
+<!-- Year 4 -->
+<div class="flex-1 relative md:pt-16 md:pb-0">
+<div class="bg-surface-container-high w-fit p-4 mb-6 md:mt-24 border-l-4 border-secondary">
+<span class="font-headline text-2xl font-black text-on-surface">2024</span>
+</div>
+<div class="md:absolute md:top-1/2 md:left-0 md:w-4 md:h-4 md:bg-secondary md:-translate-y-1/2 md:translate-x-[-8px]"></div>
+<h4 class="font-headline text-lg font-bold uppercase text-on-surface mb-2">NEXT-GEN AUTOMATION</h4>
+<p class="text-outline text-xs uppercase font-label">Acquisition of AI-driven predictive maintenance patents for large-scale fabrication units.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Team / Support Section (Technical Focus) -->
+<section class="py-24 bg-surface px-6">
+<div class="container mx-auto">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+<div>
+<h2 class="text-4xl md:text-5xl font-headline font-bold uppercase tracking-tighter text-on-surface mb-8">THE ENGINEERING<br/><span class="text-primary">TASK FORCE</span></h2>
+<div class="space-y-8">
+<div class="flex gap-6">
+<div class="w-12 h-12 flex-shrink-0 bg-surface-container-highest flex items-center justify-center">
+<span class="material-symbols-outlined text-primary">engineering</span>
+</div>
+<div>
+<h5 class="font-headline font-bold uppercase text-on-surface">TECHNICAL DIRECTORS</h5>
+<p class="text-outline text-sm mt-1">Our leadership team consists of veteran mechanical and software engineers with a combined 120 years of field experience.</p>
+</div>
+</div>
+<div class="flex gap-6">
+<div class="w-12 h-12 flex-shrink-0 bg-surface-container-highest flex items-center justify-center">
+<span class="material-symbols-outlined text-primary">settings_suggest</span>
+</div>
+<div>
+<h5 class="font-headline font-bold uppercase text-on-surface">APPLICATION SPECIALISTS</h5>
+<p class="text-outline text-sm mt-1">Dedicated support units that focus on vertical-specific integration: Aerospace, Medical, and Heavy Industrial fabrication.</p>
+</div>
+</div>
+<div class="flex gap-6">
+<div class="w-12 h-12 flex-shrink-0 bg-surface-container-highest flex items-center justify-center">
+<span class="material-symbols-outlined text-primary">biotech</span>
+</div>
+<div>
+<h5 class="font-headline font-bold uppercase text-on-surface">R&amp;D DIVISIONS</h5>
+<p class="text-outline text-sm mt-1">Constantly iterating on metallurgical compositions to reduce thermal expansion in high-speed spindles.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="relative">
+<div class="aspect-square bg-surface-container-highest relative overflow-hidden p-1">
+<img class="w-full h-full object-cover grayscale opacity-80 hover:grayscale-0 transition-all duration-700" data-alt="Technical engineering team working around a large industrial CNC machine" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCGaS8wbN-PrbaFzWNJ-lg6ej4WXZfHlYAknA7HkQpZKaDw8HklbWt3V1oIkpmrHHZa7F_adxV8Pq5fW5vFHvjTPMmC-tf7lQGlI2VXYoQlSFIhWk5PL03Qu6p3it924vKoYXIW3Fcn7mBC-R1gpmUFVbCD2PweV_SLymsbRR4CCLHF2lhvebkbQ05T2D48XwcnKuPE0PVCTgVaYPYR9_xLIsMobYBsiK6YdIxHnAGb_V5rWDt_PabTZdDcuivfGamNG-zN1Xbnzuk"/>
+<div class="absolute top-0 right-0 p-6 bg-background/80 backdrop-blur-md">
+<span class="font-label text-[10px] text-primary uppercase block">ENGINEERING_DEPT</span>
+<span class="font-label text-xl font-bold text-on-surface">HQ_01 UNIT</span>
+</div>
+</div>
+<div class="absolute -bottom-10 -left-10 w-48 h-48 bg-primary/5 border border-primary/20 backdrop-blur-xl flex flex-col justify-center items-center text-center p-4">
+<span class="font-headline text-4xl font-black text-primary">24/7</span>
+<span class="font-label text-xs uppercase text-outline">TECHNICAL UPTIME SUPPORT</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA Section -->
+<section class="py-24 bg-surface-container-lowest relative overflow-hidden">
+<div class="absolute inset-0 opacity-10">
+<div class="absolute top-0 left-0 w-full h-full" style="background-image: radial-gradient(circle at 2px 2px, #414754 1px, transparent 0); background-size: 40px 40px;"></div>
+</div>
+<div class="container mx-auto px-6 text-center relative z-10">
+<h2 class="text-4xl md:text-6xl lg:text-7xl font-headline font-bold uppercase tracking-tighter text-on-surface mb-8">REALIZE THE <span class="text-secondary">LIMITLESS</span></h2>
+<p class="text-outline text-lg max-w-2xl mx-auto mb-12">Join the industrial elite. Equip your production line with the precision it deserves.</p>
+<div class="flex flex-col sm:flex-row justify-center gap-6">
+<button class="px-12 py-5 bg-secondary text-on-secondary font-headline font-black uppercase tracking-widest text-lg hover:scale-105 transition-all">Partner with Us</button>
+<button class="px-12 py-5 border border-outline text-on-surface font-headline font-black uppercase tracking-widest text-lg hover:bg-surface-container-high transition-all">Request Technical Spec Sheet</button>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full rounded-none border-t border-[#414754]/20 bg-[#0E0E0E] grid grid-cols-1 md:grid-cols-4 gap-8 px-12 py-16 w-full font-['Inter'] text-xs tracking-tight">
+<div class="space-y-6">
+<div class="font-['Space_Grotesk'] font-black text-[#ADC7FF] text-xl">PRECISION CNC</div>
+<p class="text-[#8B90A0] leading-relaxed">Global supply chain leader in industrial automation components and high-precision CNC machining parts.</p>
+<div class="text-[#ADC7FF] font-bold">ISO 9001:2015 CERTIFIED</div>
+</div>
+<div class="flex flex-col gap-3">
+<span class="font-bold text-white uppercase mb-2 font-['Space_Grotesk'] tracking-widest">Resources</span>
+<a class="text-[#8B90A0] hover:text-white transition-all" href="#">Technical Documentation</a>
+<a class="text-[#8B90A0] hover:text-white transition-all" href="#">Shipping Manifests</a>
+<a class="text-[#8B90A0] hover:text-white transition-all" href="#">MSDS Sheets</a>
+<a class="text-[#8B90A0] hover:text-white transition-all" href="#">API Access</a>
+</div>
+<div class="flex flex-col gap-3">
+<span class="font-bold text-white uppercase mb-2 font-['Space_Grotesk'] tracking-widest">Company</span>
+<a class="text-[#8B90A0] hover:text-white transition-all" href="#">Global Logistics</a>
+<a class="text-[#8B90A0] hover:text-white transition-all" href="#">Terms of Supply</a>
+<a class="text-[#8B90A0] hover:text-white transition-all" href="#">Careers</a>
+<a class="text-[#8B90A0] hover:text-white transition-all" href="#">Investor Relations</a>
+</div>
+<div class="space-y-6">
+<span class="font-bold text-white uppercase mb-2 font-['Space_Grotesk'] tracking-widest">Connect</span>
+<div class="flex gap-4">
+<a class="w-10 h-10 bg-surface-container-high flex items-center justify-center hover:bg-primary/20 transition-all" href="#">
+<span class="material-symbols-outlined text-sm">terminal</span>
+</a>
+<a class="w-10 h-10 bg-surface-container-high flex items-center justify-center hover:bg-primary/20 transition-all" href="#">
+<span class="material-symbols-outlined text-sm">share</span>
+</a>
+</div>
+<p class="text-[#8B90A0]">© 2024 INDUSTRIAL PRECISION OPS. ALL RIGHTS RESERVED.</p>
+</div>
+</footer>
+</body></html>

@@ -1,0 +1,44 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Policy Content Schema",
+  "description": "Schema for policy pages (privacy, terms, kvkk, etc.)",
+  "type": "object",
+  "required": ["slug", "title", "status", "effectiveDate"],
+  "properties": {
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "status": {
+      "type": "string",
+      "enum": ["draft", "publish"]
+    },
+    "effectiveDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$"
+    },
+    "category": {
+      "type": "string",
+      "enum": ["privacy", "terms", "legal", "compliance"]
+    },
+    "seo": {
+      "type": "object",
+      "properties": {
+        "title": { "type": "string", "maxLength": 70 },
+        "description": { "type": "string", "maxLength": 160 }
+      }
+    },
+    "lastModified": {
+      "type": "string",
+      "format": "date-time"
+    }
+  }
+}

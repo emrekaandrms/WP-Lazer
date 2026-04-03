@@ -1,0 +1,39 @@
+{
+  "name": "wp-lzer-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit",
+    "validate:content": "node scripts/validate-content.js",
+    "revalidate": "node scripts/revalidate.js",
+    "wp:install-plugins": "wp plugin install wp-graphql wp-graphql-woocommerce --activate",
+    "wp:seed-content": "node scripts/seed-content.js",
+    "content:sync": "npm run validate:content && wp content import-dir content/pages --type=page && wp content import-dir content/policies --type=policy"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.8.10",
+    "@apollo/experimental-nextjs-app-support": "^0.5.1",
+    "graphql": "^16.8.1",
+    "next": "14.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "ajv": "^8.12.0",
+    "ajv-formats": "^2.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@types/react": "^18.2.48",
+    "@types/react-dom": "^18.2.18",
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.33",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

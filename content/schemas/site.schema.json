@@ -1,0 +1,44 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Site Settings Schema",
+  "description": "Schema for site-wide settings",
+  "type": "object",
+  "required": ["siteName", "contact"],
+  "properties": {
+    "siteName": {
+      "type": "string",
+      "minLength": 1
+    },
+    "tagline": {
+      "type": "string"
+    },
+    "contact": {
+      "type": "object",
+      "required": ["email", "phone"],
+      "properties": {
+        "email": { "type": "string", "format": "email" },
+        "phone": { "type": "string" },
+        "address": { "type": "string" },
+        "hours": { "type": "string" }
+      }
+    },
+    "social": {
+      "type": "object",
+      "properties": {
+        "linkedin": { "type": "string", "format": "uri" },
+        "twitter": { "type": "string" },
+        "youtube": { "type": "string", "format": "uri" }
+      }
+    },
+    "footer": {
+      "type": "object",
+      "properties": {
+        "copyright": { "type": "string" },
+        "legalLinks": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    }
+  }
+}

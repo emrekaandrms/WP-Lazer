@@ -1,0 +1,65 @@
+version: '3.8'
+
+services:
+  wordpress:
+    image: wordpress:6.4-php8.2-apache
+    container_name: wp-lzer-wordpress
+    restart: unless-stopped
+    ports:
+      - "8080:80"
+    environment:
+      WORDPRESS_DB_HOST: wp-lzer-db:3306
+      WORDPRESS_DB_USER: wordpress
+      WORDPRESS_DB_PASSWORD: wordpress_secret
+      WORDPRESS_DB_NAME: wp_lzer
+      WORDPRESS_TABLE_PREFIX: wp_
+      WORDPRESS_DEBUG: 1
+      HEADLESS_FRONTEND_URL: http://localhost:3000
+    volumes:
+      - ./wordpress/wp-content:/var/www/html/wp-content
+      - ./wordpress/uploads:/var/www/html/wp-content/uploads
+    depends_on:
+      - wp-lzer-db
+    networks:
+      - wp-lzer-network
+
+  wp-lzer-db:
+    image: mysql:8.0
+    container_name: wp-lzer-mysql
+    restart: unless-stopped
+    environment:
+      MYSQL_DATABASE: wp_lzer
+      MYSQL_USER: wordpress
+      MYSQL_PASSWORD: wordpress_secret
+      MYSQL_ROOT_PASSWORD: root_secret
+    volumes:
+      - wp-lzer-db-data:/var/lib/mysql
+    networks:
+      - wp-lzer-network
+    command: --default-authentication-plugin=mysql_native_password
+
+  wp-cli:
+    image: wordpress:cli-php8.2
+    container_name: wp-lzer-wpcli
+    depends_on:
+      - wordpress
+      - wp-lzer-db
+    environment:
+      WORDPRESS_DB_HOST: wp-lzer-db:3306
+      WORDPRESS_DB_USER: wordpress
+      WORDPRESS_DB_PASSWORD: wordpress_secret
+      WORDPRESS_DB_NAME: wp_lzer
+    volumes:
+      - ./wordpress:/var/www/html
+      - ./scripts:/scripts
+    entrypoint: /bin/bash
+    networks:
+      - wp-lzer-network
+
+networks:
+  wp-lzer-network:
+    driver: bridge
+
+volumes:
+  wp-lzer-db-data:
+    driver: local

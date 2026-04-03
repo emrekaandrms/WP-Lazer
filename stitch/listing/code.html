@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&amp;family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "surface-bright": "#3a3939",
+              "background": "#131313",
+              "surface-container-low": "#1c1b1b",
+              "primary-fixed": "#d8e2ff",
+              "secondary-container": "#fe6500",
+              "surface-dim": "#131313",
+              "surface-container": "#201f1f",
+              "on-tertiary": "#303030",
+              "on-surface": "#e5e2e1",
+              "on-secondary-container": "#541d00",
+              "on-error": "#690005",
+              "error-container": "#93000a",
+              "inverse-on-surface": "#313030",
+              "surface-container-high": "#2a2a2a",
+              "surface": "#131313",
+              "surface-container-lowest": "#0e0e0e",
+              "tertiary": "#c8c6c5",
+              "error": "#ffb4ab",
+              "on-primary-container": "#00285b",
+              "inverse-surface": "#e5e2e1",
+              "secondary-fixed": "#ffdbcd",
+              "surface-tint": "#adc7ff",
+              "tertiary-fixed-dim": "#c8c6c5",
+              "primary": "#adc7ff",
+              "tertiary-container": "#929090",
+              "on-primary-fixed-variant": "#004493",
+              "on-tertiary-fixed": "#1b1b1c",
+              "secondary": "#ffb596",
+              "primary-container": "#4a8eff",
+              "on-secondary-fixed": "#360f00",
+              "outline-variant": "#414754",
+              "secondary-fixed-dim": "#ffb596",
+              "on-error-container": "#ffdad6",
+              "inverse-primary": "#005bc0",
+              "on-secondary": "#581e00",
+              "primary-fixed-dim": "#adc7ff",
+              "on-tertiary-fixed-variant": "#474746",
+              "outline": "#8b90a0",
+              "on-surface-variant": "#c1c6d7",
+              "on-secondary-fixed-variant": "#7c2e00",
+              "on-background": "#e5e2e1",
+              "on-tertiary-container": "#2a2a2a",
+              "on-primary-fixed": "#001a41",
+              "tertiary-fixed": "#e5e2e1",
+              "surface-variant": "#353534",
+              "surface-container-highest": "#353534",
+              "on-primary": "#002e68"
+            },
+            fontFamily: {
+              "headline": ["Space Grotesk"],
+              "body": ["Inter"],
+              "label": ["Space Grotesk"]
+            },
+            borderRadius: {"DEFAULT": "0px", "lg": "0px", "xl": "0px", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            vertical-align: middle;
+        }
+        body {
+            background-color: #131313;
+            color: #e5e2e1;
+            font-family: 'Inter', sans-serif;
+        }
+        .technical-grid {
+            background-image: radial-gradient(circle, #414754 1px, transparent 1px);
+            background-size: 32px 32px;
+            opacity: 0.05;
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background min-h-screen flex flex-col">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 rounded-none border-b border-[#414754]/20 bg-[#131313] dark:bg-[#0E0E0E] flex justify-between items-center px-6 py-3 w-full font-['Space_Grotesk'] uppercase tracking-tighter text-sm">
+<div class="flex items-center gap-8">
+<span class="text-xl font-bold tracking-widest text-[#ADC7FF] uppercase">PRECISION CNC</span>
+<div class="hidden md:flex gap-6 items-center">
+<a class="text-[#ADC7FF] border-b-2 border-[#ADC7FF] pb-1" href="#">Bearings</a>
+<a class="text-[#C8C6C5] hover:text-[#ADC7FF] transition-colors" href="#">Linear Rails</a>
+<a class="text-[#C8C6C5] hover:text-[#ADC7FF] transition-colors" href="#">CNC Tools</a>
+<a class="text-[#C8C6C5] hover:text-[#ADC7FF] transition-colors" href="#">Motors</a>
+<a class="text-[#C8C6C5] hover:text-[#ADC7FF] transition-colors" href="#">Controllers</a>
+<a class="text-[#C8C6C5] hover:text-[#ADC7FF] transition-colors" href="#">Spare Parts</a>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<div class="flex items-center gap-2 mr-4">
+<span class="material-symbols-outlined text-[#8B90A0]">language</span>
+<span class="material-symbols-outlined text-[#8B90A0]">settings</span>
+</div>
+<button class="px-4 py-2 border border-[#414754]/20 text-[#C8C6C5] hover:bg-[#2A2A2A] transition-all duration-150">RFQ Basket</button>
+<button class="px-4 py-2 bg-[#4a8eff] text-[#00285b] font-bold hover:bg-[#ADC7FF] transition-all duration-150">Get a Quote</button>
+</div>
+</nav>
+<div class="flex flex-1 pt-16 relative">
+<!-- SideNavBar (Sticky Filters) -->
+<aside class="hidden md:flex flex-col h-screen sticky top-16 bg-[#131313] h-full w-64 rounded-none border-r border-[#414754]/20 font-['Space_Grotesk'] text-xs font-bold uppercase">
+<div class="p-6 border-b border-[#414754]/20">
+<h2 class="text-[#ADC7FF] font-bold tracking-widest">TECHNICAL FILTERS</h2>
+<p class="text-[10px] text-[#8B90A0] mt-1">SPECIFICATION MATCH</p>
+</div>
+<div class="flex-1 overflow-y-auto">
+<div class="flex items-center gap-3 px-6 py-4 bg-[#2A2A2A] text-[#ADC7FF] border-l-4 border-[#ADC7FF] transition-transform duration-200 cursor-pointer">
+<span class="material-symbols-outlined">straighten</span>
+<span>Dimensions</span>
+</div>
+<div class="flex items-center gap-3 px-6 py-4 text-[#C8C6C5] hover:bg-[#201F1F] transition-transform duration-200 cursor-pointer">
+<span class="material-symbols-outlined">settings_input_component</span>
+<span>Compatibility</span>
+</div>
+<div class="flex items-center gap-3 px-6 py-4 text-[#C8C6C5] hover:bg-[#201F1F] transition-transform duration-200 cursor-pointer">
+<span class="material-symbols-outlined">architecture</span>
+<span>Material</span>
+</div>
+<div class="flex items-center gap-3 px-6 py-4 text-[#C8C6C5] hover:bg-[#201F1F] transition-transform duration-200 cursor-pointer">
+<span class="material-symbols-outlined">factory</span>
+<span>Brand</span>
+</div>
+<div class="flex items-center gap-3 px-6 py-4 text-[#C8C6C5] hover:bg-[#201F1F] transition-transform duration-200 cursor-pointer">
+<span class="material-symbols-outlined">schedule</span>
+<span>Lead Time</span>
+</div>
+</div>
+<div class="p-6">
+<button class="w-full py-3 bg-[#4a8eff] text-[#00285b] font-bold uppercase tracking-widest hover:brightness-110 transition-all">Apply Filters</button>
+</div>
+</aside>
+<!-- Main Content Area -->
+<main class="flex-1 bg-surface min-h-screen relative overflow-hidden">
+<div class="absolute inset-0 technical-grid pointer-events-none"></div>
+<!-- Breadcrumbs & Sort Bar -->
+<div class="px-8 py-6 border-b border-[#414754]/10 bg-surface flex flex-col gap-4 relative z-10">
+<div class="flex items-center gap-2 text-[10px] font-['Space_Grotesk'] uppercase tracking-widest text-[#8B90A0]">
+<span>Home</span>
+<span class="material-symbols-outlined text-[12px]">chevron_right</span>
+<span>Mechanical Parts</span>
+<span class="material-symbols-outlined text-[12px]">chevron_right</span>
+<span class="text-primary">High-Precision Bearings</span>
+</div>
+<div class="flex justify-between items-end">
+<div>
+<h1 class="font-headline text-3xl font-bold tracking-tighter uppercase text-on-surface">Precision Bearings</h1>
+<p class="text-xs font-body text-outline mt-1 uppercase tracking-tight">124 High-Performance Units Found</p>
+</div>
+<div class="flex items-center gap-4 bg-surface-container-low p-1 border border-[#414754]/20">
+<div class="flex border-r border-[#414754]/20 pr-4 pl-2 items-center gap-2">
+<span class="text-[10px] font-headline text-outline uppercase font-bold">Sort By</span>
+<select class="bg-transparent text-xs font-headline text-primary border-none focus:ring-0 uppercase cursor-pointer">
+<option>Popularity</option>
+<option>Price: Low-High</option>
+<option>Newest Arrivals</option>
+<option>Precision Grade</option>
+</select>
+</div>
+<div class="flex items-center gap-1 px-2">
+<button class="p-1.5 bg-surface-container-high text-primary"><span class="material-symbols-outlined text-sm">grid_view</span></button>
+<button class="p-1.5 text-outline hover:text-on-surface transition-colors"><span class="material-symbols-outlined text-sm">view_list</span></button>
+</div>
+</div>
+</div>
+</div>
+<!-- Product Grid -->
+<div class="p-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 relative z-10">
+<!-- Product Card 1 -->
+<div class="group relative bg-surface-container border border-transparent hover:border-primary/30 transition-all duration-300">
+<div class="aspect-square bg-surface-container-lowest relative overflow-hidden">
+<img class="w-full h-full object-cover mix-blend-luminosity group-hover:mix-blend-normal transition-all duration-500 scale-105 group-hover:scale-100" data-alt="Close up of a metallic precision industrial bearing" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAXUG8P6fcD25_Hqnf4yw2sjofXmptyq3QufAR2rV3ffBQ92w461lfEaAcFtwBAATBDrDo5oRmpq1_UJBxfib4D6nVzJMYr1TX4gtIY5r_oRGcLQyKwVpso64Qz1nNhQuPxIfVPeUlhWyk2oZbhErXemv-ZVBnZ3chXQ-1-AJMNTAWfeWq-V8I5ulBHcovgnn_KgUIhuiGnD9WBvYYQqa5ZNnNLNMif7emg97Jx4FnsdqyT0xG83n6mWj_VcYg869bQLoehIxE97Ds"/>
+<div class="absolute top-2 right-2 px-2 py-0.5 bg-surface-container-highest text-[9px] font-headline text-outline uppercase border border-[#414754]/30">
+                            PART NO. PB-882-X
+                        </div>
+<!-- Tech Specs Overlay on Hover -->
+<div class="absolute inset-0 bg-surface-container-lowest/95 opacity-0 group-hover:opacity-100 transition-opacity p-6 flex flex-col justify-center">
+<h4 class="text-[10px] font-headline text-primary mb-4 uppercase tracking-widest border-b border-primary/20 pb-2">Technical Specs</h4>
+<div class="space-y-3">
+<div class="flex justify-between text-[10px] font-headline">
+<span class="text-outline">ID / OD</span>
+<span class="text-on-surface">25MM / 52MM</span>
+</div>
+<div class="flex justify-between text-[10px] font-headline">
+<span class="text-outline">DYNAMIC LOAD</span>
+<span class="text-on-surface">14.8 KN</span>
+</div>
+<div class="flex justify-between text-[10px] font-headline">
+<span class="text-outline">LIMIT SPEED</span>
+<span class="text-on-surface">18,000 RPM</span>
+</div>
+<div class="flex justify-between text-[10px] font-headline">
+<span class="text-outline">MATERIAL</span>
+<span class="text-on-surface">AISI 52100</span>
+</div>
+</div>
+</div>
+</div>
+<div class="p-5 flex flex-col gap-1">
+<div class="flex justify-between items-start">
+<span class="text-[10px] font-headline font-bold text-outline uppercase tracking-widest">TIMKEN PRECISION</span>
+<span class="text-[10px] font-headline font-bold text-primary-fixed bg-on-primary-fixed-variant px-1.5">IN STOCK</span>
+</div>
+<h3 class="font-headline text-base font-bold text-on-surface uppercase mt-1 leading-tight">6205-2RS Deep Groove Bearing</h3>
+<div class="mt-4 flex justify-between items-end">
+<span class="text-lg font-headline font-bold text-primary">$42.50 <span class="text-[10px] text-outline font-normal">/ UNIT</span></span>
+<button class="bg-primary-container text-on-primary-container px-3 py-2 text-[10px] font-headline font-black uppercase hover:bg-primary transition-colors">Add to Quote</button>
+</div>
+</div>
+</div>
+<!-- Product Card 2 -->
+<div class="group relative bg-surface-container border border-transparent hover:border-primary/30 transition-all duration-300">
+<div class="aspect-square bg-surface-container-lowest relative overflow-hidden">
+<img class="w-full h-full object-cover mix-blend-luminosity group-hover:mix-blend-normal transition-all duration-500 scale-105 group-hover:scale-100" data-alt="High quality chrome steel roller bearings" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCglyL33NWHgUf6ZA-KiZpiLz95EwCa6WiPA_UIHcTWcM_62uzlsNTXBbxFAz2Z2zjJ2L_P1IMxRMsugX0gciFuF9P5Mcz4Ys2EvG10pljgTjZ36pKvyZDyKDMU9DYmC00OrrYD08HANxVOw0axX5Fb-pyumzIQgKAFsUpt-RBv42k_NOgV9Y2gvBEXW9ArL7Bz8EamOmJbxdD7QXD5pSnvLjecrblXapzql08ueR9KYrfMIjiUdP-HnIV0cYsN7CkMbrsgmxApgZs"/>
+<div class="absolute top-2 right-2 px-2 py-0.5 bg-surface-container-highest text-[9px] font-headline text-outline uppercase border border-[#414754]/30">
+                            PART NO. RL-409-Q
+                        </div>
+<div class="absolute inset-0 bg-surface-container-lowest/95 opacity-0 group-hover:opacity-100 transition-opacity p-6 flex flex-col justify-center">
+<h4 class="text-[10px] font-headline text-primary mb-4 uppercase tracking-widest border-b border-primary/20 pb-2">Technical Specs</h4>
+<div class="space-y-3">
+<div class="flex justify-between text-[10px] font-headline">
+<span class="text-outline">PRECISION</span>
+<span class="text-on-surface">ABEC-7</span>
+</div>
+<div class="flex justify-between text-[10px] font-headline">
+<span class="text-outline">LUBRICATION</span>
+<span class="text-on-surface">MOBIL POLYREX</span>
+</div>
+<div class="flex justify-between text-[10px] font-headline">
+<span class="text-outline">CLEARANCE</span>
+<span class="text-on-surface">C3 RADIAL</span>
+</div>
+</div>
+</div>
+</div>
+<div class="p-5 flex flex-col gap-1">
+<div class="flex justify-between items-start">
+<span class="text-[10px] font-headline font-bold text-outline uppercase tracking-widest">SKF GROUP</span>
+<span class="text-[10px] font-headline font-bold text-secondary bg-on-secondary-container px-1.5">BACKORDER</span>
+</div>
+<h3 class="font-headline text-base font-bold text-on-surface uppercase mt-1 leading-tight">Angular Contact 7205 BEP</h3>
+<div class="mt-4 flex justify-between items-end">
+<span class="text-lg font-headline font-bold text-primary">$184.00 <span class="text-[10px] text-outline font-normal">/ UNIT</span></span>
+<button class="bg-primary-container text-on-primary-container px-3 py-2 text-[10px] font-headline font-black uppercase hover:bg-primary transition-colors">Add to Quote</button>
+</div>
+</div>
+</div>
+<!-- Product Card 3 -->
+<div class="group relative bg-surface-container border border-transparent hover:border-primary/30 transition-all duration-300">
+<div class="aspect-square bg-surface-container-lowest relative overflow-hidden">
+<img class="w-full h-full object-cover mix-blend-luminosity group-hover:mix-blend-normal transition-all duration-500 scale-105 group-hover:scale-100" data-alt="Technical CAD render style image of bearing mechanism" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCUKCI1ZQtmjuvYoNtkUQlHzgEB5TIUJfShcGc5_LfnTokAuisEiVX0isSZJd3E9TbTlzeG9j31mbVldkkcPN8wgVKqe7g59r7PshIjYpS2xSbRzNBwYB1IIGKKuJBCTwf02QpoP7ffwxVIW9NVYzC56ja25hdqG8_1exDU1k6IqT2deq7Q43PbwGWI1NXYywNdEAV5LyCOhNT7L3iExW2mbN9MoQe-98YAtc5F7QnSS_dwrgm02GiurtX2iVD9zQfD0GAZ2Bf7IEM"/>
+<div class="absolute top-2 right-2 px-2 py-0.5 bg-surface-container-highest text-[9px] font-headline text-outline uppercase border border-[#414754]/30">
+                            PART NO. CR-112-L
+                        </div>
+<div class="absolute inset-0 bg-surface-container-lowest/95 opacity-0 group-hover:opacity-100 transition-opacity p-6 flex flex-col justify-center">
+<h4 class="text-[10px] font-headline text-primary mb-4 uppercase tracking-widest border-b border-primary/20 pb-2">Technical Specs</h4>
+<div class="space-y-3">
+<div class="flex justify-between text-[10px] font-headline">
+<span class="text-outline">TYPE</span>
+<span class="text-on-surface">CERAMIC HYBRID</span>
+</div>
+<div class="flex justify-between text-[10px] font-headline">
+<span class="text-outline">BALL MAT.</span>
+<span class="text-on-surface">Si3N4 SILICON</span>
+</div>
+</div>
+</div>
+</div>
+<div class="p-5 flex flex-col gap-1">
+<div class="flex justify-between items-start">
+<span class="text-[10px] font-headline font-bold text-outline uppercase tracking-widest">NSK PRECISION</span>
+<span class="text-[10px] font-headline font-bold text-primary-fixed bg-on-primary-fixed-variant px-1.5">IN STOCK</span>
+</div>
+<h3 class="font-headline text-base font-bold text-on-surface uppercase mt-1 leading-tight">Hybrid Ceramic Ball Unit 608</h3>
+<div class="mt-4 flex justify-between items-end">
+<span class="text-lg font-headline font-bold text-primary">$89.15 <span class="text-[10px] text-outline font-normal">/ UNIT</span></span>
+<button class="bg-primary-container text-on-primary-container px-3 py-2 text-[10px] font-headline font-black uppercase hover:bg-primary transition-colors">Add to Quote</button>
+</div>
+</div>
+</div>
+<!-- Product Card 4 -->
+<div class="group relative bg-surface-container border border-transparent hover:border-primary/30 transition-all duration-300">
+<div class="aspect-square bg-surface-container-lowest relative overflow-hidden">
+<img class="w-full h-full object-cover mix-blend-luminosity group-hover:mix-blend-normal transition-all duration-500 scale-105 group-hover:scale-100" data-alt="Macro view of stainless steel ball bearings" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDuagpKuPh7CkvI4_WnuGzqJN_FSklnAXudVWe8TCUnJ4wFnzqT8_EZ0NQjHh350JFF-OS5PQ9gtIatNLWGAqWyEQdtQKaOpM6_JGqEXgNM9ApGD0OKtBfaJ_Q88Q1P3P-P2Aaj-VbU8wMRGQNjzrOSvU329iy9GGl0kEXrHJnDy_uepuFs3leQr57GpklprMZAMurNVKDET6q9OnobH30CitidiOrNw9FRIRH9MS_QOxWU91DOpHCQK6V8cF23sI-nGk6eS-4URWs"/>
+<div class="absolute top-2 right-2 px-2 py-0.5 bg-surface-container-highest text-[9px] font-headline text-outline uppercase border border-[#414754]/30">
+                            PART NO. TH-004-Z
+                        </div>
+<div class="absolute inset-0 bg-surface-container-lowest/95 opacity-0 group-hover:opacity-100 transition-opacity p-6 flex flex-col justify-center">
+<h4 class="text-[10px] font-headline text-primary mb-4 uppercase tracking-widest border-b border-primary/20 pb-2">Technical Specs</h4>
+<div class="space-y-3">
+<div class="flex justify-between text-[10px] font-headline">
+<span class="text-outline">LOAD DIR.</span>
+<span class="text-on-surface">AXIAL ONLY</span>
+</div>
+<div class="flex justify-between text-[10px] font-headline">
+<span class="text-outline">RATING</span>
+<span class="text-on-surface">ISO P5</span>
+</div>
+</div>
+</div>
+</div>
+<div class="p-5 flex flex-col gap-1">
+<div class="flex justify-between items-start">
+<span class="text-[10px] font-headline font-bold text-outline uppercase tracking-widest">INA BEARINGS</span>
+<span class="text-[10px] font-headline font-bold text-primary-fixed bg-on-primary-fixed-variant px-1.5">IN STOCK</span>
+</div>
+<h3 class="font-headline text-base font-bold text-on-surface uppercase mt-1 leading-tight">Thrust Roller Axial 51105</h3>
+<div class="mt-4 flex justify-between items-end">
+<span class="text-lg font-headline font-bold text-primary">$56.20 <span class="text-[10px] text-outline font-normal">/ UNIT</span></span>
+<button class="bg-primary-container text-on-primary-container px-3 py-2 text-[10px] font-headline font-black uppercase hover:bg-primary transition-colors">Add to Quote</button>
+</div>
+</div>
+</div>
+<!-- Product Card 5 (Repeated for Grid fill) -->
+<div class="group relative bg-surface-container border border-transparent hover:border-primary/30 transition-all duration-300">
+<div class="aspect-square bg-surface-container-lowest relative overflow-hidden">
+<img class="w-full h-full object-cover mix-blend-luminosity group-hover:mix-blend-normal transition-all duration-500 scale-105 group-hover:scale-100" data-alt="Mechanical industrial components on dark background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBOVKTwnXAZTKzgeDywv2kWgXKOUdXrfv3TsvJylkHoMtOhEsyqhsnCJzN2nxdzFD3h4t2nByBZsdM1CTJx6j_1-bC0pZGilHGRISwmcwszQ5Sbec4n00prCSxYipDNXPX7qH_9VTqyfcqN1NmYjgcrozbzwcM6cRO1ckkfmCbXbKc2Gd_2wedzBDja42DyqPTg7aXSzYqu0lPA1iNPQYR3CMx1kafXZRTvplrAlKha9RwKj8ki169Hiij81vWkK2KyZ6vEr43sEQA"/>
+<div class="absolute inset-0 bg-surface-container-lowest/95 opacity-0 group-hover:opacity-100 transition-opacity p-6 flex flex-col justify-center">
+<h4 class="text-[10px] font-headline text-primary mb-4 uppercase tracking-widest border-b border-primary/20 pb-2">Technical Specs</h4>
+<div class="space-y-3">
+<div class="flex justify-between text-[10px] font-headline">
+<span class="text-outline">TEMP RANGE</span>
+<span class="text-on-surface">-30C TO +150C</span>
+</div>
+</div>
+</div>
+</div>
+<div class="p-5 flex flex-col gap-1">
+<div class="flex justify-between items-start">
+<span class="text-[10px] font-headline font-bold text-outline uppercase tracking-widest">NTN BEARINGS</span>
+<span class="text-[10px] font-headline font-bold text-primary-fixed bg-on-primary-fixed-variant px-1.5">IN STOCK</span>
+</div>
+<h3 class="font-headline text-base font-bold text-on-surface uppercase mt-1 leading-tight">Spherical Roller 22205E</h3>
+<div class="mt-4 flex justify-between items-end">
+<span class="text-lg font-headline font-bold text-primary">$312.00 <span class="text-[10px] text-outline font-normal">/ UNIT</span></span>
+<button class="bg-primary-container text-on-primary-container px-3 py-2 text-[10px] font-headline font-black uppercase hover:bg-primary transition-colors">Add to Quote</button>
+</div>
+</div>
+</div>
+<!-- Product Card 6 -->
+<div class="group relative bg-surface-container border border-transparent hover:border-primary/30 transition-all duration-300">
+<div class="aspect-square bg-surface-container-lowest relative overflow-hidden">
+<img class="w-full h-full object-cover mix-blend-luminosity group-hover:mix-blend-normal transition-all duration-500 scale-105 group-hover:scale-100" data-alt="Stainless steel precision machinery parts" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAoFtf__zp-780QFSAyD_YBDKUjE_S3JsDAbtei0lNh79JZEEztUCPxzNDFBcimAgCSN09o4g-LfJFS0ymJnQflkLcqVcjoyGpaZcbiE8D1Ev4aVZu8xUDD5t44Z3fL_zAHlPPyB3hOBXt_WAG9q8yiN974b8hch7hNOg7DZ-0NOPzp2IToJCNskD9m0NED9JiHyPKkZD1k9gjCcfJPQI5QBCy_WyBK2a8mWod3htzN6MODEytldUzo0CEVO_N94GMeTk_wSm-bNLA"/>
+</div>
+<div class="p-5 flex flex-col gap-1">
+<div class="flex justify-between items-start">
+<span class="text-[10px] font-headline font-bold text-outline uppercase tracking-widest">TIMKEN</span>
+<span class="text-[10px] font-headline font-bold text-primary-fixed bg-on-primary-fixed-variant px-1.5">IN STOCK</span>
+</div>
+<h3 class="font-headline text-base font-bold text-on-surface uppercase mt-1 leading-tight">Tapered Roller 30205</h3>
+<div class="mt-4 flex justify-between items-end">
+<span class="text-lg font-headline font-bold text-primary">$68.45 <span class="text-[10px] text-outline font-normal">/ UNIT</span></span>
+<button class="bg-primary-container text-on-primary-container px-3 py-2 text-[10px] font-headline font-black uppercase hover:bg-primary transition-colors">Add to Quote</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Infinite Scroll Placeholder / Pagination -->
+<div class="px-8 py-16 flex flex-col items-center gap-6">
+<div class="w-12 h-12 border-2 border-primary/20 border-t-primary animate-spin-slow"></div>
+<div class="flex flex-col items-center gap-2">
+<span class="text-[10px] font-headline text-outline uppercase tracking-[0.3em]">Processing Inventory</span>
+<div class="h-px w-64 bg-[#414754]/20 overflow-hidden">
+<div class="h-full bg-primary w-1/2"></div>
+</div>
+</div>
+<button class="mt-8 px-10 py-3 border border-[#414754]/30 text-outline font-headline text-[10px] uppercase tracking-widest hover:text-primary hover:border-primary transition-all">Load More Units</button>
+</div>
+</main>
+</div>
+<!-- Footer -->
+<footer class="w-full rounded-none border-t border-[#414754]/20 bg-[#0E0E0E] grid grid-cols-1 md:grid-cols-4 gap-8 px-12 py-16 w-full font-['Inter'] text-xs tracking-tight relative z-20">
+<div class="flex flex-col gap-6">
+<span class="font-['Space_Grotesk'] font-black text-[#ADC7FF] text-xl">PRECISION OPS</span>
+<p class="text-[#8B90A0] leading-relaxed max-w-xs">
+                Global supply chain partner for ISO-certified CNC precision components and high-performance industrial hardware.
+            </p>
+<span class="text-[#8B90A0] text-[10px] uppercase tracking-widest opacity-80">© 2024 INDUSTRIAL PRECISION OPS. ISO 9001 CERTIFIED.</span>
+</div>
+<div class="flex flex-col gap-4">
+<h4 class="font-headline font-bold text-[#ADC7FF] uppercase tracking-tighter">Documentation</h4>
+<a class="text-[#8B90A0] hover:text-white transition-colors" href="#">Technical Documentation</a>
+<a class="text-[#8B90A0] hover:text-white transition-colors" href="#">MSDS Sheets</a>
+<a class="text-[#8B90A0] hover:text-white transition-colors" href="#">CAD Files (STEP/DWG)</a>
+</div>
+<div class="flex flex-col gap-4">
+<h4 class="font-headline font-bold text-[#ADC7FF] uppercase tracking-tighter">Logistics</h4>
+<a class="text-[#8B90A0] hover:text-white transition-colors" href="#">Shipping Manifests</a>
+<a class="text-[#8B90A0] hover:text-white transition-colors" href="#">Global Logistics</a>
+<a class="text-[#8B90A0] hover:text-white transition-colors" href="#">API Access</a>
+</div>
+<div class="flex flex-col gap-4">
+<h4 class="font-headline font-bold text-[#ADC7FF] uppercase tracking-tighter">Compliance</h4>
+<a class="text-[#8B90A0] hover:text-white transition-colors" href="#">Terms of Supply</a>
+<a class="text-[#8B90A0] hover:text-white transition-colors" href="#">Privacy Protocols</a>
+<div class="mt-4 p-4 border border-[#414754]/20 bg-surface-container-lowest">
+<p class="text-[9px] text-[#8B90A0] uppercase leading-tight">Secure RFQ environment. All data encrypted via industrial 256-bit protocols.</p>
+</div>
+</div>
+</footer>
+</body></html>

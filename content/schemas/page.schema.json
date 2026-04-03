@@ -1,0 +1,38 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Page Content Schema",
+  "description": "Schema for static pages (about, contact, etc.)",
+  "type": "object",
+  "required": ["slug", "title", "status"],
+  "properties": {
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$",
+      "description": "URL-friendly identifier"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 200
+    },
+    "status": {
+      "type": "string",
+      "enum": ["draft", "publish", "private"]
+    },
+    "template": {
+      "type": "string",
+      "enum": ["default", "full-width", "no-header", "no-footer"]
+    },
+    "seo": {
+      "type": "object",
+      "properties": {
+        "title": { "type": "string", "maxLength": 70 },
+        "description": { "type": "string", "maxLength": 160 }
+      }
+    },
+    "lastModified": {
+      "type": "string",
+      "format": "date-time"
+    }
+  }
+}

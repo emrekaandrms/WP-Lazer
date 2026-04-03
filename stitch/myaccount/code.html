@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&amp;family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "surface-variant": "#353534",
+                        "on-primary": "#002e68",
+                        "surface-dim": "#131313",
+                        "tertiary-fixed-dim": "#c8c6c5",
+                        "on-error": "#690005",
+                        "on-tertiary-fixed-variant": "#474746",
+                        "on-secondary-fixed": "#360f00",
+                        "inverse-on-surface": "#313030",
+                        "secondary-fixed-dim": "#ffb596",
+                        "on-secondary-fixed-variant": "#7c2e00",
+                        "on-tertiary": "#303030",
+                        "surface-tint": "#adc7ff",
+                        "primary": "#adc7ff",
+                        "outline": "#8b90a0",
+                        "on-background": "#e5e2e1",
+                        "tertiary": "#c8c6c5",
+                        "inverse-surface": "#e5e2e1",
+                        "background": "#131313",
+                        "primary-container": "#4a8eff",
+                        "tertiary-fixed": "#e5e2e1",
+                        "outline-variant": "#414754",
+                        "secondary-fixed": "#ffdbcd",
+                        "on-tertiary-container": "#2a2a2a",
+                        "on-surface": "#e5e2e1",
+                        "secondary": "#ffb596",
+                        "on-secondary": "#581e00",
+                        "surface-bright": "#3a3939",
+                        "secondary-container": "#fe6500",
+                        "inverse-primary": "#005bc0",
+                        "on-tertiary-fixed": "#1b1b1c",
+                        "surface": "#131313",
+                        "on-primary-container": "#00285b",
+                        "surface-container": "#201f1f",
+                        "on-primary-fixed": "#001a41",
+                        "surface-container-high": "#2a2a2a",
+                        "on-primary-fixed-variant": "#004493",
+                        "surface-container-low": "#1c1b1b",
+                        "on-error-container": "#ffdad6",
+                        "tertiary-container": "#929090",
+                        "on-surface-variant": "#c1c6d7",
+                        "primary-fixed": "#d8e2ff",
+                        "on-secondary-container": "#541d00",
+                        "surface-container-lowest": "#0e0e0e",
+                        "error-container": "#93000a",
+                        "primary-fixed-dim": "#adc7ff",
+                        "error": "#ffb4ab",
+                        "surface-container-highest": "#353534"
+                    },
+                    fontFamily: {
+                        "headline": ["Space Grotesk"],
+                        "body": ["Inter"],
+                        "label": ["Space Grotesk"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0px",
+                        "lg": "0px",
+                        "xl": "0px",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        body { font-family: 'Inter', sans-serif; }
+        .font-headline, .font-label { font-family: 'Space Grotesk', sans-serif; }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            vertical-align: middle;
+        }
+        /* Hide scrollbar for clean industrial look */
+        ::-webkit-scrollbar { width: 4px; }
+        ::-webkit-scrollbar-track { background: #0E0E0E; }
+        ::-webkit-scrollbar-thumb { background: #2A2A2A; }
+    </style>
+</head>
+<body class="bg-background text-on-background min-h-screen flex overflow-hidden">
+<!-- SideNavBar -->
+<aside class="flex flex-col h-screen fixed left-0 top-0 bg-[#131313] w-64 z-50">
+<div class="p-6 bg-[#0E0E0E] mb-4">
+<h1 class="text-[#ADC7FF] font-black font-headline text-lg tracking-widest uppercase">ENGINEER PORTAL</h1>
+<p class="font-label text-[10px] text-outline mt-1 tracking-widest uppercase">Verified Supplier Account</p>
+</div>
+<nav class="flex-1 space-y-1">
+<!-- Active: Dashboard -->
+<a class="flex items-center space-x-3 bg-[#201F1F] text-[#ADC7FF] border-l-4 border-[#ADC7FF] px-4 py-3 font-label text-sm uppercase tracking-widest hover:text-white transition-all active:translate-x-1" href="#">
+<span class="material-symbols-outlined" data-icon="dashboard">dashboard</span>
+<span>Dashboard</span>
+</a>
+<a class="flex items-center space-x-3 text-[#8B90A0] px-4 py-3 font-label text-sm uppercase tracking-widest hover:bg-[#201F1F] hover:text-white transition-all active:translate-x-1" href="#">
+<span class="material-symbols-outlined" data-icon="history">history</span>
+<span>Order History</span>
+</a>
+<a class="flex items-center space-x-3 text-[#8B90A0] px-4 py-3 font-label text-sm uppercase tracking-widest hover:bg-[#201F1F] hover:text-white transition-all active:translate-x-1" href="#">
+<span class="material-symbols-outlined" data-icon="description">description</span>
+<span>Technical Docs</span>
+</a>
+<a class="flex items-center space-x-3 text-[#8B90A0] px-4 py-3 font-label text-sm uppercase tracking-widest hover:bg-[#201F1F] hover:text-white transition-all active:translate-x-1" href="#">
+<span class="material-symbols-outlined" data-icon="precision_manufacturing">precision_manufacturing</span>
+<span>CAD Files</span>
+</a>
+<a class="flex items-center space-x-3 text-[#8B90A0] px-4 py-3 font-label text-sm uppercase tracking-widest hover:bg-[#201F1F] hover:text-white transition-all active:translate-x-1" href="#">
+<span class="material-symbols-outlined" data-icon="settings">settings</span>
+<span>Account Settings</span>
+</a>
+</nav>
+<div class="mt-auto p-4 border-t border-outline-variant/10">
+<button class="w-full bg-primary-container text-on-primary-container font-label py-3 uppercase tracking-tighter font-bold active:scale-95 transition-transform">
+                Request Quote
+            </button>
+<div class="mt-4 flex items-center space-x-3 text-[#8B90A0] px-4 py-3 font-label text-sm uppercase tracking-widest hover:text-white transition-all cursor-pointer">
+<span class="material-symbols-outlined" data-icon="logout">logout</span>
+<span>Sign Out</span>
+</div>
+</div>
+</aside>
+<!-- Main Canvas -->
+<main class="ml-64 flex-1 h-screen overflow-y-auto bg-surface-container-lowest">
+<!-- Header -->
+<header class="sticky top-0 z-40 bg-[#131313] px-8 py-6 flex justify-between items-center">
+<div>
+<h2 class="font-headline text-2xl font-bold text-on-background tracking-tighter uppercase">Dashboard Overview</h2>
+<span class="font-label text-[10px] text-outline tracking-widest">SYSTEM STATUS: NOMINAL // LAST SYNC: 04:12 UTC</span>
+</div>
+<div class="flex items-center space-x-6">
+<div class="relative">
+<span class="material-symbols-outlined text-outline" data-icon="shopping_cart">shopping_cart</span>
+<span class="absolute -top-2 -right-2 bg-secondary text-on-secondary text-[8px] font-bold px-1 min-w-[14px] text-center">3</span>
+</div>
+<div class="flex items-center space-x-3 border-l border-outline-variant/20 pl-6">
+<img alt="User Profile Avatar" class="w-10 h-10 grayscale border border-outline-variant" data-alt="Close-up studio portrait of a professional male engineer with neutral expression in professional attire, high contrast cinematic lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAkIdvTw1ela9j_26h_v-o-thstLn_NzWJE2GjxOyLwOBe63nDrtpZs0S-6PQBJpf9TQgsKfrE_1F4Od1qVyo2_X1AlgUTEBXnfwZ7yyPJIaem8SacmvAmU0qG-Dvgh0_nSoKPuziudG8Nx_8wdkkeC3HNrWbuZ64wn228he0hFAPyIz-VTQHRD-zvk9NHA19k_Alvrg3ZPr8KXyHhbRqK4a3SLUShdXmqoHtJRna3-Zi5VB6BQqYew4-HjF0Mq7fytDGFQltdQfXk"/>
+<div class="text-right">
+<p class="font-label text-xs font-bold text-on-background">MARCUS VANE</p>
+<p class="font-label text-[9px] text-primary">SENIOR ENGINEER</p>
+</div>
+</div>
+</div>
+</header>
+<div class="p-8 space-y-12">
+<!-- Bento Layout Section -->
+<div class="grid grid-cols-12 gap-6">
+<!-- Recent Orders: Major Content Block -->
+<div class="col-span-12 lg:col-span-8 bg-surface-container border-b-2 border-primary/20">
+<div class="p-6 border-b border-outline-variant/10 flex justify-between items-center">
+<h3 class="font-headline font-bold uppercase tracking-tight text-on-surface">Recent Orders</h3>
+<a class="font-label text-[10px] text-primary hover:underline uppercase" href="#">View Full History</a>
+</div>
+<div class="overflow-x-auto">
+<table class="w-full text-left font-body text-sm">
+<thead>
+<tr class="bg-surface-container-high font-label text-[10px] uppercase tracking-widest text-outline">
+<th class="px-6 py-4 font-medium">Order ID</th>
+<th class="px-6 py-4 font-medium">Status</th>
+<th class="px-6 py-4 font-medium">Date</th>
+<th class="px-6 py-4 font-medium">Total</th>
+<th class="px-6 py-4 font-medium">Actions</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-outline-variant/10">
+<tr class="hover:bg-surface-container-highest transition-colors">
+<td class="px-6 py-4 font-mono text-xs">#CN-99283-X</td>
+<td class="px-6 py-4">
+<span class="px-2 py-1 bg-on-primary-fixed-variant/20 text-primary font-label text-[9px] font-bold uppercase tracking-tighter border border-primary/30">Shipped</span>
+</td>
+<td class="px-6 py-4 text-outline-variant">OCT 24, 2024</td>
+<td class="px-6 py-4 font-medium">$4,290.00</td>
+<td class="px-6 py-4">
+<button class="text-primary hover:text-white transition-colors">
+<span class="material-symbols-outlined text-lg" data-icon="download">download</span>
+</button>
+</td>
+</tr>
+<tr class="hover:bg-surface-container-highest transition-colors">
+<td class="px-6 py-4 font-mono text-xs">#CN-99102-Y</td>
+<td class="px-6 py-4">
+<span class="px-2 py-1 bg-on-secondary-fixed-variant/20 text-secondary font-label text-[9px] font-bold uppercase tracking-tighter border border-secondary/30">Processing</span>
+</td>
+<td class="px-6 py-4 text-outline-variant">OCT 22, 2024</td>
+<td class="px-6 py-4 font-medium">$12,840.50</td>
+<td class="px-6 py-4">
+<button class="text-primary hover:text-white transition-colors">
+<span class="material-symbols-outlined text-lg" data-icon="visibility">visibility</span>
+</button>
+</td>
+</tr>
+<tr class="hover:bg-surface-container-highest transition-colors">
+<td class="px-6 py-4 font-mono text-xs">#CN-98442-A</td>
+<td class="px-6 py-4">
+<span class="px-2 py-1 bg-surface-variant text-tertiary font-label text-[9px] font-bold uppercase tracking-tighter border border-outline/30">Delivered</span>
+</td>
+<td class="px-6 py-4 text-outline-variant">OCT 15, 2024</td>
+<td class="px-6 py-4 font-medium">$1,120.00</td>
+<td class="px-6 py-4">
+<button class="text-primary hover:text-white transition-colors">
+<span class="material-symbols-outlined text-lg" data-icon="reorder">reorder</span>
+</button>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<!-- Technical Support Card -->
+<div class="col-span-12 lg:col-span-4 flex flex-col space-y-6">
+<div class="bg-surface-container-high p-6 flex-1 flex flex-col relative overflow-hidden group">
+<!-- Abstract Background Texture -->
+<div class="absolute inset-0 opacity-10 pointer-events-none mix-blend-overlay">
+<div class="w-full h-full bg-[linear-gradient(45deg,#ADC7FF_1px,transparent_1px),linear-gradient(-45deg,#ADC7FF_1px,transparent_1px)] bg-[length:20px_20px]"></div>
+</div>
+<div class="relative z-10 flex flex-col h-full">
+<span class="material-symbols-outlined text-secondary text-4xl mb-4" data-icon="support_agent">support_agent</span>
+<h3 class="font-headline font-bold text-xl uppercase tracking-tighter text-on-surface mb-2">Technical Support</h3>
+<p class="font-body text-sm text-outline mb-6">Direct access to your dedicated account specialist for custom CNC consultations.</p>
+<div class="mt-auto space-y-4">
+<div class="bg-surface-container-lowest p-4 flex items-center space-x-4 border border-outline-variant/20">
+<div class="w-10 h-10 bg-primary-container/20 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined" data-icon="call">call</span>
+</div>
+<div>
+<p class="font-label text-[10px] text-outline uppercase">Priority Line</p>
+<p class="font-body text-sm font-semibold">+1 (800) CNC-PRO</p>
+</div>
+</div>
+<button class="w-full py-3 bg-secondary text-on-secondary font-label font-bold uppercase text-xs tracking-widest hover:brightness-110 active:scale-[0.98] transition-all">
+                                    Open Support Ticket
+                                </button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Saved Parts Quick-Access Grid -->
+<section class="space-y-6">
+<div class="flex items-end justify-between border-b border-outline-variant/20 pb-4">
+<div>
+<h3 class="font-headline font-bold text-xl uppercase tracking-tighter text-on-surface">Saved Parts</h3>
+<p class="font-label text-[10px] text-outline tracking-widest uppercase">Quick-reorder components &amp; blueprint assets</p>
+</div>
+<button class="flex items-center space-x-2 text-primary font-label text-xs uppercase hover:bg-primary/10 px-3 py-1 transition-all">
+<span class="material-symbols-outlined text-sm" data-icon="add">add</span>
+<span>Add New Entry</span>
+</button>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Part Card 1 -->
+<div class="bg-surface-container group cursor-pointer hover:bg-surface-container-highest transition-all">
+<div class="aspect-square bg-surface-container-lowest relative overflow-hidden">
+<img alt="CNC Machined Aluminum Part" class="w-full h-full object-cover grayscale opacity-80 group-hover:opacity-100 transition-opacity" data-alt="Macro close-up of a high-precision aerospace grade aluminum CNC machined part with visible tool paths, technical lighting on black background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD4XQlTl0c_ozmt6EXSHPjyK8rFPlVhVWN0FjqdYXDBm0Egi1LnjSkY0_u2NhgSL_cPly_O85UogeaLM-tiVZ9qFk4WeZn1DnRCGiL2KEXqsTgI5r91WxGhzcQck8NdVI0ZfT3V3cwJo94YcfzWn0-QRHxpJYABiFuVdFj0xkGFuV0EPophK7pgExOxMHMmCG_vTJeovwCosXaP3fHJTRM2rvPw7K4McYZhFR1Paw1p1D5ZEZ3e0D3f2nqVYx2xL-h-iuWEaXlvzdM"/>
+<div class="absolute top-2 right-2 bg-black/60 backdrop-blur-md px-2 py-1">
+<span class="font-label text-[8px] text-primary">PART NO. 882-X</span>
+</div>
+</div>
+<div class="p-4 border-t border-outline-variant/10">
+<div class="flex justify-between items-start mb-1">
+<h4 class="font-headline font-bold text-sm text-on-surface uppercase">Titanium Gear Hub</h4>
+<span class="material-symbols-outlined text-outline group-hover:text-primary transition-colors text-lg" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-label text-[9px] text-outline uppercase tracking-widest">Aeronautical Grade</p>
+<div class="mt-4 flex justify-between items-center">
+<span class="font-mono text-xs font-semibold">$342.00</span>
+<button class="text-xs bg-primary-container/20 text-primary border border-primary/20 px-2 py-1 font-label uppercase hover:bg-primary/40">Reorder</button>
+</div>
+</div>
+</div>
+<!-- Part Card 2 -->
+<div class="bg-surface-container group cursor-pointer hover:bg-surface-container-highest transition-all">
+<div class="aspect-square bg-surface-container-lowest relative overflow-hidden">
+<img alt="High Precision Steel Bearing" class="w-full h-full object-cover grayscale opacity-80 group-hover:opacity-100 transition-opacity" data-alt="Detailed studio shot of professional industrial toolings and steel components arranged on a dark workshop surface with blue rim lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCKNtZteMk-QyyqW-eOO0gWdPcg6roX4fBnrZ5FnnN_06Y5qSylx0Rzr2xFWbD-BKNzHBI-SvKKqbD3rb_KpuDb73tJuugIcGmORFTfqX0AM6T6ky27RgVYMKM9TqH7RqWDTOOdNNLkQOuGaSpHtcXlf8x79DBUBJlFECJ351Dug6HkvHNtcuP9RiaDIgDFsC6BgaVjogLAkOevC7zkLImZXRP5Jdr83ug11PHzMzxNRRYlyBUTe0OvvwmUocAC5I8EHp2BoXjXyjM"/>
+<div class="absolute top-2 right-2 bg-black/60 backdrop-blur-md px-2 py-1">
+<span class="font-label text-[8px] text-primary">PART NO. 412-V</span>
+</div>
+</div>
+<div class="p-4 border-t border-outline-variant/10">
+<div class="flex justify-between items-start mb-1">
+<h4 class="font-headline font-bold text-sm text-on-surface uppercase">Shaft Coupling 40mm</h4>
+<span class="material-symbols-outlined text-outline group-hover:text-primary transition-colors text-lg" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-label text-[9px] text-outline uppercase tracking-widest">Hardened Carbon Steel</p>
+<div class="mt-4 flex justify-between items-center">
+<span class="font-mono text-xs font-semibold">$89.50</span>
+<button class="text-xs bg-primary-container/20 text-primary border border-primary/20 px-2 py-1 font-label uppercase hover:bg-primary/40">Reorder</button>
+</div>
+</div>
+</div>
+<!-- Part Card 3 -->
+<div class="bg-surface-container group cursor-pointer hover:bg-surface-container-highest transition-all">
+<div class="aspect-square bg-surface-container-lowest relative overflow-hidden">
+<img alt="Hydraulic Fitting" class="w-full h-full object-cover grayscale opacity-80 group-hover:opacity-100 transition-opacity" data-alt="Close up of mechanical engineering schematic on a screen next to a heavy industrial part with sharp metallic textures and orange accents" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA9MZPKKoKcVPOUWB52Obh2FXnk47xUlJO9HUCEG8nYbFzHZEPzE5WR_UIe60E1aXowAEcSxQWu-xIPNO4hUN5O4Ezi_6EwUl0UF0b8r-P3OVACXIimArBBPZvB7caL6ADcbE_aT8t-cHmB-bY1LrnR98dk86VZ7ziKgX3FYEiasFbStrR4nCTOiPajQ9kzoKWUJ2iJHuHDSgYOK3He1XrLHVlWcwNPILHdJiEVsQI2e0n5E5Xx5jTX9uSR-GWIDDRNwNLwgu_fKhI"/>
+<div class="absolute top-2 right-2 bg-black/60 backdrop-blur-md px-2 py-1">
+<span class="font-label text-[8px] text-primary">PART NO. 990-B</span>
+</div>
+</div>
+<div class="p-4 border-t border-outline-variant/10">
+<div class="flex justify-between items-start mb-1">
+<h4 class="font-headline font-bold text-sm text-on-surface uppercase">Manifold Block</h4>
+<span class="material-symbols-outlined text-outline group-hover:text-primary transition-colors text-lg" data-icon="star" style="font-variation-settings: 'FILL' 0;">star</span>
+</div>
+<p class="font-label text-[9px] text-outline uppercase tracking-widest">Anodized 6061-T6</p>
+<div class="mt-4 flex justify-between items-center">
+<span class="font-mono text-xs font-semibold">$512.00</span>
+<button class="text-xs bg-primary-container/20 text-primary border border-primary/20 px-2 py-1 font-label uppercase hover:bg-primary/40">Reorder</button>
+</div>
+</div>
+</div>
+<!-- Part Card 4 -->
+<div class="bg-surface-container group cursor-pointer hover:bg-surface-container-highest transition-all border border-primary/5">
+<div class="aspect-square flex items-center justify-center bg-surface-container-low p-8 text-center border-b border-outline-variant/10">
+<div>
+<span class="material-symbols-outlined text-outline/30 text-5xl mb-4" data-icon="upload_file">upload_file</span>
+<p class="font-label text-[10px] text-outline uppercase tracking-widest">Upload new model for rapid quote</p>
+</div>
+</div>
+<div class="p-4 bg-[#0E0E0E]">
+<button class="w-full py-2 bg-surface-container-high text-primary font-label text-[10px] uppercase font-bold tracking-widest hover:bg-primary hover:text-on-primary transition-all">
+                                Launch CAD Viewer
+                            </button>
+</div>
+</div>
+</div>
+</section>
+</div>
+<!-- Footer -->
+<footer class="flex justify-between items-center px-8 py-6 w-full mt-auto bg-[#0E0E0E]">
+<span class="font-label text-[10px] uppercase tracking-tighter text-[#C8C6C5]">© 2024 KINETIC BLUEPRINT CNC. ALL RIGHTS RESERVED.</span>
+<div class="flex space-x-6">
+<a class="font-label text-[10px] uppercase tracking-tighter text-[#8B90A0] hover:text-[#FFB596] transition-all" href="#">Privacy Policy</a>
+<a class="font-label text-[10px] uppercase tracking-tighter text-[#8B90A0] hover:text-[#FFB596] transition-all" href="#">Terms of Service</a>
+<a class="font-label text-[10px] uppercase tracking-tighter text-[#8B90A0] hover:text-[#FFB596] transition-all" href="#">Shipping Logistics</a>
+<a class="font-label text-[10px] uppercase tracking-tighter text-[#8B90A0] hover:text-[#FFB596] transition-all" href="#">API Docs</a>
+</div>
+</footer>
+</main>
+</body></html>

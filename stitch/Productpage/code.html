@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>PRECISION CNC | High-Performance Servo Motor</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700;800&amp;family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "surface-bright": "#3a3939",
+              "background": "#131313",
+              "surface-container-low": "#1c1b1b",
+              "primary-fixed": "#d8e2ff",
+              "secondary-container": "#fe6500",
+              "surface-dim": "#131313",
+              "surface-container": "#201f1f",
+              "on-tertiary": "#303030",
+              "on-surface": "#e5e2e1",
+              "on-secondary-container": "#541d00",
+              "on-error": "#690005",
+              "error-container": "#93000a",
+              "inverse-on-surface": "#313030",
+              "surface-container-high": "#2a2a2a",
+              "surface": "#131313",
+              "surface-container-lowest": "#0e0e0e",
+              "tertiary": "#c8c6c5",
+              "error": "#ffb4ab",
+              "on-primary-container": "#00285b",
+              "inverse-surface": "#e5e2e1",
+              "secondary-fixed": "#ffdbcd",
+              "surface-tint": "#adc7ff",
+              "tertiary-fixed-dim": "#c8c6c5",
+              "primary": "#adc7ff",
+              "tertiary-container": "#929090",
+              "on-primary-fixed-variant": "#004493",
+              "on-tertiary-fixed": "#1b1b1c",
+              "secondary": "#ffb596",
+              "primary-container": "#4a8eff",
+              "on-secondary-fixed": "#360f00",
+              "outline-variant": "#414754",
+              "secondary-fixed-dim": "#ffb596",
+              "on-error-container": "#ffdad6",
+              "inverse-primary": "#005bc0",
+              "on-secondary": "#581e00",
+              "primary-fixed-dim": "#adc7ff",
+              "on-tertiary-fixed-variant": "#474746",
+              "outline": "#8b90a0",
+              "on-surface-variant": "#c1c6d7",
+              "on-secondary-fixed-variant": "#7c2e00",
+              "on-background": "#e5e2e1",
+              "on-tertiary-container": "#2a2a2a",
+              "on-primary-fixed": "#001a41",
+              "tertiary-fixed": "#e5e2e1",
+              "surface-variant": "#353534",
+              "surface-container-highest": "#353534",
+              "on-primary": "#002e68"
+            },
+            fontFamily: {
+              "headline": ["Space Grotesk"],
+              "body": ["Inter"],
+              "label": ["Space Grotesk"]
+            },
+            borderRadius: {"DEFAULT": "0rem", "lg": "0rem", "xl": "0rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      }
+      ::-webkit-scrollbar { width: 4px; }
+      ::-webkit-scrollbar-track { background: #0E0E0E; }
+      ::-webkit-scrollbar-thumb { background: #414754; }
+    </style>
+</head>
+<body class="bg-background text-on-surface font-body selection:bg-primary selection:text-on-primary">
+<!-- Top Navigation Shell -->
+<nav class="fixed top-0 w-full z-50 bg-[#131313] dark:bg-[#0E0E0E] flex justify-between items-center px-6 py-3 border-b border-[#414754]/20">
+<div class="flex items-center gap-8">
+<span class="text-xl font-bold tracking-widest text-[#ADC7FF] uppercase font-headline">PRECISION CNC</span>
+<div class="hidden md:flex gap-6">
+<a class="font-headline uppercase tracking-tighter text-sm text-[#C8C6C5] hover:text-[#ADC7FF] transition-colors" href="#">Bearings</a>
+<a class="font-headline uppercase tracking-tighter text-sm text-[#C8C6C5] hover:text-[#ADC7FF] transition-colors" href="#">Linear Rails</a>
+<a class="font-headline uppercase tracking-tighter text-sm text-[#C8C6C5] hover:text-[#ADC7FF] transition-colors" href="#">CNC Tools</a>
+<a class="font-headline uppercase tracking-tighter text-sm text-[#ADC7FF] border-b-2 border-[#ADC7FF] pb-1" href="#">Motors</a>
+<a class="font-headline uppercase tracking-tighter text-sm text-[#C8C6C5] hover:text-[#ADC7FF] transition-colors" href="#">Controllers</a>
+<a class="font-headline uppercase tracking-tighter text-sm text-[#C8C6C5] hover:text-[#ADC7FF] transition-colors" href="#">Spare Parts</a>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[#ADC7FF]">language</span>
+<span class="material-symbols-outlined text-[#ADC7FF]">settings</span>
+</div>
+<button class="bg-surface-container-high px-4 py-2 font-headline uppercase text-xs tracking-widest border border-outline-variant/30 hover:bg-surface-bright transition-all">RFQ Basket</button>
+<button class="bg-primary text-on-primary px-6 py-2 font-headline font-bold uppercase text-xs tracking-widest hover:bg-primary-container transition-all">Get a Quote</button>
+</div>
+</nav>
+<main class="pt-24 px-6 md:px-12 pb-24 max-w-[1600px] mx-auto">
+<!-- Breadcrumbs -->
+<div class="flex items-center gap-2 mb-8 font-label text-[10px] uppercase tracking-widest text-outline">
+<span>Catalog</span>
+<span class="material-symbols-outlined text-[12px]">chevron_right</span>
+<span>Motors</span>
+<span class="material-symbols-outlined text-[12px]">chevron_right</span>
+<span class="text-primary">High-Torque AC Servo</span>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+<!-- Left: Image Gallery & Technical Visualization -->
+<div class="lg:col-span-7 flex flex-col gap-6">
+<div class="relative bg-surface-container-lowest border border-outline-variant/10 aspect-square flex items-center justify-center group overflow-hidden">
+<div class="absolute top-4 left-4 font-label text-[10px] bg-primary/10 text-primary px-2 py-1 border border-primary/20">PART NO. SM-400-XT</div>
+<img alt="CNC Servo Motor High Detail" class="w-full h-full object-cover opacity-80 group-hover:scale-105 transition-transform duration-700" data-alt="High-precision industrial servo motor technical product shot" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDpMxuFVm5yUO0-8yUCBdrlhKwBbumncQBcSGeffcCsV1eopk7BuCLc9hu0Gtbfzhcy1awiJPgx5hJI15pg3S13-DR1hrlitbNpXgdDx2sFZE2djIf6xN0c016-Wma_VuzFrSwHG7ZzVzvL_2YFqxnG032IOV2BZ9EFnLW3OnI7E3YuJqobuolDLUrxntZrumtJJPErAuhbv9WCPCi0mp2e9R4P_Iqso5Ji__06udYExl1Z4R9pS_snFuLlHnMrDnB-XfGoslrX4YI"/>
+<div class="absolute bottom-6 right-6 flex gap-2">
+<button class="bg-surface/80 backdrop-blur-md p-3 border border-outline-variant/20 hover:text-primary transition-colors">
+<span class="material-symbols-outlined">zoom_in</span>
+</button>
+<button class="bg-surface/80 backdrop-blur-md p-3 border border-outline-variant/20 hover:text-primary transition-colors">
+<span class="material-symbols-outlined">3d_rotation</span>
+</button>
+</div>
+</div>
+<div class="grid grid-cols-4 gap-4">
+<div class="border border-primary bg-surface-container-high aspect-square p-2 opacity-100 cursor-pointer">
+<img alt="Angle 1" class="w-full h-full object-cover" data-alt="CNC servo motor front perspective view" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB5B0xjd0bAZ2uI70INJP57t4g1neoX8mOqlyHAX1vWd0KEm3kKaql_PQfXKHN90XUDTtMZlusmSLFiP0UQY3LseTSjfHfgTKtcjRnbVXtMMCOYju86BojvC1Hfr8s3N3bUUEr05QEHExrJZNurSQA7Vwm_1yhSDBfesZpPmqzOZlAEuRUhfwiFL7UWVL8Okvd49pTlsUHJvGqZrYrCX_AqRcTP3AP7uhkncHnwg4slw450VnyXVXoQoqOI7nU5gdtSZqxWHvFNz0k"/>
+</div>
+<div class="border border-outline-variant/20 bg-surface-container-lowest aspect-square p-2 opacity-60 hover:opacity-100 transition-opacity cursor-pointer">
+<img alt="Angle 2" class="w-full h-full object-cover" data-alt="Industrial motor connector terminals close up" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA42YR6QXSOAUra_b9MP8f26MJrKOgbnmnVogfvh1OWLTSsj_oqy34hUtwTaCoAlhVCV8sZpy6TXA_wB-7cv0RA_jNPfXKFTAXOYv8ESIfn5TWrf-OEGpgnsB1icY2_PRvLNYOhVa-qsbCvBULcTpuHEl1UHv_addXeJgoK3YXM0UrM25PJVb_8FMt8MV27sEh9RmNzQeKw8aMjy9y03L_91H7O-u07VilIwyqBp__xaTIuD1ilrzNikLwRQPzuIVwBZTN5CT7o_to"/>
+</div>
+<div class="border border-outline-variant/20 bg-surface-container-lowest aspect-square p-2 opacity-60 hover:opacity-100 transition-opacity cursor-pointer">
+<img alt="Angle 3" class="w-full h-full object-cover" data-alt="CNC motor technical mounting bracket schematic" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAE2zQpmndOM5wzHdyDdLgOJfRU7z7b2prE6JU-dANeNokYLiBmi_ImIdfvl7Gv1sZrejZLlCfPL4QBKlxgGrxBH5CWBlT5OBCcj6q_E4w9tou53NX9TjrlZBcDPKPjXdXbL_ZCBvlI8wOaN_Alsvjj6-ewu6aJZkWvwmXeCqf24meAqmfosZ6ohvRvRJ9AJw7omiifP82_X1ITn-QRrJU56HQ237D53AW6HtOvWKG-rZgz3xEottl2btgeAjA0vIwB2ypD_iCffBk"/>
+</div>
+<div class="border border-outline-variant/20 bg-surface-container-lowest aspect-square p-2 opacity-60 hover:opacity-100 transition-opacity cursor-pointer flex flex-col items-center justify-center">
+<span class="material-symbols-outlined text-outline text-3xl">play_circle</span>
+<span class="font-label text-[8px] uppercase tracking-tighter mt-1">Video Demo</span>
+</div>
+</div>
+</div>
+<!-- Right: Product Info & Core Specs -->
+<div class="lg:col-span-5 flex flex-col gap-8">
+<div>
+<span class="font-label text-xs font-bold text-secondary uppercase tracking-[0.2em] mb-2 block">Premium Series</span>
+<h1 class="font-headline text-5xl font-extrabold uppercase tracking-tighter leading-tight mb-4">SM-400-XT AC Servo</h1>
+<p class="text-on-surface-variant font-body leading-relaxed max-w-lg">Engineered for ultra-low cogging and high dynamic response. Ideal for precision laser cutting and multi-axis milling applications. Features advanced NEMA 34 thermal dissipation architecture.</p>
+</div>
+<div class="grid grid-cols-2 gap-px bg-outline-variant/20 border border-outline-variant/20">
+<div class="bg-surface-container p-6">
+<span class="font-label text-[10px] text-outline uppercase block mb-1">Operating Voltage</span>
+<span class="font-headline text-xl font-bold">220V - 480V</span>
+</div>
+<div class="bg-surface-container p-6">
+<span class="font-label text-[10px] text-outline uppercase block mb-1">Max RPM</span>
+<span class="font-headline text-xl font-bold">4,500 RPM</span>
+</div>
+<div class="bg-surface-container p-6">
+<span class="font-label text-[10px] text-outline uppercase block mb-1">Rated Torque</span>
+<span class="font-headline text-xl font-bold">12.5 NM</span>
+</div>
+<div class="bg-surface-container p-6">
+<span class="font-label text-[10px] text-outline uppercase block mb-1">Frame Size</span>
+<span class="font-headline text-xl font-bold">NEMA 34</span>
+</div>
+</div>
+<div class="flex flex-col gap-4">
+<div class="flex items-center justify-between border-b border-outline-variant/10 pb-4">
+<span class="font-label text-xs uppercase tracking-widest text-outline">Lead Time</span>
+<div class="flex items-center gap-2">
+<span class="w-2 h-2 bg-primary-container"></span>
+<span class="font-label text-xs text-on-surface font-bold uppercase">3-5 Business Days</span>
+</div>
+</div>
+<div class="flex items-center justify-between border-b border-outline-variant/10 pb-4">
+<span class="font-label text-xs uppercase tracking-widest text-outline">Unit Price</span>
+<span class="font-headline text-2xl font-black text-primary">$1,842.00 <span class="text-xs font-normal text-outline">USD</span></span>
+</div>
+</div>
+<div class="flex flex-col gap-3">
+<button class="w-full bg-primary-container text-on-primary-container py-5 font-headline font-black uppercase tracking-[0.15em] text-sm hover:brightness-110 active:scale-[0.98] transition-all flex items-center justify-center gap-3">
+<span class="material-symbols-outlined">add_shopping_cart</span>
+                        ADD TO RFQ BASKET
+                    </button>
+<button class="w-full border border-primary text-primary py-5 font-headline font-bold uppercase tracking-[0.15em] text-sm hover:bg-primary/5 active:scale-[0.98] transition-all">
+                        CONFIGURE OPTIONS
+                    </button>
+</div>
+<!-- Compatibility Checker UI -->
+<div class="bg-surface-container-lowest p-6 border border-outline-variant/10">
+<div class="flex items-center gap-2 mb-4">
+<span class="material-symbols-outlined text-secondary text-sm">precision_manufacturing</span>
+<h3 class="font-headline text-xs font-bold uppercase tracking-widest">Compatibility Checker</h3>
+</div>
+<div class="flex gap-2">
+<select class="flex-1 bg-surface-container-high border-none text-xs font-label uppercase p-3 focus:ring-1 focus:ring-primary outline-none">
+<option>Select CNC Model</option>
+<option>Series X-500</option>
+<option>Series X-900</option>
+<option>Titan V2</option>
+</select>
+<button class="bg-surface-container-highest px-4 text-xs font-bold uppercase font-headline hover:bg-surface-bright transition-colors">Check</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Technical Tab System -->
+<section class="mt-32">
+<div class="flex border-b border-outline-variant/20 mb-8 overflow-x-auto">
+<button class="px-8 py-4 font-headline text-xs font-bold uppercase tracking-widest border-b-2 border-primary text-primary whitespace-nowrap">Detailed Specs</button>
+<button class="px-8 py-4 font-headline text-xs font-bold uppercase tracking-widest text-outline hover:text-on-surface transition-colors whitespace-nowrap">CAD Files &amp; 3D Models</button>
+<button class="px-8 py-4 font-headline text-xs font-bold uppercase tracking-widest text-outline hover:text-on-surface transition-colors whitespace-nowrap">Installation Manuals</button>
+<button class="px-8 py-4 font-headline text-xs font-bold uppercase tracking-widest text-outline hover:text-on-surface transition-colors whitespace-nowrap">Wiring Diagrams</button>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-16">
+<!-- Detailed Data Column -->
+<div class="space-y-6">
+<h4 class="font-headline text-xl font-bold uppercase tracking-tight text-on-surface">Mechanical Specifications</h4>
+<div class="space-y-3">
+<div class="flex justify-between border-b border-outline-variant/10 py-2">
+<span class="text-outline font-label text-xs uppercase">Rotor Inertia</span>
+<span class="font-body text-sm font-semibold">2.4 kg·cm²</span>
+</div>
+<div class="flex justify-between border-b border-outline-variant/10 py-2">
+<span class="text-outline font-label text-xs uppercase">Insulation Class</span>
+<span class="font-body text-sm font-semibold">Class F (155°C)</span>
+</div>
+<div class="flex justify-between border-b border-outline-variant/10 py-2">
+<span class="text-outline font-label text-xs uppercase">Protection Rating</span>
+<span class="font-body text-sm font-semibold">IP67 Waterproofing</span>
+</div>
+<div class="flex justify-between border-b border-outline-variant/10 py-2">
+<span class="text-outline font-label text-xs uppercase">Encoder Type</span>
+<span class="font-body text-sm font-semibold">23-bit Absolute</span>
+</div>
+<div class="flex justify-between border-b border-outline-variant/10 py-2">
+<span class="text-outline font-label text-xs uppercase">Shaft Diameter</span>
+<span class="font-body text-sm font-semibold">14mm with Keyway</span>
+</div>
+</div>
+</div>
+<!-- Downloads Column -->
+<div class="space-y-6">
+<h4 class="font-headline text-xl font-bold uppercase tracking-tight text-on-surface">Design Resources</h4>
+<div class="grid grid-cols-1 gap-3">
+<div class="bg-surface-container p-4 flex items-center justify-between border-l-4 border-primary">
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-outline">description</span>
+<div>
+<p class="font-headline text-xs font-bold uppercase">SM-400-XT_Mechanical_STEP.zip</p>
+<p class="text-[10px] text-outline uppercase font-label">3D Model • 14.2 MB</p>
+</div>
+</div>
+<button class="bg-surface-container-highest p-2 hover:text-primary transition-colors">
+<span class="material-symbols-outlined">download</span>
+</button>
+</div>
+<div class="bg-surface-container p-4 flex items-center justify-between">
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-outline">architecture</span>
+<div>
+<p class="font-headline text-xs font-bold uppercase">SM-400-XT_Wiring_Schematic.dwg</p>
+<p class="text-[10px] text-outline uppercase font-label">Vector DWG • 2.1 MB</p>
+</div>
+</div>
+<button class="bg-surface-container-highest p-2 hover:text-primary transition-colors">
+<span class="material-symbols-outlined">download</span>
+</button>
+</div>
+<div class="bg-surface-container p-4 flex items-center justify-between">
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-outline">menu_book</span>
+<div>
+<p class="font-headline text-xs font-bold uppercase">Full_Installation_Guide.pdf</p>
+<p class="text-[10px] text-outline uppercase font-label">Documentation • 8.5 MB</p>
+</div>
+</div>
+<button class="bg-surface-container-highest p-2 hover:text-primary transition-colors">
+<span class="material-symbols-outlined">download</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Related Products Carousel -->
+<section class="mt-32">
+<div class="flex items-end justify-between mb-12">
+<div>
+<span class="font-label text-[10px] text-primary uppercase tracking-[0.3em] block mb-2">Technical Pairings</span>
+<h2 class="font-headline text-3xl font-black uppercase tracking-tighter">System Integration</h2>
+</div>
+<div class="flex gap-2">
+<button class="border border-outline-variant/30 p-2 hover:bg-surface-container transition-colors"><span class="material-symbols-outlined">west</span></button>
+<button class="border border-outline-variant/30 p-2 hover:bg-surface-container transition-colors"><span class="material-symbols-outlined">east</span></button>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Related 1 -->
+<div class="bg-surface-container group cursor-pointer border-b-2 border-transparent hover:border-primary transition-all">
+<div class="aspect-video bg-surface-container-lowest overflow-hidden">
+<img alt="Servo Drive" class="w-full h-full object-cover opacity-50 group-hover:opacity-80 transition-opacity" data-alt="Industrial high voltage servo drive unit" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCxvPOc7XMcdzws3BnZwwFbpwSzg15l53ctgxvOOU0VDgxsIO9y9SHuGRxeHAKr4vnTRHw4UwCWlZZJujWlaFynjTlTScJU2vOatEJwKZlvqyOYgOv2p8SBpZqjF7wsxb1MgQuKAjGQj1aUpWfhau9Up6llNFyDvKXW-xfbbldiHHiijI6Pt3N3E294D1hCdkNmsY1t6ssCdxsOeOQaYSyzZtKcryhWgzHRUZhBUII5Yiv6dpn3QO0xwPkpBPV5-cLwQ8uqsIJbhJA"/>
+</div>
+<div class="p-6">
+<span class="font-label text-[8px] text-outline uppercase block mb-1">Recommended Controller</span>
+<h5 class="font-headline text-sm font-bold uppercase mb-4">DRV-ULTRA Servo Drive</h5>
+<div class="flex items-center justify-between">
+<span class="font-headline text-lg font-bold text-primary">$890.00</span>
+<span class="material-symbols-outlined text-outline group-hover:text-primary transition-colors">arrow_forward</span>
+</div>
+</div>
+</div>
+<!-- Related 2 -->
+<div class="bg-surface-container group cursor-pointer border-b-2 border-transparent hover:border-primary transition-all">
+<div class="aspect-video bg-surface-container-lowest overflow-hidden">
+<img alt="Gearbox" class="w-full h-full object-cover opacity-50 group-hover:opacity-80 transition-opacity" data-alt="Precision planetary gearbox for CNC motors" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBy7wRkKdHBo7LrDWmgaXokqTK8wgj5qhAfhFy4NDGwSb5D2lQfcC8nXIkYnEhsc9Ad5enpQm96PLLIFDIE2sLQtKRkm6Efulr9d4fg-e6iFaz2EuV4tGyX1rBIGBGxUSqtfyKDmd4nAx5Iy_YMEkAgxf71D_4BW8_9hgF3xhJBcm_HjyF3PpGRL3XpTI46FYSNymTAIfrb8guvhUdgr7Vy1_7urqfAGL2s3wStue-9sspQEwlSm_ddrdOGRbvu6Z6cLJhjYU8UZa8"/>
+</div>
+<div class="p-6">
+<span class="font-label text-[8px] text-outline uppercase block mb-1">Mechanical Interface</span>
+<h5 class="font-headline text-sm font-bold uppercase mb-4">Planetary Gearbox 10:1</h5>
+<div class="flex items-center justify-between">
+<span class="font-headline text-lg font-bold text-primary">$420.00</span>
+<span class="material-symbols-outlined text-outline group-hover:text-primary transition-colors">arrow_forward</span>
+</div>
+</div>
+</div>
+<!-- Related 3 -->
+<div class="bg-surface-container group cursor-pointer border-b-2 border-transparent hover:border-primary transition-all">
+<div class="aspect-video bg-surface-container-lowest overflow-hidden">
+<img alt="Coupling" class="w-full h-full object-cover opacity-50 group-hover:opacity-80 transition-opacity" data-alt="Aluminum high-torque flexible shaft coupling" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCwe_iCdfL_K8f0HRVhtvEpq9BZuPrRn5IzkgekJX_3hcWQI5UJITy5gnKRCPmNIfJv3rU2czzkYge8eweasw39_fSqrLrzgBtL6eVcS0i1f94j62Q4hLAjzkz8UOds2T5mGHIp_dkDMmgPq1Q6xW_Rwg0J0Ze0K4UzbKiEI7c66oUZuyPoUw69Bcd-dJTbBSO0JrumhuKPUi4za_QUzbysEQrB6ikThPWc4fSSH4DBNELUjuq7ra497HUFLMj1vKpCWk2wR5kHMwo"/>
+</div>
+<div class="p-6">
+<span class="font-label text-[8px] text-outline uppercase block mb-1">Accessories</span>
+<h5 class="font-headline text-sm font-bold uppercase mb-4">Flex-Coupler 14mm-20mm</h5>
+<div class="flex items-center justify-between">
+<span class="font-headline text-lg font-bold text-primary">$115.00</span>
+<span class="material-symbols-outlined text-outline group-hover:text-primary transition-colors">arrow_forward</span>
+</div>
+</div>
+</div>
+<!-- Related 4 -->
+<div class="bg-surface-container group cursor-pointer border-b-2 border-transparent hover:border-primary transition-all">
+<div class="aspect-video bg-surface-container-lowest overflow-hidden">
+<img alt="Cable" class="w-full h-full object-cover opacity-50 group-hover:opacity-80 transition-opacity" data-alt="Heavy-duty shielded industrial motor power cable" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDvU3MRzCfRLKoZetNYGPo9KoDgozgtlUXRUIcdsHrX8sZQeVnaXxxxwvSgssmFt4hHuUmLTwQg11BHRwq3Mr7wll5TyO2EnJCbhqA-J4SmoYtqA_-NR-9_Hc7A_pQIi9XoJ3rgF4D7z3fevyhoCHqqe7zvpyQ5Le4B2b8QIsfknK6I-RWe9GwXMZfAkZpBv6Bm9BUMp8TB9C5zZqibJ9Hz04hG0fp_GkBE3dRSOF-_J0PSmQtHfpipFh9GRJFiPPsrQV7s0xgf8lk"/>
+</div>
+<div class="p-6">
+<span class="font-label text-[8px] text-outline uppercase block mb-1">Cabling</span>
+<h5 class="font-headline text-sm font-bold uppercase mb-4">5M Shielded Motor Cable</h5>
+<div class="flex items-center justify-between">
+<span class="font-headline text-lg font-bold text-primary">$78.00</span>
+<span class="material-symbols-outlined text-outline group-hover:text-primary transition-colors">arrow_forward</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-[#0E0E0E] w-full border-t border-[#414754]/20 grid grid-cols-1 md:grid-cols-4 gap-8 px-12 py-16">
+<div class="flex flex-col gap-6">
+<span class="font-headline font-black text-[#ADC7FF] text-xl">PRECISION CNC</span>
+<p class="font-body text-xs text-[#8B90A0] leading-relaxed max-w-xs">Global leader in high-performance CNC components and automation logistics. Industrial reliability since 1994.</p>
+</div>
+<div>
+<h6 class="font-headline font-bold text-on-surface text-xs uppercase mb-6">Technical Resources</h6>
+<ul class="flex flex-col gap-3">
+<li><a class="font-body text-xs text-[#8B90A0] hover:text-white transition-colors" href="#">Technical Documentation</a></li>
+<li><a class="font-body text-xs text-[#8B90A0] hover:text-white transition-colors" href="#">Shipping Manifests</a></li>
+<li><a class="font-body text-xs text-[#8B90A0] hover:text-white transition-colors" href="#">MSDS Sheets</a></li>
+</ul>
+</div>
+<div>
+<h6 class="font-headline font-bold text-on-surface text-xs uppercase mb-6">Operations</h6>
+<ul class="flex flex-col gap-3">
+<li><a class="font-body text-xs text-[#8B90A0] hover:text-white transition-colors" href="#">API Access</a></li>
+<li><a class="font-body text-xs text-[#8B90A0] hover:text-white transition-colors" href="#">Global Logistics</a></li>
+<li><a class="font-body text-xs text-[#8B90A0] hover:text-white transition-colors" href="#">Terms of Supply</a></li>
+</ul>
+</div>
+<div class="flex flex-col justify-between items-start">
+<div class="bg-surface-container-high p-4 border border-outline-variant/10 w-full">
+<span class="font-label text-[8px] text-primary uppercase block mb-1">Quality Standard</span>
+<span class="font-headline text-xs font-bold uppercase">ISO 9001:2015 CERTIFIED</span>
+</div>
+<p class="font-body text-[10px] text-[#8B90A0] mt-8">© 2024 INDUSTRIAL PRECISION OPS. ALL RIGHTS RESERVED.</p>
+</div>
+</footer>
+</body></html>

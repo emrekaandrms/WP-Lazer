@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&amp;family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "on-tertiary-fixed-variant": "#474746",
+              "surface-bright": "#3a3939",
+              "tertiary-fixed": "#e5e2e1",
+              "surface-container": "#201f1f",
+              "surface": "#131313",
+              "primary-fixed-dim": "#adc7ff",
+              "inverse-on-surface": "#313030",
+              "on-tertiary-fixed": "#1b1b1c",
+              "tertiary-container": "#929090",
+              "on-primary": "#002e68",
+              "surface-dim": "#131313",
+              "outline": "#8b90a0",
+              "surface-container-low": "#1c1b1b",
+              "error-container": "#93000a",
+              "on-secondary-fixed": "#360f00",
+              "surface-variant": "#353534",
+              "on-tertiary-container": "#2a2a2a",
+              "on-secondary": "#581e00",
+              "on-error": "#690005",
+              "on-surface": "#e5e2e1",
+              "secondary-fixed": "#ffdbcd",
+              "secondary-container": "#fe6500",
+              "outline-variant": "#414754",
+              "on-primary-fixed": "#001a41",
+              "inverse-primary": "#005bc0",
+              "secondary-fixed-dim": "#ffb596",
+              "surface-tint": "#adc7ff",
+              "on-error-container": "#ffdad6",
+              "on-tertiary": "#303030",
+              "on-primary-container": "#00285b",
+              "inverse-surface": "#e5e2e1",
+              "on-primary-fixed-variant": "#004493",
+              "on-background": "#e5e2e1",
+              "background": "#131313",
+              "tertiary-fixed-dim": "#c8c6c5",
+              "primary-fixed": "#d8e2ff",
+              "primary-container": "#4a8eff",
+              "surface-container-highest": "#353534",
+              "surface-container-high": "#2a2a2a",
+              "surface-container-lowest": "#0e0e0e",
+              "on-secondary-fixed-variant": "#7c2e00",
+              "tertiary": "#c8c6c5",
+              "on-surface-variant": "#c1c6d7",
+              "error": "#ffb4ab",
+              "primary": "#adc7ff",
+              "on-secondary-container": "#541d00",
+              "secondary": "#ffb596"
+            },
+            fontFamily: {
+              "headline": ["Space Grotesk"],
+              "body": ["Inter"],
+              "label": ["Space Grotesk"]
+            },
+            borderRadius: {"DEFAULT": "0px", "lg": "0px", "xl": "0px", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        body { font-family: 'Inter', sans-serif; }
+        h1, h2, h3, .font-tech { font-family: 'Space Grotesk', sans-serif; }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-surface text-on-surface min-h-screen">
+<!-- Top App Bar (Shared Component) -->
+<header class="fixed top-0 left-0 w-full z-50 flex justify-between items-center px-6 h-16 bg-[#131313] border-b border-[#414754]/20">
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-[#ADC7FF]" data-icon="menu">menu</span>
+<span class="text-lg font-bold tracking-tighter text-[#ADC7FF] font-['Space_Grotesk'] uppercase">CNC_PRECISION</span>
+</div>
+<div class="relative">
+<span class="material-symbols-outlined text-[#ADC7FF]" data-icon="shopping_cart">shopping_cart</span>
+<span class="absolute -top-1 -right-1 bg-secondary text-on-secondary text-[10px] font-bold px-1 min-w-[14px] text-center">3</span>
+</div>
+</header>
+<!-- Background Content (Product Detail Mockup) -->
+<main class="pt-20 px-6 pb-24">
+<div class="mb-8">
+<span class="font-tech text-primary text-xs tracking-widest uppercase mb-2 block">Part No. 882-X-900</span>
+<h1 class="text-3xl font-bold leading-none mb-4 uppercase">Titanium High-Feed End Mill</h1>
+<div class="aspect-square bg-surface-container-lowest border border-outline-variant/10 flex items-center justify-center relative overflow-hidden">
+<img class="object-cover w-full h-full opacity-60" data-alt="Close up of precision CNC metal tool" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBrzeGt0zoVoNm_hUkwDZCn6DOKdYwF6ey6bGPC5GaxHZidwIvtcqkw_DZTBNCKxKojinRzIZKIm1MsDC-BaavwSthLlfjuNOOtgN3FxuYf4kTpNnrSg3VMtTIRNpmipnNC6kcQo6Kh66W58sFy6oA1dhQgiWZNPkdmWrGmI-K_PE7ZZ4JejBSwhgUlwnCIEvn-Hq1VVVT6R2lmB_g15a0sGFFLS21brk_miGtvcfdsZPgQDvAlZyxct5SQv7NkPkFhNTmrioA5CQI"/>
+<div class="absolute top-4 right-4 bg-surface/80 backdrop-blur-sm p-3 border border-outline-variant/20">
+<p class="font-tech text-xs text-outline mb-1 uppercase">Material Grade</p>
+<p class="font-tech text-sm font-bold text-primary">TI-6AL-4V ELI</p>
+</div>
+</div>
+</div>
+<div class="grid grid-cols-2 gap-px bg-outline-variant/20 mb-8">
+<div class="bg-surface p-4">
+<p class="font-tech text-[10px] text-outline uppercase tracking-tighter">Diameter</p>
+<p class="text-xl font-medium">12.00 mm</p>
+</div>
+<div class="bg-surface p-4">
+<p class="font-tech text-[10px] text-outline uppercase tracking-tighter">Flutes</p>
+<p class="text-xl font-medium">4-FL</p>
+</div>
+<div class="bg-surface p-4">
+<p class="font-tech text-[10px] text-outline uppercase tracking-tighter">Tolerance</p>
+<p class="text-xl font-medium">h6</p>
+</div>
+<div class="bg-surface p-4">
+<p class="font-tech text-[10px] text-outline uppercase tracking-tighter">Stock</p>
+<p class="text-xl font-medium text-primary">142 UNITS</p>
+</div>
+</div>
+</main>
+<!-- OVERLAY / QUICK QUOTE BASKET -->
+<div class="fixed inset-0 z-[60] flex justify-end">
+<!-- Backdrop -->
+<div class="absolute inset-0 bg-surface/80 backdrop-blur-md"></div>
+<!-- Slide-over Panel -->
+<div class="relative w-full max-w-sm bg-surface-container-lowest h-full flex flex-col shadow-2xl border-l border-outline-variant/30">
+<!-- Header -->
+<div class="p-6 border-b border-outline-variant/10 flex justify-between items-center bg-surface">
+<div>
+<h2 class="text-xl font-bold font-tech uppercase tracking-tight">Quick Quote</h2>
+<p class="text-[10px] font-tech text-outline uppercase">Active Session: #RFQ-88291</p>
+</div>
+<button class="w-10 h-10 flex items-center justify-center bg-surface-container-high hover:bg-surface-variant transition-colors">
+<span class="material-symbols-outlined text-on-surface" data-icon="close">close</span>
+</button>
+</div>
+<!-- Items List -->
+<div class="flex-1 overflow-y-auto p-6 space-y-6">
+<p class="font-tech text-[10px] text-primary uppercase tracking-widest font-bold">Recently Added Components</p>
+<!-- Item 1 -->
+<div class="flex gap-4 group">
+<div class="w-20 h-20 bg-surface-container shrink-0 border border-outline-variant/10">
+<img class="w-full h-full object-cover" data-alt="Technical industrial part macro" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCzO6_XnNbNpfWuITGLq-V-XTzZ7JLB4yDwD783mIJoBUqHjBjnL1PYMgOYthDSWlkIw2pPgdU2ey2P6viOh6gJzcsuEGsPUnpp6FGvaPkNe0QVuNKjlOtr47sDXl50azSsJdE3jUIrIvYNoFzJDEMcNKCpNWoRKBUkgG44Te-J1LpHLkW_CyOd14jIBt9HWQRH2R49T8RTFfpM-CJBN-cOtbeVv1s1fnYhiuIR5gQ1dradOpV8zhoAvdI4Cw5BUOg2yCkIDSmmu8Q"/>
+</div>
+<div class="flex-1 min-w-0">
+<div class="flex justify-between items-start">
+<h3 class="font-tech text-xs font-bold uppercase truncate">Titanium End Mill 12mm</h3>
+<button class="text-outline hover:text-error transition-colors">
+<span class="material-symbols-outlined text-sm" data-icon="delete">delete</span>
+</button>
+</div>
+<p class="font-tech text-[10px] text-outline mt-1 uppercase">ID: 882-X-900</p>
+<div class="flex justify-between items-end mt-2">
+<div class="flex items-center gap-3 bg-surface-container-high px-2 py-1">
+<span class="material-symbols-outlined text-xs cursor-pointer" data-icon="remove">remove</span>
+<span class="font-tech text-xs font-bold">04</span>
+<span class="material-symbols-outlined text-xs cursor-pointer" data-icon="add">add</span>
+</div>
+<p class="font-tech text-sm font-bold text-primary">$1,142.00</p>
+</div>
+</div>
+</div>
+<!-- Item 2 -->
+<div class="flex gap-4">
+<div class="w-20 h-20 bg-surface-container shrink-0 border border-outline-variant/10">
+<img class="w-full h-full object-cover" data-alt="Lathe turning tool" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCBj7Kf_n3ia1ebykztCm8woIwul5qZ78d5SSN3yYqiUPp2cZoeps8eNGz1LUfKY7vtLF_ibEcbgagYmohVS9_mpx56Oz75o0RJaLWrsXU4PRiFKBPuuwSzx-ETPydNwmEQLO0JO9NqGrWr2MEJB369NCFdCCVWNqdehGmENjpWIC2W_LkzBUimxwiXjjO26XlNkPt-dUcPzZohUl5V4Yy3D-4Lf1Iuvrwe4_JGOgWgGpfAJg7eTfdEhRxxovizi5E1jrY93R-WT9g"/>
+</div>
+<div class="flex-1 min-w-0">
+<div class="flex justify-between items-start">
+<h3 class="font-tech text-xs font-bold uppercase truncate">Carbide Insert CNMG-432</h3>
+<button class="text-outline hover:text-error transition-colors">
+<span class="material-symbols-outlined text-sm" data-icon="delete">delete</span>
+</button>
+</div>
+<p class="font-tech text-[10px] text-outline mt-1 uppercase">ID: CI-992-K</p>
+<div class="flex justify-between items-end mt-2">
+<div class="flex items-center gap-3 bg-surface-container-high px-2 py-1">
+<span class="material-symbols-outlined text-xs" data-icon="remove">remove</span>
+<span class="font-tech text-xs font-bold">10</span>
+<span class="material-symbols-outlined text-xs" data-icon="add">add</span>
+</div>
+<p class="font-tech text-sm font-bold text-primary">$340.00</p>
+</div>
+</div>
+</div>
+<!-- Item 3 -->
+<div class="flex gap-4">
+<div class="w-20 h-20 bg-surface-container shrink-0 border border-outline-variant/10">
+<img class="w-full h-full object-cover" data-alt="Industrial steel flange" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAGD4tIT2u4al_e-7zTPeQx5jXHfuswfPcG4YFgnjSdwsBX2ac48DZHzkasoIfswr01RVKyEFK9DfqYNEWOjm006lQGfjTBcCSUrqZF1IxdhI4Z7vSmjMlipjM610ABm3zRP-p9v1t8zmHOJ6migFfkmyWo64DgfdqzvMUrKCFSV4fEb-fpWbIcJk1H5ByDzTcnBPP-cUt0n4hMXXPE56eqA4tiyB81G5yPQWSaMIFRxNuD1Zizg7mMvkHMsVT58FLskPcJBr-14q4"/>
+</div>
+<div class="flex-1 min-w-0">
+<div class="flex justify-between items-start">
+<h3 class="font-tech text-xs font-bold uppercase truncate">Steel Flange Adapter</h3>
+<button class="text-outline hover:text-error transition-colors">
+<span class="material-symbols-outlined text-sm" data-icon="delete">delete</span>
+</button>
+</div>
+<p class="font-tech text-[10px] text-outline mt-1 uppercase">ID: FL-001-B</p>
+<div class="flex justify-between items-end mt-2">
+<div class="flex items-center gap-3 bg-surface-container-high px-2 py-1">
+<span class="material-symbols-outlined text-xs" data-icon="remove">remove</span>
+<span class="font-tech text-xs font-bold">01</span>
+<span class="material-symbols-outlined text-xs" data-icon="add">add</span>
+</div>
+<p class="font-tech text-sm font-bold text-primary">$89.00</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Footer Summary & Actions -->
+<div class="p-6 bg-surface-container-low space-y-4">
+<div class="flex justify-between items-baseline border-b border-outline-variant/10 pb-4">
+<p class="font-tech text-[10px] text-outline uppercase tracking-widest">Est. Subtotal</p>
+<p class="text-2xl font-bold font-tech text-secondary">$1,571.00</p>
+</div>
+<div class="grid grid-cols-1 gap-3">
+<button class="w-full bg-primary py-4 font-tech text-on-primary-container font-bold uppercase tracking-widest flex justify-center items-center gap-2 active:scale-[0.98] transition-transform">
+                        Instant Quote
+                        <span class="material-symbols-outlined text-sm" data-icon="bolt" style="font-variation-settings: 'FILL' 1;">bolt</span>
+</button>
+<button class="w-full border border-primary/40 bg-transparent text-primary py-4 font-tech font-bold uppercase tracking-widest active:scale-[0.98] transition-transform">
+                        View Full Basket
+                    </button>
+</div>
+<p class="text-[9px] font-tech text-outline text-center uppercase leading-tight">
+                    * Final pricing subject to metallurgical review and current logistical surcharges.
+                </p>
+</div>
+</div>
+</div>
+<!-- Bottom Nav Bar (Shared Component) - Suppressed but defined structure for context -->
+<nav class="fixed bottom-0 left-0 w-full z-50 flex justify-around items-stretch h-20 bg-[#0E0E0E] border-t border-[#414754]/15">
+<div class="flex flex-col items-center justify-center text-[#8B90A0] p-3 h-full w-full">
+<span class="material-symbols-outlined" data-icon="home">home</span>
+<span class="font-['Space_Grotesk'] text-[10px] font-medium uppercase tracking-tighter mt-1">Home</span>
+</div>
+<div class="flex flex-col items-center justify-center text-[#8B90A0] p-3 h-full w-full">
+<span class="material-symbols-outlined" data-icon="inventory_2">inventory_2</span>
+<span class="font-['Space_Grotesk'] text-[10px] font-medium uppercase tracking-tighter mt-1">Catalog</span>
+</div>
+<div class="flex flex-col items-center justify-center bg-[#ADC7FF] text-[#131313] p-3 h-full w-full">
+<span class="material-symbols-outlined" data-icon="request_quote" style="font-variation-settings: 'FILL' 1;">request_quote</span>
+<span class="font-['Space_Grotesk'] text-[10px] font-medium uppercase tracking-tighter mt-1">RFQ Basket</span>
+</div>
+<div class="flex flex-col items-center justify-center text-[#8B90A0] p-3 h-full w-full">
+<span class="material-symbols-outlined" data-icon="person">person</span>
+<span class="font-['Space_Grotesk'] text-[10px] font-medium uppercase tracking-tighter mt-1">Account</span>
+</div>
+</nav>
+</body></html>

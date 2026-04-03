@@ -1,0 +1,139 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "GraphQL Query Contracts",
+  "description": "Defines all GraphQL queries and mutations used by the headless frontend",
+  "type": "object",
+  "definitions": {
+    "Product": {
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "slug": { "type": "string" },
+        "description": { "type": "string" },
+        "price": { "type": "string" },
+        "regularPrice": { "type": "string" },
+        "salePrice": { "type": "string" },
+        "stockStatus": { "type": "string", "enum": ["IN_STOCK", "OUT_OF_STOCK", "ON_BACKORDER"] },
+        "stockQuantity": { "type": "integer" },
+        "sku": { "type": "string" },
+        "categories": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/Category" }
+        },
+        "attributes": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/Attribute" }
+        },
+        "variations": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/ProductVariation" }
+        },
+        "image": { "$ref": "#/definitions/Image" },
+        "galleryImages": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/Image" }
+        }
+      }
+    },
+    "Category": {
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "slug": { "type": "string" },
+        "description": { "type": "string" },
+        "count": { "type": "integer" },
+        "image": { "$ref": "#/definitions/Image" },
+        "children": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/Category" }
+        }
+      }
+    },
+    "Attribute": {
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "value": { "type": "string" },
+        "label": { "type": "string" },
+        "visible": { "type": "boolean" },
+        "variation": { "type": "boolean" }
+      }
+    },
+    "ProductVariation": {
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "price": { "type": "string" },
+        "stockStatus": { "type": "string" },
+        "attributes": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/Attribute" }
+        }
+      }
+    },
+    "Image": {
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "src": { "type": "string", "format": "uri" },
+        "alt": { "type": "string" },
+        "title": { "type": "string" }
+      }
+    },
+    "Page": {
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "title": { "type": "string" },
+        "slug": { "type": "string" },
+        "content": { "type": "string" },
+        "seo": {
+          "type": "object",
+          "properties": {
+            "title": { "type": "string" },
+            "description": { "type": "string" }
+          }
+        }
+      }
+    },
+    "Policy": {
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "title": { "type": "string" },
+        "slug": { "type": "string" },
+        "content": { "type": "string" },
+        "effectiveDate": { "type": "string", "format": "date" },
+        "version": { "type": "string" }
+      }
+    },
+    "SiteSettings": {
+      "type": "object",
+      "properties": {
+        "siteName": { "type": "string" },
+        "tagline": { "type": "string" },
+        "contact": {
+          "type": "object",
+          "properties": {
+            "email": { "type": "string" },
+            "phone": { "type": "string" },
+            "address": { "type": "string" },
+            "hours": { "type": "string" }
+          }
+        },
+        "social": {
+          "type": "object",
+          "properties": {
+            "linkedin": { "type": "string" },
+            "twitter": { "type": "string" },
+            "youtube": { "type": "string" }
+          }
+        }
+      }
+    }
+  }
+}

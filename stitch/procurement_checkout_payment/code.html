@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "surface-variant": "#353534",
+                        "on-primary": "#002e68",
+                        "surface-dim": "#131313",
+                        "tertiary-fixed-dim": "#c8c6c5",
+                        "on-error": "#690005",
+                        "on-tertiary-fixed-variant": "#474746",
+                        "on-secondary-fixed": "#360f00",
+                        "inverse-on-surface": "#313030",
+                        "secondary-fixed-dim": "#ffb596",
+                        "on-secondary-fixed-variant": "#7c2e00",
+                        "on-tertiary": "#303030",
+                        "surface-tint": "#adc7ff",
+                        "primary": "#adc7ff",
+                        "outline": "#8b90a0",
+                        "on-background": "#e5e2e1",
+                        "tertiary": "#c8c6c5",
+                        "inverse-surface": "#e5e2e1",
+                        "background": "#131313",
+                        "primary-container": "#4a8eff",
+                        "tertiary-fixed": "#e5e2e1",
+                        "outline-variant": "#414754",
+                        "secondary-fixed": "#ffdbcd",
+                        "on-tertiary-container": "#2a2a2a",
+                        "on-surface": "#e5e2e1",
+                        "secondary": "#ffb596",
+                        "on-secondary": "#581e00",
+                        "surface-bright": "#3a3939",
+                        "secondary-container": "#fe6500",
+                        "inverse-primary": "#005bc0",
+                        "on-tertiary-fixed": "#1b1b1c",
+                        "surface": "#131313",
+                        "on-primary-container": "#00285b",
+                        "surface-container": "#201f1f",
+                        "on-primary-fixed": "#001a41",
+                        "surface-container-high": "#2a2a2a",
+                        "on-primary-fixed-variant": "#004493",
+                        "surface-container-low": "#1c1b1b",
+                        "on-error-container": "#ffdad6",
+                        "tertiary-container": "#929090",
+                        "on-surface-variant": "#c1c6d7",
+                        "primary-fixed": "#d8e2ff",
+                        "on-secondary-container": "#541d00",
+                        "surface-container-lowest": "#0e0e0e",
+                        "error-container": "#93000a",
+                        "primary-fixed-dim": "#adc7ff",
+                        "error": "#ffb4ab",
+                        "surface-container-highest": "#353534"
+                    },
+                    fontFamily: {
+                        "headline": ["Space Grotesk"],
+                        "body": ["Inter"],
+                        "label": ["Space Grotesk"]
+                    },
+                    borderRadius: {"DEFAULT": "0px", "lg": "0px", "xl": "0px", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        body {
+            background-image: 
+                linear-gradient(to right, rgba(139, 144, 160, 0.05) 1px, transparent 1px),
+                linear-gradient(to bottom, rgba(139, 144, 160, 0.05) 1px, transparent 1px);
+            background-size: 40px 40px;
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background font-body selection:bg-primary selection:text-on-primary min-h-screen flex flex-col">
+<!-- TopNavBar -->
+<nav class="bg-[#131313] dark:bg-[#0E0E0E] flex justify-between items-center w-full px-6 py-4 max-full sticky top-0 z-50">
+<div class="flex items-center gap-8">
+<span class="text-xl font-bold text-[#ADC7FF] tracking-tighter font-headline uppercase">PRECISION CNC</span>
+<div class="hidden md:flex gap-6">
+<a class="font-headline tracking-tight uppercase text-[#C8C6C5] hover:text-[#ADC7FF] transition-colors duration-150" href="#">Catalog</a>
+<a class="font-headline tracking-tight uppercase text-[#C8C6C5] hover:text-[#ADC7FF] transition-colors duration-150" href="#">Documentation</a>
+<a class="font-headline tracking-tight uppercase text-[#C8C6C5] hover:text-[#ADC7FF] transition-colors duration-150" href="#">Account</a>
+<a class="font-headline tracking-tight uppercase text-[#C8C6C5] hover:text-[#ADC7FF] transition-colors duration-150" href="#">Support</a>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<button class="material-symbols-outlined text-[#C8C6C5] hover:bg-[#2A2A2A] p-2 transition-colors duration-150" data-icon="shopping_cart">shopping_cart</button>
+<button class="material-symbols-outlined text-[#C8C6C5] hover:bg-[#2A2A2A] p-2 transition-colors duration-150" data-icon="account_circle">account_circle</button>
+<button class="bg-primary-container text-on-primary-container px-6 py-2 font-headline uppercase text-sm font-bold active:scale-95 duration-75">Checkout</button>
+</div>
+</nav>
+<main class="flex-grow w-full max-w-7xl mx-auto px-6 py-12">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+<!-- Checkout Flow (Left Column) -->
+<div class="lg:col-span-8 space-y-12">
+<!-- Stepper Visual -->
+<div class="flex gap-4 items-center">
+<div class="flex flex-col items-center">
+<div class="w-8 h-8 bg-primary text-on-primary flex items-center justify-center font-headline font-bold">01</div>
+<span class="font-label text-[10px] mt-2 text-primary uppercase tracking-widest">Shipping</span>
+</div>
+<div class="h-[2px] w-12 bg-surface-container-highest"></div>
+<div class="flex flex-col items-center opacity-40">
+<div class="w-8 h-8 border border-outline text-outline flex items-center justify-center font-headline font-bold">02</div>
+<span class="font-label text-[10px] mt-2 text-outline uppercase tracking-widest">Payment</span>
+</div>
+<div class="h-[2px] w-12 bg-surface-container-highest"></div>
+<div class="flex flex-col items-center opacity-40">
+<div class="w-8 h-8 border border-outline text-outline flex items-center justify-center font-headline font-bold">03</div>
+<span class="font-label text-[10px] mt-2 text-outline uppercase tracking-widest">Review</span>
+</div>
+</div>
+<!-- Form Section: Shipping -->
+<section class="space-y-8">
+<div class="border-l-4 border-primary pl-6 py-2">
+<h1 class="font-headline text-3xl font-bold uppercase tracking-tight">Shipping Information</h1>
+<p class="font-label text-sm text-outline uppercase mt-1">Order Logistics &amp; Destination</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div class="space-y-2">
+<label class="font-label text-[10px] text-outline uppercase tracking-tighter">Legal Entity / Full Name</label>
+<input class="w-full bg-surface-container-lowest border-t-0 border-l-0 border-r-0 border-b border-outline-variant/20 focus:border-primary focus:ring-0 text-on-surface font-body p-3 placeholder:text-surface-container-highest uppercase text-sm transition-all" placeholder="STRATOS MANUFACTURING GMBH" type="text"/>
+</div>
+<div class="space-y-2">
+<label class="font-label text-[10px] text-outline uppercase tracking-tighter">Contact Email</label>
+<input class="w-full bg-surface-container-lowest border-t-0 border-l-0 border-r-0 border-b border-outline-variant/20 focus:border-primary focus:ring-0 text-on-surface font-body p-3 placeholder:text-surface-container-highest uppercase text-sm transition-all" placeholder="PROCUREMENT@STRATOS.ENGINEERING" type="email"/>
+</div>
+<div class="md:col-span-2 space-y-2">
+<label class="font-label text-[10px] text-outline uppercase tracking-tighter">Delivery Address (Floor/Bay/Dock)</label>
+<input class="w-full bg-surface-container-lowest border-t-0 border-l-0 border-r-0 border-b border-outline-variant/20 focus:border-primary focus:ring-0 text-on-surface font-body p-3 placeholder:text-surface-container-highest uppercase text-sm transition-all" placeholder="104 INDUSTRIAL PARKWAY, LOADING DOCK 4-B" type="text"/>
+</div>
+<div class="space-y-2">
+<label class="font-label text-[10px] text-outline uppercase tracking-tighter">City</label>
+<input class="w-full bg-surface-container-lowest border-t-0 border-l-0 border-r-0 border-b border-outline-variant/20 focus:border-primary focus:ring-0 text-on-surface font-body p-3 placeholder:text-surface-container-highest uppercase text-sm transition-all" placeholder="STUTTGART" type="text"/>
+</div>
+<div class="grid grid-cols-2 gap-4">
+<div class="space-y-2">
+<label class="font-label text-[10px] text-outline uppercase tracking-tighter">Postal Code</label>
+<input class="w-full bg-surface-container-lowest border-t-0 border-l-0 border-r-0 border-b border-outline-variant/20 focus:border-primary focus:ring-0 text-on-surface font-body p-3 placeholder:text-surface-container-highest uppercase text-sm transition-all" placeholder="70173" type="text"/>
+</div>
+<div class="space-y-2">
+<label class="font-label text-[10px] text-outline uppercase tracking-tighter">Country Code</label>
+<input class="w-full bg-surface-container-lowest border-t-0 border-l-0 border-r-0 border-b border-outline-variant/20 focus:border-primary focus:ring-0 text-on-surface font-body p-3 placeholder:text-surface-container-highest uppercase text-sm transition-all" placeholder="DE" type="text"/>
+</div>
+</div>
+</div>
+<div class="bg-surface-container p-6 space-y-4">
+<h3 class="font-headline text-sm font-bold uppercase tracking-widest text-primary flex items-center gap-2">
+<span class="material-symbols-outlined text-sm">local_shipping</span>
+                            Logistics Method
+                        </h3>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+<label class="group cursor-pointer flex items-center justify-between p-4 bg-surface-container-highest border border-transparent hover:border-primary/50 transition-all">
+<div>
+<p class="font-headline text-xs font-bold uppercase">Standard Freight</p>
+<p class="font-body text-[10px] text-outline">3-5 BUSINESS DAYS</p>
+</div>
+<div class="flex items-center gap-3">
+<span class="font-headline text-xs">$145.00</span>
+<input checked="" class="w-4 h-4 text-primary bg-surface-container-lowest border-outline focus:ring-0" name="shipping" type="radio"/>
+</div>
+</label>
+<label class="group cursor-pointer flex items-center justify-between p-4 bg-surface-container-lowest border border-outline-variant/10 hover:border-primary/50 transition-all">
+<div>
+<p class="font-headline text-xs font-bold uppercase">Expedited Air</p>
+<p class="font-body text-[10px] text-outline">NEXT DAY BY 08:00</p>
+</div>
+<div class="flex items-center gap-3">
+<span class="font-headline text-xs">$480.00</span>
+<input class="w-4 h-4 text-primary bg-surface-container-lowest border-outline focus:ring-0" name="shipping" type="radio"/>
+</div>
+</label>
+</div>
+</div>
+<div class="flex justify-between items-center pt-6">
+<button class="font-label text-xs uppercase tracking-widest text-outline hover:text-on-surface transition-colors flex items-center gap-2">
+<span class="material-symbols-outlined text-sm">arrow_back</span>
+                            Return to Cart
+                        </button>
+<button class="bg-primary text-on-primary px-10 py-4 font-headline font-bold uppercase text-sm active:scale-95 transition-transform">
+                            Proceed to Payment
+                        </button>
+</div>
+</section>
+</div>
+<!-- Sticky Order Summary (Right Column) -->
+<div class="lg:col-span-4">
+<div class="sticky top-28 space-y-6">
+<div class="bg-surface-container p-8 border-t-2 border-primary">
+<h2 class="font-headline text-xl font-black uppercase tracking-tighter mb-6 border-b border-outline-variant/10 pb-4">Manifest Summary</h2>
+<div class="space-y-6">
+<!-- Line Item -->
+<div class="flex gap-4">
+<div class="w-16 h-16 bg-surface-container-lowest flex-shrink-0 flex items-center justify-center p-2">
+<img alt="industrial cnc component" class="w-full h-full object-cover" data-alt="close up of a high precision machined aluminum engine block component with smooth metallic finish and sharp edges" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDl-hAZF7LlzkIBxQE8FAaSdn3wXFmmGTNwecXFWlCeDHBb-AoONqPNxswgZXSPySUxiyk06X0sq0bfjAmpOOPE5a-ri9nqCckmPfgU3aesWrThEJ7Ip9q7lomgPLbBIYMa8-fgAkK9ynsDzobggyoZx196tjDn76yV1-CZc3UCHY4aB_Aoye5CMmHav9urAX6IyB9S1_yPk6GcGv1OkaOL8gon96wINMlwYtzX-3Kfp5-me4GMuUskwCo7-GyPqnNo-jZzsvFCyfc"/>
+</div>
+<div class="flex-grow">
+<div class="flex justify-between items-start">
+<h4 class="font-headline text-[11px] font-bold uppercase leading-tight">V-Series Spindle Head</h4>
+<span class="font-headline text-xs">$4,250.00</span>
+</div>
+<p class="font-label text-[9px] text-outline uppercase mt-1">PART NO. CNC-V92-SH</p>
+<p class="font-body text-[10px] text-tertiary mt-1">QTY: 01</p>
+</div>
+</div>
+<!-- Line Item -->
+<div class="flex gap-4">
+<div class="w-16 h-16 bg-surface-container-lowest flex-shrink-0 flex items-center justify-center p-2">
+<img alt="precision tools" class="w-full h-full object-cover" data-alt="set of industrial tungsten carbide end mills arranged on a dark workshop surface with dramatic lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD_I_Fsxd4qlIDU5vA_YE-I4gFa0R2HhTVokVPwEC80Cc9ceGTrTkTJraDwMETcv1DwpXqxPlnZEI3Nej7OlOXsjDMnP8lftQbi68x3TPAHVFmXd8A_obO1b26-2h-_qTkL2eSCp7SiPh_QftiOVejfVmjCT6aeikWgNqk7WF5FV7O7bLfYg8XY28pU3_YuVoGGuYY_3wVGQq-e_lSFa3MdAEmxUI0yiWKYTNoWZRnHqvPQAo9u7vBy4n2s1RwMyr_4x5lJRUIWzE8"/>
+</div>
+<div class="flex-grow">
+<div class="flex justify-between items-start">
+<h4 class="font-headline text-[11px] font-bold uppercase leading-tight">Carbide Tool Set (12PC)</h4>
+<span class="font-headline text-xs">$890.00</span>
+</div>
+<p class="font-label text-[9px] text-outline uppercase mt-1">PART NO. TLS-C12-SET</p>
+<p class="font-body text-[10px] text-tertiary mt-1">QTY: 02</p>
+</div>
+</div>
+</div>
+<div class="mt-8 pt-6 border-t border-outline-variant/20 space-y-3">
+<div class="flex justify-between">
+<span class="font-label text-[10px] text-outline uppercase">Subtotal (3 Items)</span>
+<span class="font-headline text-sm">$6,030.00</span>
+</div>
+<div class="flex justify-between">
+<span class="font-label text-[10px] text-outline uppercase">Logistics (Freight)</span>
+<span class="font-headline text-sm">$145.00</span>
+</div>
+<div class="flex justify-between">
+<span class="font-label text-[10px] text-outline uppercase">Estimated VAT (19%)</span>
+<span class="font-headline text-sm">$1,173.25</span>
+</div>
+<div class="flex justify-between pt-4 border-t border-outline-variant/50">
+<span class="font-headline text-sm font-bold uppercase tracking-widest text-primary">Grand Total</span>
+<span class="font-headline text-xl font-black text-primary">$7,348.25</span>
+</div>
+</div>
+<div class="mt-8 bg-surface-container-lowest p-4">
+<p class="font-label text-[9px] text-outline-variant uppercase mb-2">Technical Note:</p>
+<p class="font-body text-[10px] leading-relaxed text-tertiary italic">
+                                ALL PRECISION COMPONENTS ARE CALIBRATED POST-MANUFACTURE. LEAD TIME INCLUDES 48H SYSTEM DIAGNOSTICS.
+                            </p>
+</div>
+</div>
+<div class="flex flex-col gap-4">
+<div class="flex items-center gap-3 p-4 bg-surface-container-low">
+<span class="material-symbols-outlined text-primary" style="font-variation-settings: 'FILL' 1;">verified</span>
+<div>
+<p class="font-headline text-[10px] font-bold uppercase">Secure Transaction</p>
+<p class="font-body text-[9px] text-outline">256-BIT AES ENCRYPTED PROTOCOL</p>
+</div>
+</div>
+<div class="flex items-center gap-3 p-4 bg-surface-container-low">
+<span class="material-symbols-outlined text-primary" style="font-variation-settings: 'FILL' 1;">package_2</span>
+<div>
+<p class="font-headline text-[10px] font-bold uppercase">Certified Assembly</p>
+<p class="font-body text-[9px] text-outline">ISO 9001:2015 COMPLIANT LOGISTICS</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+<!-- Footer -->
+<footer class="bg-[#0E0E0E] flex justify-between items-center px-8 py-6 w-full mt-auto">
+<span class="font-['Space_Grotesk'] text-[10px] uppercase tracking-tighter text-[#C8C6C5]">© 2024 KINETIC BLUEPRINT CNC. ALL RIGHTS RESERVED.</span>
+<div class="flex gap-6">
+<a class="font-['Space_Grotesk'] text-[10px] uppercase tracking-tighter text-[#8B90A0] hover:text-[#FFB596] transition-all opacity-80 hover:opacity-100" href="#">Privacy Policy</a>
+<a class="font-['Space_Grotesk'] text-[10px] uppercase tracking-tighter text-[#8B90A0] hover:text-[#FFB596] transition-all opacity-80 hover:opacity-100" href="#">Terms of Service</a>
+<a class="font-['Space_Grotesk'] text-[10px] uppercase tracking-tighter text-[#8B90A0] hover:text-[#FFB596] transition-all opacity-80 hover:opacity-100" href="#">Shipping Logistics</a>
+<a class="font-['Space_Grotesk'] text-[10px] uppercase tracking-tighter text-[#8B90A0] hover:text-[#FFB596] transition-all opacity-80 hover:opacity-100" href="#">API Docs</a>
+</div>
+</footer>
+</body></html>

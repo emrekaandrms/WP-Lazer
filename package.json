@@ -1,0 +1,31 @@
+{
+  "name": "wp-lzer",
+  "version": "1.0.0",
+  "description": "Headless WooCommerce with WordPress, WPGraphQL, and Next.js",
+  "private": true,
+  "workspaces": [
+    "frontend"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=frontend",
+    "build": "npm run build --workspace=frontend",
+    "validate": "node scripts/validate-content.js",
+    "revalidate": "node scripts/revalidate.js",
+    "revalidate:all": "node scripts/revalidate.js / /category /page /product /policy",
+    "content:sync": "npm run validate && make import-pages && make import-policies",
+    "db:backup": "mkdir -p backups && docker exec wp-lzer-mysql mysqldump -u wordpress -pwordpress_secret wp_lzer > backups/wp_lzer_$(date +%Y%m%d_%H%M%S).sql",
+    "db:restore": "gunzip -c $(FILE) | docker exec -i wp-lzer-mysql mysql -u wordpress -pwordpress_secret wp_lzer",
+    "docker:up": "cd docker && docker-compose up -d",
+    "docker:down": "cd docker && docker-compose down",
+    "docker:logs": "docker logs -f wp-lzer-wordpress",
+    "wp": "docker exec -it wp-lzer-wpcli wp"
+  },
+  "devDependencies": {
+    "ajv": "^8.12.0",
+    "ajv-formats": "^2.1.1"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "docker": ">=20.10.0"
+  }
+}

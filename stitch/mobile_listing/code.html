@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>CNC_PRECISION | Linear Rails</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&amp;family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "on-tertiary-fixed-variant": "#474746",
+              "surface-bright": "#3a3939",
+              "tertiary-fixed": "#e5e2e1",
+              "surface-container": "#201f1f",
+              "surface": "#131313",
+              "primary-fixed-dim": "#adc7ff",
+              "inverse-on-surface": "#313030",
+              "on-tertiary-fixed": "#1b1b1c",
+              "tertiary-container": "#929090",
+              "on-primary": "#002e68",
+              "surface-dim": "#131313",
+              "outline": "#8b90a0",
+              "surface-container-low": "#1c1b1b",
+              "error-container": "#93000a",
+              "on-secondary-fixed": "#360f00",
+              "surface-variant": "#353534",
+              "on-tertiary-container": "#2a2a2a",
+              "on-secondary": "#581e00",
+              "on-error": "#690005",
+              "on-surface": "#e5e2e1",
+              "secondary-fixed": "#ffdbcd",
+              "secondary-container": "#fe6500",
+              "outline-variant": "#414754",
+              "on-primary-fixed": "#001a41",
+              "inverse-primary": "#005bc0",
+              "secondary-fixed-dim": "#ffb596",
+              "surface-tint": "#adc7ff",
+              "on-error-container": "#ffdad6",
+              "on-tertiary": "#303030",
+              "on-primary-container": "#00285b",
+              "inverse-surface": "#e5e2e1",
+              "on-primary-fixed-variant": "#004493",
+              "on-background": "#e5e2e1",
+              "background": "#131313",
+              "tertiary-fixed-dim": "#c8c6c5",
+              "primary-fixed": "#d8e2ff",
+              "primary-container": "#4a8eff",
+              "surface-container-highest": "#353534",
+              "surface-container-high": "#2a2a2a",
+              "surface-container-lowest": "#0e0e0e",
+              "on-secondary-fixed-variant": "#7c2e00",
+              "tertiary": "#c8c6c5",
+              "on-surface-variant": "#c1c6d7",
+              "error": "#ffb4ab",
+              "primary": "#adc7ff",
+              "on-secondary-container": "#541d00",
+              "secondary": "#ffb596"
+            },
+            fontFamily: {
+              "headline": ["Space Grotesk"],
+              "body": ["Inter"],
+              "label": ["Space Grotesk"]
+            },
+            borderRadius: {"DEFAULT": "0px", "lg": "0px", "xl": "0px", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            display: inline-block;
+            line-height: 1;
+            text-transform: none;
+            letter-spacing: normal;
+            word-wrap: normal;
+            white-space: nowrap;
+            direction: ltr;
+        }
+        body {
+            background-color: #131313;
+            color: #e5e2e1;
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-surface text-on-surface antialiased">
+<!-- TopAppBar -->
+<header class="fixed top-0 left-0 w-full z-50 flex justify-between items-center px-6 h-16 bg-[#131313] border-b border-[#414754]/20 flat no-shadows">
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-[#ADC7FF] cursor-pointer hover:bg-[#2A2A2A] transition-colors duration-150 p-2">menu</span>
+<h1 class="text-lg font-bold tracking-tighter text-[#ADC7FF] font-['Space_Grotesk'] uppercase">CNC_PRECISION</h1>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[#ADC7FF] cursor-pointer hover:bg-[#2A2A2A] transition-colors duration-150 p-2">shopping_cart</span>
+</div>
+</header>
+<main class="pt-16 pb-24">
+<!-- Hero Title -->
+<section class="px-6 pt-10 pb-6 bg-surface-container-lowest">
+<p class="font-label text-primary text-xs tracking-[0.2em] uppercase mb-2">Category / Motion Control</p>
+<h2 class="font-headline text-3xl font-bold tracking-tight text-on-surface uppercase mb-1">Linear Rails</h2>
+<p class="font-body text-outline text-sm leading-relaxed max-w-xs">High-precision hardened steel guide systems for industrial CNC assemblies.</p>
+</section>
+<!-- Sticky Filter Bar -->
+<nav class="sticky top-16 z-40 bg-surface-container border-b border-outline-variant/15 px-4 py-3 flex gap-2 overflow-x-auto no-scrollbar">
+<button class="flex items-center gap-2 px-4 py-2 bg-surface-container-high border border-outline-variant/30 text-xs font-label uppercase tracking-wider whitespace-nowrap">
+                Material <span class="material-symbols-outlined text-[16px]">expand_more</span>
+</button>
+<button class="flex items-center gap-2 px-4 py-2 bg-surface-container-high border border-outline-variant/30 text-xs font-label uppercase tracking-wider whitespace-nowrap">
+                Brand <span class="material-symbols-outlined text-[16px]">expand_more</span>
+</button>
+<button class="flex items-center gap-2 px-4 py-2 bg-surface-container-high border border-outline-variant/30 text-xs font-label uppercase tracking-wider whitespace-nowrap">
+                Length <span class="material-symbols-outlined text-[16px]">expand_more</span>
+</button>
+<button class="flex items-center gap-2 px-4 py-2 bg-surface-container-high border border-outline-variant/30 text-xs font-label uppercase tracking-wider whitespace-nowrap text-primary">
+<span class="material-symbols-outlined text-[16px]">tune</span> Filter
+            </button>
+</nav>
+<!-- Product List -->
+<section class="p-4 space-y-6">
+<!-- Product Card 1 -->
+<div class="bg-surface-container p-0 group border-l-2 border-transparent hover:border-primary transition-all duration-200">
+<div class="relative w-full aspect-video bg-surface-container-low overflow-hidden">
+<img alt="Linear Rail" class="w-full h-full object-cover opacity-80 group-hover:scale-105 transition-transform duration-500" data-alt="High precision stainless steel linear guide rail" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAdgcCsZ1D9QEBsrzYdbI2E3_2n1fExA0BkJCLD0cI3b9I-J8iy1N61Hkrmvt_wokx6QcVN5k6nOjEhc8HMGrJfbPFdqYLhp1lTdeItvhWz1sOA9fh3r8o2hcVdMfry0m7zS4NsEtua41Kab_pPpi1hj0ZBNvbA6DufKs4BfOR_1B9KNLIopZEKdQRv6gTzcNnqYdXRgpmP3SrBUNeuABh4MubF1NYu5iQE-0x0uY64CT6bPBVI5fa-pqfhaK1WFRf4UrjeYOULV2Y"/>
+<div class="absolute top-0 right-0 p-3">
+<span class="bg-primary-fixed text-on-primary-fixed text-[10px] font-label font-bold px-2 py-1 uppercase tracking-tighter">In-Stock</span>
+</div>
+<div class="absolute bottom-0 left-0 p-3 bg-surface/80 backdrop-blur-sm border-t border-r border-outline-variant/20">
+<span class="text-[10px] font-label text-outline uppercase tracking-widest">Part No. LR-HGR20-1000</span>
+</div>
+</div>
+<div class="p-5">
+<div class="flex justify-between items-start mb-4">
+<div>
+<h3 class="font-headline text-lg font-bold text-on-surface uppercase tracking-tight">HGR20 Series Guide Rail</h3>
+<p class="font-label text-[10px] text-outline uppercase tracking-[0.15em]">HIWIN Precision Engineering</p>
+</div>
+<div class="text-right">
+<p class="font-headline text-xl font-bold text-primary">$184.50</p>
+<p class="text-[10px] font-label text-outline uppercase">Excl. VAT</p>
+</div>
+</div>
+<!-- Technical Specs Preview -->
+<div class="grid grid-cols-2 gap-px bg-outline-variant/10 mb-6">
+<div class="bg-surface-container-high p-3">
+<p class="text-[9px] font-label text-outline uppercase tracking-wider mb-1">Length</p>
+<p class="text-xs font-body text-on-surface">1000mm</p>
+</div>
+<div class="bg-surface-container-high p-3">
+<p class="text-[9px] font-label text-outline uppercase tracking-wider mb-1">Load Rating</p>
+<p class="text-xs font-body text-on-surface">25.31 kN</p>
+</div>
+<div class="bg-surface-container-high p-3">
+<p class="text-[9px] font-label text-outline uppercase tracking-wider mb-1">Accuracy</p>
+<p class="text-xs font-body text-on-surface">Grade H (High)</p>
+</div>
+<div class="bg-surface-container-high p-3">
+<p class="text-[9px] font-label text-outline uppercase tracking-wider mb-1">Material</p>
+<p class="text-xs font-body text-on-surface">Carbon Steel</p>
+</div>
+</div>
+<button class="w-full bg-primary text-on-primary-container font-label font-bold uppercase tracking-[0.1em] py-4 text-sm flex justify-center items-center gap-2 active:scale-95 transition-all">
+<span class="material-symbols-outlined text-[20px]">request_quote</span>
+                        Add to RFQ Basket
+                    </button>
+</div>
+</div>
+<!-- Product Card 2 -->
+<div class="bg-surface-container p-0 group border-l-2 border-transparent hover:border-primary transition-all duration-200">
+<div class="relative w-full aspect-video bg-surface-container-low overflow-hidden">
+<img alt="Heavy Duty Rail" class="w-full h-full object-cover opacity-80 group-hover:scale-105 transition-transform duration-500" data-alt="Close up of mechanical engineering components" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAOpgPMq72o5TrNrgCs3wKN-LkbD9RhaS1D_z68Xve2HMk4nImzJR1CR77CQiaPL6atkNh8XaH0QJCAwx7JcXfalowmvtomF4mtTcvHviQ9OXfRpmrMk4nyi28kzWaOKicb-6r2oU47BVH0U-rsNlgklNYspu21jujYsDzB5TjWgazYLziB97hqjg2dTL6bBaCHVv0asgao0MB3ZO7feI58Uu4q5ibu7SxXJDOTGsBM8aLsarkPKi2YSRwLS9SUjI890X1oO_P13js"/>
+<div class="absolute top-0 right-0 p-3">
+<span class="bg-secondary-fixed-dim text-on-secondary-fixed text-[10px] font-label font-bold px-2 py-1 uppercase tracking-tighter">Backordered</span>
+</div>
+<div class="absolute bottom-0 left-0 p-3 bg-surface/80 backdrop-blur-sm border-t border-r border-outline-variant/20">
+<span class="text-[10px] font-label text-outline uppercase tracking-widest">Part No. LR-MGN12-0500</span>
+</div>
+</div>
+<div class="p-5">
+<div class="flex justify-between items-start mb-4">
+<div>
+<h3 class="font-headline text-lg font-bold text-on-surface uppercase tracking-tight">MGN12 Miniature Rail</h3>
+<p class="font-label text-[10px] text-outline uppercase tracking-[0.15em]">THK Motion Systems</p>
+</div>
+<div class="text-right">
+<p class="font-headline text-xl font-bold text-primary">$92.00</p>
+<p class="text-[10px] font-label text-outline uppercase">Excl. VAT</p>
+</div>
+</div>
+<!-- Technical Specs Preview -->
+<div class="grid grid-cols-2 gap-px bg-outline-variant/10 mb-6">
+<div class="bg-surface-container-high p-3">
+<p class="text-[9px] font-label text-outline uppercase tracking-wider mb-1">Length</p>
+<p class="text-xs font-body text-on-surface">500mm</p>
+</div>
+<div class="bg-surface-container-high p-3">
+<p class="text-[9px] font-label text-outline uppercase tracking-wider mb-1">Load Rating</p>
+<p class="text-xs font-body text-on-surface">3.82 kN</p>
+</div>
+<div class="bg-surface-container-high p-3">
+<p class="text-[9px] font-label text-outline uppercase tracking-wider mb-1">Accuracy</p>
+<p class="text-xs font-body text-on-surface">Grade P (Precision)</p>
+</div>
+<div class="bg-surface-container-high p-3">
+<p class="text-[9px] font-label text-outline uppercase tracking-wider mb-1">Material</p>
+<p class="text-xs font-body text-on-surface">Stainless Steel</p>
+</div>
+</div>
+<button class="w-full border border-primary text-primary font-label font-bold uppercase tracking-[0.1em] py-4 text-sm flex justify-center items-center gap-2 active:scale-95 transition-all">
+<span class="material-symbols-outlined text-[20px]">request_quote</span>
+                        Add to RFQ Basket
+                    </button>
+</div>
+</div>
+<!-- Product Card 3 -->
+<div class="bg-surface-container p-0 group border-l-2 border-transparent hover:border-primary transition-all duration-200">
+<div class="relative w-full aspect-video bg-surface-container-low overflow-hidden">
+<img alt="EGR Rail" class="w-full h-full object-cover opacity-80 group-hover:scale-105 transition-transform duration-500" data-alt="Technical drawing style machining part" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBsGMOhXOWkk6mNSXWQM9pDlQlbE1QacHKH6DvhmKC8YRbD6cce277HI7zl2uoJ7fBooXdWC_pYX0qTiMofk9z17m8zYehkl0lL1oKlRBc0ix8_UiesV3779bYntdI5KC4HsR0C1Er4x44_6v-X3NmipFbzDKatEMnoVO0UgfXFG9uuZW9XQybI1TYUlPjFL-7XXg6cuw3OBj4b7rRGs4tsvUykSGvYkquoqfTwq-GBxWNy9vLUtmDosyyIGdI_eyIY8-VNPlW00Pc"/>
+<div class="absolute top-0 right-0 p-3">
+<span class="bg-primary-fixed text-on-primary-fixed text-[10px] font-label font-bold px-2 py-1 uppercase tracking-tighter">In-Stock</span>
+</div>
+<div class="absolute bottom-0 left-0 p-3 bg-surface/80 backdrop-blur-sm border-t border-r border-outline-variant/20">
+<span class="text-[10px] font-label text-outline uppercase tracking-widest">Part No. LR-EGR15-1500</span>
+</div>
+</div>
+<div class="p-5">
+<div class="flex justify-between items-start mb-4">
+<div>
+<h3 class="font-headline text-lg font-bold text-on-surface uppercase tracking-tight">EGR15 Low Profile Rail</h3>
+<p class="font-label text-[10px] text-outline uppercase tracking-[0.15em]">PMI Industrial</p>
+</div>
+<div class="text-right">
+<p class="font-headline text-xl font-bold text-primary">$142.75</p>
+<p class="text-[10px] font-label text-outline uppercase">Excl. VAT</p>
+</div>
+</div>
+<!-- Technical Specs Preview -->
+<div class="grid grid-cols-2 gap-px bg-outline-variant/10 mb-6">
+<div class="bg-surface-container-high p-3">
+<p class="text-[9px] font-label text-outline uppercase tracking-wider mb-1">Length</p>
+<p class="text-xs font-body text-on-surface">1500mm</p>
+</div>
+<div class="bg-surface-container-high p-3">
+<p class="text-[9px] font-label text-outline uppercase tracking-wider mb-1">Load Rating</p>
+<p class="text-xs font-body text-on-surface">11.38 kN</p>
+</div>
+<div class="bg-surface-container-high p-3">
+<p class="text-[9px] font-label text-outline uppercase tracking-wider mb-1">Accuracy</p>
+<p class="text-xs font-body text-on-surface">Grade N (Normal)</p>
+</div>
+<div class="bg-surface-container-high p-3">
+<p class="text-[9px] font-label text-outline uppercase tracking-wider mb-1">Material</p>
+<p class="text-xs font-body text-on-surface">Hardened Steel</p>
+</div>
+</div>
+<button class="w-full bg-primary text-on-primary-container font-label font-bold uppercase tracking-[0.1em] py-4 text-sm flex justify-center items-center gap-2 active:scale-95 transition-all">
+<span class="material-symbols-outlined text-[20px]">request_quote</span>
+                        Add to RFQ Basket
+                    </button>
+</div>
+</div>
+</section>
+<!-- Technical Note -->
+<section class="px-6 py-8 border-t border-outline-variant/10">
+<div class="bg-surface-container-high p-6 border-l-4 border-secondary">
+<h4 class="font-headline text-sm font-bold text-secondary uppercase tracking-[0.2em] mb-2 flex items-center gap-2">
+<span class="material-symbols-outlined text-sm">warning</span> System Calibration
+                </h4>
+<p class="font-body text-xs text-outline leading-relaxed">
+                    All linear components are shipped in protective lubricant. System alignment must be verified within 0.02mm tolerance for high-speed machining applications. Consult the HIWIN technical manual for preload adjustments.
+                </p>
+</div>
+</section>
+</main>
+<!-- BottomNavBar -->
+<nav class="fixed bottom-0 left-0 w-full z-50 flex justify-around items-stretch h-20 overflow-hidden bg-[#0E0E0E] border-t border-[#414754]/15 flat no-shadows">
+<a class="flex flex-col items-center justify-center text-[#8B90A0] p-3 h-full w-full hover:bg-[#201F1F]" href="#">
+<span class="material-symbols-outlined">home</span>
+<span class="font-['Space_Grotesk'] text-[10px] font-medium uppercase tracking-tighter">Home</span>
+</a>
+<a class="flex flex-col items-center justify-center bg-[#ADC7FF] text-[#131313] p-3 h-full w-full 0px-radius" href="#">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">inventory_2</span>
+<span class="font-['Space_Grotesk'] text-[10px] font-medium uppercase tracking-tighter">Catalog</span>
+</a>
+<a class="flex flex-col items-center justify-center text-[#8B90A0] p-3 h-full w-full hover:bg-[#201F1F]" href="#">
+<span class="material-symbols-outlined">request_quote</span>
+<span class="font-['Space_Grotesk'] text-[10px] font-medium uppercase tracking-tighter">RFQ Basket</span>
+</a>
+<a class="flex flex-col items-center justify-center text-[#8B90A0] p-3 h-full w-full hover:bg-[#201F1F]" href="#">
+<span class="material-symbols-outlined">person</span>
+<span class="font-['Space_Grotesk'] text-[10px] font-medium uppercase tracking-tighter">Account</span>
+</a>
+</nav>
+</body></html>
