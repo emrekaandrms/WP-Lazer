@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Disallow: /wp-admin/
+Disallow: /wp-login.php
+Disallow: /my-account/
+Disallow: /orders/
+Disallow: /addresses/
+Disallow: /checkout/
+
+Sitemap: https://lazeronline.com.tr/sitemap.xml

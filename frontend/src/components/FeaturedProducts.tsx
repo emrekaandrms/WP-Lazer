@@ -2,30 +2,30 @@
 
 const timeline = [
   {
-    year: '1988',
-    title: 'FOUNDATION',
-    detail: 'Establishment of the precision workshop in Detroit. Focus on automotive tool-steel components.',
+    year: '10+',
+    title: 'SEKTÖR TECRÜBESİ',
+    detail: 'Alkan Günal önderliğinde oluşan saha bilgisi ürün seçimi ve tedarik yaklaşımımızın temelidir.',
     accent: 'primary',
     offset: false,
   },
   {
-    year: '2005',
-    title: 'ISO 9001 CERTIFICATION',
-    detail: 'Global standardization of quality management systems and expansion into linear motion technology.',
+    year: '01',
+    title: 'TEST SÜRECİ',
+    detail: 'Ürünler satışa çıkmadan önce performans, hassasiyet, ömür ve maliyet açısından değerlendirilir.',
     accent: 'primary',
     offset: true,
   },
   {
-    year: '2014',
-    title: 'CNC ECOSYSTEM LAUNCH',
-    detail: 'Launch of integrated control systems and smart-spindle monitoring software API.',
+    year: '02',
+    title: 'DOĞRUDAN İTHALAT',
+    detail: 'Kaliteli ve güvenilir yedek parçaları doğrudan ithalat modeliyle ulaşılabilir hale getiririz.',
     accent: 'primary',
     offset: false,
   },
   {
-    year: '2024',
-    title: 'NEXT-GEN AUTOMATION',
-    detail: 'Acquisition of AI-driven predictive maintenance patents for large-scale fabrication units.',
+    year: '7/24',
+    title: 'SAHA DESTEĞİ',
+    detail: 'Fiber lazer kesim makineleri için teknik destek ve doğru ürün yönlendirmesi sunarız.',
     accent: 'secondary',
     offset: true,
   },
@@ -36,7 +36,7 @@ export function FeaturedProducts() {
     <section className="py-24 bg-surface-container-lowest overflow-hidden">
       <div className="container mx-auto px-6">
         <div className="mb-20">
-          <h2 className="text-3xl font-headline font-bold uppercase tracking-widest text-on-surface">OPERATIONAL EVOLUTION</h2>
+          <h2 className="text-3xl font-headline font-bold uppercase tracking-widest text-on-surface">ÇALIŞMA MODELİ</h2>
           <div className="w-24 h-1 bg-primary mt-4"></div>
         </div>
         <div className="relative flex flex-col md:flex-row gap-12 md:gap-0">

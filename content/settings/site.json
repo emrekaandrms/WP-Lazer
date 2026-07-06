@@ -1,19 +1,15 @@
 {
-  "siteName": "Precision CNC",
-  "tagline": "High-Performance Industrial Components",
+  "siteName": "Lazer Online",
+  "siteUrl": "https://lazeronline.com.tr",
+  "tagline": "Lazer Kesim Sarf Malzemeleri",
   "contact": {
-    "email": "hq@industrial-ops.com",
-    "phone": "+1 800-CNC-OPS",
-    "address": "1200 Industrial Parkway, Suite 400, Detroit, MI 48201",
-    "hours": "Monday-Friday 08:00-18:00 EST"
-  },
-  "social": {
-    "linkedin": "https://linkedin.com/company/precision-cnc",
-    "twitter": "@PrecisionCNC",
-    "youtube": "https://youtube.com/@PrecisionCNC"
+    "email": "bilgi@lazeronline.com.tr",
+    "phone": "Bilgi eklenecek",
+    "address": "Bilgi eklenecek",
+    "hours": "Hafta içi mesai saatleri"
   },
   "footer": {
-    "copyright": "2026 Industrial Precision Ops. ISO 9001 Certified.",
+    "copyright": "2026 Lazer Online. Tüm hakları saklıdır.",
     "legalLinks": ["privacy", "terms", "kvkk"]
   }
 }

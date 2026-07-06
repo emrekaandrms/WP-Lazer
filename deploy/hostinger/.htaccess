@@ -1,0 +1,24 @@
+Options -Indexes
+DirectoryIndex index.html index.php
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+
+# Force WordPress REST routes through PHP so nested bridge endpoints stay JSON.
+RewriteRule ^wp-json/?$ index.php?rest_route=/ [QSA,L]
+RewriteRule ^wp-json/(.*)$ index.php?rest_route=/$1 [QSA,L]
+
+# Keep WordPress/WooCommerce internals handled by WordPress.
+RewriteRule ^(wp-admin|wp-content|wp-includes)(/.*)?$ - [L]
+RewriteRule ^(wp-login\.php|wp-cron\.php|xmlrpc\.php|index\.php)$ - [L]
+RewriteRule ^odeme(/.*)?$ index.php [L]
+
+# Serve the static export when a materialized file or directory exists.
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# Unknown routes fall back to the root router, which boots WordPress.
+RewriteRule ^ index.php [L]
+</IfModule>

@@ -1,0 +1,493 @@
+{
+  "generatedNote": "Bilgilendirici SEO rehberleri. Frontend (/rehber) ve sitemap üreticisi bu dosyayı ortak okur. Slug'lar URL'dir, değiştirmeyin.",
+  "guides": [
+    {
+      "slug": "fiber-lazer-koruma-cami-ne-zaman-degistirilir",
+      "title": "Fiber Lazer Koruma Camı Ne Zaman Değiştirilir?",
+      "metaTitle": "Fiber Lazer Koruma Camı Ne Zaman Değiştirilir? Belirtiler ve Bakım",
+      "metaDescription": "Fiber lazer koruma camı ne zaman değişmeli? Lekelenme, kesim kaybı ve hız düşüşü belirtileri, kontrol sıklığı ve cam ömrünü uzatma ipuçları.",
+      "keywords": ["fiber lazer koruma camı", "koruma camı ne zaman değişir", "lens koruma camı", "koruma camı belirtileri"],
+      "category": "koruma-camlari",
+      "updated": "2026-06-24",
+      "intro": "Koruma camı, kesim kafasındaki pahalı odak lensini sıçrayan metal, duman ve partiküllerden koruyan feda edilebilir (sarf) bir parçadır. Görevi gereği zamanla kirlenir; ne zaman değiştirileceğini doğru bilmek hem kesim kalitesini korur hem de çok daha pahalı olan odak lensini kurtarır.",
+      "sections": [
+        {
+          "heading": "Koruma camı tam olarak ne yapar?",
+          "body": [
+            "Tüm fiber lazer kafalarında nozul ile odak lensi arasında bir koruma camı bulunur. Bu cam, kesim sırasında oluşan kıvılcım ve partiküllerin lensin alt yüzeyine yapışmasını engeller. Cam kirlendiğinde ışın geçişi bozulur ve performans düşer; bu yüzden temiz tutulması kritiktir.",
+            "Koruma camı bir sarf malzemesidir: lekelenmeyi tamamen önlemek mümkün değildir, amaç camı zamanında değiştirerek arkasındaki lensi korumaktır."
+          ]
+        },
+        {
+          "heading": "Değiştirme zamanını gösteren belirtiler",
+          "body": [
+            "Performansa dayalı en net işaretler şunlardır: delme süresinin uzaması, kesim hızının düşmesi ve kenar kalitesinin bozulması. Bu belirtiler genelde camın kirlendiğini gösterir."
+          ],
+          "list": [
+            "Cam yüzeyinde lekelenme, çukurlaşma (pitting) veya yanık iz",
+            "Çizik, bulanıklık veya kaplama bozulması",
+            "Delme (piercing) süresinin uzaması",
+            "Kesim hızının düşmesi ve kenarda çapak/curuf artışı",
+            "Gözle görülür herhangi bir fiziksel hasar"
+          ]
+        },
+        {
+          "heading": "Ne sıklıkla kontrol ve değiştirmeli?",
+          "body": [
+            "Tek bir sabit aralık yoktur; çalışma süresine bağlıdır. Bazı atölyeler her gün, bazıları her cuma ya da yaklaşık 80 saatte bir değiştirir. En sağlıklı yöntem, her iş öncesi ve sonrası camı kontrol etmek ve makinenizin yüküne göre bir rutin oturtmaktır.",
+            "Eğer haftada birkaç kez cam değiştirmek zorunda kalıyorsanız bu normal değildir; altta yatan bir sebep (kafa hizasızlığı, kirlilik kaynağı, yanlış basınç) vardır ve araştırılmalıdır."
+          ]
+        },
+        {
+          "heading": "Beklemenin maliyeti",
+          "body": [
+            "Kirli camı geç değiştirmek, ışını saçarak odak noktasını bozar; bu da yavaş kesim, kötü kalite ve nihayetinde pahalı odak lensinin yanması demektir. Önleyici (proaktif) değişim, reaktif değişimden her zaman daha ucuzdur — cam patlayana kadar beklemeyin."
+          ]
+        }
+      ],
+      "faq": [
+        {"question": "Koruma camı ne sıklıkla değişir?", "answer": "Sabit bir süre yoktur; çalışma yoğunluğuna göre günlük, haftalık ya da ~80 saatte bir değişebilir. Kesim kalitesi düştüğünde veya camda leke/hasar görüldüğünde değiştirilir."},
+        {"question": "Camı sadece temizlesem yeterli olur mu?", "answer": "Yüzeysel kirlilikte temizlik işe yarar; ancak çukurlaşma, yanık iz veya kaplama hasarı varsa temizlik çözmez, cam değiştirilmelidir."},
+        {"question": "Camı sık değiştiriyorum, sebebi ne olabilir?", "answer": "Haftada birkaç kez değişim genelde kafa hizasızlığı, ortamdaki kirlilik kaynağı ya da yanlış gaz basıncına işaret eder; kök neden bulunmalıdır."}
+      ],
+      "relatedCategories": ["koruma-camlari"],
+      "relatedGuides": ["koruma-cami-olcusu-nasil-secilir", "koruma-cami-omru-nasil-uzatilir"]
+    },
+    {
+      "slug": "koruma-cami-olcusu-nasil-secilir",
+      "title": "Fiber Lazer Koruma Camı Ölçüsü Nasıl Seçilir?",
+      "metaTitle": "Koruma Camı Ölçüsü Nasıl Seçilir? Çap, Kalınlık ve Kaplama Rehberi",
+      "metaDescription": "Fiber lazer koruma camı seçimi: dış çap (D), kalınlık, kaplama (AR) ve kafa uyumu nasıl belirlenir? Precitec, Raytools ve diğer kafalar için ölçü rehberi.",
+      "keywords": ["koruma camı ölçüsü", "koruma camı çap kalınlık", "d28 koruma camı", "d30 koruma camı", "koruma camı seçimi"],
+      "category": "koruma-camlari",
+      "updated": "2026-06-24",
+      "intro": "Koruma camı seçerken en sık yapılan hata yanlış çap veya kalınlık almaktır. Doğru cam, kafanızın markası ve mevcut camın ölçüsüyle belirlenir. Bu rehberde dış çap (D), kalınlık (d) ve kaplama değerlerini nasıl okuyacağınızı anlatıyoruz.",
+      "sections": [
+        {
+          "heading": "Dış çap ve kalınlık nasıl okunur?",
+          "body": [
+            "Ürün adlarındaki D ve d kısaltmaları ölçüyü verir: örneğin “D22.35 d4” ifadesi 22,35 mm dış çap ve 4 mm kalınlık demektir. Doğru parçayı bulmak için kafanızdaki mevcut camın çapını ve kalınlığını ölçün ya da kafa marka-modelini esas alın.",
+            "Yanlış kalınlık, camın yuvasına tam oturmamasına ve sızdırmaya; yanlış çap ise hiç takılamamaya yol açar."
+          ]
+        },
+        {
+          "heading": "Kaplama ve ışın iletimi neden önemli?",
+          "body": [
+            "Kaliteli koruma camları, 1064–1080 nm fiber lazer dalga boyunda yansımayı azaltan AR (anti-reflective) kaplamaya sahiptir. Japon ham maddeden üretilen camlar %99 üzerinde ışın iletimi sunarak güç kaybını en aza indirir.",
+            "Yüksek güçte (örn. 12–20 kW) çalışıyorsanız, hem kalınlık hem de kaplama dayanımı (yansıma yüzeyi, J/cm²) önem kazanır."
+          ]
+        },
+        {
+          "heading": "Kafa uyumu",
+          "body": [
+            "Aynı görünen camlar farklı kafalarda farklı yuvalara oturabilir. Kataloğumuzdaki koruma camları Precitec, Raytools, Bystronic, Nukon/HighYag, WSX ve Boci kafalarıyla uyumlu olarak gruplanmıştır. Emin değilseniz kafa modelini paylaşın, doğru camı birlikte belirleyelim."
+          ]
+        }
+      ],
+      "faq": [
+        {"question": "Camın ölçüsünü nereden öğrenirim?", "answer": "Mevcut camı çıkarıp kumpasla dış çap ve kalınlığını ölçebilir ya da kafanızın marka-modelini esas alabilirsiniz. Ürün adlarındaki D (dış çap) ve d (kalınlık) değerleri eşleşmelidir."},
+        {"question": "Daha kalın cam daha mı dayanıklı?", "answer": "Kalınlık yuvaya uymak zorundadır; keyfi olarak değiştirilemez. Dayanım daha çok kaplama kalitesi ve ham maddeyle ilgilidir."},
+        {"question": "Kaplama farkı kesimi etkiler mi?", "answer": "Evet. Düşük iletimli/kaplamasız cam güç kaybına ve ısınmaya yol açar; AR kaplamalı, yüksek iletimli cam daha kararlı kesim verir."}
+      ],
+      "relatedCategories": ["koruma-camlari", "lazer-kaynak"],
+      "relatedGuides": ["fiber-lazer-koruma-cami-ne-zaman-degistirilir", "precitec-raytools-bystronic-uyumlu-sarf-rehberi"]
+    },
+    {
+      "slug": "lazer-kesim-nozulu-nasil-secilir-single-double",
+      "title": "Lazer Kesim Nozulu Nasıl Seçilir? Single mı, Double mı?",
+      "metaTitle": "Lazer Kesim Nozulu Nasıl Seçilir? Single ve Double Nozul Farkı",
+      "metaDescription": "Single (tek katmanlı) ve double (çift katmanlı) lazer kesim nozulu farkı, hangi malzeme ve gazda hangisi kullanılır? Fiber lazer nozul seçim rehberi.",
+      "keywords": ["lazer kesim nozulu", "single nozul", "double nozul", "nozul seçimi", "fiber lazer nozul"],
+      "category": "nozullar",
+      "updated": "2026-06-24",
+      "intro": "Nozul, lazer ışınını ve kesim gazını saca yönlendirir; kesim genişliğini ve kenar kalitesini doğrudan belirler. En temel seçim, single (tek katmanlı) ile double (çift katmanlı) nozul arasındadır ve bu seçim büyük ölçüde malzeme ve kullanılan gaza bağlıdır.",
+      "sections": [
+        {
+          "heading": "Single (tek katmanlı) nozul",
+          "body": [
+            "Tek merkezi delikten yüksek basınçlı inert gaz (çoğunlukla azot) püskürten nozullardır. Paslanmaz çelik, alüminyum, bakır ve pirinç gibi malzemelerde, oksitlenmesiz ve temiz kenar elde etmek için kullanılır. İnce-orta sac kesiminde tercih edilir."
+          ]
+        },
+        {
+          "heading": "Double (çift katmanlı) nozul",
+          "body": [
+            "Merkezi deliğin etrafında ikinci bir gaz halkası bulunur. Oksijen ile yapılan oksitlenme kesimi için tasarlanmıştır; gaz akışını hızlandırarak erimiş metali hızla uzaklaştırır. Karbon (siyah) çelikte çapak ve curufu azaltır, daha kalın/hızlı kesime uygundur."
+          ]
+        },
+        {
+          "heading": "Pratik kural",
+          "body": [
+            "Paslanmaz, alüminyum, bakır + azot/hava → single nozul; karbon çelik + oksijen → double nozul. Yüksek güçlerde (6 kW ve üzeri) E-tip ve Beam gibi özel nozul tipleri de devreye girer.",
+            "Markalar arası tolerans farklı olduğundan, makinenizin önerdiği nozul tipini esas almak en güvenlisidir. Kataloğumuzdaki nozullar Precitec, Raytools ve Ospri kafalarıyla uyumludur."
+          ]
+        }
+      ],
+      "faq": [
+        {"question": "Paslanmaz çelikte hangi nozul?", "answer": "Paslanmaz ve alüminyumda genelde azotla single (tek katmanlı) nozul kullanılır; temiz, oksitsiz kenar verir."},
+        {"question": "Karbon çelikte hangi nozul?", "answer": "Karbon çelikte oksijenle double (çift katmanlı) nozul önerilir; daha hızlı keser ve curufu azaltır."},
+        {"question": "Fast cut nozul nedir?", "answer": "Gaz akışını ve tahliyeyi optimize ederek özellikle belirli sac kalınlıklarında daha yüksek kesim hızı hedefleyen bir nozul tipidir."}
+      ],
+      "relatedCategories": ["nozullar"],
+      "relatedGuides": ["nozul-capi-sac-kalinligi", "kesim-gazi-azot-mu-oksijen-mi"]
+    },
+    {
+      "slug": "nozul-capi-sac-kalinligi",
+      "title": "Nozul Çapı ile Sac Kalınlığı İlişkisi",
+      "metaTitle": "Lazer Nozul Çapı ile Sac Kalınlığı: Doğru Çap Nasıl Seçilir?",
+      "metaDescription": "Lazer kesim nozul çapı sac kalınlığına göre nasıl seçilir? İnce ve kalın sacta çap seçimi, gaz hızı ve kesim kalitesine etkisi.",
+      "keywords": ["nozul çapı", "nozul çapı sac kalınlığı", "lazer nozul ölçüsü", "nozul seçimi kalınlık"],
+      "category": "nozullar",
+      "updated": "2026-06-24",
+      "intro": "Nozul tipini (single/double) belirledikten sonra ikinci karar çaptır. Çap, gaz akışının hızını ve erimiş metali uzaklaştırma gücünü belirler; sac kalınlığına göre seçilmelidir.",
+      "sections": [
+        {
+          "heading": "Küçük çap mı, büyük çap mı?",
+          "body": [
+            "Küçük çaplı nozul, gazı dar ve yüksek hızlı bir jet halinde verir; erimiş metali güçlü temizler ve ince sacta hassas, dar kesim sağlar. Büyük çaplı nozul ise daha yavaş ama yüksek hacimli gaz akışı verir, kalın plaka kesimine uygundur."
+          ]
+        },
+        {
+          "heading": "Kalınlığa göre genel aralıklar",
+          "body": [
+            "Genel bir başlangıç noktası olarak: 3 mm’ye kadar ince saclarda 1,0–2,0 mm; 4–8 mm orta kalınlıkta 1,5–3,0 mm çap yaygın kullanılır. Kesin değerler makineye, güce ve gaza göre değişir."
+          ],
+          "list": [
+            "İnce sac (≤3 mm): küçük çap, yüksek gaz hızı, dar kesim ve düşük ısı etkisi",
+            "Orta sac (4–8 mm): orta çap",
+            "Kalın plaka: büyük çap, yüksek gaz hacmi"
+          ]
+        },
+        {
+          "heading": "Aşırı büyük çapın riski",
+          "body": [
+            "Gereğinden büyük çap, gazı çabuk dağıtarak vurma kuvvetini ve curuf temizleme gücünü azaltır; ayrıca gaz tüketimini ve maliyeti yükseltir, kesim genişliğini (kerf) artırır. Çap büyütmeden önce nozulun temiz, deforme olmamış ve merkezlenmiş olduğundan emin olun."
+          ]
+        }
+      ],
+      "faq": [
+        {"question": "İnce sacta neden küçük çap?", "answer": "Küçük çap, yüksek hızlı gaz jeti üreterek dar kesim, düşük ısı etkisi ve hızlı kesim sağlar; ince sac için idealdir."},
+        {"question": "Curuf temizlenmiyorsa ne yapmalı?", "answer": "Önce nozulun temiz, deforme olmamış ve merkezlenmiş olduğunu doğrulayın; sorun sürerse çapı kademeli olarak bir boy büyütün."},
+        {"question": "Tek çapla tüm kalınlıklar kesilir mi?", "answer": "Verim düşer. Doğrusu kalınlığa göre çap değiştirmektir; yanlış çap hız, kalite ve gaz maliyetini olumsuz etkiler."}
+      ],
+      "relatedCategories": ["nozullar"],
+      "relatedGuides": ["lazer-kesim-nozulu-nasil-secilir-single-double", "kesim-gazi-azot-mu-oksijen-mi"]
+    },
+    {
+      "slug": "lazer-kesim-seramigi-ne-ise-yarar",
+      "title": "Lazer Kesim Seramiği (Nozzle Holder) Ne İşe Yarar, Ne Zaman Değişir?",
+      "metaTitle": "Lazer Kesim Seramiği Ne İşe Yarar? Görevi ve Değişim Zamanı",
+      "metaDescription": "Lazer kesim seramiği (nozzle holder) görevi: nozulu taşır, kafayı yalıtır ve kapasitif yükseklik sensörünü besler. Ne zaman değişmeli ve nasıl seçilir?",
+      "keywords": ["lazer kesim seramiği", "nozzle holder", "seramik tutucu", "kt b2 seramik", "seramik ne işe yarar"],
+      "category": "seramikler",
+      "updated": "2026-06-24",
+      "intro": "Seramik tutucu (nozzle holder), küçük ama kritik bir sarf parçasıdır. Nozulu taşır, kesim kafasını elektriksel olarak yalıtır ve kapasitif yükseklik sensörünün doğru çalışmasını sağlar. Çatlak bir seramik, çoğu zaman fark edilmeyen sinyal ve mesafe hatalarının baş sebebidir.",
+      "sections": [
+        {
+          "heading": "Seramiğin üç temel görevi",
+          "body": [
+            "Birincisi elektriksel yalıtım: seramik, yüklü nozul ile topraklanmış kafa gövdesi arasındaki kısa devreyi önler. İkincisi kapasitif yükseklik algılama: seramik, kafanın saca olan mesafesini ölçen kapasitif sensörün bir parçasını oluşturur. Üçüncüsü ise nozul için kararlı, titreşimsiz bir platform sağlamaktır."
+          ]
+        },
+        {
+          "heading": "Kapasitif sensör nasıl çalışır?",
+          "body": [
+            "Sistem kamera veya lazer mesafe ölçer değil, kapasitans kullanır. Bu sayede nozul, hızla hareket eden ve hafif bombeli bir sac yüzeyinin örneğin 1 mm üzerinde sabit “yüzebilir”. Seramik bu sinyalin temiz iletilmesini sağlar."
+          ]
+        },
+        {
+          "heading": "Ne zaman değişmeli?",
+          "body": [
+            "Çatlak, kırık, yanık iz veya sinyal/mesafe hataları görüldüğünde değiştirilmelidir. Özellikle çarpma sonrası seramik mutlaka kontrol edilmelidir; gözle görülmeyen ince bir çatlak bile sinyali bozabilir."
+          ]
+        }
+      ],
+      "faq": [
+        {"question": "Seramik sadece nozulu mu tutar?", "answer": "Hayır. Nozulu taşımanın yanı sıra kafayı elektriksel olarak yalıtır ve kapasitif yükseklik sensörünün bir parçasını oluşturur."},
+        {"question": "Seramik çatlağı nasıl anlaşılır?", "answer": "Bazen gözle görülür, bazen görülmez. Aniden başlayan yükseklik/sensör hataları ve kararsız mesafe takibi çoğu zaman çatlak seramiğe işaret eder."},
+        {"question": "KT B2 seramik nedir?", "answer": "Yaygın Precitec ve eşdeğeri kafalarda kullanılan bir seramik tipidir; katalogda her ürünün uyumlu marka-modeli belirtilir."}
+      ],
+      "relatedCategories": ["seramikler"],
+      "relatedGuides": ["kesim-kafasi-yukseklik-sensor-hatasi", "precitec-raytools-bystronic-uyumlu-sarf-rehberi"]
+    },
+    {
+      "slug": "kesim-kafasi-yukseklik-sensor-hatasi",
+      "title": "Kesim Kafası Yükseklik / Sensör Hatası: Çoğu Zaman Seramik",
+      "metaTitle": "Lazer Kesim Kafası Yükseklik/Sensör Hatası: Sebep Çoğu Zaman Seramik",
+      "metaDescription": "Lazer kesim kafasında kapasitif yükseklik/sensör alarmı mı veriyor? Çoğu durumda sebep çatlak seramiktir. Kontrol adımları ve çözüm rehberi.",
+      "keywords": ["kapasitif sensör hatası", "yükseklik sensörü alarmı", "kesim kafası sensör", "seramik çatlağı", "raytools sensör hatası"],
+      "category": "seramikler",
+      "updated": "2026-06-24",
+      "intro": "Kesim kafanız aniden yükseklik/kapasitif sensör alarmı veriyor, mesafe takibi kararsızlaştıysa ilk şüpheli neredeyse her zaman seramiktir. Sektör deneyimine göre bu alarmların büyük çoğunluğunun arkasında hasarlı bir seramik yatar.",
+      "sections": [
+        {
+          "heading": "Neden önce seramiğe bakılır?",
+          "body": [
+            "Seramik kapasitif sensörün bir parçasını oluşturduğu için, üzerindeki ince bir çatlak veya kirlilik sinyali bozar. Bu da arklanma (kıvılcımlanma), kararsız mesafe algısı ve sonuçta kötü kesim ya da kafa çarpması demektir.",
+            "Sektörde bu alarmların yaklaşık %80’inde sebep seramiktir; bu yüzden ilk kontrol noktası seramiktir."
+          ]
+        },
+        {
+          "heading": "Adım adım kontrol",
+          "body": ["Sensör alarmıyla karşılaştığınızda şu sırayı izleyin:"],
+          "list": [
+            "Seramiği sökün, gözle ve dokunarak çatlak/kırık/yanık kontrol edin (ince çatlaklar görülmeyebilir)",
+            "Seramiğin ve temas yüzeylerinin temiz ve kuru olduğundan emin olun (nem/curuf sinyali bozar)",
+            "Nozulun sıkı ve doğru oturduğunu, seramiğe tam temas ettiğini doğrulayın",
+            "Şüpheliyse seramiği yenisiyle değiştirip tekrar deneyin",
+            "Sorun sürerse kablo/konnektör ve sensör kartına bakın"
+          ]
+        },
+        {
+          "heading": "Çarpma sonrası",
+          "body": [
+            "Kafa saca çarptıysa seramikte gözle görülmeyen çatlak oluşmuş olabilir. Çarpma sonrası alarm alıyorsanız seramiği doğrudan değiştirmek en hızlı çözümdür."
+          ]
+        }
+      ],
+      "faq": [
+        {"question": "Sensör alarmının en yaygın sebebi nedir?", "answer": "Çoğu durumda hasarlı veya çatlak seramiktir; kapasitif sensörün bir parçası olduğu için sinyali bozar."},
+        {"question": "Seramik sağlam görünüyor ama alarm sürüyor?", "answer": "İnce çatlaklar gözle görülmeyebilir. Temizlik ve nozul oturmasını kontrol edin; çözülmezse seramiği değiştirip kablo/sensör kartına bakın."},
+        {"question": "Çarpma sonrası ne yapmalı?", "answer": "Görünür hasar olmasa bile seramikte mikro çatlak olabilir; çarpma sonrası seramiği değiştirmek en güvenli yoldur."}
+      ],
+      "relatedCategories": ["seramikler"],
+      "relatedGuides": ["lazer-kesim-seramigi-ne-ise-yarar", "lazer-kesim-kalitesi-dustugunde-kontrol-listesi"]
+    },
+    {
+      "slug": "kesim-gazi-azot-mu-oksijen-mi",
+      "title": "Kesim Gazı: Azot mu, Oksijen mi?",
+      "metaTitle": "Lazer Kesim Gazı: Azot mu Oksijen mi? (Paslanmaz vs Karbon Çelik)",
+      "metaDescription": "Fiber lazer kesimde azot mu oksijen mi kullanılır? Paslanmaz çelik, karbon çelik ve alüminyum için doğru kesim gazı seçimi, kenar kalitesi ve maliyet.",
+      "keywords": ["lazer kesim gazı", "azot mu oksijen mi", "kesim gazı seçimi", "paslanmaz kesim gazı", "karbon çelik kesim gazı"],
+      "category": "nozullar",
+      "updated": "2026-06-24",
+      "intro": "Kesim gazı seçimi hem kenar kalitesini hem de maliyeti doğrudan etkiler ve nozul tipiyle birlikte düşünülmelidir. Azot ve oksijen tamamen farklı çalışır; doğru seçim malzemeye ve kenardan beklentinize göre yapılır.",
+      "sections": [
+        {
+          "heading": "Azot ve oksijen nasıl farklı çalışır?",
+          "body": [
+            "Oksijen aktif bir gazdır: sıcak çelikle ekzotermik (ısı veren) reaksiyona girer, ek enerji üretir ve kesimi hızlandırır; ancak kenarda oksit (kararmış) tabaka bırakır. Azot ise reaksiyona girmez; yüksek basınçla erimiş metali mekanik olarak uzaklaştırır ve kenarı oksitlenmeden, temiz bırakır."
+          ]
+        },
+        {
+          "heading": "Malzemeye göre seçim",
+          "body": ["Pratik kural malzeme ve kenar beklentisine dayanır:"],
+          "list": [
+            "Paslanmaz çelik → Azot: temiz, oksitsiz, kaynağa hazır kenar (single nozul ile)",
+            "Karbon (siyah) çelik, kalın/yapısal → Oksijen: daha hızlı ve ucuz gaz (double nozul ile)",
+            "Boya/kaplama yapılacak karbon çelik → Azot: oksit tabakası olmadığından boya/kaplama tutar",
+            "Alüminyum, bakır, pirinç → Azot (yüksek basınç)",
+            "İnce sac, bütçe → Basınçlı hava: en ucuz ama kenar biraz daha kaba/oksitli"
+          ]
+        },
+        {
+          "heading": "Maliyet inceliği",
+          "body": [
+            "Azot en pahalı gazdır ve tüketimi çok yüksek olabilir; oksijenin gaz maliyeti düşüktür ama bıraktığı oksit tabakası kaynak/boya öncesi temizlik (ek işçilik) gerektirebilir. Yani “gaz başına maliyet” ile “parça başına maliyet” farklıdır; kararı sadece gaz fiyatına göre değil, sonraki işlemlere göre verin."
+          ]
+        }
+      ],
+      "faq": [
+        {"question": "Paslanmazda neden azot?", "answer": "Azot oksitlenmeyi önler ve temiz, kaynağa hazır kenar verir; bu yüzden paslanmaz ve alüminyumda standart seçimdir."},
+        {"question": "Karbon çelikte oksijen mi her zaman?", "answer": "Geleneksel olarak evet, hız ve düşük gaz maliyeti için. Ancak kenar boyanacak/kaplanacaksa, yüksek güçte azotla da kesilerek oksitsiz kenar elde edilebilir."},
+        {"question": "Gaz seçimi nozulu etkiler mi?", "answer": "Evet. Azot genelde single nozulla, oksijen double nozulla kullanılır; gaz ve nozul birlikte seçilmelidir."}
+      ],
+      "relatedCategories": ["nozullar"],
+      "relatedGuides": ["lazer-kesim-nozulu-nasil-secilir-single-double", "nozul-capi-sac-kalinligi"]
+    },
+    {
+      "slug": "odak-ve-kolimator-lens-rehberi",
+      "title": "Fiber Lazer Odak ve Kolimatör Lens Rehberi",
+      "metaTitle": "Fiber Lazer Odak ve Kolimatör Lens Rehberi: F Değeri Nedir?",
+      "metaDescription": "Fiber lazer odak (focus) ve kolimatör lens farkı, F (odak uzaklığı) değeri ne anlama gelir, lens nasıl seçilir ve ne zaman değişir? Optik sarf rehberi.",
+      "keywords": ["fiber lazer lens", "odak lensi", "kolimatör lens", "f değeri", "focus lens", "lazer optik"],
+      "category": "lensler",
+      "updated": "2026-06-24",
+      "intro": "Kolimatör ve odak lensleri, fiber lazer ışınını şekillendiren yüksek hassasiyetli optik parçalardır. Lensin durumu ve odak uzaklığı (F değeri), kesim/kaynak kalitesini ve güç verimini doğrudan belirler.",
+      "sections": [
+        {
+          "heading": "Kolimatör ve odak lensi farkı",
+          "body": [
+            "Kolimatör lens, fiberden gelen ışını paralelleştirir (kolime eder). Odak lensi ise bu paralel ışını kesim ya da kaynak noktasında küçük bir noktaya odaklar. İkisi birlikte çalışır ve birbirini tamamlar."
+          ]
+        },
+        {
+          "heading": "F (odak uzaklığı) değeri ne anlama gelir?",
+          "body": [
+            "F değeri lensin odak uzaklığıdır (örn. F100, F125, F150). Daha kısa odak uzaklığı daha küçük odak noktası ve dar kerf verir (ince sac/hassas iş için); daha uzun odak uzaklığı daha derin odak ve kalın malzemede avantaj sağlar. Doğru seçim, kafanızın orijinal F değerini esas almaktır."
+          ]
+        },
+        {
+          "heading": "Lens ne zaman temizlenir veya değişir?",
+          "body": [
+            "Yüzeyde leke veya hafif kirlilik varsa uygun yöntemle temizlenir. Kaplama yanmış, çizilmiş ya da güç kaybı/odak kayması başlamışsa lens değiştirilmelidir. Kirli lens, odak noktasını bozarak hem kaliteyi düşürür hem de daha fazla ısınıp kendini hızla tüketir."
+          ]
+        }
+      ],
+      "faq": [
+        {"question": "F100 ile F150 arasındaki fark nedir?", "answer": "F, odak uzaklığıdır. Kısa F (F100) daha küçük odak noktası ve dar kesim; uzun F (F150) daha derin odak verir. Kafanızın orijinal F değerini kullanın."},
+        {"question": "Lensi kendim temizleyebilir miyim?", "answer": "Hafif kirlilik için evet, uygun optik temizlik malzemeleriyle. Ancak kaplama hasarı veya yanık varsa temizlik çözmez, lens değişir."},
+        {"question": "Kolimatör lens mi odak lensi mi bozulur?", "answer": "İkisi de kirlenip hasar görebilir. Odak noktasındaki kaymalar ve güç kaybı her ikisinde de kontrolü gerektirir."}
+      ],
+      "relatedCategories": ["lensler", "koruma-camlari"],
+      "relatedGuides": ["fiber-lazer-koruma-cami-ne-zaman-degistirilir", "precitec-raytools-bystronic-uyumlu-sarf-rehberi"]
+    },
+    {
+      "slug": "precitec-raytools-bystronic-uyumlu-sarf-rehberi",
+      "title": "Precitec, Raytools, Bystronic Uyumlu Sarf Rehberi: Hangi Parça Hangi Kafaya?",
+      "metaTitle": "Precitec, Raytools, Bystronic Uyumlu Sarf Malzemeleri Rehberi",
+      "metaDescription": "Precitec, Raytools, Bystronic, Nukon/HighYag, WSX ve Boci kafaları için koruma camı, seramik, nozul ve lens uyumu. Hangi sarf hangi kesim kafasına uyar?",
+      "keywords": ["precitec uyumlu sarf", "raytools uyumlu sarf", "bystronic sarf", "lazer kafası uyumlu parça", "fiber lazer sarf marka"],
+      "category": "koruma-camlari",
+      "updated": "2026-06-24",
+      "intro": "Aynı görünen sarf parçaları farklı kesim kafalarında farklı yuvalara oturur. Doğru parçayı bulmanın en güvenli yolu, kafanızın marka-modelini ve mevcut parçanın ölçüsünü esas almaktır. Bu rehber, kataloğumuzdaki uyumluluğu özetler.",
+      "sections": [
+        {
+          "heading": "Marka uyumu neden önemli?",
+          "body": [
+            "Koruma camı çap/kalınlığı, seramik diş ve ölçüsü, nozul bağlantısı kafaya göre değişir. Yanlış marka/ölçü, parçanın oturmamasına ya da sensör ve sızdırmazlık sorunlarına yol açar. Bu yüzden her ürünü uyumlu olduğu markalarla etiketliyoruz."
+          ]
+        },
+        {
+          "heading": "Kataloğumuzdaki başlıca uyumluluklar",
+          "body": ["Stoğumuzdaki sarf grupları şu kafalarla uyumlu olarak gruplanmıştır:"],
+          "list": [
+            "Koruma camları: Precitec, Raytools, Bystronic, Nukon/HighYag, WSX, Boci",
+            "Seramikler (KT B2 ve eşdeğeri): Precitec, Raytools, Nukon/HighYag, Bystronic, Boci",
+            "Nozullar (single/double/fast cut): Precitec, Raytools, Ospri",
+            "Lens ve tutucular: Precitec ve eşdeğeri kafalar"
+          ]
+        },
+        {
+          "heading": "Doğru parçayı bulmanın yolu",
+          "body": [
+            "1) Kafanızın marka ve modelini öğrenin. 2) Mevcut parçanın ölçüsünü (cam için D/d, seramik için diş/çap) not edin. 3) Kataloğda uyan ürünü seçin; emin değilseniz SKU veya kafa modelini paylaşın, birlikte belirleyelim."
+          ]
+        }
+      ],
+      "faq": [
+        {"question": "Markamı bilmiyorsam ne yaparım?", "answer": "Mevcut parçanın ölçüsünü (cam D/d, seramik diş/çap) paylaşın; ölçü ve diş tipinden uygun parçayı bulabiliriz."},
+        {"question": "Orijinal yerine alternatif kullanılır mı?", "answer": "Ölçü ve dişi uyan kaliteli alternatifler maliyet avantajı sağlar ve kararlı çalışır; uyumdan emin olmak için marka-model yeterli."},
+        {"question": "Aynı cam farklı kafalara uyar mı?", "answer": "Bazen evet, ölçü aynıysa; ama yuva ve sızdırmazlık farkları olabilir. Marka/ölçü eşleşmesini doğrulamak en güvenlisidir."}
+      ],
+      "relatedCategories": ["koruma-camlari", "seramikler", "nozullar", "lensler"],
+      "relatedGuides": ["koruma-cami-olcusu-nasil-secilir", "lazer-kesim-seramigi-ne-ise-yarar"]
+    },
+    {
+      "slug": "lazer-kaynak-makinesi-sarf-rehberi",
+      "title": "Lazer Kaynak Makinesi Sarf Malzemeleri Rehberi",
+      "metaTitle": "Lazer Kaynak Makinesi Sarf Malzemeleri: Koruma Camı, Lens ve Nozul",
+      "metaDescription": "El tipi ve robotik fiber lazer kaynak makineleri için sarf malzemeleri: koruma camı, odak lensi, nozul ve temizlik. Hangi sarf ne zaman değişir?",
+      "keywords": ["lazer kaynak sarf", "lazer kaynak koruma camı", "el tipi lazer kaynak sarf", "lazer kaynak nozul", "kaynak lens"],
+      "category": "lazer-kaynak",
+      "updated": "2026-06-24",
+      "intro": "Fiber lazer kaynak makineleri de tıpkı kesim sistemleri gibi düzenli değişen sarf malzemelerine ihtiyaç duyar. Doğru sarf seçimi sıçrantıyı azaltır ve kararlı, temiz kaynak sağlar.",
+      "sections": [
+        {
+          "heading": "Kaynakta hangi sarflar değişir?",
+          "body": [
+            "En sık değişen parça koruma camıdır; çünkü kaynak sırasında oluşan sıçrantı ve duman lensi korumak için camı yıpratır. Ayrıca odak lensi, kaynak nozulu ve optik temizlik malzemeleri düzenli olarak yenilenir."
+          ]
+        },
+        {
+          "heading": "Kaynak koruma camı kesim camından farklı mı?",
+          "body": [
+            "Ölçü ve kaplama farklılıkları olabilir. En doğrusu, kaynak kafanızın orijinal cam ölçüsünü (örn. D18 d2, D20 d3, D30 d2) esas almaktır. Kataloğumuzda el tipi ve robotik kaynak kafalarıyla uyumlu çeşitli koruma camı ölçüleri bulunur."
+          ]
+        },
+        {
+          "heading": "El tipi (handheld) kaynak için",
+          "body": [
+            "Yaygın el tipi lazer kaynak kafalarıyla uyumlu koruma camı, nozul ve lens sarflarını stoktan sunuyoruz. Kaynak kafanızın marka-modelini ya da mevcut cam ölçüsünü paylaşırsanız, uyumlu ürünleri hızla belirleyebiliriz."
+          ]
+        }
+      ],
+      "faq": [
+        {"question": "Kaynakta en sık hangi sarf değişir?", "answer": "Koruma camı. Sıçrantı ve duman lensi koruyan camı yıprattığı için en sık yenilenen parçadır."},
+        {"question": "Kesim koruma camını kaynakta kullanabilir miyim?", "answer": "Ölçü ve kaplama uyuyorsa mümkün olabilir, ama kaynak kafanızın orijinal ölçüsünü esas almak en güvenlisidir."},
+        {"question": "El tipi kaynak için sarf var mı?", "answer": "Evet, yaygın el tipi kaynak kafalarıyla uyumlu koruma camı, nozul ve lens sarflarını stoktan sunuyoruz."}
+      ],
+      "relatedCategories": ["lazer-kaynak", "koruma-camlari"],
+      "relatedGuides": ["fiber-lazer-koruma-cami-ne-zaman-degistirilir", "odak-ve-kolimator-lens-rehberi"]
+    },
+    {
+      "slug": "lazer-kesim-kalitesi-dustugunde-kontrol-listesi",
+      "title": "Lazer Kesim Kalitesi Düştüğünde: Sarf Odaklı Kontrol Listesi",
+      "metaTitle": "Lazer Kesim Kalitesi Düştü mü? Sarf Odaklı Kontrol Listesi",
+      "metaDescription": "Lazer kesim kalitesi düştü, çapak ve curuf arttıysa önce sarf parçalarını kontrol edin: koruma camı, nozul, seramik ve lens için adım adım kontrol listesi.",
+      "keywords": ["lazer kesim kalitesi", "çapak curuf sorunu", "kesim kalitesi düştü", "lazer kesim sorun giderme", "kesim kalitesi kontrol"],
+      "category": "koruma-camlari",
+      "updated": "2026-06-24",
+      "intro": "Kesim kalitesi düştüğünde, hız azaldığında ya da çapak/curuf arttığında sorun çoğu zaman pahalı bir arıza değil, yıpranmış bir sarf parçasıdır. Servisi aramadan önce şu sarf odaklı kontrol listesini geçin.",
+      "sections": [
+        {
+          "heading": "Sırayla kontrol edin",
+          "body": ["Aşağıdaki adımlar, en sık görülen ve en kolay çözülen sebeplerden başlar:"],
+          "list": [
+            "Koruma camı: lekelenme, çukurlaşma veya yanık var mı? Şüpheliyse değiştirin",
+            "Nozul: ağzı deforme mi, sıçrantı yapışmış mı, merkezlenmiş mi? Gerekirse değiştirin",
+            "Nozul tipi/çapı: malzeme ve kalınlığa uygun mu (single/double, doğru çap)?",
+            "Seramik: çatlak/kırık var mı, sensör hatası geliyor mu?",
+            "Odak lensi: kirlilik, yanık veya odak kayması belirtisi var mı?",
+            "Kesim gazı: doğru gaz ve basınç kullanılıyor mu (azot/oksijen)?"
+          ]
+        },
+        {
+          "heading": "Belirtiden sebebe",
+          "body": [
+            "Delme süresi uzadı ve hız düştüyse genelde koruma camı kirlidir. Kenarda çapak/curuf arttıysa nozul (tip/çap/merkezleme) ve gaz basıncına bakın. Aniden sensör/yükseklik alarmı geldiyse ilk şüpheli seramiktir."
+          ]
+        },
+        {
+          "heading": "Önleyici bakım",
+          "body": [
+            "Sarfları arıza çıkana kadar değil, planlı şekilde kontrol edin. Koruma camını her iş öncesi/sonrası, nozul ve seramiği düzenli aralıklarla gözden geçirmek, duruş süresini ve maliyeti ciddi şekilde azaltır."
+          ]
+        }
+      ],
+      "faq": [
+        {"question": "Kesim yavaşladı, önce neye bakmalıyım?", "answer": "Genelde koruma camına. Lekelenme/çukurlaşma delme süresini uzatır ve hızı düşürür."},
+        {"question": "Kenarda çapak/curuf arttı, sebebi ne?", "answer": "Çoğunlukla nozul (deformasyon, yanlış tip/çap, merkezleme) veya gaz basıncı. Önce nozulu kontrol edin."},
+        {"question": "Aniden sensör hatası geldi?", "answer": "İlk şüpheli seramiktir; çatlak veya kirlilik kapasitif sinyali bozar."}
+      ],
+      "relatedCategories": ["koruma-camlari", "nozullar", "seramikler", "lensler"],
+      "relatedGuides": ["fiber-lazer-koruma-cami-ne-zaman-degistirilir", "kesim-kafasi-yukseklik-sensor-hatasi"]
+    },
+    {
+      "slug": "koruma-cami-omru-nasil-uzatilir",
+      "title": "Koruma Camı Ömrünü Uzatmanın Yolları",
+      "metaTitle": "Fiber Lazer Koruma Camı Ömrü Nasıl Uzatılır? Pratik İpuçları",
+      "metaDescription": "Fiber lazer koruma camı çok mu çabuk kirleniyor? Hizalama, temizlik, gaz basıncı ve kafa bakımıyla koruma camı ömrünü uzatmanın pratik yolları.",
+      "keywords": ["koruma camı ömrü", "koruma camı çabuk kirleniyor", "koruma camı bakımı", "koruma camı tasarruf", "lekelenme önleme"],
+      "category": "koruma-camlari",
+      "updated": "2026-06-24",
+      "intro": "Koruma camı sarf bir parçadır ama doğru bakımla ömrü ciddi şekilde uzatılabilir. Camı haftada birkaç kez değiştiriyorsanız, aşağıdaki sebepleri kontrol ederek hem maliyeti hem duruşu azaltabilirsiniz.",
+      "sections": [
+        {
+          "heading": "Hizalama (alignment) kontrolü",
+          "body": [
+            "Hizasız ışın, koruma camında ve lenste lokal sıcak noktalar oluşturur; bu da kaplamayı bozar ve camın ömrünü dramatik şekilde kısaltır. Cam alışılmadık derecede hızlı yıpranıyorsa ilk bakılacak yer kafa hizasıdır."
+          ]
+        },
+        {
+          "heading": "Temizlik ve montaj",
+          "body": [
+            "Camı temiz, tozsuz bir ortamda ve doğru teknikle takın; parmak izi ve toz, ilk kullanımda lekelenmeyi başlatır. Yuvanın ve contanın temiz olduğundan emin olun."
+          ]
+        },
+        {
+          "heading": "Gaz, basınç ve kirlilik kaynağı",
+          "body": [
+            "Yanlış gaz basıncı ve geri sıçrayan partiküller camı hızla kirletir. Camı sürekli ve sık değiştiriyorsanız, ortamda bir kirlilik kaynağı veya basınç/parametre sorunu olabilir; bunu araştırmak tek tek cam değiştirmekten daha ucuzdur."
+          ]
+        }
+      ],
+      "faq": [
+        {"question": "Koruma camım neden çok çabuk kirleniyor?", "answer": "En sık sebepler kafa hizasızlığı, yanlış gaz basıncı ve ortamdaki kirlilik kaynağıdır. Haftada birkaç kez değişim normal değildir, kök neden araştırılmalıdır."},
+        {"question": "Camı temizlemek ömrünü uzatır mı?", "answer": "Yüzeysel kirlilikte evet; ancak çukurlaşma veya kaplama hasarında temizlik yetmez, değişim gerekir."},
+        {"question": "Hizalama ömrü gerçekten etkiler mi?", "answer": "Evet, çok. Hizasız ışın sıcak nokta oluşturup kaplamayı bozar ve cam ömrünü belirgin şekilde kısaltır."}
+      ],
+      "relatedCategories": ["koruma-camlari"],
+      "relatedGuides": ["fiber-lazer-koruma-cami-ne-zaman-degistirilir", "koruma-cami-olcusu-nasil-secilir"]
+    }
+  ]
+}

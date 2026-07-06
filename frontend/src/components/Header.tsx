@@ -3,14 +3,16 @@
 import Link from 'next/link'
 import { useCart } from '@/lib/cart'
 import { CartDrawer } from './CartDrawer'
+import { AccountNavLink } from './account/AccountNavLink'
 
 const navLinks = [
-  { href: '/category/bearings', label: 'Bearings' },
-  { href: '/category/linear-rails', label: 'Linear Rails' },
-  { href: '/category/cnc-tools', label: 'CNC Tools' },
-  { href: '/category/motors', label: 'Motors' },
-  { href: '/category/controllers', label: 'Controllers' },
-  { href: '#', label: 'Spare Parts' },
+  { href: '/category/koruma-camlari', label: 'Koruma Camları' },
+  { href: '/category/seramikler', label: 'Seramikler' },
+  { href: '/category/nozullar', label: 'Nozullar' },
+  { href: '/category/lensler', label: 'Lensler' },
+  { href: '/category/lazer-kaynak', label: 'Lazer Kaynak' },
+  { href: '/products', label: 'Tüm Ürünler' },
+  { href: '/page/about', label: 'Hakkımızda' },
 ]
 
 export function Header() {
@@ -18,11 +20,17 @@ export function Header() {
 
   return (
     <>
-      <nav className="fixed top-0 w-full z-50 rounded-none border-b border-[#414754]/20 bg-[#131313] dark:bg-[#0E0E0E] flex justify-between items-center px-6 py-3 font-headline uppercase tracking-tighter text-sm">
-        <Link href="/" className="text-xl font-bold tracking-widest text-[#ADC7FF] uppercase">
-          PRECISION CNC
+      <nav className="fixed top-0 w-full z-50 h-14 rounded-none border-b border-[#414754]/20 bg-[#131313] dark:bg-[#0E0E0E] flex justify-between items-center px-5 md:px-6 font-headline uppercase tracking-tighter text-sm">
+        <Link href="/" aria-label="Lazer Online ana sayfa" className="flex shrink-0 items-center">
+          <img
+            src="/brand/lazer-online-yatay-dark.png"
+            alt="Lazer Online"
+            width={2000}
+            height={349}
+            className="h-7 w-auto max-w-[150px] object-contain sm:h-8 sm:max-w-[190px]"
+          />
         </Link>
-        <div className="hidden md:flex items-center gap-8">
+        <div className="hidden xl:flex items-center gap-6">
           {navLinks.map((link) => (
             <Link key={link.href + link.label} href={link.href} className="text-[#C8C6C5] hover:text-[#ADC7FF] transition-colors">
               {link.label}
@@ -30,15 +38,7 @@ export function Header() {
           ))}
         </div>
         <div className="flex items-center gap-2 md:gap-4">
-          <Link href="/my-account" className="material-symbols-outlined text-[#C8C6C5] hover:bg-[#2A2A2A] p-2 transition-all">
-            account_circle
-          </Link>
-          <Link href="/login" className="material-symbols-outlined text-[#C8C6C5] hover:bg-[#2A2A2A] p-2 transition-all">
-            login
-          </Link>
-          <Link href="/signup" className="material-symbols-outlined text-[#C8C6C5] hover:bg-[#2A2A2A] p-2 transition-all">
-            person_add
-          </Link>
+          <AccountNavLink />
           <button className="relative material-symbols-outlined text-[#C8C6C5] hover:bg-[#2A2A2A] p-2 transition-all" onClick={openCart}>
             shopping_cart
             {itemCount > 0 && (
@@ -47,12 +47,6 @@ export function Header() {
               </span>
             )}
           </button>
-          <Link
-            href="/checkout"
-            className="hidden md:inline-block bg-[#4a8eff] text-[#00285b] px-4 py-2 font-bold hover:bg-[#ADC7FF] transition-all active:scale-95"
-          >
-            Checkout
-          </Link>
         </div>
       </nav>
       <CartDrawer />

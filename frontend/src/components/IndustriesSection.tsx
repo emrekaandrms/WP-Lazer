@@ -3,20 +3,20 @@
 const teamItems = [
   {
     icon: 'engineering',
-    title: 'TECHNICAL DIRECTORS',
+    title: 'GENİŞ TEKNİK KAPSAM',
     detail:
-      'Our leadership team consists of veteran mechanical and software engineers with a combined 120 years of field experience.',
+      'Optik, mekanik, elektrik, yazılım, CAD/CAM ve eğitim tecrübesiyle fiber lazer kesim makinelerine bütüncül bakış.',
   },
   {
-    icon: 'settings_suggest',
-    title: 'APPLICATION SPECIALISTS',
+    icon: 'verified',
+    title: 'POZİTİF TEST VERİSİ',
     detail:
-      'Dedicated support units that focus on vertical-specific integration: Aerospace, Medical, and Heavy Industrial fabrication.',
+      'Optik testler, kesim kalitesi, sürdürülebilir hassasiyet, kullanım ömrü ve maliyet çalışması olumlu olan ürünler satışa alınır.',
   },
   {
-    icon: 'biotech',
-    title: 'R&D DIVISIONS',
-    detail: 'Constantly iterating on metallurgical compositions to reduce thermal expansion in high-speed spindles.',
+    icon: 'inventory_2',
+    title: 'GÜVENLİ TEDARİK',
+    detail: 'Müşterilerin ihtiyacına uygun, kaliteli ve makinelerinde güvenle kullanabileceği parçaları ithal ederiz.',
   },
 ]
 
@@ -27,9 +27,9 @@ export function IndustriesSection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
           <div>
             <h2 className="text-4xl md:text-5xl font-headline font-bold uppercase tracking-tighter text-on-surface mb-8">
-              THE ENGINEERING
+              KURULUŞ
               <br />
-              <span className="text-primary">TASK FORCE</span>
+              <span className="text-primary">YAKLAŞIMI</span>
             </h2>
             <div className="space-y-8">
               {teamItems.map((item) => (
@@ -49,17 +49,17 @@ export function IndustriesSection() {
             <div className="aspect-square bg-surface-container-highest relative overflow-hidden p-1">
               <img
                 className="w-full h-full object-cover grayscale opacity-80 hover:grayscale-0 transition-all duration-700"
-                alt="Technical engineering team working around a large industrial CNC machine"
+                alt="Fiber lazer kesim makinesi ve teknik üretim ortamı"
                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuCGaS8wbN-PrbaFzWNJ-lg6ej4WXZfHlYAknA7HkQpZKaDw8HklbWt3V1oIkpmrHHZa7F_adxV8Pq5fW5vFHvjTPMmC-tf7lQGlI2VXYoQlSFIhWk5PL03Qu6p3it924vKoYXIW3Fcn7mBC-R1gpmUFVbCD2PweV_SLymsbRR4CCLHF2lhvebkbQ05T2D48XwcnKuPE0PVCTgVaYPYR9_xLIsMobYBsiK6YdIxHnAGb_V5rWDt_PabTZdDcuivfGamNG-zN1Xbnzuk"
               />
               <div className="absolute top-0 right-0 p-6 bg-background/80 backdrop-blur-md">
-                <span className="font-label text-[10px] text-primary uppercase block">ENGINEERING_DEPT</span>
-                <span className="font-label text-xl font-bold text-on-surface">HQ_01 UNIT</span>
+                <span className="font-label text-[10px] text-primary uppercase block">FİRMA SAHİBİ</span>
+                <span className="font-label text-xl font-bold text-on-surface">ALKAN GÜNAL</span>
               </div>
             </div>
             <div className="absolute -bottom-10 -left-10 w-48 h-48 bg-primary/5 border border-primary/20 backdrop-blur-xl flex flex-col justify-center items-center text-center p-4">
-              <span className="font-headline text-4xl font-black text-primary">24/7</span>
-              <span className="font-label text-xs uppercase text-outline">TECHNICAL UPTIME SUPPORT</span>
+              <span className="font-headline text-4xl font-black text-primary">10+</span>
+              <span className="font-label text-xs uppercase text-outline">YIL BİLGİ VE TECRÜBE</span>
             </div>
           </div>
         </div>

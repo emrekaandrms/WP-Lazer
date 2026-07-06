@@ -4,9 +4,13 @@ import { createContext, useContext, useEffect, useMemo, useState } from 'react'
 
 export type CartItem = {
   id: string
+  productId?: number
   name: string
   price: number
   qty: number
+  sku?: string
+  slug?: string
+  image?: string
 }
 
 type CartContextValue = {
@@ -24,7 +28,7 @@ type CartContextValue = {
 
 const CartContext = createContext<CartContextValue | null>(null)
 
-const STORAGE_KEY = 'precision-cnc-cart'
+const STORAGE_KEY = 'htc-lazer-cart'
 
 export function CartProvider({ children }: { children: React.ReactNode }) {
   const [items, setItems] = useState<CartItem[]>([])

@@ -1,8 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap');
 
 :root {
   --surface: #131313;
@@ -101,4 +101,42 @@ body {
 
 .scrollbar-hide::-webkit-scrollbar {
   display: none;
+}
+
+.policy-content h1 {
+  display: none;
+}
+
+.policy-content h2 {
+  margin-top: 2.5rem;
+  margin-bottom: 0.75rem;
+  font-family: 'Manrope', 'Inter', sans-serif;
+  font-size: 1.15rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--primary);
+}
+
+.policy-content p,
+.policy-content li {
+  color: var(--on-surface);
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+.policy-content p + p,
+.policy-content ul + p,
+.policy-content p + ul {
+  margin-top: 1rem;
+}
+
+.policy-content ul {
+  margin-top: 1rem;
+  padding-left: 1.2rem;
+  list-style: disc;
+}
+
+.policy-content strong {
+  color: var(--primary);
 }

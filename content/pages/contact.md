@@ -1,23 +1,26 @@
 ---
 slug: contact
-title: Contact Us
-status: draft
+title: İletişim
+status: publish
 template: default
 seo:
-  title: Contact - Precision CNC
-  description: Get in touch with our engineering team for quotes and technical support.
-lastModified: "2026-04-02T10:00:00Z"
+  title: İletişim
+  description: Lazer Online ürün uyumluluğu, stok ve sipariş desteği için iletişim bilgileri.
+lastModified: "2026-05-17T00:00:00Z"
 ---
 
-# Contact Us
+# İletişim
 
-[CONTENT PLACEHOLDER - TO BE GENERATED VIA LLM]
+Koruma camı, seramik, nozul, lens ve lazer kaynak sarf malzemeleri için ürün uyumluluğu veya stok desteği alabilirsiniz.
 
-## Technical Support
+## Satış ve Teknik Destek
 
-- Phone: +1 800-CNC-OPS
-- Email: hq@industrial-ops.com
+- Telefon: Bilgi eklenecek
+- E-posta: Bilgi eklenecek
 
-## Office Hours
+## Destek İçin Hazırlayın
 
-Monday - Friday: 08:00 - 18:00 EST
+- Makine markası
+- Kesim kafası modeli
+- Mevcut ürün ölçüsü veya SKU
+- İstenen adet

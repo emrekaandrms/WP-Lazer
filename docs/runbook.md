@@ -1,340 +1,126 @@
 # Operations Runbook
-## WP-Lzer Headless WooCommerce
 
-> Last updated: 2026-04-02
+## WP-Lzer Hostinger Production
 
----
+Last updated: 2026-05-20
 
-## 1. Content Management
+Production target is Hostinger Web/WordPress hosting with a static Next.js export. Do not use Vercel, Netlify, a Node.js production server, ISR, Next API routes, middleware, or customer-visible WooCommerce account templates unless the architecture decision is explicitly changed.
 
-### 1.1 Creating a New Page
+The business rule is simple: professional customer experience beats shortcuts. WordPress/WooCommerce is the commerce engine; the public storefront is the Lazer Online frontend.
 
-```bash
-# 1. Create the markdown file
-cat > content/pages/contact.md << 'EOF'
----
-slug: contact
-title: Contact Us
-status: draft
-template: default
-seo:
-  title: Contact - Precision CNC
-  description: Get in touch with our engineering team.
-lastModified: "2026-04-02T10:00:00Z"
----
+## Production Shape
 
-# Contact Us
+- `https://lazeronline.com.tr/` serves the static Next.js storefront.
+- `/products/`, `/product/*`, `/category/*`, `/login/`, `/signup/`, `/my-account/`, `/orders/`, and `/addresses/` are frontend-owned routes.
+- `/checkout/` is the frontend handoff page.
+- `/odeme/` is the clean WooCommerce payment page.
+- WordPress admin, WooCommerce products, orders, email, payment settings, and media stay in WordPress.
+- The custom `headless-cli` plugin exposes the narrow REST bridge used by the frontend.
 
-Your content here...
-EOF
+## Deploy Flow
 
-# 2. Validate
-node scripts/validate-content.js
+1. Create production backups before changing live files:
+   ```bash
+   mkdir -p /home/u870711808/backups/wp-lazer-$(date +%Y%m%d-%H%M%S)
+   ```
+   Back up `public_html`, the database, and any import files/reports.
 
-# 3. Import to WordPress
-wp content import content/pages/contact.md
+2. Validate content locally:
+   ```bash
+   npm run validate
+   ```
 
-# 4. Publish
-wp post update $(wp post list --post_type=page --pagename=contact --field=ID) --post_status=publish
+3. Import products when needed:
+   ```bash
+   wp lzer-products import /home/u870711808/products.json --report=/home/u870711808/products-import-report.json
+   ```
 
-# 5. Trigger frontend revalidation
-node scripts/revalidate.js /page/contact
+4. Build the static storefront:
+   ```bash
+   npm run hostinger:build
+   ```
+
+5. Upload only `frontend/out/` contents to Hostinger `public_html`. Preserve WordPress core files, `wp-content`, `wp-config.php`, `.htaccess`, and the static root router.
+
+6. Purge cache:
+   ```bash
+   wp litespeed-purge all --allow-root
+   wp cache flush --allow-root
+   ```
+
+7. Smoke test:
+   ```bash
+   curl -I https://lazeronline.com.tr/
+   curl -I https://lazeronline.com.tr/products/
+   curl -I https://lazeronline.com.tr/login/
+   curl -I https://lazeronline.com.tr/odeme/
+   ```
+
+## Required Smoke Tests
+
+- Home page renders the static frontend, not Astra or a default WordPress theme.
+- Product listing links to real `/product/*` pages.
+- Product page descriptions are Turkish and decoded, with no HTML entities such as `&Ccedil;`.
+- SEO metadata uses `https://lazeronline.com.tr`, not localhost.
+- `/checkout/` posts the frontend cart into WooCommerce through `POST /wp-json/wp-lzer/v1/checkout`.
+- `/odeme/` opens with the WooCommerce cart session.
+- `/login/`, `/signup/`, `/my-account/`, `/orders/`, and `/addresses/` stay in the frontend design system.
+- Frontend bundle contains no Woo consumer secret, admin token, revalidation secret, or SSH credential.
+
+## Product Import Rule
+
+Excel or CSV is not uploaded blindly. First transform and validate the file into the project product schema, then import by SKU. Imports should be idempotent: same SKU updates the existing WooCommerce product instead of creating duplicates.
+
+Images should be sideloaded into the WordPress Media Library and attached to products. The static product JSON must then be regenerated with live WooCommerce IDs and live media URLs before rebuilding the frontend.
+
+## Checkout Bridge
+
+Endpoint:
+
+```text
+POST /wp-json/wp-lzer/v1/checkout
 ```
 
-### 1.2 Updating a Policy
+Payload:
 
-```bash
-# 1. Edit the policy file
-# ... make changes in content/policies/privacy.md ...
-
-# 2. Validate
-node scripts/validate-content.js
-
-# 3. Update in WordPress
-wp policy set privacy --file=content/policies/privacy.md
-
-# 4. Revalidate
-node scripts/revalidate.js /policy/privacy
+```json
+{
+  "items": [
+    { "product_id": 2171, "quantity": 1 }
+  ]
+}
 ```
 
-### 1.3 Syncing Site Settings
+Expected response includes `checkout_url`, currently:
 
-```bash
-# Edit settings
-# ... make changes in content/settings/site.json ...
-
-# Sync to WordPress options
-wp settings sync content/settings/site.json
+```text
+https://lazeronline.com.tr/odeme/
 ```
 
-### 1.4 Batch Content Operations
+## Account Bridge
 
-```bash
-# Import all pages
-wp content import-dir content/pages --type=page
+The account UX is frontend-owned. The plugin exposes:
 
-# Import all policies
-wp content import-dir content/policies --type=policy
-
-# Revalidate entire site
-node scripts/revalidate.js / /category /page /product /policy
+```text
+POST /wp-json/wp-lzer/v1/auth/login
+POST /wp-json/wp-lzer/v1/auth/register
+POST /wp-json/wp-lzer/v1/auth/logout
+GET  /wp-json/wp-lzer/v1/customer/me
+GET  /wp-json/wp-lzer/v1/customer/orders
+GET  /wp-json/wp-lzer/v1/customer/addresses
+PUT  /wp-json/wp-lzer/v1/customer/addresses
 ```
 
----
+The browser only receives public URLs and an HTTP-only customer session cookie. Woo REST consumer secrets and admin credentials stay server-side.
 
-## 2. Plugin Management
+## Rollback
 
-### 2.1 Install WPGraphQL Plugins
+- Frontend rollback: re-upload the previous known-good `frontend/out/` artifact and purge LiteSpeed cache.
+- Product rollback: restore the WooCommerce database and `wp-content/uploads` backup, or reverse from the import report.
+- WordPress rollback: restore both database and files from the same backup timestamp.
 
-```bash
-# Using Docker WP-CLI
-docker exec -it wp-lzer-wpcli wp plugin install wp-graphql wp-graphql-woocommerce --activate
+## Security Notes
 
-# Or locally (if WP-CLI installed)
-wp plugin install wp-graphql wp-graphql-woocommerce --activate
-```
-
-### 2.2 Check Plugin Status
-
-```bash
-wp plugin list --status=active
-```
-
-### 2.3 Update Plugins (Staging First!)
-
-```bash
-# Always test on staging first
-wp plugin update wp-graphql --dry-run
-wp plugin update wp-graphql-woocommerce --dry-run
-
-# Apply updates on staging
-wp plugin update wp-graphql wp-graphql-woocommerce
-
-# Verify GraphQL still works
-curl -X POST -H "Content-Type: application/json" \
-  -d '{"query":"{ __schema { types { name } } }"}' \
-  http://localhost:8080/graphql
-```
-
----
-
-## 3. Database Operations
-
-### 3.1 Backup Database
-
-```bash
-# Create backup
-docker exec wp-lzer-mysql mysqldump -u wordpress -pwordpress_secret wp_lzer > backups/wp_lzer_$(date +%Y%m%d_%H%M%S).sql
-
-# Compress
-gzip backups/wp_lzer_*.sql
-```
-
-### 3.2 Export Content from WordPress
-
-```bash
-# Export all pages to markdown (via custom WP-CLI)
-wp content export --format=markdown --output=./content/backups/
-```
-
-### 3.3 Reset Development Database
-
-```bash
-# Drop and recreate
-docker exec wp-lzer-mysql mysql -u root -proot_secret -e "DROP DATABASE wp_lzer; CREATE DATABASE wp_lzer;"
-docker exec -it wp-lzer-wpcli wp db import
-```
-
----
-
-## 4. Frontend Operations
-
-### 4.1 Start Development Server
-
-```bash
-cd frontend
-npm run dev
-```
-
-### 4.2 Build for Production
-
-```bash
-cd frontend
-npm run build
-npm run start
-```
-
-### 4.3 Trigger Manual Revalidation
-
-```bash
-# Single path
-node scripts/revalidate.js /
-
-# Multiple paths
-node scripts/revalidate.js / /category/bearings /product/6205-2rs
-
-# By tag
-curl -X POST http://localhost:3000/api/revalidate \
-  -H "Content-Type: application/json" \
-  -H "x-revalidate-secret: your-secret" \
-  -d '{"tags":["products","categories"]}'
-```
-
-### 4.4 Clear Next.js Cache
-
-```bash
-# Delete .next cache
-rm -rf frontend/.next
-
-# Or via API
-curl -X POST http://localhost:3000/api/revalidate \
-  -d '{"paths":["*"]}' # Use with caution
-```
-
----
-
-## 5. Deployment
-
-### 5.1 Staging Deployment
-
-```bash
-# 1. Pull latest code
-git pull origin main
-
-# 2. Update Docker containers
-cd docker
-docker-compose pull
-docker-compose up -d
-
-# 3. Run database migrations if any
-docker exec -it wp-lzer-wpcli wp core update-db
-
-# 4. Sync content
-wp content import-dir content/pages
-wp content import-dir content/policies
-
-# 5. Clear caches
-docker exec wp-lzer-wordpress wp cache flush
-rm -rf frontend/.next
-
-# 6. Rebuild frontend
-cd frontend && npm run build
-```
-
-### 5.2 Production Deployment Checklist
-
-- [ ] All staging tests passed
-- [ ] Decision records updated for any breaking changes
-- [ ] Plugin versions pinned in docker-compose.yml
-- [ ] Environment variables configured in production
-- [ ] Backup created
-- [ ] Smoke test: GraphQL queries return expected data
-- [ ] Smoke test: Frontend pages load without errors
-- [ ] Monitor error logs for 24 hours post-deployment
-
----
-
-## 6. Troubleshooting
-
-### 6.1 GraphQL Returns Null
-
-```bash
-# Check WPGraphQL is active
-wp plugin is-active wp-graphql
-
-# Check GraphQL endpoint
-curl -X POST http://localhost:8080/graphql -d '{"query":"{ __typename }"}'
-
-# Enable debug mode
-wp config set WP_DEBUG true --raw
-wp config set GRAPHQL_DEBUG true --raw
-```
-
-### 6.2 Content Not Appearing on Frontend
-
-```bash
-# Verify imported in WordPress
-wp post list --post_type=page --post_status=publish
-
-# Check GraphQL query
-curl -X POST http://localhost:8080/graphql \
-  -d '{"query":"{ page(id: \"about\", idType: URI) { id title } }"}'
-
-# Force revalidation
-node scripts/revalidate.js /page/about --force
-```
-
-### 6.3 Docker Container Issues
-
-```bash
-# View container logs
-docker logs wp-lzer-wordpress
-docker logs wp-lzer-mysql
-
-# Restart containers
-cd docker
-docker-compose restart
-
-# Rebuild from scratch (WARNING: deletes data)
-docker-compose down -v
-docker-compose up -d
-```
-
----
-
-## 7. Emergency Procedures
-
-### 7.1 Site Down - Frontend
-
-1. Check Vercel/hosting status
-2. Verify WordPress is responding: `curl http://localhost:8080`
-3. Check GraphQL: `curl -X POST http://localhost:8080/graphql -d '{"query":"{ __typename }"}'`
-4. If WP down: `cd docker && docker-compose restart`
-5. If WP up but GraphQL fails: check WPGraphQL plugin status
-6. Rollback frontend if recent deploy: `vercel rollback`
-
-### 7.2 Site Down - WordPress
-
-1. Check Docker containers: `docker ps`
-2. If exited: `docker-compose up -d`
-3. Check database: `docker exec wp-lzer-mysql mysqladmin ping`
-4. View error logs: `docker logs wp-lzer-wordpress`
-5. If DB corrupted: restore from latest backup
-
-### 7.3 Security Incident
-
-1. Isolate affected container: `docker network disconnect wp-lzer-network wp-lzer-wordpress`
-2. Rotate all secrets immediately
-3. Check access logs for unauthorized access
-4. Restore from clean backup if needed
-5. Document incident in security log
-
----
-
-## 8. Quick Reference Commands
-
-```bash
-# Start everything
-cd docker && docker-compose up -d
-
-# Stop everything
-cd docker && docker-compose down
-
-# View logs
-docker logs -f wp-lzer-wordpress
-
-# WP-CLI inside container
-docker exec -it wp-lzer-wpcli wp <command>
-
-# Restart services
-docker-compose restart wordpress
-
-# Import all content
-wp content import-dir content/pages && wp content import-dir content/policies
-
-# Validate all content
-node scripts/validate-content.js
-
-# Rebuild frontend
-cd frontend && npm run build
-```
+- Rotate any credential that has been shared in chat or terminal history.
+- Do not commit `.env.local`, SSH passwords, Woo consumer secrets, or WordPress admin passwords.
+- Keep Hostinger SSH as an operations channel; avoid destructive commands unless the rollback point is confirmed.

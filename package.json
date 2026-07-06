@@ -8,24 +8,25 @@
   ],
   "scripts": {
     "dev": "npm run dev --workspace=frontend",
-    "build": "npm run build --workspace=frontend",
+    "build": "npm run seo:generate && npm run build --workspace=frontend",
     "validate": "node scripts/validate-content.js",
-    "revalidate": "node scripts/revalidate.js",
-    "revalidate:all": "node scripts/revalidate.js / /category /page /product /policy",
-    "content:sync": "npm run validate && make import-pages && make import-policies",
-    "db:backup": "mkdir -p backups && docker exec wp-lzer-mysql mysqldump -u wordpress -pwordpress_secret wp_lzer > backups/wp_lzer_$(date +%Y%m%d_%H%M%S).sql",
-    "db:restore": "gunzip -c $(FILE) | docker exec -i wp-lzer-mysql mysql -u wordpress -pwordpress_secret wp_lzer",
-    "docker:up": "cd docker && docker-compose up -d",
-    "docker:down": "cd docker && docker-compose down",
-    "docker:logs": "docker logs -f wp-lzer-wordpress",
-    "wp": "docker exec -it wp-lzer-wpcli wp"
+    "seo:generate": "node scripts/generate-seo-assets.js",
+    "products:transform:htc": "node scripts/transform-htc-products.js",
+    "products:images": "python3 scripts/merge_product_images.py",
+    "products:content": "python3 scripts/enrich_product_content.py",
+    "products:import": "node scripts/import-products.js",
+    "hostinger:build": "npm run validate && npm run seo:generate && npm run build --workspace=frontend",
+    "deploy": "bash deploy/deploy.sh"
   },
   "devDependencies": {
     "ajv": "^8.12.0",
-    "ajv-formats": "^2.1.1"
+    "ajv-formats": "^2.1.1",
+    "read-excel-file": "^9.0.6"
+  },
+  "overrides": {
+    "postcss": "8.5.12"
   },
   "engines": {
-    "node": ">=18.0.0",
-    "docker": ">=20.10.0"
+    "node": ">=20.9.0"
   }
 }

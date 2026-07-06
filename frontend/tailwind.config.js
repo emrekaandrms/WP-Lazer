@@ -71,9 +71,9 @@ module.exports = {
         'on-error-container': '#ffdad6',
       },
       fontFamily: {
-        'headline': ['Space Grotesk', 'sans-serif'],
-        'body': ['Inter', 'sans-serif'],
-        'label': ['Space Grotesk', 'sans-serif'],
+        'headline': ['var(--font-manrope)', 'var(--font-inter)', 'sans-serif'],
+        'body': ['var(--font-inter)', 'var(--font-manrope)', 'sans-serif'],
+        'label': ['var(--font-manrope)', 'var(--font-inter)', 'sans-serif'],
       },
       borderRadius: {
         'DEFAULT': '0px',

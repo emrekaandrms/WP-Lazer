@@ -31,25 +31,40 @@ function extractFrontmatter(content) {
   if (!match) return {}
 
   const data = {}
+  const stack = [{ indent: -1, value: data }]
   const lines = match[1].split('\n')
 
   for (const line of lines) {
+    if (!line.trim()) continue
     const colonIndex = line.indexOf(':')
     if (colonIndex === -1) continue
 
+    const indent = line.match(/^\s*/)[0].length
     const key = line.slice(0, colonIndex).trim()
     const value = line.slice(colonIndex + 1).trim()
 
     if (!key) continue
 
+    while (stack.length > 1 && indent <= stack[stack.length - 1].indent) {
+      stack.pop()
+    }
+
+    const parent = stack[stack.length - 1].value
+
+    if (value === '') {
+      parent[key] = {}
+      stack.push({ indent, value: parent[key] })
+      continue
+    }
+
     // Handle quoted strings
     if ((value.startsWith('"') && value.endsWith('"')) ||
         (value.startsWith("'") && value.endsWith("'"))) {
-      data[key] = value.slice(1, -1)
+      parent[key] = value.slice(1, -1)
     } else if (value === '' || value === 'null') {
-      data[key] = null
+      parent[key] = null
     } else {
-      data[key] = value
+      parent[key] = value
     }
   }
 
@@ -148,7 +163,7 @@ function main() {
   if (fs.existsSync(settingsDir)) {
     const siteSchema = schemas.site
     if (siteSchema) {
-      const jsonFiles = fs.readdirSync(settingsDir).filter(f => f.endsWith('.json'))
+      const jsonFiles = fs.readdirSync(settingsDir).filter(f => f === 'site.json')
       for (const file of jsonFiles) {
         totalFiles++
         const filePath = path.join(settingsDir, file)

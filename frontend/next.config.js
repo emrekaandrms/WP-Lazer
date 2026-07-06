@@ -1,39 +1,24 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',
   reactStrictMode: true,
+  trailingSlash: true,
   images: {
-    domains: ['localhost', 'picsum.photos'],
+    unoptimized: true,
     remotePatterns: [
       {
+        protocol: 'http',
+        hostname: 'localhost',
+      },
+      {
         protocol: 'https',
-        hostname: '**.your-wordpress-domain.com',
+        hostname: 'picsum.photos',
+      },
+      {
+        protocol: 'https',
+        hostname: 'lazeronline.com.tr',
       },
     ],
-  },
-  async rewrites() {
-    return [
-      {
-        source: '/graphql',
-        destination: process.env.WP_GRAPHQL_URL || 'http://localhost:8080/graphql',
-      },
-    ]
-  },
-  async headers() {
-    return [
-      {
-        source: '/:path*',
-        headers: [
-          {
-            key: 'X-Content-Type-Options',
-            value: 'nosniff',
-          },
-          {
-            key: 'X-Frame-Options',
-            value: 'DENY',
-          },
-        ],
-      },
-    ]
   },
 }
 

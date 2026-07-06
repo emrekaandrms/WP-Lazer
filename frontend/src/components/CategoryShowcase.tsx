@@ -3,24 +3,24 @@
 const values = [
   {
     code: 'VAL_01',
-    icon: 'straighten',
-    title: 'PRECISION',
+    icon: 'science',
+    title: 'TEST EDİLMİŞ ÜRÜN',
     description:
-      'Absolute adherence to technical specifications. We utilize laser-calibrated verification systems to ensure every part matches the blueprint exactly.',
+      'Satışa aldığımız ürünleri optik performans, kesim kalitesi, hassasiyet sürekliliği ve kullanım ömrü açısından değerlendiririz.',
   },
   {
     code: 'VAL_02',
-    icon: 'verified_user',
-    title: 'RELIABILITY',
+    icon: 'payments',
+    title: 'KALİTE = UYGUN FİYAT',
     description:
-      'Engineered for 24/7 industrial cycles. Our components undergo extreme stress-testing to mitigate downtime and maximize MTBF (Mean Time Between Failures).',
+      'Sektördeki kaliteli ürün pahalıdır ezberini kırıp, doğru ürünü ulaşılabilir fiyatla sunmayı hedefliyoruz.',
   },
   {
     code: 'VAL_03',
     icon: 'architecture',
-    title: 'ENGINEERING SUPPORT',
+    title: 'SAHA TECRÜBESİ',
     description:
-      'Integration is not an afterthought. Our team of senior mechanical engineers provides direct implementation support for complex CNC arrays and custom motion paths.',
+      'Optik, mekanik, elektrik, yazılım, CAD/CAM ve eğitim tarafındaki saha tecrübemiz ürün seçim sürecine yansır.',
   },
 ]
 
@@ -31,11 +31,11 @@ export function CategoryShowcase() {
         <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
           <div className="max-w-2xl">
             <h2 className="text-3xl md:text-5xl font-headline font-bold uppercase tracking-tighter text-on-surface">
-              MECHANICAL RIGOR
+              NEDEN LAZER ONLINE?
             </h2>
             <p className="text-outline mt-4 font-body">
-              Our values are not slogans; they are the tolerances we live by in every CNC spindle, bearing, and motor we
-              supply.
+              Amacımız yalnızca ürün listelemek değil; makinenizde güvenle kullanabileceğiniz, ölçüsü ve performansı net
+              sarf parçalarını sürdürülebilir şekilde tedarik etmektir.
             </p>
           </div>
           <div className="h-px flex-grow bg-outline-variant/20 mx-12 hidden md:block"></div>

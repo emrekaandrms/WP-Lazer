@@ -1,0 +1,5007 @@
+{
+  "generatedAt": "2026-05-16T21:48:05.165Z",
+  "source": "/Users/emrekaandurmus/Downloads/Lazer Online - Ürünler.csv",
+  "products": [
+    {
+      "id": "htc-100000010",
+      "databaseId": 2171,
+      "sourceProductId": "100000010",
+      "model": "HTCSER001",
+      "name": "D28 M11 KT B2 Seramik",
+      "slug": "d28-m11-kt-b2-seramik-htcser001",
+      "description": "Precitec ve eşdeğeri kafa kullanan makineler için geliştirilen D28 M11 KT B2 Seramik, yüksek güç altında kararlı performans sunan bir seramik tutucudur. Ürünün teknik karşılığı: dış çap 28mm / 24.5mm, iç çap M11 Pim, kaplama Gold-Plated, max güç 15000W (15kw). Durma, Ermaksan, Dener, MVD, Accurl ve Bodor makinelerinde çalışan operatörlerin düzenli yenilediği sarflar arasındadır. Doğru seçim için ürün kodunu veya kafa modelinizi iletebilirsiniz; ücretsiz kargo ile stoktan gönderilir.",
+      "shortDescription": "Precitec uyumlu D28 M11 KT B2 Seramik — fiber lazer kesim kafası seramik tutucu. Dış Çap: 28mm / 24.5mm · İç Çap: M11 Pim · Kaplama: Gold-Plated · Max Güç: 15000W (15kw). Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "499.00",
+      "price": "499.00",
+      "priceTax": "598.8",
+      "currencyCode": "TRY",
+      "stockStatus": "IN_STOCK",
+      "stockQuantity": 150,
+      "sku": "HTCSER001",
+      "status": "publish",
+      "manufacturer": "PRECITEC",
+      "keywords": [
+        "d28",
+        "m11",
+        "seramik",
+        "htcser001",
+        "precıtec",
+        "seramikler"
+      ],
+      "sourceUrl": "https://www.lazeronline.com.tr/korumacami-htclazer-seramik-durma-ermaksan-nukon-precitec-lazer-lazerkesim-procutter-durmazlar-lazersarfmalzeme-fiber-cam-lazeryedekparca-lazercam-fiberlazer-5",
+      "image": {
+        "sourceUrl": "https://lazeronline.com.tr/wp-content/uploads/2026/05/miltas-p0571-1051-00001-kt-b2-d28-seramik-tutucu-2-133627400970966507-800x800-1.jpg",
+        "altText": "D28 M11 KT B2 Seramik"
+      },
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-seramikler",
+            "databaseId": 202,
+            "name": "Seramikler",
+            "slug": "seramikler",
+            "description": "Precitec, Raytools, Nukon, HighYag ve Bystronic uyumlu seramik sarf malzemeleri."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": [
+          {
+            "name": "brand",
+            "label": "Marka",
+            "value": "PRECITEC"
+          },
+          {
+            "name": "model",
+            "label": "Model",
+            "value": "HTCSER001"
+          },
+          {
+            "name": "currency",
+            "label": "Para Birimi",
+            "value": "TL"
+          },
+          {
+            "name": "outer-diameter",
+            "label": "Dış Çap",
+            "value": "28mm / 24.5mm"
+          },
+          {
+            "name": "inner-diameter",
+            "label": "İç Çap",
+            "value": "M11 Pim"
+          },
+          {
+            "name": "coating",
+            "label": "Kaplama",
+            "value": "Gold-Plated"
+          },
+          {
+            "name": "max-power",
+            "label": "Max Güç",
+            "value": "15000W (15kw)"
+          }
+        ]
+      },
+      "galleryImages": {
+        "nodes": [
+          {
+            "sourceUrl": "/media/products/100000010/69a83cf1f9b69ccacbd33248f86f5bf7.jpg",
+            "altText": "D28 M11 KT B2 Seramik"
+          }
+        ]
+      },
+      "machines": [
+        "Durma",
+        "Ermaksan",
+        "Dener",
+        "MVD",
+        "Accurl",
+        "Bodor"
+      ],
+      "descriptionNotes": []
+    },
+    {
+      "id": "htc-100000034",
+      "databaseId": 2173,
+      "sourceProductId": "100000034",
+      "model": "HTCCAM22354",
+      "name": "D22.35 d4 Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi)",
+      "slug": "d22-35-d4-lens-koruma-cami-japon-ham-madde-99-isin-iletimi-htccam22354",
+      "description": "Üretiminizi durdurmadan yenileyebileceğiniz D22.35 d4 Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi), Precitec ve eşdeğeri kafalar için doğru ölçü ve işçilikle hazırlanan bir lens koruma camıdır. Öne çıkan teknik özellikleri dış çap 22,35mm, kalınlık 4mm, kaplama AR K9 @ 1064nm T- 1080nm T, yansıma yüzeyi 15J/cm2, yüzey kalitesi 20/10 olarak özetlenebilir. Durma, Ermaksan, Dener, MVD ve Accurl gibi makinelerle birlikte yaygın olarak kullanılır. Ücretsiz kargo ile stoktan hızlı teslim edilir; ölçü uyumundan emin değilseniz kafa modelinizi paylaşmanız yeterlidir.",
+      "shortDescription": "Precitec uyumlu D22.35 d4 Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi) — fiber lazer lens koruma camı. Dış Çap: 22,35mm · Kalınlık: 4mm · Kaplama: AR K9 @ 1064nm T- 1080nm T · Yansıma Yüzeyi: 15J/cm2. Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "249.00",
+      "price": "249.00",
+      "priceTax": "298.8",
+      "currencyCode": "TRY",
+      "stockStatus": "IN_STOCK",
+      "stockQuantity": 369,
+      "sku": "HTCCAM22354",
+      "status": "publish",
+      "manufacturer": "PRECITEC",
+      "keywords": [
+        "d22.35",
+        "lens",
+        "koruma",
+        "camı",
+        "(japon",
+        "ham",
+        "madde-%99",
+        "ışın",
+        "iletimi)",
+        "htccam22354",
+        "precıtec",
+        "camları"
+      ],
+      "sourceUrl": "https://www.lazeronline.com.tr/precitec-og-y-d22-35-d4-p0589-360-00002-lens-koruyucu-cam",
+      "image": {
+        "sourceUrl": "https://lazeronline.com.tr/wp-content/uploads/2026/05/images-2-800x800-1.jpeg",
+        "altText": "D22.35 d4 Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi)"
+      },
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-koruma-camlari",
+            "databaseId": 201,
+            "name": "Koruma Camları",
+            "slug": "koruma-camlari",
+            "description": "Fiber lazer kesim ve kaynak kafaları için lens koruma camları."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": [
+          {
+            "name": "brand",
+            "label": "Marka",
+            "value": "PRECITEC"
+          },
+          {
+            "name": "model",
+            "label": "Model",
+            "value": "HTCCAM22354"
+          },
+          {
+            "name": "currency",
+            "label": "Para Birimi",
+            "value": "TL"
+          },
+          {
+            "name": "outer-diameter",
+            "label": "Dış Çap",
+            "value": "22,35mm"
+          },
+          {
+            "name": "thickness",
+            "label": "Kalınlık",
+            "value": "4mm"
+          },
+          {
+            "name": "coating",
+            "label": "Kaplama",
+            "value": "AR K9 @ 1064nm T- 1080nm T"
+          },
+          {
+            "name": "reflection-surface",
+            "label": "Yansıma Yüzeyi",
+            "value": "15J/cm2"
+          },
+          {
+            "name": "surface-quality",
+            "label": "Yüzey Kalitesi",
+            "value": "20/10"
+          },
+          {
+            "name": "max-power",
+            "label": "Max Güç",
+            "value": "8000W (8kw) D22.35 D4 P0589-360-00002 Lens Koruyucu Cam"
+          }
+        ]
+      },
+      "galleryImages": {
+        "nodes": [
+          {
+            "sourceUrl": "/media/products/100000034/908ad4a34bc8d041c70e105848cf07b1.jpg",
+            "altText": "D22.35 d4 Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi)"
+          },
+          {
+            "sourceUrl": "/media/products/100000034/672ae19b0097c3c90d9e2f9ee3e0849f.png",
+            "altText": "D22.35 d4 Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi)"
+          },
+          {
+            "sourceUrl": "/media/products/100000034/c445504cb86b8b00af56db64d145483b.jpg",
+            "altText": "D22.35 d4 Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi)"
+          }
+        ]
+      },
+      "machines": [
+        "Durma",
+        "Ermaksan",
+        "Dener",
+        "MVD",
+        "Accurl"
+      ],
+      "descriptionNotes": []
+    },
+    {
+      "id": "htc-100000035",
+      "databaseId": 2175,
+      "sourceProductId": "100000035",
+      "model": "HTCCAM377M",
+      "name": "D37 d7 20kw Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi)",
+      "slug": "d37-d7-20kw-lens-koruma-cami-japon-ham-madde-99-isin-iletimi-htccam377m",
+      "description": "Üretiminizi durdurmadan yenileyebileceğiniz D37 d7 20kw Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi), Precitec ve eşdeğeri kafalar için doğru ölçü ve işçilikle hazırlanan bir lens koruma camıdır. Öne çıkan teknik özellikleri dış çap 37mm, kalınlık 7mm, kaplama AR K9 @ 1064nm T- 1080nm T, yansıma yüzeyi 15J/cm2, yüzey kalitesi 20/10 olarak özetlenebilir. Ermaksan, Dener, MVD, Accurl ve Bodor gibi makinelerle birlikte yaygın olarak kullanılır. Ücretsiz kargo ile stoktan hızlı teslim edilir; ölçü uyumundan emin değilseniz kafa modelinizi paylaşmanız yeterlidir.",
+      "shortDescription": "Precitec uyumlu D37 d7 20kw Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi) — fiber lazer lens koruma camı. Dış Çap: 37mm · Kalınlık: 7mm · Kaplama: AR K9 @ 1064nm T- 1080nm T · Yansıma Yüzeyi: 15J/cm2. Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "399.00",
+      "price": "399.00",
+      "priceTax": "478.8",
+      "currencyCode": "TRY",
+      "stockStatus": "IN_STOCK",
+      "stockQuantity": 950,
+      "sku": "HTCCAM377M",
+      "status": "publish",
+      "manufacturer": "PRECITEC",
+      "keywords": [
+        "d37",
+        "20kw",
+        "lens",
+        "koruma",
+        "camı",
+        "(japon",
+        "ham",
+        "madde-%99",
+        "ışın",
+        "iletimi)",
+        "htccam377m",
+        "precıtec",
+        "camları"
+      ],
+      "sourceUrl": "https://www.lazeronline.com.tr/korumacami-htclazer-seramik-durma-ermaksan-nukon-precitec-lazer-lazerkesim-procutter-durmazlar-lazersarfmalzeme-fiber-cam-lazeryedekparca-lazercam-fiberlazer-4",
+      "image": {
+        "sourceUrl": "https://lazeronline.com.tr/wp-content/uploads/2026/05/71pu3wo63ol-800x800-1.jpg",
+        "altText": "D37 d7 20kw Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi)"
+      },
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-koruma-camlari",
+            "databaseId": 201,
+            "name": "Koruma Camları",
+            "slug": "koruma-camlari",
+            "description": "Fiber lazer kesim ve kaynak kafaları için lens koruma camları."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": [
+          {
+            "name": "brand",
+            "label": "Marka",
+            "value": "PRECITEC"
+          },
+          {
+            "name": "model",
+            "label": "Model",
+            "value": "HTCCAM377M"
+          },
+          {
+            "name": "currency",
+            "label": "Para Birimi",
+            "value": "TL"
+          },
+          {
+            "name": "outer-diameter",
+            "label": "Dış Çap",
+            "value": "37mm"
+          },
+          {
+            "name": "thickness",
+            "label": "Kalınlık",
+            "value": "7mm"
+          },
+          {
+            "name": "coating",
+            "label": "Kaplama",
+            "value": "AR K9 @ 1064nm T- 1080nm T"
+          },
+          {
+            "name": "reflection-surface",
+            "label": "Yansıma Yüzeyi",
+            "value": "15J/cm2"
+          },
+          {
+            "name": "surface-quality",
+            "label": "Yüzey Kalitesi",
+            "value": "20/10"
+          },
+          {
+            "name": "max-power",
+            "label": "Max Güç",
+            "value": "20000W (20kw)"
+          }
+        ]
+      },
+      "galleryImages": {
+        "nodes": [
+          {
+            "sourceUrl": "/media/products/100000035/40bbb15dc1fed3909ca7c2f7e719737e.jpg",
+            "altText": "D37 d7 20kw Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi)"
+          }
+        ]
+      },
+      "machines": [
+        "Ermaksan",
+        "Dener",
+        "MVD",
+        "Accurl",
+        "Bodor"
+      ],
+      "descriptionNotes": []
+    },
+    {
+      "id": "htc-100000036",
+      "databaseId": 2176,
+      "sourceProductId": "100000036",
+      "model": "HTCCAM3015",
+      "name": "D30 d1.5 Kolimatör / Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi)",
+      "slug": "d30-d1-5-kolimator-lens-koruma-cami-japon-ham-madde-99-isin-iletimi-htccam3015",
+      "description": "D30 d1.5 Kolimatör / Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi), Precitec ve eşdeğeri kesim kafalarıyla uyumlu olarak üretilen bir lens koruma camıdır. Teknik değerler: dış çap 30mm, kalınlık 1.5mm, kaplama AR K9 @ 1064nm T- 1080nm T, yansıma yüzeyi 15J/cm2, yüzey kalitesi 20/10. Sahada en çok Durma, Ermaksan, Dener, MVD ve Accurl lazer kesim makinelerinde tercih edilir. Stoktan hızlı kargolanır; ücretsiz kargo ve teknik destek Lazer Online güvencesiyle sunulur.",
+      "shortDescription": "Precitec uyumlu D30 d1.5 Kolimatör / Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi) — fiber lazer lens koruma camı. Dış Çap: 30mm · Kalınlık: 1.5mm · Kaplama: AR K9 @ 1064nm T- 1080nm T · Yansıma Yüzeyi: 15J/cm2. Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "299.00",
+      "price": "299.00",
+      "priceTax": "358.8",
+      "currencyCode": "TRY",
+      "stockStatus": "IN_STOCK",
+      "stockQuantity": 172,
+      "sku": "HTCCAM3015",
+      "status": "publish",
+      "manufacturer": "PRECITEC",
+      "keywords": [
+        "d30",
+        "d1.5",
+        "kolimatör",
+        "lens",
+        "koruma",
+        "camı",
+        "(japon",
+        "ham",
+        "madde-%99",
+        "ışın",
+        "iletimi)",
+        "htccam3015",
+        "precıtec",
+        "camları"
+      ],
+      "sourceUrl": "https://www.lazeronline.com.tr/korumacami-htclazer-seramik-durma-ermaksan-nukon-precitec-lazer-lazerkesim-procutter-durmazlar-lazersarfmalzeme-fiber-cam-lazeryedekparca-lazercam-fiberlazer-3",
+      "image": {
+        "sourceUrl": "https://lazeronline.com.tr/wp-content/uploads/2026/05/71pu3wo63ol-800x800-1.jpg",
+        "altText": "D30 d1.5 Kolimatör / Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi)"
+      },
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-koruma-camlari",
+            "databaseId": 201,
+            "name": "Koruma Camları",
+            "slug": "koruma-camlari",
+            "description": "Fiber lazer kesim ve kaynak kafaları için lens koruma camları."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": [
+          {
+            "name": "brand",
+            "label": "Marka",
+            "value": "PRECITEC"
+          },
+          {
+            "name": "model",
+            "label": "Model",
+            "value": "HTCCAM3015"
+          },
+          {
+            "name": "currency",
+            "label": "Para Birimi",
+            "value": "TL"
+          },
+          {
+            "name": "outer-diameter",
+            "label": "Dış Çap",
+            "value": "30mm"
+          },
+          {
+            "name": "thickness",
+            "label": "Kalınlık",
+            "value": "1.5mm"
+          },
+          {
+            "name": "coating",
+            "label": "Kaplama",
+            "value": "AR K9 @ 1064nm T- 1080nm T"
+          },
+          {
+            "name": "reflection-surface",
+            "label": "Yansıma Yüzeyi",
+            "value": "15J/cm2"
+          },
+          {
+            "name": "surface-quality",
+            "label": "Yüzey Kalitesi",
+            "value": "20/10"
+          },
+          {
+            "name": "max-power",
+            "label": "Max Güç",
+            "value": "8000W (8kw)"
+          }
+        ]
+      },
+      "machines": [
+        "Durma",
+        "Ermaksan",
+        "Dener",
+        "MVD",
+        "Accurl"
+      ],
+      "descriptionNotes": []
+    },
+    {
+      "id": "htc-100000057",
+      "databaseId": 2177,
+      "sourceProductId": "100000057",
+      "model": "HTCCAM365",
+      "name": "D36 d5 Nukon, HighYag Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi)",
+      "slug": "d36-d5-nukon-highyag-lens-koruma-cami-japon-ham-madde-99-isin-iletimi-htccam365",
+      "description": "Nukon/highyag ve eşdeğeri kafa kullanan makineler için geliştirilen D36 d5 Nukon, HighYag Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi), yüksek güç altında kararlı performans sunan bir lens koruma camıdır. Ürünün teknik karşılığı: dış çap 36mm, kalınlık 5mm, kaplama AR K9 @ 1064nm T- 1080nm T, yansıma yüzeyi 15J/cm2, yüzey kalitesi 20/10. Nukon makinelerinde çalışan operatörlerin düzenli yenilediği sarflar arasındadır. Doğru seçim için ürün kodunu veya kafa modelinizi iletebilirsiniz; ücretsiz kargo ile stoktan gönderilir.",
+      "shortDescription": "Nukon/HighYag uyumlu D36 d5 Nukon, HighYag Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi) — fiber lazer lens koruma camı. Dış Çap: 36mm · Kalınlık: 5mm · Kaplama: AR K9 @ 1064nm T- 1080nm T · Yansıma Yüzeyi: 15J/cm2. Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "329.00",
+      "price": "329.00",
+      "priceTax": "394.8",
+      "currencyCode": "TRY",
+      "stockStatus": "IN_STOCK",
+      "stockQuantity": 200,
+      "sku": "HTCCAM365",
+      "status": "publish",
+      "manufacturer": "Nukon/HighYag",
+      "keywords": [
+        "d36",
+        "nukon",
+        "highyag",
+        "lens",
+        "koruma",
+        "camı",
+        "(japon",
+        "ham",
+        "madde-%99",
+        "ışın",
+        "iletimi)",
+        "htccam365",
+        "camları"
+      ],
+      "sourceUrl": "https://www.lazeronline.com.tr/korumacami-htclazer-seramik-durma-ermaksan-nukon-precitec-lazer-lazerkesim-procutter-durmazlar-lazersarfmalzeme-fiber-cam-lazeryedekparca-lazercam-fiberlazer-2",
+      "image": {
+        "sourceUrl": "https://lazeronline.com.tr/wp-content/uploads/2026/05/images-2-800x800-1.jpeg",
+        "altText": "D36 d5 Nukon, HighYag Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi)"
+      },
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-koruma-camlari",
+            "databaseId": 201,
+            "name": "Koruma Camları",
+            "slug": "koruma-camlari",
+            "description": "Fiber lazer kesim ve kaynak kafaları için lens koruma camları."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": [
+          {
+            "name": "brand",
+            "label": "Marka",
+            "value": "Nukon/HighYag"
+          },
+          {
+            "name": "model",
+            "label": "Model",
+            "value": "HTCCAM365"
+          },
+          {
+            "name": "currency",
+            "label": "Para Birimi",
+            "value": "TL"
+          },
+          {
+            "name": "outer-diameter",
+            "label": "Dış Çap",
+            "value": "36mm"
+          },
+          {
+            "name": "thickness",
+            "label": "Kalınlık",
+            "value": "5mm"
+          },
+          {
+            "name": "coating",
+            "label": "Kaplama",
+            "value": "AR K9 @ 1064nm T- 1080nm T"
+          },
+          {
+            "name": "reflection-surface",
+            "label": "Yansıma Yüzeyi",
+            "value": "15J/cm2"
+          },
+          {
+            "name": "surface-quality",
+            "label": "Yüzey Kalitesi",
+            "value": "20/10"
+          },
+          {
+            "name": "max-power",
+            "label": "Max Güç",
+            "value": "12000W (12kw)"
+          }
+        ]
+      },
+      "galleryImages": {
+        "nodes": [
+          {
+            "sourceUrl": "/media/products/100000057/908ad4a34bc8d041c70e105848cf07b1.jpg",
+            "altText": "D36 d5 Nukon, HighYag Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi)"
+          },
+          {
+            "sourceUrl": "/media/products/100000057/4256e9a76f7580a8b1578684aa947e16.jpg",
+            "altText": "D36 d5 Nukon, HighYag Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi)"
+          },
+          {
+            "sourceUrl": "/media/products/100000057/6636f8c119a9d7ab5ae37d4a4abf2de6.png",
+            "altText": "D36 d5 Nukon, HighYag Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi)"
+          },
+          {
+            "sourceUrl": "/media/products/100000057/82e4a40f4201a5818c349db0a6e05ea7.jpg",
+            "altText": "D36 d5 Nukon, HighYag Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi)"
+          }
+        ]
+      },
+      "machines": [
+        "Nukon"
+      ],
+      "descriptionNotes": []
+    },
+    {
+      "id": "htc-100000292",
+      "databaseId": 2179,
+      "sourceProductId": "100000292",
+      "model": "HTCSER003",
+      "name": "Nukon/HighYag Seramik-A (Düz)",
+      "slug": "nukon-highyag-seramik-a-duz-htcser003",
+      "description": "Üretiminizi durdurmadan yenileyebileceğiniz Nukon/HighYag Seramik-A (Düz), Nukon/HighYag ve eşdeğeri kafalar için doğru ölçü ve işçilikle hazırlanan bir seramik tutucudur. Öne çıkan teknik özellikleri dış çap 24mm, iç çap M11 Pim, kaplama Gold-Plated, max güç 8000W (8kw), menşe Almanya olarak özetlenebilir. Nukon gibi makinelerle birlikte yaygın olarak kullanılır. Ücretsiz kargo ile stoktan hızlı teslim edilir; ölçü uyumundan emin değilseniz kafa modelinizi paylaşmanız yeterlidir.",
+      "shortDescription": "Nukon/HighYag Seramik-A (Düz) — fiber lazer kesim kafası seramik tutucu. Dış Çap: 24mm · İç Çap: M11 Pim · Kaplama: Gold-Plated · Max Güç: 8000W (8kw). Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "899.00",
+      "price": "899.00",
+      "priceTax": "1078.8",
+      "currencyCode": "TRY",
+      "stockStatus": "IN_STOCK",
+      "stockQuantity": 10,
+      "sku": "HTCSER003",
+      "status": "publish",
+      "manufacturer": "Nukon/HighYag",
+      "keywords": [
+        "nukon",
+        "highyag",
+        "seramik-a",
+        "(düz)",
+        "htcser003",
+        "seramikler"
+      ],
+      "sourceUrl": "https://www.lazeronline.com.tr/nukon-highyag-seramik-a",
+      "image": {
+        "sourceUrl": "https://lazeronline.com.tr/wp-content/uploads/2026/05/Nukon1-800x800-1.jpg",
+        "altText": "Nukon/HighYag Seramik-A (Düz)"
+      },
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-seramikler",
+            "databaseId": 202,
+            "name": "Seramikler",
+            "slug": "seramikler",
+            "description": "Precitec, Raytools, Nukon, HighYag ve Bystronic uyumlu seramik sarf malzemeleri."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": [
+          {
+            "name": "brand",
+            "label": "Marka",
+            "value": "Nukon/HighYag"
+          },
+          {
+            "name": "model",
+            "label": "Model",
+            "value": "HTCSER003"
+          },
+          {
+            "name": "currency",
+            "label": "Para Birimi",
+            "value": "TL"
+          },
+          {
+            "name": "outer-diameter",
+            "label": "Dış Çap",
+            "value": "24mm"
+          },
+          {
+            "name": "inner-diameter",
+            "label": "İç Çap",
+            "value": "M11 Pim"
+          },
+          {
+            "name": "coating",
+            "label": "Kaplama",
+            "value": "Gold-Plated"
+          },
+          {
+            "name": "max-power",
+            "label": "Max Güç",
+            "value": "8000W (8kw)"
+          },
+          {
+            "name": "origin",
+            "label": "Menşe",
+            "value": "Almanya"
+          }
+        ]
+      },
+      "galleryImages": {
+        "nodes": [
+          {
+            "sourceUrl": "/media/products/100000292/439599858825db063840a7f9ffd99635.jpg",
+            "altText": "Nukon/HighYag Seramik-A (Düz)"
+          },
+          {
+            "sourceUrl": "/media/products/100000292/bb0993c969ca515faa31d1e59e6b5eb2.jpg",
+            "altText": "Nukon/HighYag Seramik-A (Düz)"
+          },
+          {
+            "sourceUrl": "/media/products/100000292/4256e9a76f7580a8b1578684aa947e16.jpg",
+            "altText": "Nukon/HighYag Seramik-A (Düz)"
+          },
+          {
+            "sourceUrl": "/media/products/100000292/64263940aae9d69964204943e8580072.jpg",
+            "altText": "Nukon/HighYag Seramik-A (Düz)"
+          }
+        ]
+      },
+      "machines": [
+        "Nukon"
+      ],
+      "descriptionNotes": []
+    },
+    {
+      "id": "htc-100000295",
+      "databaseId": 2181,
+      "sourceProductId": "100000295",
+      "model": "M11STNZD",
+      "name": "D28 H15 M11 Double Nozzle (Avrupa Üretim)",
+      "slug": "d28-h15-m11-double-nozzle-avrupa-uretim-m11stnzd",
+      "description": "Precitec ve eşdeğeri kafa kullanan makineler için geliştirilen D28 H15 M11 Double Nozzle (Avrupa Üretim), yüksek güç altında kararlı performans sunan bir kesim nozuludur. Doğru seçim için ürün kodunu veya kafa modelinizi iletebilirsiniz; ücretsiz kargo ile stoktan gönderilir.",
+      "shortDescription": "Precitec uyumlu D28 H15 M11 Double Nozzle (Avrupa Üretim) — fiber lazer kesim nozulu. Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "199.00",
+      "price": "199.00",
+      "priceTax": "238.8",
+      "currencyCode": "TRY",
+      "stockStatus": "IN_STOCK",
+      "stockQuantity": 99,
+      "sku": "M11STNZD",
+      "status": "publish",
+      "manufacturer": "PRECITEC",
+      "keywords": [
+        "d28",
+        "h15",
+        "m11",
+        "double",
+        "nozzle",
+        "(avrupa",
+        "üretim)",
+        "m11stnzd",
+        "precıtec",
+        "nozullar"
+      ],
+      "sourceUrl": "https://www.lazeronline.com.tr/precitec-double-1-0mm-p0591-002-00010-nozzle",
+      "image": {
+        "sourceUrl": "https://lazeronline.com.tr/wp-content/uploads/2026/05/nozzle_double_duz-800x800-1.jpg",
+        "altText": "D28 H15 M11 Double Nozzle (Avrupa Üretim)"
+      },
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-nozullar",
+            "databaseId": 203,
+            "name": "Nozullar",
+            "slug": "nozullar",
+            "description": "Single, double ve fast cut lazer kesim nozulları."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": [
+          {
+            "name": "brand",
+            "label": "Marka",
+            "value": "PRECITEC"
+          },
+          {
+            "name": "model",
+            "label": "Model",
+            "value": "M11STNZD"
+          },
+          {
+            "name": "currency",
+            "label": "Para Birimi",
+            "value": "TL"
+          }
+        ]
+      },
+      "galleryImages": {
+        "nodes": [
+          {
+            "sourceUrl": "/media/products/100000295/bf38afe3cbf223b642d2350e3a8000bf.jpg",
+            "altText": "D28 H15 M11 Double Nozzle (Avrupa Üretim)"
+          }
+        ]
+      },
+      "machines": [],
+      "descriptionNotes": []
+    },
+    {
+      "id": "htc-100000329",
+      "databaseId": 2183,
+      "sourceProductId": "100000329",
+      "model": "HTCSER002",
+      "name": "M14 D32 Raytools L3538 Seramik",
+      "slug": "m14-d32-raytools-l3538-seramik-htcser002",
+      "description": "M14 D32 Raytools L3538 Seramik, Raytools ve eşdeğeri kesim kafalarıyla uyumlu olarak üretilen bir seramik tutucudur. Teknik değerler: dış çap 32mm / 28.5mm, iç çap M14 Pim, kaplama Gold-Plated, max güç 1500W (15kw). Sahada en çok Bodor ve HSG lazer kesim makinelerinde tercih edilir. Stoktan hızlı kargolanır; ücretsiz kargo ve teknik destek Lazer Online güvencesiyle sunulur.",
+      "shortDescription": "M14 D32 Raytools L3538 Seramik — fiber lazer kesim kafası seramik tutucu. Dış Çap: 32mm / 28.5mm · İç Çap: M14 Pim · Kaplama: Gold-Plated · Max Güç: 1500W (15kw). Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "499.00",
+      "price": "499.00",
+      "priceTax": "598.8",
+      "currencyCode": "TRY",
+      "stockStatus": "IN_STOCK",
+      "stockQuantity": 214,
+      "sku": "HTCSER002",
+      "status": "publish",
+      "manufacturer": "RAYTOOLS",
+      "keywords": [
+        "m14",
+        "d32",
+        "raytools",
+        "l3538",
+        "seramik",
+        "htcser002",
+        "seramikler"
+      ],
+      "sourceUrl": "https://www.lazeronline.com.tr/raytools-m14-l3538-seramik-orjinal",
+      "image": {
+        "sourceUrl": "https://lazeronline.com.tr/wp-content/uploads/2026/05/20201228-230055-800x800-1.jpg",
+        "altText": "M14 D32 Raytools L3538 Seramik"
+      },
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-seramikler",
+            "databaseId": 202,
+            "name": "Seramikler",
+            "slug": "seramikler",
+            "description": "Precitec, Raytools, Nukon, HighYag ve Bystronic uyumlu seramik sarf malzemeleri."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": [
+          {
+            "name": "brand",
+            "label": "Marka",
+            "value": "RAYTOOLS"
+          },
+          {
+            "name": "model",
+            "label": "Model",
+            "value": "HTCSER002"
+          },
+          {
+            "name": "currency",
+            "label": "Para Birimi",
+            "value": "TL"
+          },
+          {
+            "name": "outer-diameter",
+            "label": "Dış Çap",
+            "value": "32mm / 28.5mm"
+          },
+          {
+            "name": "inner-diameter",
+            "label": "İç Çap",
+            "value": "M14 Pim"
+          },
+          {
+            "name": "coating",
+            "label": "Kaplama",
+            "value": "Gold-Plated"
+          },
+          {
+            "name": "max-power",
+            "label": "Max Güç",
+            "value": "1500W (15kw)"
+          }
+        ]
+      },
+      "galleryImages": {
+        "nodes": [
+          {
+            "sourceUrl": "/media/products/100000329/8a0813fb10e30ac18c097bf35479474b.jpg",
+            "altText": "M14 D32 Raytools L3538 Seramik"
+          },
+          {
+            "sourceUrl": "/media/products/100000329/3c48a4814b8687c6ba752c6c2147b73a.png",
+            "altText": "M14 D32 Raytools L3538 Seramik"
+          }
+        ]
+      },
+      "machines": [
+        "Bodor",
+        "HSG"
+      ],
+      "descriptionNotes": []
+    },
+    {
+      "id": "htc-100000350",
+      "databaseId": 2185,
+      "sourceProductId": "100000350",
+      "model": "HTCSER004",
+      "name": "Nukon/HighYag Seramik-B (Konik)",
+      "slug": "nukon-highyag-seramik-b-konik-htcser004",
+      "description": "Nukon/highyag ve eşdeğeri kafa kullanan makineler için geliştirilen Nukon/HighYag Seramik-B (Konik), yüksek güç altında kararlı performans sunan bir seramik tutucudur. Ürünün teknik karşılığı: dış çap 24mm, iç çap M11 Pim, kaplama Gold-Plated, max güç 8000W (8kw), menşe Almanya. Nukon makinelerinde çalışan operatörlerin düzenli yenilediği sarflar arasındadır. Doğru seçim için ürün kodunu veya kafa modelinizi iletebilirsiniz; ücretsiz kargo ile stoktan gönderilir.",
+      "shortDescription": "Nukon/HighYag Seramik-B (Konik) — fiber lazer kesim kafası seramik tutucu. Dış Çap: 24mm · İç Çap: M11 Pim · Kaplama: Gold-Plated · Max Güç: 8000W (8kw). Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "899.00",
+      "price": "899.00",
+      "priceTax": "1078.8",
+      "currencyCode": "TRY",
+      "stockStatus": "IN_STOCK",
+      "stockQuantity": 13,
+      "sku": "HTCSER004",
+      "status": "publish",
+      "manufacturer": "Nukon/HighYag",
+      "keywords": [
+        "nukon",
+        "highyag",
+        "seramik-b",
+        "(konik)",
+        "htcser004",
+        "seramikler"
+      ],
+      "sourceUrl": "https://www.lazeronline.com.tr/nukon-highyag-seramik-b",
+      "image": {
+        "sourceUrl": "https://lazeronline.com.tr/wp-content/uploads/2026/05/nukb-800x800-1.jpg",
+        "altText": "Nukon/HighYag Seramik-B (Konik)"
+      },
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-seramikler",
+            "databaseId": 202,
+            "name": "Seramikler",
+            "slug": "seramikler",
+            "description": "Precitec, Raytools, Nukon, HighYag ve Bystronic uyumlu seramik sarf malzemeleri."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": [
+          {
+            "name": "brand",
+            "label": "Marka",
+            "value": "Nukon/HighYag"
+          },
+          {
+            "name": "model",
+            "label": "Model",
+            "value": "HTCSER004"
+          },
+          {
+            "name": "currency",
+            "label": "Para Birimi",
+            "value": "TL"
+          },
+          {
+            "name": "outer-diameter",
+            "label": "Dış Çap",
+            "value": "24mm"
+          },
+          {
+            "name": "inner-diameter",
+            "label": "İç Çap",
+            "value": "M11 Pim"
+          },
+          {
+            "name": "coating",
+            "label": "Kaplama",
+            "value": "Gold-Plated"
+          },
+          {
+            "name": "max-power",
+            "label": "Max Güç",
+            "value": "8000W (8kw)"
+          },
+          {
+            "name": "origin",
+            "label": "Menşe",
+            "value": "Almanya"
+          }
+        ]
+      },
+      "galleryImages": {
+        "nodes": [
+          {
+            "sourceUrl": "/media/products/100000350/966b4cecfd674be32cf19af0e9f9983d.jpg",
+            "altText": "Nukon/HighYag Seramik-B (Konik)"
+          },
+          {
+            "sourceUrl": "/media/products/100000350/4256e9a76f7580a8b1578684aa947e16.jpg",
+            "altText": "Nukon/HighYag Seramik-B (Konik)"
+          }
+        ]
+      },
+      "machines": [
+        "Nukon"
+      ],
+      "descriptionNotes": []
+    },
+    {
+      "id": "htc-100000355",
+      "databaseId": 2187,
+      "sourceProductId": "100000355",
+      "model": "HTCLNS005",
+      "name": "Precitec OL HP SSL F125 M Lens ve Tutucu 5\" P0591-1208-00001",
+      "slug": "precitec-ol-hp-ssl-f125-m-lens-ve-tutucu-5-p0591-1208-00001-htclns005",
+      "description": "Precitec OL HP SSL F125 M Lens ve Tutucu 5\" P0591-1208-00001, Precitec ve eşdeğeri kesim kafalarıyla uyumlu olarak üretilen bir optik lenstir. Precitec F125 5'' Lens, Kovan Dahil Fiyattır. Eski kovan İade edilmesi Gereklidir. Stoktan hızlı kargolanır; ücretsiz kargo ve teknik destek Lazer Online güvencesiyle sunulur.",
+      "shortDescription": "Precitec OL HP SSL F125 M Lens ve Tutucu 5\" P0591-1208-00001 — fiber lazer odak/kolimatör lensi. Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "750.00",
+      "price": "750.00",
+      "priceTax": "900",
+      "currencyCode": "EUR",
+      "stockStatus": "OUT_OF_STOCK",
+      "stockQuantity": 0,
+      "sku": "HTCLNS005",
+      "status": "publish",
+      "manufacturer": "PRECITEC",
+      "keywords": [
+        "precıtec",
+        "ssl",
+        "f125",
+        "lens",
+        "tutucu",
+        "p0591-1208-00001",
+        "htclns005",
+        "lensler"
+      ],
+      "sourceUrl": "https://www.lazeronline.com.tr/precitec-ol-hp-ssl-f125-m-lens-ve-tutucu-5-quot-p0591-1208-00001",
+      "image": {
+        "sourceUrl": "https://lazeronline.com.tr/wp-content/uploads/2026/05/h22b270bedf5943aca9527f37aea3ecc49-800x800-1.jpg",
+        "altText": "Precitec OL HP SSL F125 M Lens ve Tutucu 5\" P0591-1208-00001"
+      },
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-lensler",
+            "databaseId": 204,
+            "name": "Lensler",
+            "slug": "lensler",
+            "description": "Kolimatör, odak ve kaynak lazer lensleri."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": [
+          {
+            "name": "brand",
+            "label": "Marka",
+            "value": "PRECITEC"
+          },
+          {
+            "name": "model",
+            "label": "Model",
+            "value": "HTCLNS005"
+          },
+          {
+            "name": "currency",
+            "label": "Para Birimi",
+            "value": "EUR"
+          }
+        ]
+      },
+      "galleryImages": {
+        "nodes": [
+          {
+            "sourceUrl": "/media/products/100000355/94f0327280ee252b90bbea76771f7c9d.jpg",
+            "altText": "Precitec OL HP SSL F125 M Lens ve Tutucu 5\" P0591-1208-00001"
+          },
+          {
+            "sourceUrl": "/media/products/100000355/d6a9b1dbb0c94147674d5da68d1ef92b.jpg",
+            "altText": "Precitec OL HP SSL F125 M Lens ve Tutucu 5\" P0591-1208-00001"
+          }
+        ]
+      },
+      "machines": [],
+      "descriptionNotes": [
+        "Precitec F125 5'' Lens, Kovan Dahil Fiyattır.",
+        "Eski kovan İade edilmesi Gereklidir."
+      ]
+    },
+    {
+      "id": "htc-100000358",
+      "databaseId": 2189,
+      "sourceProductId": "100000358",
+      "model": "HTCCAM3555",
+      "name": "D35.5 d5 Nukon Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi)",
+      "slug": "d35-5-d5-nukon-lens-koruma-cami-japon-ham-madde-99-isin-iletimi-htccam3555",
+      "description": "D35.5 d5 Nukon Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi), Nukon/HighYag ve eşdeğeri kesim kafalarıyla uyumlu olarak üretilen bir lens koruma camıdır. Teknik değerler: dış çap 35.5mm, kalınlık 5mm, kaplama AR K9 @ 1064nm T- 1080nm T, yansıma yüzeyi 15J/cm2, max güç 12000W (12kw). Sahada en çok Nukon lazer kesim makinelerinde tercih edilir. Stoktan hızlı kargolanır; ücretsiz kargo ve teknik destek Lazer Online güvencesiyle sunulur.",
+      "shortDescription": "Nukon/HighYag uyumlu D35.5 d5 Nukon Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi) — fiber lazer lens koruma camı. Dış Çap: 35.5mm · Kalınlık: 5mm · Kaplama: AR K9 @ 1064nm T- 1080nm T · Yansıma Yüzeyi: 15J/cm2. Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "299.00",
+      "price": "299.00",
+      "priceTax": "358.8",
+      "currencyCode": "TRY",
+      "stockStatus": "IN_STOCK",
+      "stockQuantity": 103,
+      "sku": "HTCCAM3555",
+      "status": "publish",
+      "manufacturer": "Nukon/HighYag",
+      "keywords": [
+        "d35.5",
+        "nukon",
+        "lens",
+        "koruma",
+        "camı",
+        "(japon",
+        "ham",
+        "madde-%99",
+        "ışın",
+        "iletimi)",
+        "htccam3555",
+        "highyag",
+        "camları"
+      ],
+      "sourceUrl": "https://www.lazeronline.com.tr/nukon-og-y-d35-5-d5-lens-koruyucu-cam-yeni-kafa",
+      "image": {
+        "sourceUrl": "https://lazeronline.com.tr/wp-content/uploads/2026/05/h5677f483b33041f7a0a4489b6dd3622eo-800x800-1.jpg",
+        "altText": "D35.5 d5 Nukon Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi)"
+      },
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-koruma-camlari",
+            "databaseId": 201,
+            "name": "Koruma Camları",
+            "slug": "koruma-camlari",
+            "description": "Fiber lazer kesim ve kaynak kafaları için lens koruma camları."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": [
+          {
+            "name": "brand",
+            "label": "Marka",
+            "value": "Nukon/HighYag"
+          },
+          {
+            "name": "model",
+            "label": "Model",
+            "value": "HTCCAM3555"
+          },
+          {
+            "name": "currency",
+            "label": "Para Birimi",
+            "value": "TL"
+          },
+          {
+            "name": "outer-diameter",
+            "label": "Dış Çap",
+            "value": "35.5mm"
+          },
+          {
+            "name": "thickness",
+            "label": "Kalınlık",
+            "value": "5mm"
+          },
+          {
+            "name": "coating",
+            "label": "Kaplama",
+            "value": "AR K9 @ 1064nm T- 1080nm T"
+          },
+          {
+            "name": "reflection-surface",
+            "label": "Yansıma Yüzeyi",
+            "value": "15J/cm2"
+          },
+          {
+            "name": "max-power",
+            "label": "Max Güç",
+            "value": "12000W (12kw)"
+          }
+        ]
+      },
+      "galleryImages": {
+        "nodes": [
+          {
+            "sourceUrl": "/media/products/100000358/ddabdc6c7b52ab0a95cf03771dd4071a.jpg",
+            "altText": "D35.5 d5 Nukon Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi)"
+          },
+          {
+            "sourceUrl": "/media/products/100000358/4256e9a76f7580a8b1578684aa947e16.jpg",
+            "altText": "D35.5 d5 Nukon Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi)"
+          }
+        ]
+      },
+      "machines": [
+        "Nukon"
+      ],
+      "descriptionNotes": []
+    },
+    {
+      "id": "htc-100000373",
+      "databaseId": 2191,
+      "sourceProductId": "100000373",
+      "model": "HTCSER010",
+      "name": "Bystronic Seramik Halka Pin: 4-01642 / 4-00569 D25.9 H4",
+      "slug": "bystronic-seramik-halka-pin-4-01642-4-00569-d25-9-h4-htcser010",
+      "description": "Bystronic ve eşdeğeri kafa kullanan makineler için geliştirilen Bystronic Seramik Halka Pin: 4-01642 / 4-00569 D25.9 H4, yüksek güç altında kararlı performans sunan bir seramik tutucudur. Doğru seçim için ürün kodunu veya kafa modelinizi iletebilirsiniz; ücretsiz kargo ile stoktan gönderilir.",
+      "shortDescription": "Bystronic Seramik Halka Pin: 4-01642 / 4-00569 D25.9 H4 — fiber lazer kesim kafası seramik tutucu. Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "299.00",
+      "price": "299.00",
+      "priceTax": "358.8",
+      "currencyCode": "TRY",
+      "stockStatus": "IN_STOCK",
+      "stockQuantity": 10,
+      "sku": "HTCSER010",
+      "status": "publish",
+      "manufacturer": "BYSTRONIC",
+      "keywords": [
+        "bystronic",
+        "seramik",
+        "halka",
+        "pin:",
+        "4-01642",
+        "4-00569",
+        "d25.9",
+        "htcser010",
+        "bystronıc",
+        "seramikler"
+      ],
+      "sourceUrl": "https://www.lazeronline.com.tr/bystronic-seramik-halka-pin-4-01642-4-00569-d25-9-h4",
+      "image": {
+        "sourceUrl": "https://lazeronline.com.tr/wp-content/uploads/2026/05/4-01642-4-00569-1-copy-copy-800x800-1.jpg",
+        "altText": "Bystronic Seramik Halka Pin: 4-01642 / 4-00569 D25.9 H4"
+      },
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-seramikler",
+            "databaseId": 202,
+            "name": "Seramikler",
+            "slug": "seramikler",
+            "description": "Precitec, Raytools, Nukon, HighYag ve Bystronic uyumlu seramik sarf malzemeleri."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": [
+          {
+            "name": "brand",
+            "label": "Marka",
+            "value": "BYSTRONIC"
+          },
+          {
+            "name": "model",
+            "label": "Model",
+            "value": "HTCSER010"
+          },
+          {
+            "name": "currency",
+            "label": "Para Birimi",
+            "value": "TL"
+          }
+        ]
+      },
+      "galleryImages": {
+        "nodes": [
+          {
+            "sourceUrl": "/media/products/100000373/0c9ebc22cda735b62f50febaa0356b64.jpg",
+            "altText": "Bystronic Seramik Halka Pin: 4-01642 / 4-00569 D25.9 H4"
+          },
+          {
+            "sourceUrl": "/media/products/100000373/68da59c6ba3e37d7ebd6811146a3c01d.jpg",
+            "altText": "Bystronic Seramik Halka Pin: 4-01642 / 4-00569 D25.9 H4"
+          },
+          {
+            "sourceUrl": "/media/products/100000373/271321d3ef565a9b22c75f8447c8f7b1.png",
+            "altText": "Bystronic Seramik Halka Pin: 4-01642 / 4-00569 D25.9 H4"
+          }
+        ]
+      },
+      "machines": [],
+      "descriptionNotes": []
+    },
+    {
+      "id": "htc-100000375",
+      "databaseId": 2193,
+      "sourceProductId": "100000375",
+      "model": "HTCSER009",
+      "name": "Bystronic Seramik Halka Pin: 4-09010 D28 H6.5",
+      "slug": "bystronic-seramik-halka-pin-4-09010-d28-h6-5-htcser009",
+      "description": "Üretiminizi durdurmadan yenileyebileceğiniz Bystronic Seramik Halka Pin: 4-09010 D28 H6.5, Bystronic ve eşdeğeri kafalar için doğru ölçü ve işçilikle hazırlanan bir seramik tutucudur. Ücretsiz kargo ile stoktan hızlı teslim edilir; ölçü uyumundan emin değilseniz kafa modelinizi paylaşmanız yeterlidir.",
+      "shortDescription": "Bystronic Seramik Halka Pin: 4-09010 D28 H6.5 — fiber lazer kesim kafası seramik tutucu. Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "299.00",
+      "price": "299.00",
+      "priceTax": "358.8",
+      "currencyCode": "TRY",
+      "stockStatus": "IN_STOCK",
+      "stockQuantity": 10,
+      "sku": "HTCSER009",
+      "status": "publish",
+      "manufacturer": "BYSTRONIC",
+      "keywords": [
+        "bystronic",
+        "seramik",
+        "halka",
+        "pin:",
+        "4-09010",
+        "d28",
+        "h6.5",
+        "htcser009",
+        "bystronıc",
+        "seramikler"
+      ],
+      "sourceUrl": "https://www.lazeronline.com.tr/bystronic-seramik-halka-pin-4-09010-d28-h6-5",
+      "image": {
+        "sourceUrl": "https://lazeronline.com.tr/wp-content/uploads/2026/05/4-09010-1-copy-800x800-1.jpg",
+        "altText": "Bystronic Seramik Halka Pin: 4-09010 D28 H6.5"
+      },
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-seramikler",
+            "databaseId": 202,
+            "name": "Seramikler",
+            "slug": "seramikler",
+            "description": "Precitec, Raytools, Nukon, HighYag ve Bystronic uyumlu seramik sarf malzemeleri."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": [
+          {
+            "name": "brand",
+            "label": "Marka",
+            "value": "BYSTRONIC"
+          },
+          {
+            "name": "model",
+            "label": "Model",
+            "value": "HTCSER009"
+          },
+          {
+            "name": "currency",
+            "label": "Para Birimi",
+            "value": "TL"
+          }
+        ]
+      },
+      "galleryImages": {
+        "nodes": [
+          {
+            "sourceUrl": "/media/products/100000375/4565a9dcd491e5ee2cb3fa8c27464696.jpg",
+            "altText": "Bystronic Seramik Halka Pin: 4-09010 D28 H6.5"
+          },
+          {
+            "sourceUrl": "/media/products/100000375/f0b9869569141e5c5a85f7e62057fc42.jpg",
+            "altText": "Bystronic Seramik Halka Pin: 4-09010 D28 H6.5"
+          },
+          {
+            "sourceUrl": "/media/products/100000375/dd61101e869c27350c0f9a2129a245a6.jpg",
+            "altText": "Bystronic Seramik Halka Pin: 4-09010 D28 H6.5"
+          },
+          {
+            "sourceUrl": "/media/products/100000375/cc7a1c8c00a07c9470d4cb7e15560595.jpg",
+            "altText": "Bystronic Seramik Halka Pin: 4-09010 D28 H6.5"
+          },
+          {
+            "sourceUrl": "/media/products/100000375/271321d3ef565a9b22c75f8447c8f7b1.png",
+            "altText": "Bystronic Seramik Halka Pin: 4-09010 D28 H6.5"
+          }
+        ]
+      },
+      "machines": [],
+      "descriptionNotes": []
+    },
+    {
+      "id": "htc-100000376",
+      "databaseId": 2195,
+      "sourceProductId": "100000376",
+      "model": "HTCSER008",
+      "name": "Bystronic Seramik Halka Pin: 10032838 D26 H11.5",
+      "slug": "bystronic-seramik-halka-pin-10032838-d26-h11-5-htcser008",
+      "description": "Bystronic Seramik Halka Pin: 10032838 D26 H11.5, Bystronic ve eşdeğeri kesim kafalarıyla uyumlu olarak üretilen bir seramik tutucudur. Stoktan hızlı kargolanır; ücretsiz kargo ve teknik destek Lazer Online güvencesiyle sunulur.",
+      "shortDescription": "Bystronic Seramik Halka Pin: 10032838 D26 H11.5 — fiber lazer kesim kafası seramik tutucu. Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "299.00",
+      "price": "299.00",
+      "priceTax": "358.8",
+      "currencyCode": "TRY",
+      "stockStatus": "IN_STOCK",
+      "stockQuantity": 10,
+      "sku": "HTCSER008",
+      "status": "publish",
+      "manufacturer": "BYSTRONIC",
+      "keywords": [
+        "bystronic",
+        "seramik",
+        "halka",
+        "pin:",
+        "10032838",
+        "d26",
+        "h11.5",
+        "htcser008",
+        "bystronıc",
+        "seramikler"
+      ],
+      "sourceUrl": "https://www.lazeronline.com.tr/bystronic-seramik-halka-pin-10032838-d26-h11-5",
+      "image": {
+        "sourceUrl": "https://lazeronline.com.tr/wp-content/uploads/2026/05/10032838-1-copy-800x800-1.jpg",
+        "altText": "Bystronic Seramik Halka Pin: 10032838 D26 H11.5"
+      },
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-seramikler",
+            "databaseId": 202,
+            "name": "Seramikler",
+            "slug": "seramikler",
+            "description": "Precitec, Raytools, Nukon, HighYag ve Bystronic uyumlu seramik sarf malzemeleri."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": [
+          {
+            "name": "brand",
+            "label": "Marka",
+            "value": "BYSTRONIC"
+          },
+          {
+            "name": "model",
+            "label": "Model",
+            "value": "HTCSER008"
+          },
+          {
+            "name": "currency",
+            "label": "Para Birimi",
+            "value": "TL"
+          }
+        ]
+      },
+      "galleryImages": {
+        "nodes": [
+          {
+            "sourceUrl": "/media/products/100000376/745b49b1fcf4aa84c2ad9379955ee963.jpg",
+            "altText": "Bystronic Seramik Halka Pin: 10032838 D26 H11.5"
+          },
+          {
+            "sourceUrl": "/media/products/100000376/ed69f03b6d652ffa281cf5dd2560f614.jpg",
+            "altText": "Bystronic Seramik Halka Pin: 10032838 D26 H11.5"
+          },
+          {
+            "sourceUrl": "/media/products/100000376/5fe94518f48f37aa3478164aba6c818e.jpg",
+            "altText": "Bystronic Seramik Halka Pin: 10032838 D26 H11.5"
+          },
+          {
+            "sourceUrl": "/media/products/100000376/271321d3ef565a9b22c75f8447c8f7b1.png",
+            "altText": "Bystronic Seramik Halka Pin: 10032838 D26 H11.5"
+          }
+        ]
+      },
+      "machines": [],
+      "descriptionNotes": []
+    },
+    {
+      "id": "htc-100000377",
+      "databaseId": 2197,
+      "sourceProductId": "100000377",
+      "model": "HTCSER011",
+      "name": "Nukon/HighYag Seramik Halka",
+      "slug": "nukon-highyag-seramik-halka-htcser011",
+      "description": "Nukon/HighYag Seramik Halka, Nukon/HighYag ve eşdeğeri kesim kafalarıyla uyumlu olarak üretilen bir seramik tutucudur. Sahada en çok Nukon lazer kesim makinelerinde tercih edilir. Stoktan hızlı kargolanır; ücretsiz kargo ve teknik destek Lazer Online güvencesiyle sunulur.",
+      "shortDescription": "Nukon/HighYag Seramik Halka — fiber lazer kesim kafası seramik tutucu. Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "699.00",
+      "price": "699.00",
+      "priceTax": "838.8",
+      "currencyCode": "TRY",
+      "stockStatus": "OUT_OF_STOCK",
+      "stockQuantity": 0,
+      "sku": "HTCSER011",
+      "status": "publish",
+      "manufacturer": "Nukon/HighYag",
+      "keywords": [
+        "nukon",
+        "highyag",
+        "seramik",
+        "halka",
+        "htcser011",
+        "seramikler"
+      ],
+      "sourceUrl": "https://www.lazeronline.com.tr/nukon-highyag-seramik-halka",
+      "image": {
+        "sourceUrl": "https://lazeronline.com.tr/wp-content/uploads/2026/05/highyag-seramik-halka-1-copy-800x800-1.jpg",
+        "altText": "Nukon/HighYag Seramik Halka"
+      },
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-seramikler",
+            "databaseId": 202,
+            "name": "Seramikler",
+            "slug": "seramikler",
+            "description": "Precitec, Raytools, Nukon, HighYag ve Bystronic uyumlu seramik sarf malzemeleri."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": [
+          {
+            "name": "brand",
+            "label": "Marka",
+            "value": "Nukon/HighYag"
+          },
+          {
+            "name": "model",
+            "label": "Model",
+            "value": "HTCSER011"
+          },
+          {
+            "name": "currency",
+            "label": "Para Birimi",
+            "value": "TL"
+          }
+        ]
+      },
+      "galleryImages": {
+        "nodes": [
+          {
+            "sourceUrl": "/media/products/100000377/4decd17c8f5505e07e6a14caaeb9be96.jpg",
+            "altText": "Nukon/HighYag Seramik Halka"
+          },
+          {
+            "sourceUrl": "/media/products/100000377/a54ea9cac6ff8869373423c8d70c44f1.jpg",
+            "altText": "Nukon/HighYag Seramik Halka"
+          },
+          {
+            "sourceUrl": "/media/products/100000377/7e1b986b0403ca7e65cd114b61667946.jpg",
+            "altText": "Nukon/HighYag Seramik Halka"
+          },
+          {
+            "sourceUrl": "/media/products/100000377/bb1c5c27ff59b49a5703e0b81a9729e1.jpg",
+            "altText": "Nukon/HighYag Seramik Halka"
+          }
+        ]
+      },
+      "machines": [
+        "Nukon"
+      ],
+      "descriptionNotes": []
+    },
+    {
+      "id": "htc-100000378",
+      "databaseId": 2199,
+      "sourceProductId": "100000378",
+      "model": "M14STNZS",
+      "name": "D32 H15 M14 Single Nozzle (Avrupa Üretim)",
+      "slug": "d32-h15-m14-single-nozzle-avrupa-uretim-m14stnzs",
+      "description": "Raytools ve eşdeğeri kafa kullanan makineler için geliştirilen D32 H15 M14 Single Nozzle (Avrupa Üretim), yüksek güç altında kararlı performans sunan bir kesim nozuludur. Doğru seçim için ürün kodunu veya kafa modelinizi iletebilirsiniz; ücretsiz kargo ile stoktan gönderilir.",
+      "shortDescription": "Raytools uyumlu D32 H15 M14 Single Nozzle (Avrupa Üretim) — fiber lazer kesim nozulu. Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "199.00",
+      "price": "199.00",
+      "priceTax": "238.8",
+      "currencyCode": "TRY",
+      "stockStatus": "OUT_OF_STOCK",
+      "stockQuantity": 0,
+      "sku": "M14STNZS",
+      "status": "publish",
+      "manufacturer": "RAYTOOLS",
+      "keywords": [
+        "d32",
+        "h15",
+        "m14",
+        "single",
+        "nozzle",
+        "(avrupa",
+        "üretim)",
+        "m14stnzs",
+        "raytools",
+        "nozullar"
+      ],
+      "sourceUrl": "https://www.lazeronline.com.tr/m14-single-nozzle-1-0mm",
+      "image": {
+        "sourceUrl": "https://lazeronline.com.tr/wp-content/uploads/2026/05/single-nozzle-copy-800x800-1.jpg",
+        "altText": "D32 H15 M14 Single Nozzle (Avrupa Üretim)"
+      },
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-nozullar",
+            "databaseId": 203,
+            "name": "Nozullar",
+            "slug": "nozullar",
+            "description": "Single, double ve fast cut lazer kesim nozulları."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": [
+          {
+            "name": "brand",
+            "label": "Marka",
+            "value": "RAYTOOLS"
+          },
+          {
+            "name": "model",
+            "label": "Model",
+            "value": "M14STNZS"
+          },
+          {
+            "name": "currency",
+            "label": "Para Birimi",
+            "value": "TL"
+          }
+        ]
+      },
+      "machines": [],
+      "descriptionNotes": []
+    },
+    {
+      "id": "htc-100000383",
+      "databaseId": 2201,
+      "sourceProductId": "100000383",
+      "model": "M14STNZD",
+      "name": "D32 H15 M14 Double Nozzle (Avrupa Üretim)",
+      "slug": "d32-h15-m14-double-nozzle-avrupa-uretim-m14stnzd",
+      "description": "Raytools ve eşdeğeri kafa kullanan makineler için geliştirilen D32 H15 M14 Double Nozzle (Avrupa Üretim), yüksek güç altında kararlı performans sunan bir kesim nozuludur. Doğru seçim için ürün kodunu veya kafa modelinizi iletebilirsiniz; ücretsiz kargo ile stoktan gönderilir.",
+      "shortDescription": "Raytools uyumlu D32 H15 M14 Double Nozzle (Avrupa Üretim) — fiber lazer kesim nozulu. Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "199.00",
+      "price": "199.00",
+      "priceTax": "238.8",
+      "currencyCode": "TRY",
+      "stockStatus": "OUT_OF_STOCK",
+      "stockQuantity": 0,
+      "sku": "M14STNZD",
+      "status": "publish",
+      "manufacturer": "RAYTOOLS",
+      "keywords": [
+        "d32",
+        "h15",
+        "m14",
+        "double",
+        "nozzle",
+        "(avrupa",
+        "üretim)",
+        "m14stnzd",
+        "raytools",
+        "nozullar"
+      ],
+      "sourceUrl": "https://www.lazeronline.com.tr/m14-double-nozzle-1-0mm",
+      "image": {
+        "sourceUrl": "https://lazeronline.com.tr/wp-content/uploads/2026/05/double-nozzle-copy-800x800-1.jpg",
+        "altText": "D32 H15 M14 Double Nozzle (Avrupa Üretim)"
+      },
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-nozullar",
+            "databaseId": 203,
+            "name": "Nozullar",
+            "slug": "nozullar",
+            "description": "Single, double ve fast cut lazer kesim nozulları."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": [
+          {
+            "name": "brand",
+            "label": "Marka",
+            "value": "RAYTOOLS"
+          },
+          {
+            "name": "model",
+            "label": "Model",
+            "value": "M14STNZD"
+          },
+          {
+            "name": "currency",
+            "label": "Para Birimi",
+            "value": "TL"
+          }
+        ]
+      },
+      "machines": [],
+      "descriptionNotes": []
+    },
+    {
+      "id": "htc-100000388",
+      "databaseId": 2203,
+      "sourceProductId": "100000388",
+      "model": "HTCSER006",
+      "name": "İpg Seramik Nozzle Holder M11 28.7/23.2",
+      "slug": "ipg-seramik-nozzle-holder-m11-28-7-23-2-htcser006",
+      "description": "Üretiminizi durdurmadan yenileyebileceğiniz İpg Seramik Nozzle Holder M11 28.7/23.2, Ospri ve eşdeğeri kafalar için doğru ölçü ve işçilikle hazırlanan bir kesim nozuludur. Ücretsiz kargo ile stoktan hızlı teslim edilir; ölçü uyumundan emin değilseniz kafa modelinizi paylaşmanız yeterlidir.",
+      "shortDescription": "Ospri uyumlu İpg Seramik Nozzle Holder M11 28.7/23.2 — fiber lazer kesim nozulu. Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "149.00",
+      "price": "149.00",
+      "priceTax": "178.8",
+      "currencyCode": "TRY",
+      "stockStatus": "IN_STOCK",
+      "stockQuantity": 7,
+      "sku": "HTCSER006",
+      "status": "publish",
+      "manufacturer": "OSPRI",
+      "keywords": [
+        "ipg",
+        "seramik",
+        "nozzle",
+        "holder",
+        "m11",
+        "28.7",
+        "23.2",
+        "htcser006",
+        "osprı",
+        "nozullar"
+      ],
+      "sourceUrl": "https://www.lazeronline.com.tr/ipg-seramik-nozzle-holder-m11-28-7-23-2",
+      "image": {
+        "sourceUrl": "https://lazeronline.com.tr/wp-content/uploads/2026/05/ipg-1-copy-800x800-1.jpg",
+        "altText": "İpg Seramik Nozzle Holder M11 28.7/23.2"
+      },
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-nozullar",
+            "databaseId": 203,
+            "name": "Nozullar",
+            "slug": "nozullar",
+            "description": "Single, double ve fast cut lazer kesim nozulları."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": [
+          {
+            "name": "brand",
+            "label": "Marka",
+            "value": "OSPRI"
+          },
+          {
+            "name": "model",
+            "label": "Model",
+            "value": "HTCSER006"
+          },
+          {
+            "name": "currency",
+            "label": "Para Birimi",
+            "value": "TL"
+          }
+        ]
+      },
+      "galleryImages": {
+        "nodes": [
+          {
+            "sourceUrl": "/media/products/100000388/e7dc3634296026a78bcfdce6553e8913.jpg",
+            "altText": "İpg Seramik Nozzle Holder M11 28.7/23.2"
+          },
+          {
+            "sourceUrl": "/media/products/100000388/48e30aa63de65a1a2b3e8a363e334ba4.jpg",
+            "altText": "İpg Seramik Nozzle Holder M11 28.7/23.2"
+          },
+          {
+            "sourceUrl": "/media/products/100000388/fd66fbd077e5a80ca5cd538a2ca38167.jpg",
+            "altText": "İpg Seramik Nozzle Holder M11 28.7/23.2"
+          }
+        ]
+      },
+      "machines": [],
+      "descriptionNotes": []
+    },
+    {
+      "id": "htc-100000389",
+      "databaseId": 2205,
+      "sourceProductId": "100000389",
+      "model": "HTCSER004XB",
+      "name": "Precitec Procutter 2.0 KT XB P0595-94097 Seramik",
+      "slug": "precitec-procutter-2-0-kt-xb-p0595-94097-seramik-htcser004xb",
+      "description": "Precitec Procutter 2.0 KT XB P0595-94097 Seramik, Precitec ve eşdeğeri kesim kafalarıyla uyumlu olarak üretilen bir seramik tutucudur. Teknik değerler: dış çap 31mm / 26.5mm, iç çap M11 Pim, kaplama Gold-Plated.Max Güç: 10000W (10kw), max güç 10000W (10kw), menşe Almanya. Stoktan hızlı kargolanır; ücretsiz kargo ve teknik destek Lazer Online güvencesiyle sunulur.",
+      "shortDescription": "Precitec Procutter 2.0 KT XB P0595-94097 Seramik — fiber lazer kesim kafası seramik tutucu. Dış Çap: 31mm / 26.5mm · İç Çap: M11 Pim · Kaplama: Gold-Plated.Max Güç: 10000W (10kw) · Max Güç: 10000W (10kw). Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "499.00",
+      "price": "499.00",
+      "priceTax": "598.8",
+      "currencyCode": "TRY",
+      "stockStatus": "IN_STOCK",
+      "stockQuantity": 189,
+      "sku": "HTCSER004XB",
+      "status": "publish",
+      "manufacturer": "PRECITEC",
+      "keywords": [
+        "precitec",
+        "procutter",
+        "2.0",
+        "p0595-94097",
+        "seramik",
+        "htcser004xb",
+        "precıtec",
+        "seramikler"
+      ],
+      "sourceUrl": "https://www.lazeronline.com.tr/precitec-procutter-2-0-kt-xb-p0595-94097-seramik",
+      "image": {
+        "sourceUrl": "https://lazeronline.com.tr/wp-content/uploads/2026/05/kt-xb1-800x800-1.jpeg",
+        "altText": "Precitec Procutter 2.0 KT XB P0595-94097 Seramik"
+      },
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-seramikler",
+            "databaseId": 202,
+            "name": "Seramikler",
+            "slug": "seramikler",
+            "description": "Precitec, Raytools, Nukon, HighYag ve Bystronic uyumlu seramik sarf malzemeleri."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": [
+          {
+            "name": "brand",
+            "label": "Marka",
+            "value": "PRECITEC"
+          },
+          {
+            "name": "model",
+            "label": "Model",
+            "value": "HTCSER004XB"
+          },
+          {
+            "name": "currency",
+            "label": "Para Birimi",
+            "value": "TL"
+          },
+          {
+            "name": "outer-diameter",
+            "label": "Dış Çap",
+            "value": "31mm / 26.5mm"
+          },
+          {
+            "name": "inner-diameter",
+            "label": "İç Çap",
+            "value": "M11 Pim"
+          },
+          {
+            "name": "coating",
+            "label": "Kaplama",
+            "value": "Gold-Plated.Max Güç: 10000W (10kw)"
+          },
+          {
+            "name": "max-power",
+            "label": "Max Güç",
+            "value": "10000W (10kw)"
+          },
+          {
+            "name": "origin",
+            "label": "Menşe",
+            "value": "Almanya"
+          }
+        ]
+      },
+      "galleryImages": {
+        "nodes": [
+          {
+            "sourceUrl": "/media/products/100000389/00f59ffecc673d51ab655f455d8f1673.jpg",
+            "altText": "Precitec Procutter 2.0 KT XB P0595-94097 Seramik"
+          },
+          {
+            "sourceUrl": "/media/products/100000389/672ae19b0097c3c90d9e2f9ee3e0849f.png",
+            "altText": "Precitec Procutter 2.0 KT XB P0595-94097 Seramik"
+          },
+          {
+            "sourceUrl": "/media/products/100000389/fdea06e1753ad55f721acaec03b3049e.jpg",
+            "altText": "Precitec Procutter 2.0 KT XB P0595-94097 Seramik"
+          },
+          {
+            "sourceUrl": "/media/products/100000389/0c84d1e0f77e56e4f4d646bfc23d554c.jpg",
+            "altText": "Precitec Procutter 2.0 KT XB P0595-94097 Seramik"
+          }
+        ]
+      },
+      "machines": [],
+      "descriptionNotes": []
+    },
+    {
+      "id": "htc-100000397",
+      "databaseId": 2206,
+      "sourceProductId": "100000397",
+      "model": "HTCCAM38116",
+      "name": "D38.1 d1.6 Raytools Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi)",
+      "slug": "d38-1-d1-6-raytools-lens-koruma-cami-japon-ham-madde-99-isin-iletimi-htccam38116",
+      "description": "Üretiminizi durdurmadan yenileyebileceğiniz D38.1 d1.6 Raytools Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi), Raytools ve eşdeğeri kafalar için doğru ölçü ve işçilikle hazırlanan bir lens koruma camıdır. Öne çıkan teknik özellikleri dış çap 38.1mm, kalınlık 1.6mm, kaplama AR K9 @ 1064nm T- 1080nm T, yansıma yüzeyi 15J/cm2, yüzey kalitesi 20/10 olarak özetlenebilir. Ücretsiz kargo ile stoktan hızlı teslim edilir; ölçü uyumundan emin değilseniz kafa modelinizi paylaşmanız yeterlidir.",
+      "shortDescription": "D38.1 d1.6 Raytools Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi) — fiber lazer lens koruma camı. Dış Çap: 38.1mm · Kalınlık: 1.6mm · Kaplama: AR K9 @ 1064nm T- 1080nm T · Yansıma Yüzeyi: 15J/cm2. Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "299.00",
+      "price": "299.00",
+      "priceTax": "358.8",
+      "currencyCode": "TRY",
+      "stockStatus": "IN_STOCK",
+      "stockQuantity": 35,
+      "sku": "HTCCAM38116",
+      "status": "publish",
+      "manufacturer": "RAYTOOLS",
+      "keywords": [
+        "d38.1",
+        "d1.6",
+        "raytools",
+        "lens",
+        "koruma",
+        "camı",
+        "(japon",
+        "ham",
+        "madde-%99",
+        "ışın",
+        "iletimi)",
+        "htccam38116",
+        "camları"
+      ],
+      "sourceUrl": "https://www.lazeronline.com.tr/raytools-og-y-d38-1-d1-6-8kw-lens-koruma-cami-ust",
+      "image": {
+        "sourceUrl": "https://lazeronline.com.tr/wp-content/uploads/2026/05/71pu3wo63ol-800x800-1.jpg",
+        "altText": "D38.1 d1.6 Raytools Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi)"
+      },
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-koruma-camlari",
+            "databaseId": 201,
+            "name": "Koruma Camları",
+            "slug": "koruma-camlari",
+            "description": "Fiber lazer kesim ve kaynak kafaları için lens koruma camları."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": [
+          {
+            "name": "brand",
+            "label": "Marka",
+            "value": "RAYTOOLS"
+          },
+          {
+            "name": "model",
+            "label": "Model",
+            "value": "HTCCAM38116"
+          },
+          {
+            "name": "currency",
+            "label": "Para Birimi",
+            "value": "TL"
+          },
+          {
+            "name": "outer-diameter",
+            "label": "Dış Çap",
+            "value": "38.1mm"
+          },
+          {
+            "name": "thickness",
+            "label": "Kalınlık",
+            "value": "1.6mm"
+          },
+          {
+            "name": "coating",
+            "label": "Kaplama",
+            "value": "AR K9 @ 1064nm T- 1080nm T"
+          },
+          {
+            "name": "reflection-surface",
+            "label": "Yansıma Yüzeyi",
+            "value": "15J/cm2"
+          },
+          {
+            "name": "surface-quality",
+            "label": "Yüzey Kalitesi",
+            "value": "20/10"
+          },
+          {
+            "name": "max-power",
+            "label": "Max Güç",
+            "value": "8000W (8kw)"
+          }
+        ]
+      },
+      "galleryImages": {
+        "nodes": [
+          {
+            "sourceUrl": "/media/products/100000397/99bc132bfc8c124ac84b65a0a107b253.jpg",
+            "altText": "D38.1 d1.6 Raytools Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi)"
+          },
+          {
+            "sourceUrl": "/media/products/100000397/1b7db7996e175dcbeb29faaeaf93e86a.png",
+            "altText": "D38.1 d1.6 Raytools Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi)"
+          },
+          {
+            "sourceUrl": "/media/products/100000397/12dc308e5b39cc619f4438fd2fa413da.jpg",
+            "altText": "D38.1 d1.6 Raytools Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi)"
+          },
+          {
+            "sourceUrl": "/media/products/100000397/0036bede831b103b6142a6e0b5885c63.png",
+            "altText": "D38.1 d1.6 Raytools Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi)"
+          }
+        ]
+      },
+      "machines": [],
+      "descriptionNotes": []
+    },
+    {
+      "id": "htc-100000398",
+      "databaseId": 2208,
+      "sourceProductId": "100000398",
+      "model": "HTCCAM382",
+      "name": "D38 d2 Raytools Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi)",
+      "slug": "d38-d2-raytools-lens-koruma-cami-japon-ham-madde-99-isin-iletimi-htccam382",
+      "description": "Üretiminizi durdurmadan yenileyebileceğiniz D38 d2 Raytools Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi), Raytools ve eşdeğeri kafalar için doğru ölçü ve işçilikle hazırlanan bir lens koruma camıdır. Öne çıkan teknik özellikleri dış çap 38mm, kalınlık 2mm, kaplama AR K9 @ 1064nm T- 1080nm T, yansıma yüzeyi 15J/cm2, yüzey kalitesi 20/10 olarak özetlenebilir. Ücretsiz kargo ile stoktan hızlı teslim edilir; ölçü uyumundan emin değilseniz kafa modelinizi paylaşmanız yeterlidir.",
+      "shortDescription": "D38 d2 Raytools Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi) — fiber lazer lens koruma camı. Dış Çap: 38mm · Kalınlık: 2mm · Kaplama: AR K9 @ 1064nm T- 1080nm T · Yansıma Yüzeyi: 15J/cm2. Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "299.00",
+      "price": "299.00",
+      "priceTax": "358.8",
+      "currencyCode": "TRY",
+      "stockStatus": "IN_STOCK",
+      "stockQuantity": 25,
+      "sku": "HTCCAM382",
+      "status": "publish",
+      "manufacturer": "RAYTOOLS",
+      "keywords": [
+        "d38",
+        "raytools",
+        "lens",
+        "koruma",
+        "camı",
+        "(japon",
+        "ham",
+        "madde-%99",
+        "ışın",
+        "iletimi)",
+        "htccam382",
+        "camları"
+      ],
+      "sourceUrl": "https://www.lazeronline.com.tr/raytools-og-y-d38-d2-8kw-lens-koruma-cami",
+      "image": {
+        "sourceUrl": "https://lazeronline.com.tr/wp-content/uploads/2026/05/main-picture-800x800-1.jpg",
+        "altText": "D38 d2 Raytools Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi)"
+      },
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-koruma-camlari",
+            "databaseId": 201,
+            "name": "Koruma Camları",
+            "slug": "koruma-camlari",
+            "description": "Fiber lazer kesim ve kaynak kafaları için lens koruma camları."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": [
+          {
+            "name": "brand",
+            "label": "Marka",
+            "value": "RAYTOOLS"
+          },
+          {
+            "name": "model",
+            "label": "Model",
+            "value": "HTCCAM382"
+          },
+          {
+            "name": "currency",
+            "label": "Para Birimi",
+            "value": "TL"
+          },
+          {
+            "name": "outer-diameter",
+            "label": "Dış Çap",
+            "value": "38mm"
+          },
+          {
+            "name": "thickness",
+            "label": "Kalınlık",
+            "value": "2mm"
+          },
+          {
+            "name": "coating",
+            "label": "Kaplama",
+            "value": "AR K9 @ 1064nm T- 1080nm T"
+          },
+          {
+            "name": "reflection-surface",
+            "label": "Yansıma Yüzeyi",
+            "value": "15J/cm2"
+          },
+          {
+            "name": "surface-quality",
+            "label": "Yüzey Kalitesi",
+            "value": "20/10"
+          },
+          {
+            "name": "max-power",
+            "label": "Max Güç",
+            "value": "8000W (8kw)"
+          }
+        ]
+      },
+      "galleryImages": {
+        "nodes": [
+          {
+            "sourceUrl": "/media/products/100000398/0036bede831b103b6142a6e0b5885c63.png",
+            "altText": "D38 d2 Raytools Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi)"
+          },
+          {
+            "sourceUrl": "/media/products/100000398/1b7db7996e175dcbeb29faaeaf93e86a.png",
+            "altText": "D38 d2 Raytools Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi)"
+          },
+          {
+            "sourceUrl": "/media/products/100000398/99bc132bfc8c124ac84b65a0a107b253.jpg",
+            "altText": "D38 d2 Raytools Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi)"
+          },
+          {
+            "sourceUrl": "/media/products/100000398/12dc308e5b39cc619f4438fd2fa413da.jpg",
+            "altText": "D38 d2 Raytools Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi)"
+          }
+        ]
+      },
+      "machines": [],
+      "descriptionNotes": []
+    },
+    {
+      "id": "htc-100000400",
+      "databaseId": 2210,
+      "sourceProductId": "100000400",
+      "model": "HTCCAM343",
+      "name": "D34 d3 Bystronic Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi)",
+      "slug": "d34-d3-bystronic-lens-koruma-cami-japon-ham-madde-99-isin-iletimi-htccam343",
+      "description": "Üretiminizi durdurmadan yenileyebileceğiniz D34 d3 Bystronic Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi), Raytools ve eşdeğeri kafalar için doğru ölçü ve işçilikle hazırlanan bir lens koruma camıdır. Öne çıkan teknik özellikleri dış çap 34mm, kalınlık 3mm, kaplama AR K9 @ 1064nm T- 1080nm T, yansıma yüzeyi 15J/cm2, yüzey kalitesi 20/10 olarak özetlenebilir. Ücretsiz kargo ile stoktan hızlı teslim edilir; ölçü uyumundan emin değilseniz kafa modelinizi paylaşmanız yeterlidir.",
+      "shortDescription": "Raytools uyumlu D34 d3 Bystronic Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi) — fiber lazer lens koruma camı. Dış Çap: 34mm · Kalınlık: 3mm · Kaplama: AR K9 @ 1064nm T- 1080nm T · Yansıma Yüzeyi: 15J/cm2. Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "299.00",
+      "price": "299.00",
+      "priceTax": "358.8",
+      "currencyCode": "TRY",
+      "stockStatus": "IN_STOCK",
+      "stockQuantity": 83,
+      "sku": "HTCCAM343",
+      "status": "publish",
+      "manufacturer": "RAYTOOLS",
+      "keywords": [
+        "d34",
+        "bystronic",
+        "lens",
+        "koruma",
+        "camı",
+        "(japon",
+        "ham",
+        "madde-%99",
+        "ışın",
+        "iletimi)",
+        "htccam343",
+        "raytools",
+        "camları"
+      ],
+      "sourceUrl": "https://www.lazeronline.com.tr/bystronic-og-y-d34-d3-8kw-lens-koruma-cami",
+      "image": {
+        "sourceUrl": "https://lazeronline.com.tr/wp-content/uploads/2026/05/71pu3wo63ol-800x800-2.jpg",
+        "altText": "D34 d3 Bystronic Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi)"
+      },
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-koruma-camlari",
+            "databaseId": 201,
+            "name": "Koruma Camları",
+            "slug": "koruma-camlari",
+            "description": "Fiber lazer kesim ve kaynak kafaları için lens koruma camları."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": [
+          {
+            "name": "brand",
+            "label": "Marka",
+            "value": "RAYTOOLS"
+          },
+          {
+            "name": "model",
+            "label": "Model",
+            "value": "HTCCAM343"
+          },
+          {
+            "name": "currency",
+            "label": "Para Birimi",
+            "value": "TL"
+          },
+          {
+            "name": "outer-diameter",
+            "label": "Dış Çap",
+            "value": "34mm"
+          },
+          {
+            "name": "thickness",
+            "label": "Kalınlık",
+            "value": "3mm"
+          },
+          {
+            "name": "coating",
+            "label": "Kaplama",
+            "value": "AR K9 @ 1064nm T- 1080nm T"
+          },
+          {
+            "name": "reflection-surface",
+            "label": "Yansıma Yüzeyi",
+            "value": "15J/cm2"
+          },
+          {
+            "name": "surface-quality",
+            "label": "Yüzey Kalitesi",
+            "value": "20/10"
+          },
+          {
+            "name": "max-power",
+            "label": "Max Güç",
+            "value": "10000W (10kw) Kullanılan Bystronic Kafa Modelleri:"
+          }
+        ]
+      },
+      "machines": [],
+      "descriptionNotes": []
+    },
+    {
+      "id": "htc-100000401",
+      "databaseId": 2211,
+      "sourceProductId": "100000401",
+      "model": "HTCCAM25415",
+      "name": "D25.4 d1.5 Nukon, HighYag Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi)",
+      "slug": "d25-4-d1-5-nukon-highyag-lens-koruma-cami-japon-ham-madde-99-isin-iletimi-htccam25415",
+      "description": "Raytools ve eşdeğeri kafa kullanan makineler için geliştirilen D25.4 d1.5 Nukon, HighYag Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi), yüksek güç altında kararlı performans sunan bir lens koruma camıdır. Ürünün teknik karşılığı: dış çap 25.4mm, kalınlık 1.5mm, kaplama AR K9 @ 1064nm T- 1080nm T, yansıma yüzeyi 15J/cm2, yüzey kalitesi 20/10. Nukon makinelerinde çalışan operatörlerin düzenli yenilediği sarflar arasındadır. Doğru seçim için ürün kodunu veya kafa modelinizi iletebilirsiniz; ücretsiz kargo ile stoktan gönderilir.",
+      "shortDescription": "Raytools uyumlu D25.4 d1.5 Nukon, HighYag Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi) — fiber lazer lens koruma camı. Dış Çap: 25.4mm · Kalınlık: 1.5mm · Kaplama: AR K9 @ 1064nm T- 1080nm T · Yansıma Yüzeyi: 15J/cm2. Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "299.00",
+      "price": "299.00",
+      "priceTax": "358.8",
+      "currencyCode": "TRY",
+      "stockStatus": "IN_STOCK",
+      "stockQuantity": 54,
+      "sku": "HTCCAM25415",
+      "status": "publish",
+      "manufacturer": "RAYTOOLS",
+      "keywords": [
+        "d25.4",
+        "d1.5",
+        "nukon",
+        "highyag",
+        "lens",
+        "koruma",
+        "camı",
+        "(japon",
+        "ham",
+        "madde-%99",
+        "ışın",
+        "iletimi)",
+        "htccam25415",
+        "raytools",
+        "camları"
+      ],
+      "sourceUrl": "https://www.lazeronline.com.tr/nukon-highyag-og-y-d25-4-d1-5-8kw-lens-koruma-cami",
+      "image": {
+        "sourceUrl": "https://lazeronline.com.tr/wp-content/uploads/2026/05/h5677f483b33041f7a0a4489b6dd3622eo-800x800-1.jpg",
+        "altText": "D25.4 d1.5 Nukon, HighYag Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi)"
+      },
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-koruma-camlari",
+            "databaseId": 201,
+            "name": "Koruma Camları",
+            "slug": "koruma-camlari",
+            "description": "Fiber lazer kesim ve kaynak kafaları için lens koruma camları."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": [
+          {
+            "name": "brand",
+            "label": "Marka",
+            "value": "RAYTOOLS"
+          },
+          {
+            "name": "model",
+            "label": "Model",
+            "value": "HTCCAM25415"
+          },
+          {
+            "name": "currency",
+            "label": "Para Birimi",
+            "value": "TL"
+          },
+          {
+            "name": "outer-diameter",
+            "label": "Dış Çap",
+            "value": "25.4mm"
+          },
+          {
+            "name": "thickness",
+            "label": "Kalınlık",
+            "value": "1.5mm"
+          },
+          {
+            "name": "coating",
+            "label": "Kaplama",
+            "value": "AR K9 @ 1064nm T- 1080nm T"
+          },
+          {
+            "name": "reflection-surface",
+            "label": "Yansıma Yüzeyi",
+            "value": "15J/cm2"
+          },
+          {
+            "name": "surface-quality",
+            "label": "Yüzey Kalitesi",
+            "value": "20/10"
+          },
+          {
+            "name": "max-power",
+            "label": "Max Güç",
+            "value": "8000W (8kw)"
+          }
+        ]
+      },
+      "machines": [
+        "Nukon"
+      ],
+      "descriptionNotes": []
+    },
+    {
+      "id": "htc-100000402",
+      "databaseId": 2212,
+      "sourceProductId": "100000402",
+      "model": "HTCCAM322",
+      "name": "D32 d2 Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi)",
+      "slug": "d32-d2-lens-koruma-cami-japon-ham-madde-99-isin-iletimi-htccam322",
+      "description": "Üretiminizi durdurmadan yenileyebileceğiniz D32 d2 Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi), Raytools ve eşdeğeri kafalar için doğru ölçü ve işçilikle hazırlanan bir lens koruma camıdır. Öne çıkan teknik özellikleri dış çap 32mm, kalınlık 2mm, kaplama AR K9 @ 1064nm T- 1080nm T, yansıma yüzeyi 15J/cm2, yüzey kalitesi 20/10 olarak özetlenebilir. Ücretsiz kargo ile stoktan hızlı teslim edilir; ölçü uyumundan emin değilseniz kafa modelinizi paylaşmanız yeterlidir.",
+      "shortDescription": "Raytools uyumlu D32 d2 Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi) — fiber lazer lens koruma camı. Dış Çap: 32mm · Kalınlık: 2mm · Kaplama: AR K9 @ 1064nm T- 1080nm T · Yansıma Yüzeyi: 15J/cm2. Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "299.00",
+      "price": "299.00",
+      "priceTax": "358.8",
+      "currencyCode": "TRY",
+      "stockStatus": "IN_STOCK",
+      "stockQuantity": 50,
+      "sku": "HTCCAM322",
+      "status": "publish",
+      "manufacturer": "RAYTOOLS",
+      "keywords": [
+        "d32",
+        "lens",
+        "koruma",
+        "camı",
+        "(japon",
+        "ham",
+        "madde-%99",
+        "ışın",
+        "iletimi)",
+        "htccam322",
+        "raytools",
+        "camları"
+      ],
+      "sourceUrl": "https://www.lazeronline.com.tr/og-y-d32-d2-8kw-lens-koruma-cami",
+      "image": {
+        "sourceUrl": "https://lazeronline.com.tr/wp-content/uploads/2026/05/main-picture-800x800-1.jpg",
+        "altText": "D32 d2 Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi)"
+      },
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-koruma-camlari",
+            "databaseId": 201,
+            "name": "Koruma Camları",
+            "slug": "koruma-camlari",
+            "description": "Fiber lazer kesim ve kaynak kafaları için lens koruma camları."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": [
+          {
+            "name": "brand",
+            "label": "Marka",
+            "value": "RAYTOOLS"
+          },
+          {
+            "name": "model",
+            "label": "Model",
+            "value": "HTCCAM322"
+          },
+          {
+            "name": "currency",
+            "label": "Para Birimi",
+            "value": "TL"
+          },
+          {
+            "name": "outer-diameter",
+            "label": "Dış Çap",
+            "value": "32mm"
+          },
+          {
+            "name": "thickness",
+            "label": "Kalınlık",
+            "value": "2mm"
+          },
+          {
+            "name": "coating",
+            "label": "Kaplama",
+            "value": "AR K9 @ 1064nm T- 1080nm T"
+          },
+          {
+            "name": "reflection-surface",
+            "label": "Yansıma Yüzeyi",
+            "value": "15J/cm2"
+          },
+          {
+            "name": "surface-quality",
+            "label": "Yüzey Kalitesi",
+            "value": "20/10"
+          },
+          {
+            "name": "max-power",
+            "label": "Max Güç",
+            "value": "8000W (8kw)"
+          }
+        ]
+      },
+      "galleryImages": {
+        "nodes": [
+          {
+            "sourceUrl": "/media/products/100000402/12dc308e5b39cc619f4438fd2fa413da.jpg",
+            "altText": "D32 d2 Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi)"
+          }
+        ]
+      },
+      "machines": [],
+      "descriptionNotes": []
+    },
+    {
+      "id": "htc-100000403",
+      "databaseId": 2214,
+      "sourceProductId": "100000403",
+      "model": "HTCSER004X",
+      "name": "Precitec Procutter 2.0 KT X Seramik P0595-92036",
+      "slug": "precitec-procutter-2-0-kt-x-seramik-p0595-92036-htcser004x",
+      "description": "Precitec Procutter 2.0 KT X Seramik P0595-92036, Precitec ve eşdeğeri kesim kafalarıyla uyumlu olarak üretilen bir seramik tutucudur. Teknik değerler: dış çap 31mm / 26.5mm, iç çap M15 Pim, kaplama Gold-Plated.Max Güç: 10000W (10kw), max güç 10000W (10kw), menşe Almanya. Stoktan hızlı kargolanır; ücretsiz kargo ve teknik destek Lazer Online güvencesiyle sunulur.",
+      "shortDescription": "Precitec Procutter 2.0 KT X Seramik P0595-92036 — fiber lazer kesim kafası seramik tutucu. Dış Çap: 31mm / 26.5mm · İç Çap: M15 Pim · Kaplama: Gold-Plated.Max Güç: 10000W (10kw) · Max Güç: 10000W (10kw). Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "699.00",
+      "price": "699.00",
+      "priceTax": "838.8",
+      "currencyCode": "TRY",
+      "stockStatus": "IN_STOCK",
+      "stockQuantity": 207,
+      "sku": "HTCSER004X",
+      "status": "publish",
+      "manufacturer": "PRECITEC",
+      "keywords": [
+        "precitec",
+        "procutter",
+        "2.0",
+        "seramik",
+        "p0595-92036",
+        "htcser004x",
+        "precıtec",
+        "seramikler"
+      ],
+      "sourceUrl": "https://www.lazeronline.com.tr/precitec-procutter-2-0-kt-x-seramik-p0595-92036",
+      "image": {
+        "sourceUrl": "https://lazeronline.com.tr/wp-content/uploads/2026/05/csm-kt-x-p0595-92036-6a73fa2367-800x800-1.jpg",
+        "altText": "Precitec Procutter 2.0 KT X Seramik P0595-92036"
+      },
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-seramikler",
+            "databaseId": 202,
+            "name": "Seramikler",
+            "slug": "seramikler",
+            "description": "Precitec, Raytools, Nukon, HighYag ve Bystronic uyumlu seramik sarf malzemeleri."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": [
+          {
+            "name": "brand",
+            "label": "Marka",
+            "value": "PRECITEC"
+          },
+          {
+            "name": "model",
+            "label": "Model",
+            "value": "HTCSER004X"
+          },
+          {
+            "name": "currency",
+            "label": "Para Birimi",
+            "value": "TL"
+          },
+          {
+            "name": "outer-diameter",
+            "label": "Dış Çap",
+            "value": "31mm / 26.5mm"
+          },
+          {
+            "name": "inner-diameter",
+            "label": "İç Çap",
+            "value": "M15 Pim"
+          },
+          {
+            "name": "coating",
+            "label": "Kaplama",
+            "value": "Gold-Plated.Max Güç: 10000W (10kw)"
+          },
+          {
+            "name": "max-power",
+            "label": "Max Güç",
+            "value": "10000W (10kw)"
+          },
+          {
+            "name": "origin",
+            "label": "Menşe",
+            "value": "Almanya"
+          }
+        ]
+      },
+      "galleryImages": {
+        "nodes": [
+          {
+            "sourceUrl": "/media/products/100000403/672ae19b0097c3c90d9e2f9ee3e0849f.png",
+            "altText": "Precitec Procutter 2.0 KT X Seramik P0595-92036"
+          },
+          {
+            "sourceUrl": "/media/products/100000403/0c84d1e0f77e56e4f4d646bfc23d554c.jpg",
+            "altText": "Precitec Procutter 2.0 KT X Seramik P0595-92036"
+          }
+        ]
+      },
+      "machines": [],
+      "descriptionNotes": []
+    },
+    {
+      "id": "htc-100000406",
+      "databaseId": 2216,
+      "sourceProductId": "100000406",
+      "model": "HTCCAM3716",
+      "name": "D37 d1.6 Raytools Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi)",
+      "slug": "d37-d1-6-raytools-lens-koruma-cami-japon-ham-madde-99-isin-iletimi-htccam3716",
+      "description": "Raytools ve eşdeğeri kafa kullanan makineler için geliştirilen D37 d1.6 Raytools Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi), yüksek güç altında kararlı performans sunan bir lens koruma camıdır. Ürünün teknik karşılığı: dış çap 37mm, kalınlık 1.6mm, kaplama AR K9 @ 1064nm T- 1080nm T, yansıma yüzeyi 15J/cm2, yüzey kalitesi 20/10. Doğru seçim için ürün kodunu veya kafa modelinizi iletebilirsiniz; ücretsiz kargo ile stoktan gönderilir.",
+      "shortDescription": "D37 d1.6 Raytools Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi) — fiber lazer lens koruma camı. Dış Çap: 37mm · Kalınlık: 1.6mm · Kaplama: AR K9 @ 1064nm T- 1080nm T · Yansıma Yüzeyi: 15J/cm2. Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "299.00",
+      "price": "299.00",
+      "priceTax": "358.8",
+      "currencyCode": "TRY",
+      "stockStatus": "IN_STOCK",
+      "stockQuantity": 6,
+      "sku": "HTCCAM3716",
+      "status": "publish",
+      "manufacturer": "RAYTOOLS",
+      "keywords": [
+        "d37",
+        "d1.6",
+        "raytools",
+        "lens",
+        "koruma",
+        "camı",
+        "(japon",
+        "ham",
+        "madde-%99",
+        "ışın",
+        "iletimi)",
+        "htccam3716",
+        "camları"
+      ],
+      "sourceUrl": "https://www.lazeronline.com.tr/raytools-og-y-d37-d1-6-6kw-lens-koruma-cami",
+      "image": {
+        "sourceUrl": "https://lazeronline.com.tr/wp-content/uploads/2026/05/h5677f483b33041f7a0a4489b6dd3622eo-800x800-2.jpg",
+        "altText": "D37 d1.6 Raytools Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi)"
+      },
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-koruma-camlari",
+            "databaseId": 201,
+            "name": "Koruma Camları",
+            "slug": "koruma-camlari",
+            "description": "Fiber lazer kesim ve kaynak kafaları için lens koruma camları."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": [
+          {
+            "name": "brand",
+            "label": "Marka",
+            "value": "RAYTOOLS"
+          },
+          {
+            "name": "model",
+            "label": "Model",
+            "value": "HTCCAM3716"
+          },
+          {
+            "name": "currency",
+            "label": "Para Birimi",
+            "value": "TL"
+          },
+          {
+            "name": "outer-diameter",
+            "label": "Dış Çap",
+            "value": "37mm"
+          },
+          {
+            "name": "thickness",
+            "label": "Kalınlık",
+            "value": "1.6mm"
+          },
+          {
+            "name": "coating",
+            "label": "Kaplama",
+            "value": "AR K9 @ 1064nm T- 1080nm T"
+          },
+          {
+            "name": "reflection-surface",
+            "label": "Yansıma Yüzeyi",
+            "value": "15J/cm2"
+          },
+          {
+            "name": "surface-quality",
+            "label": "Yüzey Kalitesi",
+            "value": "20/10"
+          },
+          {
+            "name": "max-power",
+            "label": "Max Güç",
+            "value": "10000W (10kw)"
+          }
+        ]
+      },
+      "galleryImages": {
+        "nodes": [
+          {
+            "sourceUrl": "/media/products/100000406/12dc308e5b39cc619f4438fd2fa413da.jpg",
+            "altText": "D37 d1.6 Raytools Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi)"
+          }
+        ]
+      },
+      "machines": [],
+      "descriptionNotes": []
+    },
+    {
+      "id": "htc-100000407",
+      "databaseId": 2217,
+      "sourceProductId": "100000407",
+      "model": "HTCCAM202",
+      "name": "D20 d2 Lazer Kaynak Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi)",
+      "slug": "d20-d2-lazer-kaynak-lens-koruma-cami-japon-ham-madde-99-isin-iletimi-htccam202",
+      "description": "Üretiminizi durdurmadan yenileyebileceğiniz D20 d2 Lazer Kaynak Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi), yaygın fiber lazer kafalar için doğru ölçü ve işçilikle hazırlanan bir lazer kaynak sarf parçasıdır. Öne çıkan teknik özellikleri dış çap 20mm, kalınlık 2mm, kaplama AR K9 @ 1064nm T- 1080nm T, yansıma yüzeyi 15J/cm2, yüzey kalitesi 20/10 olarak özetlenebilir. Ücretsiz kargo ile stoktan hızlı teslim edilir; ölçü uyumundan emin değilseniz kafa modelinizi paylaşmanız yeterlidir.",
+      "shortDescription": "D20 d2 Lazer Kaynak Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi) — lazer kaynak sarf malzemesi. Dış Çap: 20mm · Kalınlık: 2mm · Kaplama: AR K9 @ 1064nm T- 1080nm T · Yansıma Yüzeyi: 15J/cm2. Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "249.00",
+      "price": "249.00",
+      "priceTax": "298.8",
+      "currencyCode": "TRY",
+      "stockStatus": "IN_STOCK",
+      "stockQuantity": 194,
+      "sku": "HTCCAM202",
+      "status": "publish",
+      "manufacturer": "LAZER KAYNAK",
+      "keywords": [
+        "d20",
+        "lazer",
+        "kaynak",
+        "lens",
+        "koruma",
+        "camı",
+        "(japon",
+        "ham",
+        "madde-%99",
+        "ışın",
+        "iletimi)",
+        "htccam202",
+        "sarfları"
+      ],
+      "sourceUrl": "https://www.lazeronline.com.tr/og-y-d20-d2-6kw-lens-koruma-cami-kaynak-lazeri",
+      "image": {
+        "sourceUrl": "https://lazeronline.com.tr/wp-content/uploads/2026/05/images-2-800x800-1.jpeg",
+        "altText": "D20 d2 Lazer Kaynak Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi)"
+      },
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-lazer-kaynak",
+            "databaseId": 205,
+            "name": "Lazer Kaynak Sarfları",
+            "slug": "lazer-kaynak",
+            "description": "Lazer kaynak makineleri için lens, cam ve sarf malzemeleri."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": [
+          {
+            "name": "brand",
+            "label": "Marka",
+            "value": "LAZER KAYNAK"
+          },
+          {
+            "name": "model",
+            "label": "Model",
+            "value": "HTCCAM202"
+          },
+          {
+            "name": "currency",
+            "label": "Para Birimi",
+            "value": "TL"
+          },
+          {
+            "name": "outer-diameter",
+            "label": "Dış Çap",
+            "value": "20mm"
+          },
+          {
+            "name": "thickness",
+            "label": "Kalınlık",
+            "value": "2mm"
+          },
+          {
+            "name": "coating",
+            "label": "Kaplama",
+            "value": "AR K9 @ 1064nm T- 1080nm T"
+          },
+          {
+            "name": "reflection-surface",
+            "label": "Yansıma Yüzeyi",
+            "value": "15J/cm2"
+          },
+          {
+            "name": "surface-quality",
+            "label": "Yüzey Kalitesi",
+            "value": "20/10"
+          },
+          {
+            "name": "max-power",
+            "label": "Max Güç",
+            "value": "8000W (8kw)"
+          }
+        ]
+      },
+      "galleryImages": {
+        "nodes": [
+          {
+            "sourceUrl": "/media/products/100000407/908ad4a34bc8d041c70e105848cf07b1.jpg",
+            "altText": "D20 d2 Lazer Kaynak Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi)"
+          }
+        ]
+      },
+      "machines": [],
+      "descriptionNotes": []
+    },
+    {
+      "id": "htc-100000409",
+      "databaseId": 2218,
+      "sourceProductId": "100000409",
+      "model": "HTCCAM32635",
+      "name": "D32 d6.35 Salvagnini Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi)",
+      "slug": "d32-d6-35-salvagnini-lens-koruma-cami-japon-ham-madde-99-isin-iletimi-htccam32635",
+      "description": "Üretiminizi durdurmadan yenileyebileceğiniz D32 d6.35 Salvagnini Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi), WSX ve eşdeğeri kafalar için doğru ölçü ve işçilikle hazırlanan bir lens koruma camıdır. Öne çıkan teknik özellikleri dış çap 32mm, kalınlık 6.35mm, kaplama AR K9 @ 1064nm T- 1080nm T, yansıma yüzeyi 15J/cm2, yüzey kalitesi 20/10 olarak özetlenebilir. Ücretsiz kargo ile stoktan hızlı teslim edilir; ölçü uyumundan emin değilseniz kafa modelinizi paylaşmanız yeterlidir.",
+      "shortDescription": "WSX uyumlu D32 d6.35 Salvagnini Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi) — fiber lazer lens koruma camı. Dış Çap: 32mm · Kalınlık: 6.35mm · Kaplama: AR K9 @ 1064nm T- 1080nm T · Yansıma Yüzeyi: 15J/cm2. Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "399.00",
+      "price": "399.00",
+      "priceTax": "478.8",
+      "currencyCode": "TRY",
+      "stockStatus": "IN_STOCK",
+      "stockQuantity": 48,
+      "sku": "HTCCAM32635",
+      "status": "publish",
+      "manufacturer": "WSX",
+      "keywords": [
+        "d32",
+        "d6.35",
+        "salvagnini",
+        "lens",
+        "koruma",
+        "camı",
+        "(japon",
+        "ham",
+        "madde-%99",
+        "ışın",
+        "iletimi)",
+        "htccam32635",
+        "wsx",
+        "camları"
+      ],
+      "sourceUrl": "https://www.lazeronline.com.tr/salvagnini-og-y-d32-d6-35-10kw-lens-koruma-cami",
+      "image": {
+        "sourceUrl": "https://lazeronline.com.tr/wp-content/uploads/2026/05/71pu3wo63ol-800x800-1.jpg",
+        "altText": "D32 d6.35 Salvagnini Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi)"
+      },
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-koruma-camlari",
+            "databaseId": 201,
+            "name": "Koruma Camları",
+            "slug": "koruma-camlari",
+            "description": "Fiber lazer kesim ve kaynak kafaları için lens koruma camları."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": [
+          {
+            "name": "brand",
+            "label": "Marka",
+            "value": "WSX"
+          },
+          {
+            "name": "model",
+            "label": "Model",
+            "value": "HTCCAM32635"
+          },
+          {
+            "name": "currency",
+            "label": "Para Birimi",
+            "value": "TL"
+          },
+          {
+            "name": "outer-diameter",
+            "label": "Dış Çap",
+            "value": "32mm"
+          },
+          {
+            "name": "thickness",
+            "label": "Kalınlık",
+            "value": "6.35mm"
+          },
+          {
+            "name": "coating",
+            "label": "Kaplama",
+            "value": "AR K9 @ 1064nm T- 1080nm T"
+          },
+          {
+            "name": "reflection-surface",
+            "label": "Yansıma Yüzeyi",
+            "value": "15J/cm2"
+          },
+          {
+            "name": "surface-quality",
+            "label": "Yüzey Kalitesi",
+            "value": "20/10"
+          },
+          {
+            "name": "max-power",
+            "label": "Max Güç",
+            "value": "10000W (10kw)"
+          }
+        ]
+      },
+      "machines": [],
+      "descriptionNotes": []
+    },
+    {
+      "id": "htc-100000410",
+      "databaseId": 2220,
+      "sourceProductId": "100000410",
+      "model": "HTCCAM203",
+      "name": "D20 d3 Lazer kaynak Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi)",
+      "slug": "d20-d3-lazer-kaynak-lens-koruma-cami-japon-ham-madde-99-isin-iletimi-htccam203",
+      "description": "Yaygın fiber lazer kafa kullanan makineler için geliştirilen D20 d3 Lazer kaynak Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi), yüksek güç altında kararlı performans sunan bir lazer kaynak sarf parçasıdır. Ürünün teknik karşılığı: dış çap 20mm, kalınlık 3mm, kaplama AR K9 @ 1064nm T- 1080nm T, yansıma yüzeyi 15J/cm2, yüzey kalitesi 20/10. Doğru seçim için ürün kodunu veya kafa modelinizi iletebilirsiniz; ücretsiz kargo ile stoktan gönderilir.",
+      "shortDescription": "D20 d3 Lazer kaynak Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi) — lazer kaynak sarf malzemesi. Dış Çap: 20mm · Kalınlık: 3mm · Kaplama: AR K9 @ 1064nm T- 1080nm T · Yansıma Yüzeyi: 15J/cm2. Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "249.00",
+      "price": "249.00",
+      "priceTax": "298.8",
+      "currencyCode": "TRY",
+      "stockStatus": "IN_STOCK",
+      "stockQuantity": 159,
+      "sku": "HTCCAM203",
+      "status": "publish",
+      "manufacturer": "LAZER KAYNAK",
+      "keywords": [
+        "d20",
+        "lazer",
+        "kaynak",
+        "lens",
+        "koruma",
+        "camı",
+        "(japon",
+        "ham",
+        "madde-%99",
+        "ışın",
+        "iletimi)",
+        "htccam203",
+        "sarfları"
+      ],
+      "sourceUrl": "https://www.lazeronline.com.tr/lazer-kaynak-og-y-d20-d3-8kw-lens-koruma-cami",
+      "image": {
+        "sourceUrl": "https://lazeronline.com.tr/wp-content/uploads/2026/05/koruma-cami-800x800-1.jpg",
+        "altText": "D20 d3 Lazer kaynak Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi)"
+      },
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-lazer-kaynak",
+            "databaseId": 205,
+            "name": "Lazer Kaynak Sarfları",
+            "slug": "lazer-kaynak",
+            "description": "Lazer kaynak makineleri için lens, cam ve sarf malzemeleri."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": [
+          {
+            "name": "brand",
+            "label": "Marka",
+            "value": "LAZER KAYNAK"
+          },
+          {
+            "name": "model",
+            "label": "Model",
+            "value": "HTCCAM203"
+          },
+          {
+            "name": "currency",
+            "label": "Para Birimi",
+            "value": "TL"
+          },
+          {
+            "name": "outer-diameter",
+            "label": "Dış Çap",
+            "value": "20mm"
+          },
+          {
+            "name": "thickness",
+            "label": "Kalınlık",
+            "value": "3mm"
+          },
+          {
+            "name": "coating",
+            "label": "Kaplama",
+            "value": "AR K9 @ 1064nm T- 1080nm T"
+          },
+          {
+            "name": "reflection-surface",
+            "label": "Yansıma Yüzeyi",
+            "value": "15J/cm2"
+          },
+          {
+            "name": "surface-quality",
+            "label": "Yüzey Kalitesi",
+            "value": "20/10"
+          },
+          {
+            "name": "max-power",
+            "label": "Max Güç",
+            "value": "8000W (8kw)"
+          }
+        ]
+      },
+      "machines": [],
+      "descriptionNotes": []
+    },
+    {
+      "id": "htc-100000457",
+      "databaseId": 2222,
+      "sourceProductId": "100000457",
+      "model": "HTCCAM27941",
+      "name": "D27.9 d4.1 Raytools Lens Koruma Camı",
+      "slug": "d27-9-d4-1-raytools-lens-koruma-cami-htccam27941",
+      "description": "Raytools ve eşdeğeri kafa kullanan makineler için geliştirilen D27.9 d4.1 Raytools Lens Koruma Camı, yüksek güç altında kararlı performans sunan bir lens koruma camıdır. Ürünün teknik karşılığı: dış çap 27.9 (28)mm, kalınlık 4.1 (4)mm, kaplama AR K9 @ 1064nm T- 1080nm T, yansıma yüzeyi 15J/cm2, yüzey kalitesi 20/10. Doğru seçim için ürün kodunu veya kafa modelinizi iletebilirsiniz; ücretsiz kargo ile stoktan gönderilir.",
+      "shortDescription": "D27.9 d4.1 Raytools Lens Koruma Camı — fiber lazer lens koruma camı. Dış Çap: 27.9 (28)mm · Kalınlık: 4.1 (4)mm · Kaplama: AR K9 @ 1064nm T- 1080nm T · Yansıma Yüzeyi: 15J/cm2. Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "299.00",
+      "price": "299.00",
+      "priceTax": "358.8",
+      "currencyCode": "TRY",
+      "stockStatus": "IN_STOCK",
+      "stockQuantity": 757,
+      "sku": "HTCCAM27941",
+      "status": "publish",
+      "manufacturer": "RAYTOOLS",
+      "keywords": [
+        "d27.9",
+        "d4.1",
+        "raytools",
+        "lens",
+        "koruma",
+        "camı",
+        "htccam27941",
+        "camları"
+      ],
+      "sourceUrl": "https://www.lazeronline.com.tr/raytools-og-y-d27-9-d4-1-orjinal-lens-koruma-cami",
+      "image": {
+        "sourceUrl": "https://lazeronline.com.tr/wp-content/uploads/2026/05/images-800x800-1.jpg",
+        "altText": "D27.9 d4.1 Raytools Lens Koruma Camı"
+      },
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-koruma-camlari",
+            "databaseId": 201,
+            "name": "Koruma Camları",
+            "slug": "koruma-camlari",
+            "description": "Fiber lazer kesim ve kaynak kafaları için lens koruma camları."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": [
+          {
+            "name": "brand",
+            "label": "Marka",
+            "value": "RAYTOOLS"
+          },
+          {
+            "name": "model",
+            "label": "Model",
+            "value": "HTCCAM27941"
+          },
+          {
+            "name": "currency",
+            "label": "Para Birimi",
+            "value": "TL"
+          },
+          {
+            "name": "outer-diameter",
+            "label": "Dış Çap",
+            "value": "27.9 (28)mm"
+          },
+          {
+            "name": "thickness",
+            "label": "Kalınlık",
+            "value": "4.1 (4)mm"
+          },
+          {
+            "name": "coating",
+            "label": "Kaplama",
+            "value": "AR K9 @ 1064nm T- 1080nm T"
+          },
+          {
+            "name": "reflection-surface",
+            "label": "Yansıma Yüzeyi",
+            "value": "15J/cm2"
+          },
+          {
+            "name": "surface-quality",
+            "label": "Yüzey Kalitesi",
+            "value": "20/10"
+          },
+          {
+            "name": "max-power",
+            "label": "Max Güç",
+            "value": "Orjinal Ürün: 10000W (10kw) Oem Ürün: 6000w (6kw)"
+          }
+        ]
+      },
+      "galleryImages": {
+        "nodes": [
+          {
+            "sourceUrl": "/media/products/100000457/12dc308e5b39cc619f4438fd2fa413da.jpg",
+            "altText": "D27.9 d4.1 Raytools Lens Koruma Camı"
+          },
+          {
+            "sourceUrl": "/media/products/100000457/99bc132bfc8c124ac84b65a0a107b253.jpg",
+            "altText": "D27.9 d4.1 Raytools Lens Koruma Camı"
+          },
+          {
+            "sourceUrl": "/media/products/100000457/c4e9d73c7f56c6b997aee1094f8b388f.jpg",
+            "altText": "D27.9 d4.1 Raytools Lens Koruma Camı"
+          },
+          {
+            "sourceUrl": "/media/products/100000457/1b7db7996e175dcbeb29faaeaf93e86a.png",
+            "altText": "D27.9 d4.1 Raytools Lens Koruma Camı"
+          },
+          {
+            "sourceUrl": "/media/products/100000457/0036bede831b103b6142a6e0b5885c63.png",
+            "altText": "D27.9 d4.1 Raytools Lens Koruma Camı"
+          },
+          {
+            "sourceUrl": "/media/products/100000457/3c48a4814b8687c6ba752c6c2147b73a.png",
+            "altText": "D27.9 d4.1 Raytools Lens Koruma Camı"
+          }
+        ]
+      },
+      "machines": [],
+      "descriptionNotes": []
+    },
+    {
+      "id": "htc-100000459",
+      "databaseId": 2224,
+      "sourceProductId": "100000459",
+      "model": "HTCCAM24915",
+      "name": "D24.9 d1.5 Raytools Lens Koruma Camı",
+      "slug": "d24-9-d1-5-raytools-lens-koruma-cami-htccam24915",
+      "description": "D24.9 d1.5 Raytools Lens Koruma Camı, Raytools ve eşdeğeri kesim kafalarıyla uyumlu olarak üretilen bir lens koruma camıdır. Teknik değerler: dış çap 24.9mm, kalınlık 1.5mm, kaplama AR K9 @ 1064nm T- 1080nm T, yansıma yüzeyi 15J/cm2, yüzey kalitesi 20/10. Stoktan hızlı kargolanır; ücretsiz kargo ve teknik destek Lazer Online güvencesiyle sunulur.",
+      "shortDescription": "D24.9 d1.5 Raytools Lens Koruma Camı — fiber lazer lens koruma camı. Dış Çap: 24.9mm · Kalınlık: 1.5mm · Kaplama: AR K9 @ 1064nm T- 1080nm T · Yansıma Yüzeyi: 15J/cm2. Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "299.00",
+      "price": "299.00",
+      "priceTax": "358.8",
+      "currencyCode": "TRY",
+      "stockStatus": "IN_STOCK",
+      "stockQuantity": 307,
+      "sku": "HTCCAM24915",
+      "status": "publish",
+      "manufacturer": "RAYTOOLS",
+      "keywords": [
+        "d24.9",
+        "d1.5",
+        "raytools",
+        "lens",
+        "koruma",
+        "camı",
+        "htccam24915",
+        "camları"
+      ],
+      "sourceUrl": "https://www.lazeronline.com.tr/raytools-og-y-d24-9-d1-5-lens-koruma-cami-ust-2",
+      "image": {
+        "sourceUrl": "https://lazeronline.com.tr/wp-content/uploads/2026/05/41nt8wpqyil.-ac-sy1000-800x800-1.jpg",
+        "altText": "D24.9 d1.5 Raytools Lens Koruma Camı"
+      },
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-koruma-camlari",
+            "databaseId": 201,
+            "name": "Koruma Camları",
+            "slug": "koruma-camlari",
+            "description": "Fiber lazer kesim ve kaynak kafaları için lens koruma camları."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": [
+          {
+            "name": "brand",
+            "label": "Marka",
+            "value": "RAYTOOLS"
+          },
+          {
+            "name": "model",
+            "label": "Model",
+            "value": "HTCCAM24915"
+          },
+          {
+            "name": "currency",
+            "label": "Para Birimi",
+            "value": "TL"
+          },
+          {
+            "name": "outer-diameter",
+            "label": "Dış Çap",
+            "value": "24.9mm"
+          },
+          {
+            "name": "thickness",
+            "label": "Kalınlık",
+            "value": "1.5mm"
+          },
+          {
+            "name": "coating",
+            "label": "Kaplama",
+            "value": "AR K9 @ 1064nm T- 1080nm T"
+          },
+          {
+            "name": "reflection-surface",
+            "label": "Yansıma Yüzeyi",
+            "value": "15J/cm2"
+          },
+          {
+            "name": "surface-quality",
+            "label": "Yüzey Kalitesi",
+            "value": "20/10"
+          },
+          {
+            "name": "max-power",
+            "label": "Max Güç",
+            "value": "Orjinal Ürün: 10000W (10kw) Muadil Ürün: 6000w (6kw)"
+          }
+        ]
+      },
+      "galleryImages": {
+        "nodes": [
+          {
+            "sourceUrl": "/media/products/100000459/7c28365d7e5ba7b6dda0914ac8a4e99a.jpg",
+            "altText": "D24.9 d1.5 Raytools Lens Koruma Camı"
+          },
+          {
+            "sourceUrl": "/media/products/100000459/3c48a4814b8687c6ba752c6c2147b73a.png",
+            "altText": "D24.9 d1.5 Raytools Lens Koruma Camı"
+          },
+          {
+            "sourceUrl": "/media/products/100000459/0036bede831b103b6142a6e0b5885c63.png",
+            "altText": "D24.9 d1.5 Raytools Lens Koruma Camı"
+          },
+          {
+            "sourceUrl": "/media/products/100000459/99bc132bfc8c124ac84b65a0a107b253.jpg",
+            "altText": "D24.9 d1.5 Raytools Lens Koruma Camı"
+          },
+          {
+            "sourceUrl": "/media/products/100000459/1b7db7996e175dcbeb29faaeaf93e86a.png",
+            "altText": "D24.9 d1.5 Raytools Lens Koruma Camı"
+          }
+        ]
+      },
+      "machines": [],
+      "descriptionNotes": []
+    },
+    {
+      "id": "htc-100000467",
+      "databaseId": 2226,
+      "sourceProductId": "100000467",
+      "model": "HTCCAM182",
+      "name": "D18 d2 Lazer kaynak Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi)",
+      "slug": "d18-d2-lazer-kaynak-lens-koruma-cami-japon-ham-madde-99-isin-iletimi-htccam182",
+      "description": "Yaygın fiber lazer kafa kullanan makineler için geliştirilen D18 d2 Lazer kaynak Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi), yüksek güç altında kararlı performans sunan bir lazer kaynak sarf parçasıdır. Ürünün teknik karşılığı: dış çap 18mm, kalınlık 2mm, kaplama AR K9 @ 1064nm T- 1080nm T, yansıma yüzeyi 15J/cm2, yüzey kalitesi 20/10. Doğru seçim için ürün kodunu veya kafa modelinizi iletebilirsiniz; ücretsiz kargo ile stoktan gönderilir.",
+      "shortDescription": "D18 d2 Lazer kaynak Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi) — lazer kaynak sarf malzemesi. Dış Çap: 18mm · Kalınlık: 2mm · Kaplama: AR K9 @ 1064nm T- 1080nm T · Yansıma Yüzeyi: 15J/cm2. Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "249.00",
+      "price": "249.00",
+      "priceTax": "298.8",
+      "currencyCode": "TRY",
+      "stockStatus": "IN_STOCK",
+      "stockQuantity": 970,
+      "sku": "HTCCAM182",
+      "status": "publish",
+      "manufacturer": "LAZER KAYNAK",
+      "keywords": [
+        "d18",
+        "lazer",
+        "kaynak",
+        "lens",
+        "koruma",
+        "camı",
+        "(japon",
+        "ham",
+        "madde-%99",
+        "ışın",
+        "iletimi)",
+        "htccam182",
+        "sarfları"
+      ],
+      "sourceUrl": "https://www.lazeronline.com.tr/lazer-kaynak-og-y-d18-d2-8kw-lens-koruma-cami-2",
+      "image": {
+        "sourceUrl": "https://lazeronline.com.tr/wp-content/uploads/2026/05/419grdvprxl.-ac-sl1000-800x800-1.jpg",
+        "altText": "D18 d2 Lazer kaynak Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi)"
+      },
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-lazer-kaynak",
+            "databaseId": 205,
+            "name": "Lazer Kaynak Sarfları",
+            "slug": "lazer-kaynak",
+            "description": "Lazer kaynak makineleri için lens, cam ve sarf malzemeleri."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": [
+          {
+            "name": "brand",
+            "label": "Marka",
+            "value": "LAZER KAYNAK"
+          },
+          {
+            "name": "model",
+            "label": "Model",
+            "value": "HTCCAM182"
+          },
+          {
+            "name": "currency",
+            "label": "Para Birimi",
+            "value": "TL"
+          },
+          {
+            "name": "outer-diameter",
+            "label": "Dış Çap",
+            "value": "18mm"
+          },
+          {
+            "name": "thickness",
+            "label": "Kalınlık",
+            "value": "2mm"
+          },
+          {
+            "name": "coating",
+            "label": "Kaplama",
+            "value": "AR K9 @ 1064nm T- 1080nm T"
+          },
+          {
+            "name": "reflection-surface",
+            "label": "Yansıma Yüzeyi",
+            "value": "15J/cm2"
+          },
+          {
+            "name": "surface-quality",
+            "label": "Yüzey Kalitesi",
+            "value": "20/10"
+          },
+          {
+            "name": "max-power",
+            "label": "Max Güç",
+            "value": "10000W (10kw)"
+          }
+        ]
+      },
+      "galleryImages": {
+        "nodes": [
+          {
+            "sourceUrl": "/media/products/100000467/12dc308e5b39cc619f4438fd2fa413da.jpg",
+            "altText": "D18 d2 Lazer kaynak Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi)"
+          }
+        ]
+      },
+      "machines": [],
+      "descriptionNotes": []
+    },
+    {
+      "id": "htc-100000471",
+      "databaseId": 2228,
+      "sourceProductId": "100000471",
+      "model": "M11FCNZS",
+      "name": "D28 H15 M11 Fast Cut Single Nozzle (Avrupa Üretim)",
+      "slug": "d28-h15-m11-fast-cut-single-nozzle-avrupa-uretim-m11fcnzs",
+      "description": "Precitec ve eşdeğeri kafa kullanan makineler için geliştirilen D28 H15 M11 Fast Cut Single Nozzle (Avrupa Üretim), yüksek güç altında kararlı performans sunan bir kesim nozuludur. Doğru seçim için ürün kodunu veya kafa modelinizi iletebilirsiniz; ücretsiz kargo ile stoktan gönderilir.",
+      "shortDescription": "Precitec uyumlu D28 H15 M11 Fast Cut Single Nozzle (Avrupa Üretim) — fiber lazer kesim nozulu. Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "199.00",
+      "price": "199.00",
+      "priceTax": "238.8",
+      "currencyCode": "TRY",
+      "stockStatus": "IN_STOCK",
+      "stockQuantity": 120,
+      "sku": "M11FCNZS",
+      "status": "publish",
+      "manufacturer": "PRECITEC",
+      "keywords": [
+        "d28",
+        "h15",
+        "m11",
+        "fast",
+        "cut",
+        "single",
+        "nozzle",
+        "(avrupa",
+        "üretim)",
+        "m11fcnzs",
+        "precıtec",
+        "nozullar"
+      ],
+      "sourceUrl": "https://www.lazeronline.com.tr/precitec-single-2-0mm-hizli-kesim-nozzle",
+      "image": {
+        "sourceUrl": "https://lazeronline.com.tr/wp-content/uploads/2026/05/2.0-800x800-1.jpg",
+        "altText": "D28 H15 M11 Fast Cut Single Nozzle (Avrupa Üretim)"
+      },
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-nozullar",
+            "databaseId": 203,
+            "name": "Nozullar",
+            "slug": "nozullar",
+            "description": "Single, double ve fast cut lazer kesim nozulları."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": [
+          {
+            "name": "brand",
+            "label": "Marka",
+            "value": "PRECITEC"
+          },
+          {
+            "name": "model",
+            "label": "Model",
+            "value": "M11FCNZS"
+          },
+          {
+            "name": "currency",
+            "label": "Para Birimi",
+            "value": "TL"
+          }
+        ]
+      },
+      "machines": [],
+      "descriptionNotes": []
+    },
+    {
+      "id": "htc-100000473",
+      "databaseId": 2229,
+      "sourceProductId": "100000473",
+      "model": "HTCCAM402",
+      "name": "D40 d2 Lazer kaynak Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi)",
+      "slug": "d40-d2-lazer-kaynak-lens-koruma-cami-japon-ham-madde-99-isin-iletimi-htccam402",
+      "description": "D40 d2 Lazer kaynak Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi), yaygın fiber lazer kesim kafalarıyla uyumlu olarak üretilen bir lazer kaynak sarf parçasıdır. Teknik değerler: dış çap 40mm, kalınlık 2mm, kaplama AR K9 @ 1064nm T- 1080nm T, yansıma yüzeyi 15J/cm2, yüzey kalitesi 20/10. Stoktan hızlı kargolanır; ücretsiz kargo ve teknik destek Lazer Online güvencesiyle sunulur.",
+      "shortDescription": "D40 d2 Lazer kaynak Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi) — lazer kaynak sarf malzemesi. Dış Çap: 40mm · Kalınlık: 2mm · Kaplama: AR K9 @ 1064nm T- 1080nm T · Yansıma Yüzeyi: 15J/cm2. Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "299.00",
+      "price": "299.00",
+      "priceTax": "358.8",
+      "currencyCode": "TRY",
+      "stockStatus": "IN_STOCK",
+      "stockQuantity": 98,
+      "sku": "HTCCAM402",
+      "status": "publish",
+      "manufacturer": "LAZER KAYNAK",
+      "keywords": [
+        "d40",
+        "lazer",
+        "kaynak",
+        "lens",
+        "koruma",
+        "camı",
+        "(japon",
+        "ham",
+        "madde-%99",
+        "ışın",
+        "iletimi)",
+        "htccam402",
+        "sarfları"
+      ],
+      "sourceUrl": "https://www.lazeronline.com.tr/lazer-kaynak-og-y-d40-d2-8kw-lens-koruma-cami-2",
+      "image": {
+        "sourceUrl": "https://lazeronline.com.tr/wp-content/uploads/2026/05/419grdvprxl.-ac-sl1000-800x800-1.jpg",
+        "altText": "D40 d2 Lazer kaynak Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi)"
+      },
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-lazer-kaynak",
+            "databaseId": 205,
+            "name": "Lazer Kaynak Sarfları",
+            "slug": "lazer-kaynak",
+            "description": "Lazer kaynak makineleri için lens, cam ve sarf malzemeleri."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": [
+          {
+            "name": "brand",
+            "label": "Marka",
+            "value": "LAZER KAYNAK"
+          },
+          {
+            "name": "model",
+            "label": "Model",
+            "value": "HTCCAM402"
+          },
+          {
+            "name": "currency",
+            "label": "Para Birimi",
+            "value": "TL"
+          },
+          {
+            "name": "outer-diameter",
+            "label": "Dış Çap",
+            "value": "40mm"
+          },
+          {
+            "name": "thickness",
+            "label": "Kalınlık",
+            "value": "2mm"
+          },
+          {
+            "name": "coating",
+            "label": "Kaplama",
+            "value": "AR K9 @ 1064nm T- 1080nm T"
+          },
+          {
+            "name": "reflection-surface",
+            "label": "Yansıma Yüzeyi",
+            "value": "15J/cm2"
+          },
+          {
+            "name": "surface-quality",
+            "label": "Yüzey Kalitesi",
+            "value": "20/10"
+          },
+          {
+            "name": "max-power",
+            "label": "Max Güç",
+            "value": "8000W (8kw)"
+          },
+          {
+            "name": "origin",
+            "label": "Menşe",
+            "value": "Tayvan"
+          }
+        ]
+      },
+      "galleryImages": {
+        "nodes": [
+          {
+            "sourceUrl": "/media/products/100000473/12dc308e5b39cc619f4438fd2fa413da.jpg",
+            "altText": "D40 d2 Lazer kaynak Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi)"
+          }
+        ]
+      },
+      "machines": [],
+      "descriptionNotes": []
+    },
+    {
+      "id": "htc-100000474",
+      "databaseId": 2231,
+      "sourceProductId": "100000474",
+      "model": "HTCCAM2544",
+      "name": "D25.4 d4 Boci Cutting Head Lens Koruma Camı",
+      "slug": "d25-4-d4-boci-cutting-head-lens-koruma-cami-htccam2544",
+      "description": "D25.4 d4 Boci Cutting Head Lens Koruma Camı, Boci ve eşdeğeri kesim kafalarıyla uyumlu olarak üretilen bir lens koruma camıdır. Teknik değerler: dış çap 25.4mm, kalınlık 4mm, kaplama AR K9 @ 1064nm T- 1080nm T, yansıma yüzeyi 15J/cm2, yüzey kalitesi 20/10. Stoktan hızlı kargolanır; ücretsiz kargo ve teknik destek Lazer Online güvencesiyle sunulur.",
+      "shortDescription": "D25.4 d4 Boci Cutting Head Lens Koruma Camı — fiber lazer lens koruma camı. Dış Çap: 25.4mm · Kalınlık: 4mm · Kaplama: AR K9 @ 1064nm T- 1080nm T · Yansıma Yüzeyi: 15J/cm2. Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "299.00",
+      "price": "299.00",
+      "priceTax": "358.8",
+      "currencyCode": "TRY",
+      "stockStatus": "IN_STOCK",
+      "stockQuantity": 600,
+      "sku": "HTCCAM2544",
+      "status": "publish",
+      "manufacturer": "BOCI",
+      "keywords": [
+        "d25.4",
+        "boci",
+        "cutting",
+        "head",
+        "lens",
+        "koruma",
+        "camı",
+        "htccam2544",
+        "bocı",
+        "camları"
+      ],
+      "sourceUrl": "https://www.lazeronline.com.tr/boci-cutting-head-og-y-d25-4-d4-10kw-lens-koruma-cami",
+      "image": {
+        "sourceUrl": "https://lazeronline.com.tr/wp-content/uploads/2026/05/indir-800x800-1.jpeg",
+        "altText": "D25.4 d4 Boci Cutting Head Lens Koruma Camı"
+      },
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-koruma-camlari",
+            "databaseId": 201,
+            "name": "Koruma Camları",
+            "slug": "koruma-camlari",
+            "description": "Fiber lazer kesim ve kaynak kafaları için lens koruma camları."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": [
+          {
+            "name": "brand",
+            "label": "Marka",
+            "value": "BOCI"
+          },
+          {
+            "name": "model",
+            "label": "Model",
+            "value": "HTCCAM2544"
+          },
+          {
+            "name": "currency",
+            "label": "Para Birimi",
+            "value": "TL"
+          },
+          {
+            "name": "outer-diameter",
+            "label": "Dış Çap",
+            "value": "25.4mm"
+          },
+          {
+            "name": "thickness",
+            "label": "Kalınlık",
+            "value": "4mm"
+          },
+          {
+            "name": "coating",
+            "label": "Kaplama",
+            "value": "AR K9 @ 1064nm T- 1080nm T"
+          },
+          {
+            "name": "reflection-surface",
+            "label": "Yansıma Yüzeyi",
+            "value": "15J/cm2"
+          },
+          {
+            "name": "surface-quality",
+            "label": "Yüzey Kalitesi",
+            "value": "20/10"
+          },
+          {
+            "name": "max-power",
+            "label": "Max Güç",
+            "value": "8000W (8kw)"
+          }
+        ]
+      },
+      "galleryImages": {
+        "nodes": [
+          {
+            "sourceUrl": "/media/products/100000474/d776a6fe99f91a223d6df59ca426231a.jpg",
+            "altText": "D25.4 d4 Boci Cutting Head Lens Koruma Camı"
+          },
+          {
+            "sourceUrl": "/media/products/100000474/0dfc27b1fc67d2f261a291b3aa628d9b.jpg",
+            "altText": "D25.4 d4 Boci Cutting Head Lens Koruma Camı"
+          },
+          {
+            "sourceUrl": "/media/products/100000474/2327179bb2fb0367823114890960688d.jpg",
+            "altText": "D25.4 d4 Boci Cutting Head Lens Koruma Camı"
+          },
+          {
+            "sourceUrl": "/media/products/100000474/291332319dc52b4fb732441bb68e62f0.png",
+            "altText": "D25.4 d4 Boci Cutting Head Lens Koruma Camı"
+          }
+        ]
+      },
+      "machines": [],
+      "descriptionNotes": []
+    },
+    {
+      "id": "htc-100000476",
+      "databaseId": 2232,
+      "sourceProductId": "100000476",
+      "model": "HTCCAM377O",
+      "name": "D37 d7 Precitec Orjinal P0595-58601 Lens Koruma Camı (Avrupa Ham Madde-%99.9 Işın İletimi)",
+      "slug": "d37-d7-precitec-orjinal-p0595-58601-lens-koruma-cami-avrupa-ham-madde-99-9-isin-iletimi-htccam377o",
+      "description": "D37 d7 Precitec Orjinal P0595-58601 Lens Koruma Camı (Avrupa Ham Madde-%99.9 Işın İletimi), Precitec ve eşdeğeri kesim kafalarıyla uyumlu olarak üretilen bir lens koruma camıdır. Teknik değerler: dış çap 37mm, kalınlık 7mm, kaplama AR K9 @ 1064nm T- 1080nm T, yansıma yüzeyi 15J/cm2, yüzey kalitesi 20/10. Sahada en çok Ermaksan, Dener, MVD, Accurl ve Bodor lazer kesim makinelerinde tercih edilir. Stoktan hızlı kargolanır; ücretsiz kargo ve teknik destek Lazer Online güvencesiyle sunulur.",
+      "shortDescription": "D37 d7 Precitec Orjinal P0595-58601 Lens Koruma Camı (Avrupa Ham Madde-%99.9 Işın İletimi) — fiber lazer lens koruma camı. Dış Çap: 37mm · Kalınlık: 7mm · Kaplama: AR K9 @ 1064nm T- 1080nm T · Yansıma Yüzeyi: 15J/cm2. Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "35.00",
+      "price": "35.00",
+      "priceTax": "42",
+      "currencyCode": "EUR",
+      "stockStatus": "IN_STOCK",
+      "stockQuantity": 25,
+      "sku": "HTCCAM377O",
+      "status": "publish",
+      "manufacturer": "PRECITEC",
+      "keywords": [
+        "d37",
+        "precitec",
+        "orjinal",
+        "p0595-58601",
+        "lens",
+        "koruma",
+        "camı",
+        "(avrupa",
+        "ham",
+        "madde-%99.9",
+        "ışın",
+        "iletimi)",
+        "htccam377o",
+        "precıtec",
+        "camları"
+      ],
+      "sourceUrl": "https://www.lazeronline.com.tr/precitec-bodor-raytools-og-y-d37-d7-p0595-58601-lens-koruyucu-cam",
+      "image": {
+        "sourceUrl": "https://lazeronline.com.tr/wp-content/uploads/2026/05/71pu3wo63ol-800x800-1.jpg",
+        "altText": "D37 d7 Precitec Orjinal P0595-58601 Lens Koruma Camı (Avrupa Ham Madde-%99.9 Işın İletimi)"
+      },
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-koruma-camlari",
+            "databaseId": 201,
+            "name": "Koruma Camları",
+            "slug": "koruma-camlari",
+            "description": "Fiber lazer kesim ve kaynak kafaları için lens koruma camları."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": [
+          {
+            "name": "brand",
+            "label": "Marka",
+            "value": "PRECITEC"
+          },
+          {
+            "name": "model",
+            "label": "Model",
+            "value": "HTCCAM377O"
+          },
+          {
+            "name": "currency",
+            "label": "Para Birimi",
+            "value": "EUR"
+          },
+          {
+            "name": "outer-diameter",
+            "label": "Dış Çap",
+            "value": "37mm"
+          },
+          {
+            "name": "thickness",
+            "label": "Kalınlık",
+            "value": "7mm"
+          },
+          {
+            "name": "coating",
+            "label": "Kaplama",
+            "value": "AR K9 @ 1064nm T- 1080nm T"
+          },
+          {
+            "name": "reflection-surface",
+            "label": "Yansıma Yüzeyi",
+            "value": "15J/cm2"
+          },
+          {
+            "name": "surface-quality",
+            "label": "Yüzey Kalitesi",
+            "value": "20/10"
+          },
+          {
+            "name": "max-power",
+            "label": "Max Güç",
+            "value": "20000W (20kw)"
+          }
+        ]
+      },
+      "galleryImages": {
+        "nodes": [
+          {
+            "sourceUrl": "/media/products/100000476/f7d2f79d472aeeb350eed2b3579f002c.jpg",
+            "altText": "D37 d7 Precitec Orjinal P0595-58601 Lens Koruma Camı (Avrupa Ham Madde-%99.9 Işın İletimi)"
+          },
+          {
+            "sourceUrl": "/media/products/100000476/3a9f79d02910257c2af4279e70b519ca.jpg",
+            "altText": "D37 d7 Precitec Orjinal P0595-58601 Lens Koruma Camı (Avrupa Ham Madde-%99.9 Işın İletimi)"
+          }
+        ]
+      },
+      "machines": [
+        "Ermaksan",
+        "Dener",
+        "MVD",
+        "Accurl",
+        "Bodor"
+      ],
+      "descriptionNotes": []
+    },
+    {
+      "id": "htc-100000477",
+      "databaseId": 2234,
+      "sourceProductId": "100000477",
+      "model": "HTCSERO001",
+      "name": "Precitec Orjinal KT B2 CON P0571-1051-00001 Seramik",
+      "slug": "precitec-orjinal-kt-b2-con-p0571-1051-00001-seramik-htcsero001",
+      "description": "Precitec Orjinal KT B2 CON P0571-1051-00001 Seramik, Precitec ve eşdeğeri kesim kafalarıyla uyumlu olarak üretilen bir seramik tutucudur. Teknik değerler: dış çap 28mm / 24.5mm, iç çap M11 Pim, kaplama Gold-Plated, max güç 12000W (12kw), menşe Almanya. Sahada en çok Durma, Ermaksan, Dener, MVD, Accurl ve Bodor lazer kesim makinelerinde tercih edilir. Stoktan hızlı kargolanır; ücretsiz kargo ve teknik destek Lazer Online güvencesiyle sunulur.",
+      "shortDescription": "Precitec Orjinal KT B2 CON P0571-1051-00001 Seramik — fiber lazer kesim kafası seramik tutucu. Dış Çap: 28mm / 24.5mm · İç Çap: M11 Pim · Kaplama: Gold-Plated · Max Güç: 12000W (12kw). Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "65.00",
+      "price": "65.00",
+      "priceTax": "78",
+      "currencyCode": "EUR",
+      "stockStatus": "OUT_OF_STOCK",
+      "stockQuantity": 0,
+      "sku": "HTCSERO001",
+      "status": "publish",
+      "manufacturer": "PRECITEC",
+      "keywords": [
+        "precitec",
+        "orjinal",
+        "con",
+        "p0571-1051-00001",
+        "seramik",
+        "htcsero001",
+        "precıtec",
+        "seramikler"
+      ],
+      "sourceUrl": "https://www.lazeronline.com.tr/precitec-bodor-raytools-kt-b2-con-p0571-1051-00001-seramik",
+      "image": {
+        "sourceUrl": "https://lazeronline.com.tr/wp-content/uploads/2026/05/seramik8-photoroom-1-800x800-1.png",
+        "altText": "Precitec Orjinal KT B2 CON P0571-1051-00001 Seramik"
+      },
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-seramikler",
+            "databaseId": 202,
+            "name": "Seramikler",
+            "slug": "seramikler",
+            "description": "Precitec, Raytools, Nukon, HighYag ve Bystronic uyumlu seramik sarf malzemeleri."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": [
+          {
+            "name": "brand",
+            "label": "Marka",
+            "value": "PRECITEC"
+          },
+          {
+            "name": "model",
+            "label": "Model",
+            "value": "HTCSERO001"
+          },
+          {
+            "name": "currency",
+            "label": "Para Birimi",
+            "value": "EUR"
+          },
+          {
+            "name": "outer-diameter",
+            "label": "Dış Çap",
+            "value": "28mm / 24.5mm"
+          },
+          {
+            "name": "inner-diameter",
+            "label": "İç Çap",
+            "value": "M11 Pim"
+          },
+          {
+            "name": "coating",
+            "label": "Kaplama",
+            "value": "Gold-Plated"
+          },
+          {
+            "name": "max-power",
+            "label": "Max Güç",
+            "value": "12000W (12kw)"
+          },
+          {
+            "name": "origin",
+            "label": "Menşe",
+            "value": "Almanya"
+          }
+        ]
+      },
+      "galleryImages": {
+        "nodes": [
+          {
+            "sourceUrl": "/media/products/100000477/a0a86f0b363d0090701367ed7f12bc6f.png",
+            "altText": "Precitec Orjinal KT B2 CON P0571-1051-00001 Seramik"
+          },
+          {
+            "sourceUrl": "/media/products/100000477/c9046ddcf3e59e1bd1d9e2b5c4eb58de.jpg",
+            "altText": "Precitec Orjinal KT B2 CON P0571-1051-00001 Seramik"
+          },
+          {
+            "sourceUrl": "/media/products/100000477/3a9f79d02910257c2af4279e70b519ca.jpg",
+            "altText": "Precitec Orjinal KT B2 CON P0571-1051-00001 Seramik"
+          },
+          {
+            "sourceUrl": "/media/products/100000477/5b9f34d986876cb16d312fda438a2e23.jpg",
+            "altText": "Precitec Orjinal KT B2 CON P0571-1051-00001 Seramik"
+          }
+        ]
+      },
+      "machines": [
+        "Durma",
+        "Ermaksan",
+        "Dener",
+        "MVD",
+        "Accurl",
+        "Bodor"
+      ],
+      "descriptionNotes": []
+    },
+    {
+      "id": "htc-100000483",
+      "databaseId": 2236,
+      "sourceProductId": "100000483",
+      "model": "M11FCNZD",
+      "name": "D28 H15 M11 Fast Cut Double Nozzle (Avrupa Üretim)",
+      "slug": "d28-h15-m11-fast-cut-double-nozzle-avrupa-uretim-m11fcnzd",
+      "description": "Precitec ve eşdeğeri kafa kullanan makineler için geliştirilen D28 H15 M11 Fast Cut Double Nozzle (Avrupa Üretim), yüksek güç altında kararlı performans sunan bir kesim nozuludur. Doğru seçim için ürün kodunu veya kafa modelinizi iletebilirsiniz; ücretsiz kargo ile stoktan gönderilir.",
+      "shortDescription": "Precitec uyumlu D28 H15 M11 Fast Cut Double Nozzle (Avrupa Üretim) — fiber lazer kesim nozulu. Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "199.00",
+      "price": "199.00",
+      "priceTax": "238.8",
+      "currencyCode": "TRY",
+      "stockStatus": "IN_STOCK",
+      "stockQuantity": 184,
+      "sku": "M11FCNZD",
+      "status": "publish",
+      "manufacturer": "PRECITEC",
+      "keywords": [
+        "d28",
+        "h15",
+        "m11",
+        "fast",
+        "cut",
+        "double",
+        "nozzle",
+        "(avrupa",
+        "üretim)",
+        "m11fcnzd",
+        "precıtec",
+        "nozullar"
+      ],
+      "sourceUrl": "https://www.lazeronline.com.tr/hizli-kesim-double-1-2mm-e-d28-tam-konik-nozzle",
+      "image": {
+        "sourceUrl": "https://lazeronline.com.tr/wp-content/uploads/2026/05/htchiznzde-800x800-1.jpg",
+        "altText": "D28 H15 M11 Fast Cut Double Nozzle (Avrupa Üretim)"
+      },
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-nozullar",
+            "databaseId": 203,
+            "name": "Nozullar",
+            "slug": "nozullar",
+            "description": "Single, double ve fast cut lazer kesim nozulları."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": [
+          {
+            "name": "brand",
+            "label": "Marka",
+            "value": "PRECITEC"
+          },
+          {
+            "name": "model",
+            "label": "Model",
+            "value": "M11FCNZD"
+          },
+          {
+            "name": "currency",
+            "label": "Para Birimi",
+            "value": "TL"
+          }
+        ]
+      },
+      "machines": [],
+      "descriptionNotes": []
+    },
+    {
+      "id": "htc-100000500",
+      "databaseId": 2238,
+      "sourceProductId": "100000500",
+      "model": "M15KTXS",
+      "name": "M15 D30 H18.6 Procutter 2.0 KTX Single Nozzle (Avrupa Üretim)",
+      "slug": "m15-d30-h18-6-procutter-2-0-ktx-single-nozzle-avrupa-uretim-m15ktxs",
+      "description": "Precitec ve eşdeğeri kafa kullanan makineler için geliştirilen M15 D30 H18.6 Procutter 2.0 KTX Single Nozzle (Avrupa Üretim), yüksek güç altında kararlı performans sunan bir kesim nozuludur. Doğru seçim için ürün kodunu veya kafa modelinizi iletebilirsiniz; ücretsiz kargo ile stoktan gönderilir.",
+      "shortDescription": "Precitec uyumlu M15 D30 H18.6 Procutter 2.0 KTX Single Nozzle (Avrupa Üretim) — fiber lazer kesim nozulu. Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "499.00",
+      "price": "499.00",
+      "priceTax": "598.8",
+      "currencyCode": "TRY",
+      "stockStatus": "IN_STOCK",
+      "stockQuantity": 70,
+      "sku": "M15KTXS",
+      "status": "publish",
+      "manufacturer": "PRECITEC",
+      "keywords": [
+        "m15",
+        "d30",
+        "h18.6",
+        "procutter",
+        "2.0",
+        "ktx",
+        "single",
+        "nozzle",
+        "(avrupa",
+        "üretim)",
+        "m15ktxs",
+        "precıtec",
+        "nozullar"
+      ],
+      "sourceUrl": "https://www.lazeronline.com.tr/precitec-procutter-2-0-ktx-single-nozzle-1-0mm",
+      "image": {
+        "sourceUrl": "https://lazeronline.com.tr/wp-content/uploads/2026/05/ktx-single-nozzle-600x800-1-800x800-1.jpeg",
+        "altText": "M15 D30 H18.6 Procutter 2.0 KTX Single Nozzle (Avrupa Üretim)"
+      },
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-nozullar",
+            "databaseId": 203,
+            "name": "Nozullar",
+            "slug": "nozullar",
+            "description": "Single, double ve fast cut lazer kesim nozulları."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": [
+          {
+            "name": "brand",
+            "label": "Marka",
+            "value": "PRECITEC"
+          },
+          {
+            "name": "model",
+            "label": "Model",
+            "value": "M15KTXS"
+          },
+          {
+            "name": "currency",
+            "label": "Para Birimi",
+            "value": "TL"
+          }
+        ]
+      },
+      "galleryImages": {
+        "nodes": [
+          {
+            "sourceUrl": "/media/products/100000500/e1c02fad5f1d05ecc4bbd0dd97738a59.jpg",
+            "altText": "M15 D30 H18.6 Procutter 2.0 KTX Single Nozzle (Avrupa Üretim)"
+          }
+        ]
+      },
+      "machines": [],
+      "descriptionNotes": []
+    },
+    {
+      "id": "htc-100000509",
+      "databaseId": 2240,
+      "sourceProductId": "100000509",
+      "model": "M15KTXD",
+      "name": "M15 D30 H18.6 Procutter 2.0 KTX Double Nozzle (Avrupa Üretim)",
+      "slug": "m15-d30-h18-6-procutter-2-0-ktx-double-nozzle-avrupa-uretim-m15ktxd",
+      "description": "Precitec ve eşdeğeri kafa kullanan makineler için geliştirilen M15 D30 H18.6 Procutter 2.0 KTX Double Nozzle (Avrupa Üretim), yüksek güç altında kararlı performans sunan bir kesim nozuludur. Doğru seçim için ürün kodunu veya kafa modelinizi iletebilirsiniz; ücretsiz kargo ile stoktan gönderilir.",
+      "shortDescription": "Precitec uyumlu M15 D30 H18.6 Procutter 2.0 KTX Double Nozzle (Avrupa Üretim) — fiber lazer kesim nozulu. Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "499.00",
+      "price": "499.00",
+      "priceTax": "598.8",
+      "currencyCode": "TRY",
+      "stockStatus": "IN_STOCK",
+      "stockQuantity": 90,
+      "sku": "M15KTXD",
+      "status": "publish",
+      "manufacturer": "PRECITEC",
+      "keywords": [
+        "m15",
+        "d30",
+        "h18.6",
+        "procutter",
+        "2.0",
+        "ktx",
+        "double",
+        "nozzle",
+        "(avrupa",
+        "üretim)",
+        "m15ktxd",
+        "precıtec",
+        "nozullar"
+      ],
+      "sourceUrl": "https://www.lazeronline.com.tr/precitec-procutter-2-0-ktx-double-nozzle-1-2mm",
+      "image": {
+        "sourceUrl": "https://lazeronline.com.tr/wp-content/uploads/2026/05/ktx-double-800x800-1.jpg",
+        "altText": "M15 D30 H18.6 Procutter 2.0 KTX Double Nozzle (Avrupa Üretim)"
+      },
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-nozullar",
+            "databaseId": 203,
+            "name": "Nozullar",
+            "slug": "nozullar",
+            "description": "Single, double ve fast cut lazer kesim nozulları."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": [
+          {
+            "name": "brand",
+            "label": "Marka",
+            "value": "PRECITEC"
+          },
+          {
+            "name": "model",
+            "label": "Model",
+            "value": "M15KTXD"
+          },
+          {
+            "name": "currency",
+            "label": "Para Birimi",
+            "value": "TL"
+          }
+        ]
+      },
+      "galleryImages": {
+        "nodes": [
+          {
+            "sourceUrl": "/media/products/100000509/e1c02fad5f1d05ecc4bbd0dd97738a59.jpg",
+            "altText": "M15 D30 H18.6 Procutter 2.0 KTX Double Nozzle (Avrupa Üretim)"
+          }
+        ]
+      },
+      "machines": [],
+      "descriptionNotes": []
+    },
+    {
+      "id": "htc-100000520",
+      "databaseId": 2241,
+      "sourceProductId": "100000520",
+      "model": "HTCCAM302",
+      "name": "D30 d2 Lazer kaynak Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi)",
+      "slug": "d30-d2-lazer-kaynak-lens-koruma-cami-japon-ham-madde-99-isin-iletimi-htccam302",
+      "description": "Yaygın fiber lazer kafa kullanan makineler için geliştirilen D30 d2 Lazer kaynak Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi), yüksek güç altında kararlı performans sunan bir lazer kaynak sarf parçasıdır. Ürünün teknik karşılığı: dış çap 24.4mm, kalınlık 2mm, kaplama AR K9 @ 1064nm T- 1080nm T, yansıma yüzeyi 15J/cm2, yüzey kalitesi 20/10. Doğru seçim için ürün kodunu veya kafa modelinizi iletebilirsiniz; ücretsiz kargo ile stoktan gönderilir.",
+      "shortDescription": "D30 d2 Lazer kaynak Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi) — lazer kaynak sarf malzemesi. Dış Çap: 24.4mm · Kalınlık: 2mm · Kaplama: AR K9 @ 1064nm T- 1080nm T · Yansıma Yüzeyi: 15J/cm2. Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "259.00",
+      "price": "259.00",
+      "priceTax": "310.8",
+      "currencyCode": "TRY",
+      "stockStatus": "IN_STOCK",
+      "stockQuantity": 500,
+      "sku": "HTCCAM302",
+      "status": "publish",
+      "manufacturer": "LAZER KAYNAK",
+      "keywords": [
+        "d30",
+        "lazer",
+        "kaynak",
+        "lens",
+        "koruma",
+        "camı",
+        "(japon",
+        "ham",
+        "madde-%99",
+        "ışın",
+        "iletimi)",
+        "htccam302",
+        "sarfları"
+      ],
+      "sourceUrl": "https://www.lazeronline.com.tr/d30-d2-lazer-kaynak-lens-koruma-cami",
+      "image": {
+        "sourceUrl": "https://lazeronline.com.tr/wp-content/uploads/2026/05/419grdvprxl.-ac-sl1000-800x800-1.jpg",
+        "altText": "D30 d2 Lazer kaynak Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi)"
+      },
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-lazer-kaynak",
+            "databaseId": 205,
+            "name": "Lazer Kaynak Sarfları",
+            "slug": "lazer-kaynak",
+            "description": "Lazer kaynak makineleri için lens, cam ve sarf malzemeleri."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": [
+          {
+            "name": "brand",
+            "label": "Marka",
+            "value": "LAZER KAYNAK"
+          },
+          {
+            "name": "model",
+            "label": "Model",
+            "value": "HTCCAM302"
+          },
+          {
+            "name": "currency",
+            "label": "Para Birimi",
+            "value": "TL"
+          },
+          {
+            "name": "outer-diameter",
+            "label": "Dış Çap",
+            "value": "24.4mm"
+          },
+          {
+            "name": "thickness",
+            "label": "Kalınlık",
+            "value": "2mm"
+          },
+          {
+            "name": "coating",
+            "label": "Kaplama",
+            "value": "AR K9 @ 1064nm T- 1080nm T"
+          },
+          {
+            "name": "reflection-surface",
+            "label": "Yansıma Yüzeyi",
+            "value": "15J/cm2"
+          },
+          {
+            "name": "surface-quality",
+            "label": "Yüzey Kalitesi",
+            "value": "20/10"
+          },
+          {
+            "name": "max-power",
+            "label": "Max Güç",
+            "value": "8000W (8kw)"
+          }
+        ]
+      },
+      "galleryImages": {
+        "nodes": [
+          {
+            "sourceUrl": "/media/products/100000520/12dc308e5b39cc619f4438fd2fa413da.jpg",
+            "altText": "D30 d2 Lazer kaynak Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi)"
+          }
+        ]
+      },
+      "machines": [],
+      "descriptionNotes": []
+    },
+    {
+      "id": "htc-100000521",
+      "databaseId": 2242,
+      "sourceProductId": "100000521",
+      "model": "HTCCAM204",
+      "name": "D20 d4 Lazer kaynak Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi)",
+      "slug": "d20-d4-lazer-kaynak-lens-koruma-cami-japon-ham-madde-99-isin-iletimi-htccam204",
+      "description": "D20 d4 Lazer kaynak Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi), yaygın fiber lazer kesim kafalarıyla uyumlu olarak üretilen bir lazer kaynak sarf parçasıdır. Teknik değerler: dış çap 24.4mm, kalınlık 2mm, kaplama AR K9 @ 1064nm T- 1080nm T, yansıma yüzeyi 15J/cm2, yüzey kalitesi 20/10. Stoktan hızlı kargolanır; ücretsiz kargo ve teknik destek Lazer Online güvencesiyle sunulur.",
+      "shortDescription": "D20 d4 Lazer kaynak Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi) — lazer kaynak sarf malzemesi. Dış Çap: 24.4mm · Kalınlık: 2mm · Kaplama: AR K9 @ 1064nm T- 1080nm T · Yansıma Yüzeyi: 15J/cm2. Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "249.00",
+      "price": "249.00",
+      "priceTax": "298.8",
+      "currencyCode": "TRY",
+      "stockStatus": "IN_STOCK",
+      "stockQuantity": 500,
+      "sku": "HTCCAM204",
+      "status": "publish",
+      "manufacturer": "LAZER KAYNAK",
+      "keywords": [
+        "d20",
+        "lazer",
+        "kaynak",
+        "lens",
+        "koruma",
+        "camı",
+        "(japon",
+        "ham",
+        "madde-%99",
+        "ışın",
+        "iletimi)",
+        "htccam204",
+        "sarfları"
+      ],
+      "sourceUrl": "https://www.lazeronline.com.tr/d20-d4-lazer-kaynak-lens-koruma-cami",
+      "image": {
+        "sourceUrl": "https://lazeronline.com.tr/wp-content/uploads/2026/05/419grdvprxl.-ac-sl1000-800x800-1.jpg",
+        "altText": "D20 d4 Lazer kaynak Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi)"
+      },
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-lazer-kaynak",
+            "databaseId": 205,
+            "name": "Lazer Kaynak Sarfları",
+            "slug": "lazer-kaynak",
+            "description": "Lazer kaynak makineleri için lens, cam ve sarf malzemeleri."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": [
+          {
+            "name": "brand",
+            "label": "Marka",
+            "value": "LAZER KAYNAK"
+          },
+          {
+            "name": "model",
+            "label": "Model",
+            "value": "HTCCAM204"
+          },
+          {
+            "name": "currency",
+            "label": "Para Birimi",
+            "value": "TL"
+          },
+          {
+            "name": "outer-diameter",
+            "label": "Dış Çap",
+            "value": "24.4mm"
+          },
+          {
+            "name": "thickness",
+            "label": "Kalınlık",
+            "value": "2mm"
+          },
+          {
+            "name": "coating",
+            "label": "Kaplama",
+            "value": "AR K9 @ 1064nm T- 1080nm T"
+          },
+          {
+            "name": "reflection-surface",
+            "label": "Yansıma Yüzeyi",
+            "value": "15J/cm2"
+          },
+          {
+            "name": "surface-quality",
+            "label": "Yüzey Kalitesi",
+            "value": "20/10"
+          },
+          {
+            "name": "max-power",
+            "label": "Max Güç",
+            "value": "8000W (8kw)"
+          }
+        ]
+      },
+      "galleryImages": {
+        "nodes": [
+          {
+            "sourceUrl": "/media/products/100000521/12dc308e5b39cc619f4438fd2fa413da.jpg",
+            "altText": "D20 d4 Lazer kaynak Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi)"
+          }
+        ]
+      },
+      "machines": [],
+      "descriptionNotes": []
+    },
+    {
+      "id": "htc-100000523",
+      "databaseId": 2244,
+      "sourceProductId": "100000523",
+      "model": "HTCSER019",
+      "name": "EC Lazer Seramik",
+      "slug": "ec-lazer-seramik-htcser019",
+      "description": "Precitec ve eşdeğeri kafa kullanan makineler için geliştirilen EC Lazer Seramik, yüksek güç altında kararlı performans sunan bir seramik tutucudur. Ürünün teknik karşılığı: dış çap 28mm / 24.2mm, iç çap M11 Pim, kaplama Gold-Plated, max güç 12000W (12kw), menşe Tayvan. Doğru seçim için ürün kodunu veya kafa modelinizi iletebilirsiniz; ücretsiz kargo ile stoktan gönderilir.",
+      "shortDescription": "Precitec uyumlu EC Lazer Seramik — fiber lazer kesim kafası seramik tutucu. Dış Çap: 28mm / 24.2mm · İç Çap: M11 Pim · Kaplama: Gold-Plated · Max Güç: 12000W (12kw). Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "599.00",
+      "price": "599.00",
+      "priceTax": "718.8",
+      "currencyCode": "TRY",
+      "stockStatus": "IN_STOCK",
+      "stockQuantity": 18,
+      "sku": "HTCSER019",
+      "status": "publish",
+      "manufacturer": "PRECITEC",
+      "keywords": [
+        "lazer",
+        "seramik",
+        "htcser019",
+        "precıtec",
+        "seramikler"
+      ],
+      "sourceUrl": "https://www.lazeronline.com.tr/korumacami-htclazer-seramik-durma-ermaksan-nukon-precitec-lazer-lazerkesim-procutter-durmazlar-lazersarfmalzeme-fiber-cam-lazeryedekparca-lazercam-fiberlazer-lens-goz-bodor-mekotek-gweikelazer-gweike-jaguar-chinalaser-pars-cinlazer-hsg-lazerkesimmakinasi",
+      "image": {
+        "sourceUrl": "https://lazeronline.com.tr/wp-content/uploads/2026/05/ec-laser-11-800x800-1.png",
+        "altText": "EC Lazer Seramik"
+      },
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-seramikler",
+            "databaseId": 202,
+            "name": "Seramikler",
+            "slug": "seramikler",
+            "description": "Precitec, Raytools, Nukon, HighYag ve Bystronic uyumlu seramik sarf malzemeleri."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": [
+          {
+            "name": "brand",
+            "label": "Marka",
+            "value": "PRECITEC"
+          },
+          {
+            "name": "model",
+            "label": "Model",
+            "value": "HTCSER019"
+          },
+          {
+            "name": "currency",
+            "label": "Para Birimi",
+            "value": "TL"
+          },
+          {
+            "name": "outer-diameter",
+            "label": "Dış Çap",
+            "value": "28mm / 24.2mm"
+          },
+          {
+            "name": "inner-diameter",
+            "label": "İç Çap",
+            "value": "M11 Pim"
+          },
+          {
+            "name": "coating",
+            "label": "Kaplama",
+            "value": "Gold-Plated"
+          },
+          {
+            "name": "max-power",
+            "label": "Max Güç",
+            "value": "12000W (12kw)"
+          },
+          {
+            "name": "origin",
+            "label": "Menşe",
+            "value": "Tayvan"
+          }
+        ]
+      },
+      "galleryImages": {
+        "nodes": [
+          {
+            "sourceUrl": "/media/products/100000523/2b6aa2e7b761b1fc985c2d0ef221c985.png",
+            "altText": "EC Lazer Seramik"
+          }
+        ]
+      },
+      "machines": [],
+      "descriptionNotes": []
+    },
+    {
+      "id": "htc-100000524",
+      "databaseId": 2246,
+      "sourceProductId": "100000524",
+      "model": "M11STNZS",
+      "name": "D28 H15 M11 Single Nozzle (Avrupa Üretim)",
+      "slug": "d28-h15-m11-single-nozzle-avrupa-uretim-m11stnzs",
+      "description": "Precitec ve eşdeğeri kafa kullanan makineler için geliştirilen D28 H15 M11 Single Nozzle (Avrupa Üretim), yüksek güç altında kararlı performans sunan bir kesim nozuludur. Doğru seçim için ürün kodunu veya kafa modelinizi iletebilirsiniz; ücretsiz kargo ile stoktan gönderilir.",
+      "shortDescription": "Precitec uyumlu D28 H15 M11 Single Nozzle (Avrupa Üretim) — fiber lazer kesim nozulu. Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "169.00",
+      "price": "169.00",
+      "priceTax": "202.8",
+      "currencyCode": "TRY",
+      "stockStatus": "IN_STOCK",
+      "stockQuantity": 1017,
+      "sku": "M11STNZS",
+      "status": "publish",
+      "manufacturer": "PRECITEC",
+      "keywords": [
+        "d28",
+        "h15",
+        "m11",
+        "single",
+        "nozzle",
+        "(avrupa",
+        "üretim)",
+        "m11stnzs",
+        "precıtec",
+        "nozullar"
+      ],
+      "sourceUrl": "https://www.lazeronline.com.tr/precitec-single-2-5mm-p0591-576-00025-nozzle-2",
+      "image": {
+        "sourceUrl": "https://lazeronline.com.tr/wp-content/uploads/2026/05/nozzle_single_duz-800x800-1.jpg",
+        "altText": "D28 H15 M11 Single Nozzle (Avrupa Üretim)"
+      },
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-nozullar",
+            "databaseId": 203,
+            "name": "Nozullar",
+            "slug": "nozullar",
+            "description": "Single, double ve fast cut lazer kesim nozulları."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": [
+          {
+            "name": "brand",
+            "label": "Marka",
+            "value": "PRECITEC"
+          },
+          {
+            "name": "model",
+            "label": "Model",
+            "value": "M11STNZS"
+          },
+          {
+            "name": "currency",
+            "label": "Para Birimi",
+            "value": "TL"
+          }
+        ]
+      },
+      "galleryImages": {
+        "nodes": [
+          {
+            "sourceUrl": "/media/products/100000524/bf38afe3cbf223b642d2350e3a8000bf.jpg",
+            "altText": "D28 H15 M11 Single Nozzle (Avrupa Üretim)"
+          }
+        ]
+      },
+      "machines": [],
+      "descriptionNotes": []
+    },
+    {
+      "id": "htc-100000536",
+      "databaseId": 2248,
+      "sourceProductId": "100000536",
+      "model": "HTCCAM345",
+      "name": "D34 d5 Boci Lens Koruma Camı (ALT)",
+      "slug": "d34-d5-boci-lens-koruma-cami-alt-htccam345",
+      "description": "D34 d5 Boci Lens Koruma Camı (ALT), Boci ve eşdeğeri kesim kafalarıyla uyumlu olarak üretilen bir lens koruma camıdır. Teknik değerler: dış çap 34mm, kalınlık 5mm, kaplama AR K9 @ 1064nm T- 1080nm T, yansıma yüzeyi 15J/cm2, yüzey kalitesi 20/10. Stoktan hızlı kargolanır; ücretsiz kargo ve teknik destek Lazer Online güvencesiyle sunulur.",
+      "shortDescription": "D34 d5 Boci Lens Koruma Camı (ALT) — fiber lazer lens koruma camı. Dış Çap: 34mm · Kalınlık: 5mm · Kaplama: AR K9 @ 1064nm T- 1080nm T · Yansıma Yüzeyi: 15J/cm2. Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "399.00",
+      "price": "399.00",
+      "priceTax": "478.8",
+      "currencyCode": "TRY",
+      "stockStatus": "IN_STOCK",
+      "stockQuantity": 150,
+      "sku": "HTCCAM345",
+      "status": "publish",
+      "manufacturer": "BOCI",
+      "keywords": [
+        "d34",
+        "boci",
+        "lens",
+        "koruma",
+        "camı",
+        "(alt)",
+        "htccam345",
+        "bocı",
+        "camları"
+      ],
+      "sourceUrl": "https://www.lazeronline.com.tr/d34-d5-boci-orjinal-lens-koruma-cami-15kw",
+      "image": {
+        "sourceUrl": "https://lazeronline.com.tr/wp-content/uploads/2026/05/boci-orijinal-lazer-koruyucu-lens-34x5-21-5x2-25-4x4-20kw-30kw-lazer-koruma-windows-blt641-800x800-1.jpg",
+        "altText": "D34 d5 Boci Lens Koruma Camı (ALT)"
+      },
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-koruma-camlari",
+            "databaseId": 201,
+            "name": "Koruma Camları",
+            "slug": "koruma-camlari",
+            "description": "Fiber lazer kesim ve kaynak kafaları için lens koruma camları."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": [
+          {
+            "name": "brand",
+            "label": "Marka",
+            "value": "BOCI"
+          },
+          {
+            "name": "model",
+            "label": "Model",
+            "value": "HTCCAM345"
+          },
+          {
+            "name": "currency",
+            "label": "Para Birimi",
+            "value": "TL"
+          },
+          {
+            "name": "outer-diameter",
+            "label": "Dış Çap",
+            "value": "34mm"
+          },
+          {
+            "name": "thickness",
+            "label": "Kalınlık",
+            "value": "5mm"
+          },
+          {
+            "name": "coating",
+            "label": "Kaplama",
+            "value": "AR K9 @ 1064nm T- 1080nm T"
+          },
+          {
+            "name": "reflection-surface",
+            "label": "Yansıma Yüzeyi",
+            "value": "15J/cm2"
+          },
+          {
+            "name": "surface-quality",
+            "label": "Yüzey Kalitesi",
+            "value": "20/10"
+          },
+          {
+            "name": "max-power",
+            "label": "Max Güç",
+            "value": "Orjinal Ürün: 20000W (20kw) Oem Ürün: 20000w (20kw) Oem Ürün: 12000W (12kw) BOCİ (BOCHU) ALT KORUMA CAMI KULLANILAN KAFA MODELLERİ: BLT682H, BLT662H, BLT642H, BLT441, BLT421S, BLT540H, BLT520H"
+          }
+        ]
+      },
+      "machines": [],
+      "descriptionNotes": []
+    },
+    {
+      "id": "htc-100000544",
+      "databaseId": 2249,
+      "sourceProductId": "100000544",
+      "model": "HTCCAM",
+      "name": "Lazer kaynak Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi)",
+      "slug": "lazer-kaynak-lens-koruma-cami-japon-ham-madde-99-isin-iletimi-htccam",
+      "description": "Lazer kaynak Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi), yaygın fiber lazer kesim kafalarıyla uyumlu olarak üretilen bir lazer kaynak sarf parçasıdır. Stoktan hızlı kargolanır; ücretsiz kargo ve teknik destek Lazer Online güvencesiyle sunulur.",
+      "shortDescription": "Lazer kaynak Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi) — lazer kaynak sarf malzemesi. Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "249.00",
+      "price": "249.00",
+      "priceTax": "298.8",
+      "currencyCode": "TRY",
+      "stockStatus": "OUT_OF_STOCK",
+      "stockQuantity": 75,
+      "sku": "HTCCAM",
+      "status": "draft",
+      "manufacturer": "LAZER KAYNAK",
+      "keywords": [
+        "lazer",
+        "kaynak",
+        "lens",
+        "koruma",
+        "camı",
+        "(japon",
+        "ham",
+        "madde-%99",
+        "ışın",
+        "iletimi)",
+        "htccam",
+        "sarfları"
+      ],
+      "sourceUrl": "https://www.lazeronline.com.tr/lazer-kaynak-lens-koruma-cami-japon-ham-madde-99-isin-iletimi",
+      "image": {
+        "sourceUrl": "https://lazeronline.com.tr/wp-content/uploads/2026/05/419grdvprxl.-ac-sl1000-800x800-1.jpg",
+        "altText": "Lazer kaynak Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi)"
+      },
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-lazer-kaynak",
+            "databaseId": 205,
+            "name": "Lazer Kaynak Sarfları",
+            "slug": "lazer-kaynak",
+            "description": "Lazer kaynak makineleri için lens, cam ve sarf malzemeleri."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": [
+          {
+            "name": "brand",
+            "label": "Marka",
+            "value": "LAZER KAYNAK"
+          },
+          {
+            "name": "model",
+            "label": "Model",
+            "value": "HTCCAM"
+          },
+          {
+            "name": "currency",
+            "label": "Para Birimi",
+            "value": "TL"
+          }
+        ]
+      },
+      "galleryImages": {
+        "nodes": [
+          {
+            "sourceUrl": "/media/products/100000544/12dc308e5b39cc619f4438fd2fa413da.jpg",
+            "altText": "Lazer kaynak Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi)"
+          }
+        ]
+      },
+      "machines": [],
+      "descriptionNotes": []
+    },
+    {
+      "id": "htc-100000548",
+      "databaseId": 2251,
+      "sourceProductId": "100000548",
+      "model": "HTCLNS007",
+      "name": "D20 F150 t=3.0mm Kaynak Lazeri Focus Lens",
+      "slug": "d20-f150-t-3-0mm-kaynak-lazeri-focus-lens-htclns007",
+      "description": "Yaygın fiber lazer kafa kullanan makineler için geliştirilen D20 F150 t=3.0mm Kaynak Lazeri Focus Lens, yüksek güç altında kararlı performans sunan bir lazer kaynak sarf parçasıdır. Ürünün teknik karşılığı: dış çap 20mm, kalınlık 3.0mm, odak 150mm, kaplama AR K9 @ 1064nm T- 1080nm T, yansıma yüzeyi 15J/cm2. Doğru seçim için ürün kodunu veya kafa modelinizi iletebilirsiniz; ücretsiz kargo ile stoktan gönderilir.",
+      "shortDescription": "D20 F150 t=3.0mm Kaynak Lazeri Focus Lens — lazer kaynak sarf malzemesi. Dış Çap: 20mm · Kalınlık: 3.0mm · Odak: 150mm · Kaplama: AR K9 @ 1064nm T- 1080nm T. Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "499.00",
+      "price": "499.00",
+      "priceTax": "598.8",
+      "currencyCode": "TRY",
+      "stockStatus": "IN_STOCK",
+      "stockQuantity": 103,
+      "sku": "HTCLNS007",
+      "status": "publish",
+      "manufacturer": "LAZER KAYNAK",
+      "keywords": [
+        "d20",
+        "f150",
+        "t=3.0mm",
+        "kaynak",
+        "lazeri",
+        "focus",
+        "lens",
+        "htclns007",
+        "lazer",
+        "sarfları"
+      ],
+      "sourceUrl": "https://www.lazeronline.com.tr/d40-d5-lens-koruma-cami",
+      "image": {
+        "sourceUrl": "https://lazeronline.com.tr/wp-content/uploads/2026/05/blog-5-800x800-1.jpg",
+        "altText": "D20 F150 t=3.0mm Kaynak Lazeri Focus Lens"
+      },
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-lazer-kaynak",
+            "databaseId": 205,
+            "name": "Lazer Kaynak Sarfları",
+            "slug": "lazer-kaynak",
+            "description": "Lazer kaynak makineleri için lens, cam ve sarf malzemeleri."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": [
+          {
+            "name": "brand",
+            "label": "Marka",
+            "value": "LAZER KAYNAK"
+          },
+          {
+            "name": "model",
+            "label": "Model",
+            "value": "HTCLNS007"
+          },
+          {
+            "name": "currency",
+            "label": "Para Birimi",
+            "value": "TL"
+          },
+          {
+            "name": "outer-diameter",
+            "label": "Dış Çap",
+            "value": "20mm"
+          },
+          {
+            "name": "thickness",
+            "label": "Kalınlık",
+            "value": "3.0mm"
+          },
+          {
+            "name": "focus-point",
+            "label": "Odak",
+            "value": "150mm"
+          },
+          {
+            "name": "coating",
+            "label": "Kaplama",
+            "value": "AR K9 @ 1064nm T- 1080nm T"
+          },
+          {
+            "name": "reflection-surface",
+            "label": "Yansıma Yüzeyi",
+            "value": "15J/cm2"
+          },
+          {
+            "name": "surface-quality",
+            "label": "Yüzey Kalitesi",
+            "value": "20/10"
+          },
+          {
+            "name": "max-power",
+            "label": "Max Güç",
+            "value": "Oem Ürün: 12000W (12kw)"
+          }
+        ]
+      },
+      "machines": [],
+      "descriptionNotes": []
+    },
+    {
+      "id": "htc-100000549",
+      "databaseId": 2252,
+      "sourceProductId": "100000549",
+      "model": "HTCLNS006",
+      "name": "D20 F150 t=4.5mm Kaynak Lazeri Focus Lens",
+      "slug": "d20-f150-t-4-5mm-kaynak-lazeri-focus-lens-htclns006",
+      "description": "Üretiminizi durdurmadan yenileyebileceğiniz D20 F150 t=4.5mm Kaynak Lazeri Focus Lens, yaygın fiber lazer kafalar için doğru ölçü ve işçilikle hazırlanan bir lazer kaynak sarf parçasıdır. Öne çıkan teknik özellikleri dış çap 20mm, kalınlık 4.5mm, odak 150mm, kaplama AR K9 @ 1064nm T- 1080nm T, yansıma yüzeyi 15J/cm2 olarak özetlenebilir. Ücretsiz kargo ile stoktan hızlı teslim edilir; ölçü uyumundan emin değilseniz kafa modelinizi paylaşmanız yeterlidir.",
+      "shortDescription": "D20 F150 t=4.5mm Kaynak Lazeri Focus Lens — lazer kaynak sarf malzemesi. Dış Çap: 20mm · Kalınlık: 4.5mm · Odak: 150mm · Kaplama: AR K9 @ 1064nm T- 1080nm T. Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "499.00",
+      "price": "499.00",
+      "priceTax": "598.8",
+      "currencyCode": "TRY",
+      "stockStatus": "IN_STOCK",
+      "stockQuantity": 91,
+      "sku": "HTCLNS006",
+      "status": "publish",
+      "manufacturer": "LAZER KAYNAK",
+      "keywords": [
+        "d20",
+        "f150",
+        "t=4.5mm",
+        "kaynak",
+        "lazeri",
+        "focus",
+        "lens",
+        "htclns006",
+        "lazer",
+        "sarfları"
+      ],
+      "sourceUrl": "https://www.lazeronline.com.tr/d20-f150-t-3mm-kaynak-lazeri-focus-lens",
+      "image": {
+        "sourceUrl": "https://lazeronline.com.tr/wp-content/uploads/2026/05/blog-5-800x800-1.jpg",
+        "altText": "D20 F150 t=4.5mm Kaynak Lazeri Focus Lens"
+      },
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-lazer-kaynak",
+            "databaseId": 205,
+            "name": "Lazer Kaynak Sarfları",
+            "slug": "lazer-kaynak",
+            "description": "Lazer kaynak makineleri için lens, cam ve sarf malzemeleri."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": [
+          {
+            "name": "brand",
+            "label": "Marka",
+            "value": "LAZER KAYNAK"
+          },
+          {
+            "name": "model",
+            "label": "Model",
+            "value": "HTCLNS006"
+          },
+          {
+            "name": "currency",
+            "label": "Para Birimi",
+            "value": "TL"
+          },
+          {
+            "name": "outer-diameter",
+            "label": "Dış Çap",
+            "value": "20mm"
+          },
+          {
+            "name": "thickness",
+            "label": "Kalınlık",
+            "value": "4.5mm"
+          },
+          {
+            "name": "focus-point",
+            "label": "Odak",
+            "value": "150mm"
+          },
+          {
+            "name": "coating",
+            "label": "Kaplama",
+            "value": "AR K9 @ 1064nm T- 1080nm T"
+          },
+          {
+            "name": "reflection-surface",
+            "label": "Yansıma Yüzeyi",
+            "value": "15J/cm2"
+          },
+          {
+            "name": "surface-quality",
+            "label": "Yüzey Kalitesi",
+            "value": "20/10"
+          },
+          {
+            "name": "max-power",
+            "label": "Max Güç",
+            "value": "Oem Ürün: 12000W (12kw)"
+          }
+        ]
+      },
+      "machines": [],
+      "descriptionNotes": []
+    },
+    {
+      "id": "htc-100000550",
+      "databaseId": 2254,
+      "sourceProductId": "100000550",
+      "model": "HTCSER019-BOCI",
+      "name": "Boci (Bochu) Seramik",
+      "slug": "boci-bochu-seramik-htcser019",
+      "description": "Boci ve eşdeğeri kafa kullanan makineler için geliştirilen Boci (Bochu) Seramik, yüksek güç altında kararlı performans sunan bir seramik tutucudur. Ürünün teknik karşılığı: dış çap 41mm, iç çap M11 Pim, kaplama Gold-Plated, max güç 20000W (20kw). Doğru seçim için ürün kodunu veya kafa modelinizi iletebilirsiniz; ücretsiz kargo ile stoktan gönderilir.",
+      "shortDescription": "Boci (Bochu) Seramik — fiber lazer kesim kafası seramik tutucu. Dış Çap: 41mm · İç Çap: M11 Pim · Kaplama: Gold-Plated · Max Güç: 20000W (20kw). Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "1299.00",
+      "price": "1299.00",
+      "priceTax": "1558.8",
+      "currencyCode": "TRY",
+      "stockStatus": "IN_STOCK",
+      "stockQuantity": 50,
+      "sku": "HTCSER019-BOCI",
+      "status": "publish",
+      "manufacturer": "BOCI",
+      "keywords": [
+        "boci",
+        "(bochu)",
+        "seramik",
+        "htcser019",
+        "bocı",
+        "seramikler"
+      ],
+      "sourceUrl": "https://www.lazeronline.com.tr/ec-lazer-seramik",
+      "image": {
+        "sourceUrl": "https://lazeronline.com.tr/wp-content/uploads/2026/05/ceramicring-1-1-800x800-1.jpg",
+        "altText": "Boci (Bochu) Seramik"
+      },
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-seramikler",
+            "databaseId": 202,
+            "name": "Seramikler",
+            "slug": "seramikler",
+            "description": "Precitec, Raytools, Nukon, HighYag ve Bystronic uyumlu seramik sarf malzemeleri."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": [
+          {
+            "name": "brand",
+            "label": "Marka",
+            "value": "BOCI"
+          },
+          {
+            "name": "model",
+            "label": "Model",
+            "value": "HTCSER019-BOCI"
+          },
+          {
+            "name": "currency",
+            "label": "Para Birimi",
+            "value": "TL"
+          },
+          {
+            "name": "outer-diameter",
+            "label": "Dış Çap",
+            "value": "41mm"
+          },
+          {
+            "name": "inner-diameter",
+            "label": "İç Çap",
+            "value": "M11 Pim"
+          },
+          {
+            "name": "coating",
+            "label": "Kaplama",
+            "value": "Gold-Plated"
+          },
+          {
+            "name": "max-power",
+            "label": "Max Güç",
+            "value": "20000W (20kw)"
+          }
+        ]
+      },
+      "galleryImages": {
+        "nodes": [
+          {
+            "sourceUrl": "/media/products/100000550/a64951248f4bc5f97792cfaabe0fac0f.jpg",
+            "altText": "Boci (Bochu) Seramik"
+          }
+        ]
+      },
+      "machines": [],
+      "descriptionNotes": []
+    },
+    {
+      "id": "htc-100000552",
+      "databaseId": 2256,
+      "sourceProductId": "100000552",
+      "model": "HTCSER014",
+      "name": "Raytools M8 D19.5mm Raytools 3D Oem Seramik",
+      "slug": "raytools-m8-d19-5mm-raytools-3d-oem-seramik-htcser014",
+      "description": "Raytools M8 D19.5mm Raytools 3D Oem Seramik, Raytools ve eşdeğeri kesim kafalarıyla uyumlu olarak üretilen bir seramik tutucudur. Teknik değerler: dış çap 19,5 mm / 12,5mm, iç çap M8 Pim, kaplama Gold-Plated, max güç 8000W (8kw), menşe Almanya. Sahada en çok Bodor ve HSG lazer kesim makinelerinde tercih edilir. Stoktan hızlı kargolanır; ücretsiz kargo ve teknik destek Lazer Online güvencesiyle sunulur.",
+      "shortDescription": "Raytools M8 D19.5mm Raytools 3D Oem Seramik — fiber lazer kesim kafası seramik tutucu. Dış Çap: 19,5 mm / 12,5mm · İç Çap: M8 Pim · Kaplama: Gold-Plated · Max Güç: 8000W (8kw). Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "499.00",
+      "price": "499.00",
+      "priceTax": "598.8",
+      "currencyCode": "TRY",
+      "stockStatus": "IN_STOCK",
+      "stockQuantity": 250,
+      "sku": "HTCSER014",
+      "status": "publish",
+      "manufacturer": "RAYTOOLS",
+      "keywords": [
+        "raytools",
+        "d19.5mm",
+        "oem",
+        "seramik",
+        "htcser014",
+        "seramikler"
+      ],
+      "sourceUrl": "https://www.lazeronline.com.tr/raytools-m8-d19-5mm-raytools-3d-oem-seramik",
+      "image": {
+        "sourceUrl": "https://lazeronline.com.tr/wp-content/uploads/2026/05/h10afd54fa42c45bb987ae95aefb4e5cc3-800x800-1.jpg",
+        "altText": "Raytools M8 D19.5mm Raytools 3D Oem Seramik"
+      },
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-seramikler",
+            "databaseId": 202,
+            "name": "Seramikler",
+            "slug": "seramikler",
+            "description": "Precitec, Raytools, Nukon, HighYag ve Bystronic uyumlu seramik sarf malzemeleri."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": [
+          {
+            "name": "brand",
+            "label": "Marka",
+            "value": "RAYTOOLS"
+          },
+          {
+            "name": "model",
+            "label": "Model",
+            "value": "HTCSER014"
+          },
+          {
+            "name": "currency",
+            "label": "Para Birimi",
+            "value": "TL"
+          },
+          {
+            "name": "outer-diameter",
+            "label": "Dış Çap",
+            "value": "19,5 mm / 12,5mm"
+          },
+          {
+            "name": "inner-diameter",
+            "label": "İç Çap",
+            "value": "M8 Pim"
+          },
+          {
+            "name": "coating",
+            "label": "Kaplama",
+            "value": "Gold-Plated"
+          },
+          {
+            "name": "max-power",
+            "label": "Max Güç",
+            "value": "8000W (8kw)"
+          },
+          {
+            "name": "origin",
+            "label": "Menşe",
+            "value": "Almanya"
+          }
+        ]
+      },
+      "galleryImages": {
+        "nodes": [
+          {
+            "sourceUrl": "/media/products/100000552/3c48a4814b8687c6ba752c6c2147b73a.png",
+            "altText": "Raytools M8 D19.5mm Raytools 3D Oem Seramik"
+          },
+          {
+            "sourceUrl": "/media/products/100000552/a9c12cfb50779f5c695682a9b2e14050.jpg",
+            "altText": "Raytools M8 D19.5mm Raytools 3D Oem Seramik"
+          },
+          {
+            "sourceUrl": "/media/products/100000552/e422280fad431d3da71741aeeeaa63da.jpg",
+            "altText": "Raytools M8 D19.5mm Raytools 3D Oem Seramik"
+          }
+        ]
+      },
+      "machines": [
+        "Bodor",
+        "HSG"
+      ],
+      "descriptionNotes": []
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # WP-Lzer Project
 
-Headless WooCommerce implementation with WordPress, WPGraphQL, and Next.js
+Hostinger-only headless WooCommerce implementation with WordPress, WPGraphQL, and a static Next.js frontend.
 
 ## Project Structure
 
@@ -11,9 +11,7 @@ WP-Lzer/
 │   ├── policies/               # Policy pages (privacy.md, terms.md, kvkk.md)
 │   ├── settings/               # Site settings (site.json)
 │   └── schemas/                # JSON schemas for validation
-├── docker/                     # Docker setup
-│   ├── docker-compose.yml      # WordPress + MySQL + WP-CLI
-│   └── .env.example
+├── docker/                     # Legacy local sandbox files, not used for production
 ├── docs/                       # Documentation
 │   └── decisions/              # Architecture decision records
 ├── frontend/                   # Next.js frontend
@@ -29,7 +27,6 @@ WP-Lzer/
 ├── scripts/                    # Operational scripts
 │   ├── bootstrap-wp.ps1       # Quick start script
 │   ├── validate-content.js    # Content schema validation
-│   ├── revalidate.js          # Next.js ISR revalidation
 │   └── seed-content.js        # Sample content seeder
 └── wordpress/                  # WordPress files
     └── wp-content/
@@ -43,31 +40,27 @@ WP-Lzer/
 
 ### Prerequisites
 
-- Docker Desktop
 - Node.js 18+
-- WP-CLI (for terminal operations)
+- Hostinger Web/WordPress hosting for production
+- WP-CLI or WordPress admin access for production operations
 
 ### Setup
 
 1. Clone the repository
-2. Run the bootstrap script:
-
-```powershell
-.\scripts\bootstrap-wp.ps1
-```
-
-3. Configure environment variables in `docker/.env` and `frontend/.env.local`
-
-4. Install WordPress plugins:
+2. Configure environment variables in `frontend/.env.local`
+3. Install WordPress plugins:
    - WPGraphQL
    - WPGraphQL for WooCommerce
-
-5. Start the frontend:
+   - WooCommerce
+   - Headless CLI Commands
+4. Start the frontend:
 
 ```bash
 cd frontend
 npm run dev
 ```
+
+For production deployment, see `docs/hostinger-static-runbook.md`.
 
 ## Content Management (Terminal-First)
 
@@ -93,31 +86,24 @@ wp content import-dir content/policies --type=policy
 wp settings sync content/settings/site.json
 ```
 
-5. Trigger frontend revalidation:
-
-```bash
-node scripts/revalidate.js / /category/bearings
-```
+5. Rebuild and upload the static frontend after content or product changes.
 
 ## Environment Variables
 
 ### Frontend (.env.local)
 
 ```env
-WP_GRAPHQL_URL=http://localhost:8080/graphql
-NEXT_PUBLIC_SITE_URL=http://localhost:3000
-NEXT_PUBLIC_API_REVALIDATE_SECRET=your-secret
+WP_GRAPHQL_URL=https://lazeronline.com.tr/graphql
+NEXT_PUBLIC_WP_HOME=https://lazeronline.com.tr
+NEXT_PUBLIC_WP_REST_URL=https://lazeronline.com.tr/wp-json
+NEXT_PUBLIC_GRAPHQL_URL=https://lazeronline.com.tr/graphql
+NEXT_PUBLIC_WOO_CHECKOUT_PATH=/odeme/
+NEXT_PUBLIC_SITE_URL=https://lazeronline.com.tr
 ```
 
-### Docker (.env)
+### Local WordPress (optional)
 
-```env
-WORDPRESS_DB_HOST=wp-lzer-db:3306
-WORDPRESS_DB_USER=wordpress
-WORDPRESS_DB_PASSWORD=wordpress_secret
-WORDPRESS_DB_NAME=wp_lzer
-HEADLESS_FRONTEND_URL=http://localhost:3000
-```
+The production deployment does not require Docker or a Node.js runtime on Hostinger. If a local WordPress sandbox is used later, keep those environment values in a local-only file and do not deploy them to `public_html`.
 
 ## Development
 
@@ -131,20 +117,20 @@ npm run lint         # Lint
 npm run type-check   # TypeScript check
 ```
 
+`npm run build` creates a static export in `frontend/out/` for Hostinger `public_html`.
+
 ### Content Validation
 
 ```bash
 node scripts/validate-content.js
 ```
 
-### Revalidation
+### Static Publish
 
 ```bash
-# Single route
-node scripts/revalidate.js /category/bearings
-
-# Multiple routes
-node scripts/revalidate.js / /category/bearings /product/6205-2rs
+npm run validate
+npm run build
+# Upload frontend/out/ to Hostinger public_html
 ```
 
 ## Architecture Decisions

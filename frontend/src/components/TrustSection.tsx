@@ -13,23 +13,23 @@ export function TrustSection() {
       </div>
       <div className="container mx-auto px-6 text-center relative z-10">
         <h2 className="text-4xl md:text-6xl lg:text-7xl font-headline font-bold uppercase tracking-tighter text-on-surface mb-8">
-          REALIZE THE <span className="text-secondary">LIMITLESS</span>
+          MAKİNENİZE UYGUN PARÇAYI <span className="text-secondary">BİRLİKTE NETLEŞTİRELİM</span>
         </h2>
         <p className="text-outline text-lg max-w-2xl mx-auto mb-12">
-          Join the industrial elite. Equip your production line with the precision it deserves.
+          Ürünü katalogdan doğrudan seçebilir veya makine/kafa uyumluluğu konusunda destek isteyebilirsiniz.
         </p>
         <div className="flex flex-col sm:flex-row justify-center gap-6">
           <Link
-            href="/quote"
+            href="/products"
             className="px-12 py-5 bg-secondary text-on-secondary font-headline font-black uppercase tracking-widest text-lg hover:scale-105 transition-all"
           >
-            Partner with Us
+            Kataloğa Git
           </Link>
           <Link
-            href="/page/spec-sheet"
+            href="/page/contact"
             className="px-12 py-5 border border-outline text-on-surface font-headline font-black uppercase tracking-widest text-lg hover:bg-surface-container-high transition-all"
           >
-            Request Technical Spec Sheet
+            İletişime Geç
           </Link>
         </div>
       </div>

@@ -1,0 +1,226 @@
+{
+  "note": "Marka uyumluluk landing sayfaları. Frontend (/marka/[slug]) ve sitemap üreticisi ortak okur. 'manufacturers' alanı products.json'daki manufacturer değerleriyle eşleşir.",
+  "brands": [
+    {
+      "slug": "precitec",
+      "name": "Precitec",
+      "manufacturers": [
+        "PRECITEC"
+      ],
+      "metaTitle": "Precitec Uyumlu Sarf Malzemeleri – Koruma Camı, Seramik, Nozul, Lens",
+      "metaDescription": "Precitec fiber lazer kesim ve kaynak kafaları için uyumlu koruma camı, seramik, nozul ve lens sarf malzemeleri. Orijinal ve alternatif, stokta, hızlı kargo.",
+      "keywords": [
+        "precitec uyumlu sarf",
+        "precitec koruma camı",
+        "precitec seramik",
+        "precitec nozul",
+        "precitec lens"
+      ],
+      "intro": [
+        "Precitec, fiber lazer kesim ve kaynak kafalarında dünya genelinde en yaygın kullanılan markalardan biridir. Lazer Online olarak Precitec ve ProCutter serisi kafalarla uyumlu koruma camı, KT B2 seramik, nozul ve lens sarf malzemelerini orijinal ve maliyet avantajlı alternatifleriyle stoktan sunuyoruz.",
+        "Doğru parçayı kafa modeli ve mevcut sarf ölçüsüne göre seçmek en güvenlisidir; emin değilseniz model veya ürün kodunu paylaşın, uygun Precitec uyumlu sarfı birlikte belirleyelim."
+      ]
+    },
+    {
+      "slug": "raytools",
+      "name": "Raytools",
+      "manufacturers": [
+        "RAYTOOLS"
+      ],
+      "metaTitle": "Raytools Uyumlu Sarf Malzemeleri – Koruma Camı, Seramik, Nozul",
+      "metaDescription": "Raytools fiber lazer kesim kafaları için uyumlu koruma camı, seramik ve nozul sarf malzemeleri. BT/BM serisi uyumlu, orijinal ve alternatif, stokta.",
+      "keywords": [
+        "raytools uyumlu sarf",
+        "raytools koruma camı",
+        "raytools seramik",
+        "raytools nozul"
+      ],
+      "intro": [
+        "Raytools, fiber lazer kesim sektöründe yaygın kullanılan bir kesim kafası markasıdır. Lazer Online olarak Raytools kafalarla uyumlu koruma camı, seramik ve nozul sarf malzemelerini farklı ölçü ve seçeneklerle stoktan sunuyoruz.",
+        "Raytools kafalarda seramik ve sensör uyumu kritik olduğundan, ölçü ve diş tipinin doğru eşleşmesi gerekir. Kafa modelini paylaşırsanız uygun parçayı hızla belirleyebiliriz."
+      ]
+    },
+    {
+      "slug": "nukon-highyag",
+      "name": "Nukon / HighYag",
+      "manufacturers": [
+        "Nukon/HighYag"
+      ],
+      "metaTitle": "Nukon / HighYag Uyumlu Sarf Malzemeleri – Koruma Camı ve Seramik",
+      "metaDescription": "Nukon ve HighYag fiber lazer kafaları için uyumlu koruma camı ve seramik sarf malzemeleri. Doğru ölçü ve uyumla, stokta ve hızlı kargo.",
+      "keywords": [
+        "nukon uyumlu sarf",
+        "highyag uyumlu sarf",
+        "nukon koruma camı",
+        "nukon seramik"
+      ],
+      "intro": [
+        "Nukon ve HighYag kafalarla uyumlu koruma camı ve seramik sarf malzemelerini Lazer Online güvencesiyle sunuyoruz. Bu kafalarda doğru cam ölçüsü ve seramik uyumu, kararlı kesim için belirleyicidir.",
+        "Uyumdan emin olmak için kafa marka-modelini veya mevcut parçanın ölçüsünü paylaşmanız yeterlidir."
+      ]
+    },
+    {
+      "slug": "bystronic",
+      "name": "Bystronic",
+      "manufacturers": [
+        "BYSTRONIC"
+      ],
+      "metaTitle": "Bystronic Uyumlu Sarf Malzemeleri – Seramik ve Sarf Parçaları",
+      "metaDescription": "Bystronic fiber lazer kesim makineleri için uyumlu seramik ve sarf malzemeleri. Orijinal ve alternatif seçeneklerle, stokta ve hızlı kargo.",
+      "keywords": [
+        "bystronic uyumlu sarf",
+        "bystronic seramik",
+        "bystronic sarf parça"
+      ],
+      "intro": [
+        "Bystronic fiber lazer kesim makineleri için uyumlu seramik ve sarf malzemelerini stoktan sunuyoruz. Bystronic seramik halka ve pim ölçüleri kendine özgü olduğundan, doğru parça için ölçü eşleşmesi önemlidir.",
+        "Mevcut parçanızın kodunu veya ölçüsünü paylaşın, uygun Bystronic uyumlu sarfı birlikte belirleyelim."
+      ]
+    },
+    {
+      "slug": "boci",
+      "name": "Boci",
+      "manufacturers": [
+        "BOCI"
+      ],
+      "metaTitle": "Boci Uyumlu Sarf Malzemeleri – Koruma Camı ve Seramik",
+      "metaDescription": "Boci fiber lazer kesim kafaları için uyumlu koruma camı ve seramik sarf malzemeleri. Doğru ölçü ve uyumla, stokta ve hızlı kargo.",
+      "keywords": [
+        "boci uyumlu sarf",
+        "boci koruma camı",
+        "boci seramik"
+      ],
+      "intro": [
+        "Boci kafalarla uyumlu koruma camı ve seramik sarf malzemelerini Lazer Online'da bulabilirsiniz. Doğru ölçü ve uyum, kararlı kesim ve uzun ömür için önemlidir.",
+        "Kafa modelinizi veya mevcut sarf ölçüsünü paylaşırsanız uygun parçayı hızla belirleriz."
+      ]
+    },
+    {
+      "slug": "durma",
+      "name": "Durma",
+      "manufacturers": [],
+      "descriptionContains": [
+        "Durma"
+      ],
+      "metaTitle": "Durma Uyumlu Lazer Koruma Camı ve Sarf Malzemeleri",
+      "metaDescription": "Durma fiber lazer kesim makineleriyle uyumlu koruma camı, seramik ve nozul sarf malzemeleri. Stoktan hızlı teslim, ücretsiz kargo ve teknik destek.",
+      "keywords": [
+        "durma koruma camı",
+        "durma lazer sarf",
+        "durma lazer yedek parça",
+        "durma nozul",
+        "durma seramik"
+      ],
+      "intro": [
+        "Durma fiber lazer kesim makineleri, Precitec ve eşdeğeri kesim kafaları kullanır; bu nedenle koruma camı, seramik ve nozul gibi sarf malzemeleri kafa modeline göre seçilir. Lazer Online kataloğundaki Durma uyumlu sarflar, doğru ölçü ve kaplama ile üretiminizi durdurmadan yenilemenizi sağlar.",
+        "Aşağıda Durma makinelerde kullanıma uygun, stoktan hızlı teslim edilen sarf malzemelerini bulabilirsiniz. Makinenizin kafa modelinden emin değilseniz bize yazın, doğru parçayı birlikte belirleyelim."
+      ]
+    },
+    {
+      "slug": "ermaksan",
+      "name": "Ermaksan",
+      "manufacturers": [],
+      "descriptionContains": [
+        "Ermaksan"
+      ],
+      "metaTitle": "Ermaksan Uyumlu Lazer Koruma Camı ve Sarf Malzemeleri",
+      "metaDescription": "Ermaksan fiber lazer kesim makineleriyle uyumlu koruma camı, seramik ve nozul sarf malzemeleri. Stoktan hızlı teslim, ücretsiz kargo ve teknik destek.",
+      "keywords": [
+        "ermaksan koruma camı",
+        "ermaksan lazer sarf",
+        "ermaksan lazer yedek parça",
+        "ermaksan nozul",
+        "ermaksan seramik"
+      ],
+      "intro": [
+        "Ermaksan fiber lazer kesim makineleri, Precitec ve eşdeğeri kesim kafaları kullanır; bu nedenle koruma camı, seramik ve nozul gibi sarf malzemeleri kafa modeline göre seçilir. Lazer Online kataloğundaki Ermaksan uyumlu sarflar, doğru ölçü ve kaplama ile üretiminizi durdurmadan yenilemenizi sağlar.",
+        "Aşağıda Ermaksan makinelerde kullanıma uygun, stoktan hızlı teslim edilen sarf malzemelerini bulabilirsiniz. Makinenizin kafa modelinden emin değilseniz bize yazın, doğru parçayı birlikte belirleyelim."
+      ]
+    },
+    {
+      "slug": "bodor",
+      "name": "Bodor",
+      "manufacturers": [],
+      "descriptionContains": [
+        "Bodor"
+      ],
+      "metaTitle": "Bodor Uyumlu Lazer Koruma Camı ve Sarf Malzemeleri",
+      "metaDescription": "Bodor fiber lazer kesim makineleriyle uyumlu koruma camı, seramik ve nozul sarf malzemeleri. Stoktan hızlı teslim, ücretsiz kargo ve teknik destek.",
+      "keywords": [
+        "bodor koruma camı",
+        "bodor lazer sarf",
+        "bodor lazer yedek parça",
+        "bodor nozul",
+        "bodor seramik"
+      ],
+      "intro": [
+        "Bodor fiber lazer kesim makineleri, Precitec ve eşdeğeri kesim kafaları kullanır; bu nedenle koruma camı, seramik ve nozul gibi sarf malzemeleri kafa modeline göre seçilir. Lazer Online kataloğundaki Bodor uyumlu sarflar, doğru ölçü ve kaplama ile üretiminizi durdurmadan yenilemenizi sağlar.",
+        "Aşağıda Bodor makinelerde kullanıma uygun, stoktan hızlı teslim edilen sarf malzemelerini bulabilirsiniz. Makinenizin kafa modelinden emin değilseniz bize yazın, doğru parçayı birlikte belirleyelim."
+      ]
+    },
+    {
+      "slug": "mvd",
+      "name": "MVD",
+      "manufacturers": [],
+      "descriptionContains": [
+        "Mvd",
+        "MVD"
+      ],
+      "metaTitle": "MVD Uyumlu Lazer Koruma Camı ve Sarf Malzemeleri",
+      "metaDescription": "MVD fiber lazer kesim makineleriyle uyumlu koruma camı, seramik ve nozul sarf malzemeleri. Stoktan hızlı teslim, ücretsiz kargo ve teknik destek.",
+      "keywords": [
+        "mvd koruma camı",
+        "mvd lazer sarf",
+        "mvd lazer yedek parça",
+        "mvd nozul",
+        "mvd seramik"
+      ],
+      "intro": [
+        "MVD fiber lazer kesim makineleri, Precitec ve eşdeğeri kesim kafaları kullanır; bu nedenle koruma camı, seramik ve nozul gibi sarf malzemeleri kafa modeline göre seçilir. Lazer Online kataloğundaki MVD uyumlu sarflar, doğru ölçü ve kaplama ile üretiminizi durdurmadan yenilemenizi sağlar.",
+        "Aşağıda MVD makinelerde kullanıma uygun, stoktan hızlı teslim edilen sarf malzemelerini bulabilirsiniz. Makinenizin kafa modelinden emin değilseniz bize yazın, doğru parçayı birlikte belirleyelim."
+      ]
+    },
+    {
+      "slug": "dener",
+      "name": "Dener",
+      "manufacturers": [],
+      "descriptionContains": [
+        "Dener"
+      ],
+      "metaTitle": "Dener Uyumlu Lazer Koruma Camı ve Sarf Malzemeleri",
+      "metaDescription": "Dener fiber lazer kesim makineleriyle uyumlu koruma camı, seramik ve nozul sarf malzemeleri. Stoktan hızlı teslim, ücretsiz kargo ve teknik destek.",
+      "keywords": [
+        "dener koruma camı",
+        "dener lazer sarf",
+        "dener lazer yedek parça",
+        "dener nozul",
+        "dener seramik"
+      ],
+      "intro": [
+        "Dener fiber lazer kesim makineleri, Precitec ve eşdeğeri kesim kafaları kullanır; bu nedenle koruma camı, seramik ve nozul gibi sarf malzemeleri kafa modeline göre seçilir. Lazer Online kataloğundaki Dener uyumlu sarflar, doğru ölçü ve kaplama ile üretiminizi durdurmadan yenilemenizi sağlar.",
+        "Aşağıda Dener makinelerde kullanıma uygun, stoktan hızlı teslim edilen sarf malzemelerini bulabilirsiniz. Makinenizin kafa modelinden emin değilseniz bize yazın, doğru parçayı birlikte belirleyelim."
+      ]
+    },
+    {
+      "slug": "accurl",
+      "name": "Accurl",
+      "manufacturers": [],
+      "descriptionContains": [
+        "Accurl"
+      ],
+      "metaTitle": "Accurl Uyumlu Lazer Koruma Camı ve Sarf Malzemeleri",
+      "metaDescription": "Accurl fiber lazer kesim makineleriyle uyumlu koruma camı, seramik ve nozul sarf malzemeleri. Stoktan hızlı teslim, ücretsiz kargo ve teknik destek.",
+      "keywords": [
+        "accurl koruma camı",
+        "accurl lazer sarf",
+        "accurl lazer yedek parça",
+        "accurl nozul",
+        "accurl seramik"
+      ],
+      "intro": [
+        "Accurl fiber lazer kesim makineleri, Precitec ve eşdeğeri kesim kafaları kullanır; bu nedenle koruma camı, seramik ve nozul gibi sarf malzemeleri kafa modeline göre seçilir. Lazer Online kataloğundaki Accurl uyumlu sarflar, doğru ölçü ve kaplama ile üretiminizi durdurmadan yenilemenizi sağlar.",
+        "Aşağıda Accurl makinelerde kullanıma uygun, stoktan hızlı teslim edilen sarf malzemelerini bulabilirsiniz. Makinenizin kafa modelinden emin değilseniz bize yazın, doğru parçayı birlikte belirleyelim."
+      ]
+    }
+  ]
+}

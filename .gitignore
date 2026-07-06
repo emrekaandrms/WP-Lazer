@@ -61,3 +61,10 @@ coverage/
 .turbo
 *.tgz
 *.tar.gz
+
+# Local deploy secrets (never commit)
+deploy/.secrets
+deploy/*.secrets
+
+# TypeScript incremental build cache
+*.tsbuildinfo
