@@ -1,0 +1,16 @@
+{
+  "name": "lazeronline/qnb-payfor-gateway",
+  "description": "QNB Finansbank (PayFor) direct WooCommerce payment gateway for Lazer Online",
+  "type": "project",
+  "license": "proprietary",
+  "require": {
+    "php": ">=8.0",
+    "mews/pos": "^1.9",
+    "symfony/event-dispatcher": "^6.0 || ^7.0",
+    "guzzlehttp/guzzle": "^7.0"
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "sort-packages": true
+  }
+}

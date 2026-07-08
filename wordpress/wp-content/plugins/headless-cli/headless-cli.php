@@ -81,6 +81,24 @@ add_action('rest_api_init', function () {
         'callback' => 'wp_lzer_submit_review',
         'permission_callback' => '__return_true',
     ]);
+
+    register_rest_route('wp-lzer/v1', '/qnb/checkout', [
+        'methods' => 'POST',
+        'callback' => 'wp_lzer_qnb_checkout',
+        'permission_callback' => '__return_true',
+    ]);
+
+    register_rest_route('wp-lzer/v1', '/qnb-return', [
+        'methods' => ['GET', 'POST'],
+        'callback' => 'wp_lzer_qnb_return',
+        'permission_callback' => '__return_true',
+    ]);
+
+    register_rest_route('wp-lzer/v1', '/order-summary', [
+        'methods' => 'GET',
+        'callback' => 'wp_lzer_order_summary',
+        'permission_callback' => '__return_true',
+    ]);
 });
 
 // Apply the order note captured during headless checkout to the created WooCommerce order.
@@ -119,6 +137,7 @@ function wp_lzer_public_user(WP_User $user) {
         'first_name' => get_user_meta($user->ID, 'first_name', true),
         'last_name' => get_user_meta($user->ID, 'last_name', true),
         'display_name' => $user->display_name,
+        'is_admin' => user_can($user->ID, 'manage_options'),
     ];
 }
 
@@ -614,6 +633,232 @@ function wp_lzer_prepare_checkout(WP_REST_Request $request) {
         'checkout_url' => $checkout_url,
         'cart_url' => wc_get_cart_url(),
         'item_count' => WC()->cart->get_cart_contents_count(),
+    ]);
+}
+
+/**
+ * Creates a real WooCommerce order directly from the branded Next.js checkout (no WC
+ * session/cart, no redirect to any WordPress-themed page) and returns the QNB 3D Secure
+ * form data for the frontend to auto-submit — the ONLY off-brand hop in the whole flow
+ * is the bank's own OTP page, which 3D Secure itself requires.
+ */
+function wp_lzer_qnb_checkout(WP_REST_Request $request) {
+    if (!class_exists('WooCommerce') || !function_exists('WC')) {
+        return new WP_Error('woocommerce_missing', 'WooCommerce aktif değil.', ['status' => 503]);
+    }
+    if (!class_exists('WC_Gateway_QNB_PayFor')) {
+        return new WP_Error('gateway_missing', 'Ödeme sağlayıcısı yüklenemedi.', ['status' => 503]);
+    }
+
+    // Staged live rollout: while the gateway is admin-only-gated, this REST endpoint must
+    // enforce the SAME restriction — it bypasses WC_Gateway_QNB_PayFor::is_available()
+    // entirely (that gate only affects the classic WC checkout page, which this endpoint
+    // does not go through). Identity comes from the site's own headless auth cookie
+    // (wp_lzer_get_customer_user_id) rather than WP core's nonce-gated cookie auth, since
+    // a fully static frontend has no page to hand out a fresh REST nonce from.
+    $live_and_gated = !(defined('QNB_PAYFOR_TEST_MODE') && QNB_PAYFOR_TEST_MODE)
+        && defined('QNB_PAYFOR_ADMIN_ONLY') && QNB_PAYFOR_ADMIN_ONLY;
+    if ($live_and_gated) {
+        $current_user_id = wp_lzer_get_customer_user_id();
+        if (!$current_user_id || !user_can($current_user_id, 'manage_options')) {
+            return new WP_Error(
+                'qnb_admin_only',
+                'Bu ödeme yöntemi şu anda yalnızca doğrulama amacıyla yöneticiye açıktır. Lütfen /login sayfasından yönetici hesabınızla giriş yapın.',
+                ['status' => 403]
+            );
+        }
+    }
+
+    $items = $request->get_param('items');
+    if (!is_array($items) || empty($items)) {
+        return new WP_Error('empty_cart', 'Sepette ürün bulunamadı.', ['status' => 400]);
+    }
+
+    $billing = $request->get_param('billing');
+    if (!is_array($billing)) {
+        return new WP_Error('invalid_billing', 'Fatura bilgileri eksik.', ['status' => 400]);
+    }
+    $required = ['first_name', 'last_name', 'email', 'phone', 'address_1', 'city', 'postcode'];
+    foreach ($required as $field) {
+        if (empty($billing[$field])) {
+            return new WP_Error('invalid_billing', "Eksik alan: {$field}", ['status' => 400]);
+        }
+    }
+    if (!is_email($billing['email'])) {
+        return new WP_Error('invalid_billing', 'Geçerli bir e-posta adresi girin.', ['status' => 400]);
+    }
+
+    $card = $request->get_param('card');
+    if (!is_array($card)) {
+        return new WP_Error('invalid_card', 'Kart bilgileri eksik.', ['status' => 400]);
+    }
+    foreach (['number', 'month', 'year', 'cvv', 'name'] as $field) {
+        if (empty($card[$field])) {
+            return new WP_Error('invalid_card', 'Kart bilgileri eksiksiz olmalıdır.', ['status' => 400]);
+        }
+    }
+
+    // Validate + collect purchasable line items before creating any order.
+    $line_items = [];
+    foreach ($items as $item) {
+        $product_id = absint($item['product_id'] ?? 0);
+        $quantity = max(1, absint($item['quantity'] ?? 1));
+        if (!$product_id) {
+            return new WP_Error('invalid_product', 'Her ürün geçerli bir product_id içermelidir.', ['status' => 400]);
+        }
+        $product = wc_get_product($product_id);
+        if (!$product || !$product->is_purchasable()) {
+            return new WP_Error('invalid_product', 'Ürün satın alınabilir değil: ' . $product_id, ['status' => 400]);
+        }
+        if (!$product->is_in_stock()) {
+            return new WP_Error('out_of_stock', 'Ürün stokta yok: ' . $product_id, ['status' => 409]);
+        }
+        $line_items[] = ['product' => $product, 'quantity' => $quantity];
+    }
+
+    try {
+        $order = wc_create_order();
+
+        $customer_user_id = wp_lzer_get_customer_user_id();
+        if ($customer_user_id) {
+            $order->set_customer_id($customer_user_id);
+        }
+
+        foreach ($line_items as $line) {
+            $order->add_product($line['product'], $line['quantity']);
+        }
+
+        $billing_address = [
+            'first_name' => sanitize_text_field($billing['first_name']),
+            'last_name'  => sanitize_text_field($billing['last_name']),
+            'email'      => sanitize_email($billing['email']),
+            'phone'      => sanitize_text_field($billing['phone']),
+            'address_1'  => sanitize_text_field($billing['address_1']),
+            'address_2'  => sanitize_text_field($billing['address_2'] ?? ''),
+            'city'       => sanitize_text_field($billing['city']),
+            'postcode'   => sanitize_text_field($billing['postcode']),
+            'country'    => 'TR',
+        ];
+        $order->set_address($billing_address, 'billing');
+        $order->set_address($billing_address, 'shipping');
+
+        $note = sanitize_textarea_field($request->get_param('note') ?? '');
+        if ($note) {
+            $order->set_customer_note($note);
+        }
+
+        $order->set_payment_method('qnb_payfor');
+        $order->set_payment_method_title('Kredi / Banka Kartı');
+        $order->set_created_via('lazer-online-headless');
+        $order->calculate_totals();
+        $order->save();
+
+        $gateways = WC()->payment_gateways()->payment_gateways();
+        if (empty($gateways['qnb_payfor']) || !$gateways['qnb_payfor']->credentials_configured()) {
+            $order->delete(true);
+            return new WP_Error('gateway_unavailable', 'Ödeme sağlayıcısı şu anda kullanılamıyor.', ['status' => 503]);
+        }
+
+        /** @var WC_Gateway_QNB_PayFor $gateway */
+        $gateway = $gateways['qnb_payfor'];
+        $form_data = $gateway->generate_3d_form_for_order($order->get_id(), [
+            'number' => sanitize_text_field($card['number']),
+            'month'  => sanitize_text_field($card['month']),
+            'year'   => sanitize_text_field($card['year']),
+            'cvv'    => sanitize_text_field($card['cvv']),
+            'name'   => sanitize_text_field($card['name']),
+        ]);
+
+        return rest_ensure_response([
+            'ok'       => true,
+            'order_id' => $order->get_id(),
+            'gateway'  => $form_data['gateway'],
+            'method'   => $form_data['method'],
+            'inputs'   => $form_data['inputs'],
+        ]);
+    } catch (\Throwable $e) {
+        if (isset($order) && $order->get_id()) {
+            $order->update_status('failed', 'Ödeme başlatılamadı: ' . $e->getMessage());
+        }
+        wc_get_logger()->error('QNB headless checkout error: ' . $e->getMessage(), ['source' => 'qnb-payfor']);
+        return new WP_Error('checkout_failed', 'Ödeme başlatılamadı. Lütfen kart bilgilerinizi kontrol edip tekrar deneyin.', ['status' => 400]);
+    }
+}
+
+/**
+ * Bank redirects the customer's browser here after 3D Secure. Always ends in an HTTP
+ * redirect back to a branded Next.js page — success or failure, the customer never sees
+ * a WordPress-themed page.
+ */
+function wp_lzer_qnb_return(WP_REST_Request $request) {
+    $site_url = rtrim(home_url(), '/');
+    $order_id = absint($request->get_param('order_id'));
+    $key = sanitize_text_field((string) $request->get_param('key'));
+
+    $gateways = WC()->payment_gateways()->payment_gateways();
+    if (empty($gateways['qnb_payfor'])) {
+        wp_redirect($site_url . '/checkout/?qnb_error=' . rawurlencode('Ödeme sağlayıcısı yüklenemedi.'));
+        exit;
+    }
+
+    /** @var WC_Gateway_QNB_PayFor $gateway */
+    $gateway = $gateways['qnb_payfor'];
+    $result = $gateway->finalize_from_return($order_id, $key);
+
+    if ($result['success']) {
+        wp_redirect($site_url . '/siparis-alindi/?order=' . $result['order_id'] . '&key=' . rawurlencode($key));
+        exit;
+    }
+
+    wp_redirect($site_url . '/checkout/?qnb_error=' . rawurlencode($result['message']));
+    exit;
+}
+
+/**
+ * Public order lookup for the branded order-confirmation page. Guarded by the order's own
+ * key (same pattern WooCommerce itself uses for order-received URLs) — knowing the numeric
+ * order id alone isn't enough, so random ids can't be used to browse other customers' orders.
+ */
+function wp_lzer_order_summary(WP_REST_Request $request) {
+    $order_id = absint($request->get_param('order_id'));
+    $key = sanitize_text_field((string) $request->get_param('key'));
+    $order = $order_id ? wc_get_order($order_id) : null;
+
+    if (!$order || !hash_equals($order->get_order_key(), $key)) {
+        return new WP_Error('invalid_order', 'Sipariş bulunamadı.', ['status' => 404]);
+    }
+
+    $items = [];
+    foreach ($order->get_items() as $item) {
+        $product = $item->get_product();
+        $image_id = $product ? $product->get_image_id() : 0;
+        $items[] = [
+            'name' => $item->get_name(),
+            'sku' => $product ? $product->get_sku() : '',
+            'quantity' => $item->get_quantity(),
+            'total' => (float) $item->get_total(),
+            'image' => $image_id ? wp_get_attachment_image_url($image_id, 'medium') : null,
+        ];
+    }
+
+    $created = $order->get_date_created();
+
+    return rest_ensure_response([
+        'ok' => true,
+        'order_id' => $order->get_id(),
+        'status' => $order->get_status(),
+        'date' => $created ? $created->date_i18n('d.m.Y H:i') : '',
+        'items' => $items,
+        'subtotal' => (float) $order->get_subtotal(),
+        'shipping_total' => (float) $order->get_shipping_total(),
+        'total' => (float) $order->get_total(),
+        'currency' => $order->get_currency(),
+        'customer_name' => trim($order->get_billing_first_name() . ' ' . $order->get_billing_last_name()),
+        'customer_email' => $order->get_billing_email(),
+        'shipping_address' => trim(implode(', ', array_filter([
+            $order->get_shipping_address_1() ?: $order->get_billing_address_1(),
+            $order->get_shipping_city() ?: $order->get_billing_city(),
+        ]))),
     ]);
 }
 

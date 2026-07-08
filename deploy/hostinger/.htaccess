@@ -18,7 +18,9 @@ RewriteRule ^odeme(/.*)?$ index.php [L]
 RewriteCond %{REQUEST_FILENAME} -f [OR]
 RewriteCond %{REQUEST_FILENAME} -d
 RewriteRule ^ - [L]
-
-# Unknown routes fall back to the root router, which boots WordPress.
-RewriteRule ^ index.php [L]
 </IfModule>
+
+# Anything else is NOT a WordPress page and NOT a real static file — serve our own branded
+# 404 (from the Next.js static export) instead of falling through to WordPress, which would
+# otherwise render the raw WP theme (unrelated default/demo content) for any typo'd URL.
+ErrorDocument 404 /404.html

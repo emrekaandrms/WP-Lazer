@@ -68,3 +68,7 @@ deploy/*.secrets
 
 # TypeScript incremental build cache
 *.tsbuildinfo
+
+# QNB payment gateway PHP deps (installed via composer on the server, not committed)
+wordpress/wp-content/plugins/lazer-qnb-pos/vendor/
+wordpress/wp-content/plugins/lazer-qnb-pos/composer.lock
