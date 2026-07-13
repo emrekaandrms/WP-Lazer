@@ -34,6 +34,8 @@ PHRASE = {
     "nozullar": "fiber lazer kesim nozulu",
     "lensler": "fiber lazer odak/kolimatör lensi",
     "lazer-kaynak": "lazer kaynak sarf malzemesi",
+    "yedek-parcalar": "fiber lazer kesim kafası yedek parçası",
+    "temizlik-guvenlik": "optik temizlik ve lazer güvenlik ürünü",
 }
 
 # Attributes that are noise in a technical-spec context.
@@ -50,6 +52,8 @@ CAT_NOUN = {
     "nozullar": ("kesim nozulu", "dur"),
     "lensler": ("optik lens", "tir"),
     "lazer-kaynak": ("lazer kaynak sarf parçası", "dır"),
+    "yedek-parcalar": ("kesim kafası yedek parçası", "dır"),
+    "temizlik-guvenlik": ("optik temizlik/güvenlik ürünü", "dür"),
 }
 
 

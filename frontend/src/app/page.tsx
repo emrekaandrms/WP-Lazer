@@ -58,6 +58,16 @@ const categoryPresentation: Record<string, { icon: string; description: string; 
     description: 'Lazer kaynak makineleri için koruma camı, focus lens ve sarf setleri.',
     accent: 'bg-[#FDE68A]',
   },
+  'yedek-parcalar': {
+    icon: 'settings_suggest',
+    description: 'Seal ring, yaylı conta, sıkma halkası ve kesim kafası yedek parçaları.',
+    accent: 'bg-[#F5B7B1]',
+  },
+  'temizlik-guvenlik': {
+    icon: 'cleaning_services',
+    description: 'Optik temizlik sıvısı, temizlik bezi, çubuk ve lazer güvenlik gözlüğü.',
+    accent: 'bg-[#A8E6CF]',
+  },
 }
 
 const bestSellerCodes = [

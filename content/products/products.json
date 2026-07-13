@@ -5002,6 +5002,1439 @@
         "HSG"
       ],
       "descriptionNotes": []
+    },
+    {
+      "id": "htc-new-htctem008",
+      "databaseId": 2264,
+      "sourceProductId": "HTCTEM008",
+      "model": "HTCTEM008",
+      "name": "Optik Temizlik Çubuğu Büyük Boy",
+      "slug": "optik-temizlik-cubugu-buyuk-boy-htctem008",
+      "description": "Yaygın fiber lazer kafa kullanan makineler için geliştirilen Optik Temizlik Çubuğu Büyük Boy, yüksek güç altında kararlı performans sunan bir optik temizlik/güvenlik ürünüdür. Doğru seçim için ürün kodunu veya kafa modelinizi iletebilirsiniz; ücretsiz kargo ile stoktan gönderilir.",
+      "shortDescription": "Optik Temizlik Çubuğu Büyük Boy — optik temizlik ve lazer güvenlik ürünü. Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "1299.00",
+      "price": "1299.00",
+      "priceTax": "1558.80",
+      "currencyCode": "TRY",
+      "stockStatus": "IN_STOCK",
+      "stockQuantity": 50,
+      "sku": "HTCTEM008",
+      "status": "publish",
+      "manufacturer": "",
+      "keywords": [],
+      "sourceUrl": "https://www.htclazer.com/optik-temizlik-cubugu-buyuk-boy",
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-temizlik-guvenlik",
+            "databaseId": 0,
+            "name": "Temizlik & Güvenlik",
+            "slug": "temizlik-guvenlik",
+            "description": "Optik temizlik sıvısı, temizlik bezi, temizlik çubuğu ve lazer güvenlik gözlüğü."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": []
+      },
+      "image": {
+        "sourceUrl": "/media/products/HTCTEM008/730311674de3a84452722e5841b5115b.jpg",
+        "altText": "Optik Temizlik Çubuğu Büyük Boy"
+      },
+      "machines": [],
+      "descriptionNotes": []
+    },
+    {
+      "id": "htc-new-htctem001",
+      "databaseId": 2265,
+      "sourceProductId": "HTCTEM001",
+      "model": "HTCTEM001",
+      "name": "Optik Temizlik Çubuğu Orta Boy",
+      "slug": "optik-temizlik-cubugu-orta-boy-htctem001",
+      "description": "Üretiminizi durdurmadan yenileyebileceğiniz Optik Temizlik Çubuğu Orta Boy, yaygın fiber lazer kafalar için doğru ölçü ve işçilikle hazırlanan bir optik temizlik/güvenlik ürünüdür. Ücretsiz kargo ile stoktan hızlı teslim edilir; ölçü uyumundan emin değilseniz kafa modelinizi paylaşmanız yeterlidir.",
+      "shortDescription": "Optik Temizlik Çubuğu Orta Boy — optik temizlik ve lazer güvenlik ürünü. Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "1199.00",
+      "price": "1199.00",
+      "priceTax": "1438.80",
+      "currencyCode": "TRY",
+      "stockStatus": "IN_STOCK",
+      "stockQuantity": 50,
+      "sku": "HTCTEM001",
+      "status": "publish",
+      "manufacturer": "",
+      "keywords": [],
+      "sourceUrl": "https://www.htclazer.com/temizleme-cubugu-orta-boy",
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-temizlik-guvenlik",
+            "databaseId": 0,
+            "name": "Temizlik & Güvenlik",
+            "slug": "temizlik-guvenlik",
+            "description": "Optik temizlik sıvısı, temizlik bezi, temizlik çubuğu ve lazer güvenlik gözlüğü."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": []
+      },
+      "image": {
+        "sourceUrl": "/media/products/HTCTEM001/7b55262139b8647a6410ae32fc0c0673.jpg",
+        "altText": "Optik Temizlik Çubuğu Orta Boy"
+      },
+      "machines": [],
+      "descriptionNotes": []
+    },
+    {
+      "id": "htc-new-htctem005",
+      "databaseId": 2266,
+      "sourceProductId": "HTCTEM005",
+      "model": "HTCTEM005",
+      "name": "Optik Temizlik Sıvısı 1LT (Aseton)",
+      "slug": "optik-temizlik-sivisi-1lt-aseton-htctem005",
+      "description": "Yaygın fiber lazer kafa kullanan makineler için geliştirilen Optik Temizlik Sıvısı 1LT (Aseton), yüksek güç altında kararlı performans sunan bir optik temizlik/güvenlik ürünüdür. Doğru seçim için ürün kodunu veya kafa modelinizi iletebilirsiniz; ücretsiz kargo ile stoktan gönderilir.",
+      "shortDescription": "Optik Temizlik Sıvısı 1LT (Aseton) — optik temizlik ve lazer güvenlik ürünü. Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "1199.00",
+      "price": "1199.00",
+      "priceTax": "1438.80",
+      "currencyCode": "TRY",
+      "stockStatus": "IN_STOCK",
+      "stockQuantity": 50,
+      "sku": "HTCTEM005",
+      "status": "publish",
+      "manufacturer": "",
+      "keywords": [],
+      "sourceUrl": "https://www.htclazer.com/temizlik-sivisi-1lt-aseton",
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-temizlik-guvenlik",
+            "databaseId": 0,
+            "name": "Temizlik & Güvenlik",
+            "slug": "temizlik-guvenlik",
+            "description": "Optik temizlik sıvısı, temizlik bezi, temizlik çubuğu ve lazer güvenlik gözlüğü."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": []
+      },
+      "image": {
+        "sourceUrl": "/media/products/HTCTEM005/9087debdb82db2288355581ba00a4ac2.jpg",
+        "altText": "Optik Temizlik Sıvısı 1LT (Aseton)"
+      },
+      "machines": [],
+      "descriptionNotes": []
+    },
+    {
+      "id": "htc-new-htctem004",
+      "databaseId": 2267,
+      "sourceProductId": "HTCTEM004",
+      "model": "HTCTEM004",
+      "name": "Optik Temizlik Sıvısı 1LT (İzopropil)",
+      "slug": "optik-temizlik-sivisi-1lt-i-zopropil-htctem004",
+      "description": "Üretiminizi durdurmadan yenileyebileceğiniz Optik Temizlik Sıvısı 1LT (İzopropil), yaygın fiber lazer kafalar için doğru ölçü ve işçilikle hazırlanan bir optik temizlik/güvenlik ürünüdür. Ücretsiz kargo ile stoktan hızlı teslim edilir; ölçü uyumundan emin değilseniz kafa modelinizi paylaşmanız yeterlidir.",
+      "shortDescription": "Optik Temizlik Sıvısı 1LT (İzopropil) — optik temizlik ve lazer güvenlik ürünü. Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "1199.00",
+      "price": "1199.00",
+      "priceTax": "1438.80",
+      "currencyCode": "TRY",
+      "stockStatus": "IN_STOCK",
+      "stockQuantity": 50,
+      "sku": "HTCTEM004",
+      "status": "publish",
+      "manufacturer": "",
+      "keywords": [],
+      "sourceUrl": "https://www.htclazer.com/optik-temizlik-sivisi-1lt-izopropil",
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-temizlik-guvenlik",
+            "databaseId": 0,
+            "name": "Temizlik & Güvenlik",
+            "slug": "temizlik-guvenlik",
+            "description": "Optik temizlik sıvısı, temizlik bezi, temizlik çubuğu ve lazer güvenlik gözlüğü."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": []
+      },
+      "image": {
+        "sourceUrl": "/media/products/HTCTEM004/9087debdb82db2288355581ba00a4ac2.jpg",
+        "altText": "Optik Temizlik Sıvısı 1LT (İzopropil)"
+      },
+      "machines": [],
+      "descriptionNotes": []
+    },
+    {
+      "id": "htc-new-htcyed004",
+      "databaseId": 2268,
+      "sourceProductId": "HTCYED004",
+      "model": "HTCYED004",
+      "name": "Precitec HpSsl-Plus Kesme Kafası",
+      "slug": "precitec-hpssl-plus-kesme-kafasi-htcyed004",
+      "description": "Precitec HpSsl-Plus Kesme Kafası, Precitec ve eşdeğeri kesim kafalarıyla uyumlu olarak üretilen bir kesim kafası yedek parçasıdır. Stoktan hızlı kargolanır; ücretsiz kargo ve teknik destek Lazer Online güvencesiyle sunulur.",
+      "shortDescription": "Precitec HpSsl-Plus Kesme Kafası — fiber lazer kesim kafası yedek parçası. Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "347201.45",
+      "price": "347201.45",
+      "priceTax": "416641.74",
+      "currencyCode": "TRY",
+      "stockStatus": "IN_STOCK",
+      "stockQuantity": 50,
+      "sku": "HTCYED004",
+      "status": "publish",
+      "manufacturer": "PRECITEC",
+      "keywords": [],
+      "sourceUrl": "https://www.htclazer.com/precitec-hpssl-plus-kesme-kafasi",
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-yedek-parcalar",
+            "databaseId": 0,
+            "name": "Yedek Parçalar",
+            "slug": "yedek-parcalar",
+            "description": "Seal ring, conta, sıkma halkası ve diğer kesim/kaynak kafası yedek parçaları."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": []
+      },
+      "image": {
+        "sourceUrl": "/media/products/HTCYED004/6bfc5ed90b30dfe93f1da577f02fb733.jpg",
+        "altText": "Precitec HpSsl-Plus Kesme Kafası"
+      },
+      "machines": [],
+      "descriptionNotes": []
+    },
+    {
+      "id": "htc-new-htclns003",
+      "databaseId": 2269,
+      "sourceProductId": "HTCLNS003",
+      "model": "HTCLNS003",
+      "name": "Precitec OG Y D30 Kolimatör Lens F100",
+      "slug": "precitec-og-y-d30-kolimator-lens-f100-htclns003",
+      "description": "Üretiminizi durdurmadan yenileyebileceğiniz Precitec OG Y D30 Kolimatör Lens F100, Precitec ve eşdeğeri kafalar için doğru ölçü ve işçilikle hazırlanan bir optik lenstir. Durma, Ermaksan, Dener, MVD ve Accurl gibi makinelerle birlikte yaygın olarak kullanılır. Ücretsiz kargo ile stoktan hızlı teslim edilir; ölçü uyumundan emin değilseniz kafa modelinizi paylaşmanız yeterlidir.",
+      "shortDescription": "Precitec OG Y D30 Kolimatör Lens F100 — fiber lazer odak/kolimatör lensi. Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "80123.41",
+      "price": "80123.41",
+      "priceTax": "96148.09",
+      "currencyCode": "TRY",
+      "stockStatus": "IN_STOCK",
+      "stockQuantity": 50,
+      "sku": "HTCLNS003",
+      "status": "publish",
+      "manufacturer": "PRECITEC",
+      "keywords": [],
+      "sourceUrl": "https://www.htclazer.com/precitec-og-y-d30-kolimator-lens-f100",
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-lensler",
+            "databaseId": 0,
+            "name": "Lensler",
+            "slug": "lensler",
+            "description": "Kolimatör, odak ve kaynak lazer lensleri."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": []
+      },
+      "image": {
+        "sourceUrl": "/media/products/HTCLNS003/6e88cf5162c1224b0d9f57bab2914244.jpg",
+        "altText": "Precitec OG Y D30 Kolimatör Lens F100"
+      },
+      "machines": [
+        "Durma",
+        "Ermaksan",
+        "Dener",
+        "MVD",
+        "Accurl"
+      ],
+      "descriptionNotes": []
+    },
+    {
+      "id": "htc-new-htclns004",
+      "databaseId": 2270,
+      "sourceProductId": "HTCLNS004",
+      "model": "HTCLNS004",
+      "name": "Precitec OL HP SSL F200 Lens ve Tutucu 7.5\"",
+      "slug": "precitec-ol-hp-ssl-f200-lens-ve-tutucu-7-5-htclns004",
+      "description": "Precitec ve eşdeğeri kafa kullanan makineler için geliştirilen Precitec OL HP SSL F200 Lens ve Tutucu 7.5\", yüksek güç altında kararlı performans sunan bir optik lenstir. Precitec F200 7.5'' Lens, Kovan Dahil Fiyattır. Eski kovan İade edilmesi Gereklidir. Doğru seçim için ürün kodunu veya kafa modelinizi iletebilirsiniz; ücretsiz kargo ile stoktan gönderilir.",
+      "shortDescription": "Precitec OL HP SSL F200 Lens ve Tutucu 7.5\" — fiber lazer odak/kolimatör lensi. Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "42732.49",
+      "price": "42732.49",
+      "priceTax": "51278.99",
+      "currencyCode": "TRY",
+      "stockStatus": "IN_STOCK",
+      "stockQuantity": 50,
+      "sku": "HTCLNS004",
+      "status": "publish",
+      "manufacturer": "PRECITEC",
+      "keywords": [],
+      "sourceUrl": "https://www.htclazer.com/precitec-og-y-d30-focus-lens-f200",
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-lensler",
+            "databaseId": 0,
+            "name": "Lensler",
+            "slug": "lensler",
+            "description": "Kolimatör, odak ve kaynak lazer lensleri."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": []
+      },
+      "image": {
+        "sourceUrl": "/media/products/HTCLNS004/618cd5104b5e31e28f9bb1def40badca.jpg",
+        "altText": "Precitec OL HP SSL F200 Lens ve Tutucu 7.5\""
+      },
+      "machines": [],
+      "descriptionNotes": [
+        "Precitec F200 7.5'' Lens, Kovan Dahil Fiyattır.",
+        "Eski kovan İade edilmesi Gereklidir."
+      ]
+    },
+    {
+      "id": "htc-new-htcyed001",
+      "databaseId": 2271,
+      "sourceProductId": "HTCYED001",
+      "model": "HTCYED001",
+      "name": "Precitec Procutter F150 Sensör İnsert",
+      "slug": "precitec-procutter-f150-sensor-i-nsert-htcyed001",
+      "description": "Precitec Procutter F150 Sensör İnsert, Precitec ve eşdeğeri kesim kafalarıyla uyumlu olarak üretilen bir kesim kafası yedek parçasıdır. Stoktan hızlı kargolanır; ücretsiz kargo ve teknik destek Lazer Online güvencesiyle sunulur.",
+      "shortDescription": "Precitec Procutter F150 Sensör İnsert — fiber lazer kesim kafası yedek parçası. Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "146892.92",
+      "price": "146892.92",
+      "priceTax": "176271.50",
+      "currencyCode": "TRY",
+      "stockStatus": "IN_STOCK",
+      "stockQuantity": 50,
+      "sku": "HTCYED001",
+      "status": "publish",
+      "manufacturer": "PRECITEC",
+      "keywords": [],
+      "sourceUrl": "https://www.htclazer.com/precitec-procutter-f150-sensor-insert",
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-yedek-parcalar",
+            "databaseId": 0,
+            "name": "Yedek Parçalar",
+            "slug": "yedek-parcalar",
+            "description": "Seal ring, conta, sıkma halkası ve diğer kesim/kaynak kafası yedek parçaları."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": []
+      },
+      "image": {
+        "sourceUrl": "/media/products/HTCYED001/4b0e756d715aefd378dde3523d2fdcdd.jpg",
+        "altText": "Precitec Procutter F150 Sensör İnsert"
+      },
+      "machines": [],
+      "descriptionNotes": []
+    },
+    {
+      "id": "htc-new-htcyed003",
+      "databaseId": 2272,
+      "sourceProductId": "HTCYED003",
+      "model": "HTCYED003",
+      "name": "Precitec Seramik Sıkma Halkası",
+      "slug": "precitec-seramik-sikma-halkasi-htcyed003",
+      "description": "Precitec ve eşdeğeri kafa kullanan makineler için geliştirilen Precitec Seramik Sıkma Halkası, yüksek güç altında kararlı performans sunan bir kesim kafası yedek parçasıdır. Durma, Ermaksan, Dener, MVD ve Accurl makinelerinde çalışan operatörlerin düzenli yenilediği sarflar arasındadır. Doğru seçim için ürün kodunu veya kafa modelinizi iletebilirsiniz; ücretsiz kargo ile stoktan gönderilir.",
+      "shortDescription": "Precitec Seramik Sıkma Halkası — fiber lazer kesim kafası yedek parçası. Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "1599.00",
+      "price": "1599.00",
+      "priceTax": "1918.80",
+      "currencyCode": "TRY",
+      "stockStatus": "IN_STOCK",
+      "stockQuantity": 50,
+      "sku": "HTCYED003",
+      "status": "publish",
+      "manufacturer": "PRECITEC",
+      "keywords": [],
+      "sourceUrl": "https://www.htclazer.com/precitec-seramik-sikma-halkasi",
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-yedek-parcalar",
+            "databaseId": 0,
+            "name": "Yedek Parçalar",
+            "slug": "yedek-parcalar",
+            "description": "Seal ring, conta, sıkma halkası ve diğer kesim/kaynak kafası yedek parçaları."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": []
+      },
+      "image": {
+        "sourceUrl": "/media/products/HTCYED003/99a42c5a9b48178c1b4ea21de27fd960.jpg",
+        "altText": "Precitec Seramik Sıkma Halkası"
+      },
+      "machines": [
+        "Durma",
+        "Ermaksan",
+        "Dener",
+        "MVD",
+        "Accurl"
+      ],
+      "descriptionNotes": []
+    },
+    {
+      "id": "htc-new-htcyed005",
+      "databaseId": 2273,
+      "sourceProductId": "HTCYED005",
+      "model": "HTCYED005",
+      "name": "Raytools RF Kablo L150",
+      "slug": "raytools-rf-kablo-l150-htcyed005",
+      "description": "Üretiminizi durdurmadan yenileyebileceğiniz Raytools RF Kablo L150, Raytools ve eşdeğeri kafalar için doğru ölçü ve işçilikle hazırlanan bir kesim kafası yedek parçasıdır. Ücretsiz kargo ile stoktan hızlı teslim edilir; ölçü uyumundan emin değilseniz kafa modelinizi paylaşmanız yeterlidir.",
+      "shortDescription": "Raytools RF Kablo L150 — fiber lazer kesim kafası yedek parçası. Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "299.00",
+      "price": "299.00",
+      "priceTax": "358.80",
+      "currencyCode": "TRY",
+      "stockStatus": "IN_STOCK",
+      "stockQuantity": 50,
+      "sku": "HTCYED005",
+      "status": "publish",
+      "manufacturer": "RAYTOOLS",
+      "keywords": [],
+      "sourceUrl": "https://www.htclazer.com/raytools-rf-kablo-l150-cable",
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-yedek-parcalar",
+            "databaseId": 0,
+            "name": "Yedek Parçalar",
+            "slug": "yedek-parcalar",
+            "description": "Seal ring, conta, sıkma halkası ve diğer kesim/kaynak kafası yedek parçaları."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": []
+      },
+      "image": {
+        "sourceUrl": "/media/products/HTCYED005/75ebca264501a3657177ba225921208d.jpg",
+        "altText": "Raytools RF Kablo L150"
+      },
+      "machines": [],
+      "descriptionNotes": []
+    },
+    {
+      "id": "htc-new-htcslr",
+      "databaseId": 2274,
+      "sourceProductId": "HTCSLR",
+      "model": "HTCSLR",
+      "name": "Seal Ring Yaylı Conta",
+      "slug": "seal-ring-yayli-conta-htcslr",
+      "description": "Yaygın fiber lazer kafa kullanan makineler için geliştirilen Seal Ring Yaylı Conta, yüksek güç altında kararlı performans sunan bir kesim kafası yedek parçasıdır. Doğru seçim için ürün kodunu veya kafa modelinizi iletebilirsiniz; ücretsiz kargo ile stoktan gönderilir.",
+      "shortDescription": "Seal Ring Yaylı Conta — fiber lazer kesim kafası yedek parçası. Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "999.00",
+      "price": "999.00",
+      "priceTax": "1198.80",
+      "currencyCode": "TRY",
+      "stockStatus": "IN_STOCK",
+      "stockQuantity": 50,
+      "sku": "HTCSLR",
+      "status": "publish",
+      "manufacturer": "",
+      "keywords": [],
+      "sourceUrl": "https://www.htclazer.com/seal-ring-yayli-conta-sari-pllh-p556-1h",
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-yedek-parcalar",
+            "databaseId": 0,
+            "name": "Yedek Parçalar",
+            "slug": "yedek-parcalar",
+            "description": "Seal ring, conta, sıkma halkası ve diğer kesim/kaynak kafası yedek parçaları."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": []
+      },
+      "image": {
+        "sourceUrl": "/media/products/HTCSLR/02f10b7051f18dd6b555b0ec0b5c62b9.jpg",
+        "altText": "Seal Ring Yaylı Conta"
+      },
+      "machines": [],
+      "descriptionNotes": []
+    },
+    {
+      "id": "htc-new-htcrng001",
+      "databaseId": 2275,
+      "sourceProductId": "HTCRNG001",
+      "model": "HTCRNG001",
+      "name": "Seal Ring Yaylı Conta Beyaz BCLH-P266-1",
+      "slug": "seal-ring-yayli-conta-beyaz-bclh-p266-1-htcrng001",
+      "description": "Yaygın fiber lazer kafa kullanan makineler için geliştirilen Seal Ring Yaylı Conta Beyaz BCLH-P266-1, yüksek güç altında kararlı performans sunan bir kesim kafası yedek parçasıdır. Doğru seçim için ürün kodunu veya kafa modelinizi iletebilirsiniz; ücretsiz kargo ile stoktan gönderilir.",
+      "shortDescription": "Seal Ring Yaylı Conta Beyaz BCLH-P266-1 — fiber lazer kesim kafası yedek parçası. Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "999.00",
+      "price": "999.00",
+      "priceTax": "1198.80",
+      "currencyCode": "TRY",
+      "stockStatus": "IN_STOCK",
+      "stockQuantity": 50,
+      "sku": "HTCRNG001",
+      "status": "publish",
+      "manufacturer": "",
+      "keywords": [],
+      "sourceUrl": "https://www.htclazer.com/seal-ring-yayli-conta-beyaz-bclh-p266-1",
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-yedek-parcalar",
+            "databaseId": 0,
+            "name": "Yedek Parçalar",
+            "slug": "yedek-parcalar",
+            "description": "Seal ring, conta, sıkma halkası ve diğer kesim/kaynak kafası yedek parçaları."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": []
+      },
+      "image": {
+        "sourceUrl": "/media/products/HTCRNG001/02f10b7051f18dd6b555b0ec0b5c62b9.jpg",
+        "altText": "Seal Ring Yaylı Conta Beyaz BCLH-P266-1"
+      },
+      "machines": [],
+      "descriptionNotes": []
+    },
+    {
+      "id": "htc-new-htcrng008",
+      "databaseId": 2276,
+      "sourceProductId": "HTCRNG008",
+      "model": "HTCRNG008",
+      "name": "Seal Ring Yaylı Conta Beyaz BDLH-P375-01",
+      "slug": "seal-ring-yayli-conta-beyaz-bdlh-p375-01-htcrng008",
+      "description": "Seal Ring Yaylı Conta Beyaz BDLH-P375-01, yaygın fiber lazer kesim kafalarıyla uyumlu olarak üretilen bir kesim kafası yedek parçasıdır. Stoktan hızlı kargolanır; ücretsiz kargo ve teknik destek Lazer Online güvencesiyle sunulur.",
+      "shortDescription": "Seal Ring Yaylı Conta Beyaz BDLH-P375-01 — fiber lazer kesim kafası yedek parçası. Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "999.00",
+      "price": "999.00",
+      "priceTax": "1198.80",
+      "currencyCode": "TRY",
+      "stockStatus": "IN_STOCK",
+      "stockQuantity": 50,
+      "sku": "HTCRNG008",
+      "status": "publish",
+      "manufacturer": "",
+      "keywords": [],
+      "sourceUrl": "https://www.htclazer.com/seal-ring-yayli-conta-beyaz-bdlh-p375-01",
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-yedek-parcalar",
+            "databaseId": 0,
+            "name": "Yedek Parçalar",
+            "slug": "yedek-parcalar",
+            "description": "Seal ring, conta, sıkma halkası ve diğer kesim/kaynak kafası yedek parçaları."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": []
+      },
+      "image": {
+        "sourceUrl": "/media/products/HTCRNG008/02f10b7051f18dd6b555b0ec0b5c62b9.jpg",
+        "altText": "Seal Ring Yaylı Conta Beyaz BDLH-P375-01"
+      },
+      "machines": [],
+      "descriptionNotes": []
+    },
+    {
+      "id": "htc-new-htcrng009",
+      "databaseId": 2277,
+      "sourceProductId": "HTCRNG009",
+      "model": "HTCRNG009",
+      "name": "Seal Ring Yaylı Conta Beyaz JQLH-P294-02",
+      "slug": "seal-ring-yayli-conta-beyaz-jqlh-p294-02-htcrng009",
+      "description": "Üretiminizi durdurmadan yenileyebileceğiniz Seal Ring Yaylı Conta Beyaz JQLH-P294-02, yaygın fiber lazer kafalar için doğru ölçü ve işçilikle hazırlanan bir kesim kafası yedek parçasıdır. Ücretsiz kargo ile stoktan hızlı teslim edilir; ölçü uyumundan emin değilseniz kafa modelinizi paylaşmanız yeterlidir.",
+      "shortDescription": "Seal Ring Yaylı Conta Beyaz JQLH-P294-02 — fiber lazer kesim kafası yedek parçası. Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "999.00",
+      "price": "999.00",
+      "priceTax": "1198.80",
+      "currencyCode": "TRY",
+      "stockStatus": "IN_STOCK",
+      "stockQuantity": 50,
+      "sku": "HTCRNG009",
+      "status": "publish",
+      "manufacturer": "",
+      "keywords": [],
+      "sourceUrl": "https://www.htclazer.com/seal-ring-yayli-conta-beyaz-jqlh-p294-02",
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-yedek-parcalar",
+            "databaseId": 0,
+            "name": "Yedek Parçalar",
+            "slug": "yedek-parcalar",
+            "description": "Seal ring, conta, sıkma halkası ve diğer kesim/kaynak kafası yedek parçaları."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": []
+      },
+      "image": {
+        "sourceUrl": "/media/products/HTCRNG009/02f10b7051f18dd6b555b0ec0b5c62b9.jpg",
+        "altText": "Seal Ring Yaylı Conta Beyaz JQLH-P294-02"
+      },
+      "machines": [],
+      "descriptionNotes": []
+    },
+    {
+      "id": "htc-new-htcrng004",
+      "databaseId": 2278,
+      "sourceProductId": "HTCRNG004",
+      "model": "HTCRNG004",
+      "name": "Seal Ring Yaylı Conta Beyaz JQLH-P320-01",
+      "slug": "seal-ring-yayli-conta-beyaz-jqlh-p320-01-htcrng004",
+      "description": "Yaygın fiber lazer kafa kullanan makineler için geliştirilen Seal Ring Yaylı Conta Beyaz JQLH-P320-01, yüksek güç altında kararlı performans sunan bir kesim kafası yedek parçasıdır. Doğru seçim için ürün kodunu veya kafa modelinizi iletebilirsiniz; ücretsiz kargo ile stoktan gönderilir.",
+      "shortDescription": "Seal Ring Yaylı Conta Beyaz JQLH-P320-01 — fiber lazer kesim kafası yedek parçası. Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "999.00",
+      "price": "999.00",
+      "priceTax": "1198.80",
+      "currencyCode": "TRY",
+      "stockStatus": "IN_STOCK",
+      "stockQuantity": 50,
+      "sku": "HTCRNG004",
+      "status": "publish",
+      "manufacturer": "",
+      "keywords": [],
+      "sourceUrl": "https://www.htclazer.com/seal-ring-yayli-conta-beyaz-jqlh-p320-01",
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-yedek-parcalar",
+            "databaseId": 0,
+            "name": "Yedek Parçalar",
+            "slug": "yedek-parcalar",
+            "description": "Seal ring, conta, sıkma halkası ve diğer kesim/kaynak kafası yedek parçaları."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": []
+      },
+      "image": {
+        "sourceUrl": "/media/products/HTCRNG004/02f10b7051f18dd6b555b0ec0b5c62b9.jpg",
+        "altText": "Seal Ring Yaylı Conta Beyaz JQLH-P320-01"
+      },
+      "machines": [],
+      "descriptionNotes": []
+    },
+    {
+      "id": "htc-new-htcrng003",
+      "databaseId": 2279,
+      "sourceProductId": "HTCRNG003",
+      "model": "HTCRNG003",
+      "name": "Seal Ring Yaylı Conta Beyaz JQLH-P425-02",
+      "slug": "seal-ring-yayli-conta-beyaz-jqlh-p425-02-htcrng003",
+      "description": "Üretiminizi durdurmadan yenileyebileceğiniz Seal Ring Yaylı Conta Beyaz JQLH-P425-02, yaygın fiber lazer kafalar için doğru ölçü ve işçilikle hazırlanan bir kesim kafası yedek parçasıdır. Ücretsiz kargo ile stoktan hızlı teslim edilir; ölçü uyumundan emin değilseniz kafa modelinizi paylaşmanız yeterlidir.",
+      "shortDescription": "Seal Ring Yaylı Conta Beyaz JQLH-P425-02 — fiber lazer kesim kafası yedek parçası. Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "999.00",
+      "price": "999.00",
+      "priceTax": "1198.80",
+      "currencyCode": "TRY",
+      "stockStatus": "IN_STOCK",
+      "stockQuantity": 50,
+      "sku": "HTCRNG003",
+      "status": "publish",
+      "manufacturer": "",
+      "keywords": [],
+      "sourceUrl": "https://www.htclazer.com/seal-ring-yayli-conta-beyaz-jqlh-p425-02",
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-yedek-parcalar",
+            "databaseId": 0,
+            "name": "Yedek Parçalar",
+            "slug": "yedek-parcalar",
+            "description": "Seal ring, conta, sıkma halkası ve diğer kesim/kaynak kafası yedek parçaları."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": []
+      },
+      "image": {
+        "sourceUrl": "/media/products/HTCRNG003/02f10b7051f18dd6b555b0ec0b5c62b9.jpg",
+        "altText": "Seal Ring Yaylı Conta Beyaz JQLH-P425-02"
+      },
+      "machines": [],
+      "descriptionNotes": []
+    },
+    {
+      "id": "htc-new-htcrng006",
+      "databaseId": 2280,
+      "sourceProductId": "HTCRNG006",
+      "model": "HTCRNG006",
+      "name": "Seal Ring Yaylı Conta Beyaz JQLH-P425-02",
+      "slug": "seal-ring-yayli-conta-beyaz-jqlh-p425-02-htcrng006",
+      "description": "Üretiminizi durdurmadan yenileyebileceğiniz Seal Ring Yaylı Conta Beyaz JQLH-P425-02, yaygın fiber lazer kafalar için doğru ölçü ve işçilikle hazırlanan bir kesim kafası yedek parçasıdır. Ücretsiz kargo ile stoktan hızlı teslim edilir; ölçü uyumundan emin değilseniz kafa modelinizi paylaşmanız yeterlidir.",
+      "shortDescription": "Seal Ring Yaylı Conta Beyaz JQLH-P425-02 — fiber lazer kesim kafası yedek parçası. Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "999.00",
+      "price": "999.00",
+      "priceTax": "1198.80",
+      "currencyCode": "TRY",
+      "stockStatus": "IN_STOCK",
+      "stockQuantity": 50,
+      "sku": "HTCRNG006",
+      "status": "publish",
+      "manufacturer": "",
+      "keywords": [],
+      "sourceUrl": "https://www.htclazer.com/seal-ring-yayli-conta-beyaz-jqlh-p425-02-2",
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-yedek-parcalar",
+            "databaseId": 0,
+            "name": "Yedek Parçalar",
+            "slug": "yedek-parcalar",
+            "description": "Seal ring, conta, sıkma halkası ve diğer kesim/kaynak kafası yedek parçaları."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": []
+      },
+      "image": {
+        "sourceUrl": "/media/products/HTCRNG006/02f10b7051f18dd6b555b0ec0b5c62b9.jpg",
+        "altText": "Seal Ring Yaylı Conta Beyaz JQLH-P425-02"
+      },
+      "machines": [],
+      "descriptionNotes": []
+    },
+    {
+      "id": "htc-new-htcrng005",
+      "databaseId": 2281,
+      "sourceProductId": "HTCRNG005",
+      "model": "HTCRNG005",
+      "name": "Seal Ring Yaylı Conta Beyaz JQLH-P512",
+      "slug": "seal-ring-yayli-conta-beyaz-jqlh-p512-htcrng005",
+      "description": "Seal Ring Yaylı Conta Beyaz JQLH-P512, yaygın fiber lazer kesim kafalarıyla uyumlu olarak üretilen bir kesim kafası yedek parçasıdır. Stoktan hızlı kargolanır; ücretsiz kargo ve teknik destek Lazer Online güvencesiyle sunulur.",
+      "shortDescription": "Seal Ring Yaylı Conta Beyaz JQLH-P512 — fiber lazer kesim kafası yedek parçası. Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "999.00",
+      "price": "999.00",
+      "priceTax": "1198.80",
+      "currencyCode": "TRY",
+      "stockStatus": "IN_STOCK",
+      "stockQuantity": 50,
+      "sku": "HTCRNG005",
+      "status": "publish",
+      "manufacturer": "",
+      "keywords": [],
+      "sourceUrl": "https://www.htclazer.com/seal-ring-yayli-conta-beyaz-jqlh-p512",
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-yedek-parcalar",
+            "databaseId": 0,
+            "name": "Yedek Parçalar",
+            "slug": "yedek-parcalar",
+            "description": "Seal ring, conta, sıkma halkası ve diğer kesim/kaynak kafası yedek parçaları."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": []
+      },
+      "image": {
+        "sourceUrl": "/media/products/HTCRNG005/02f10b7051f18dd6b555b0ec0b5c62b9.jpg",
+        "altText": "Seal Ring Yaylı Conta Beyaz JQLH-P512"
+      },
+      "machines": [],
+      "descriptionNotes": []
+    },
+    {
+      "id": "htc-new-htcrng007",
+      "databaseId": 2282,
+      "sourceProductId": "HTCRNG007",
+      "model": "HTCRNG007",
+      "name": "Seal Ring Yaylı Conta Beyaz WSXLH-P256-01",
+      "slug": "seal-ring-yayli-conta-beyaz-wsxlh-p256-01-htcrng007",
+      "description": "Yaygın fiber lazer kafa kullanan makineler için geliştirilen Seal Ring Yaylı Conta Beyaz WSXLH-P256-01, yüksek güç altında kararlı performans sunan bir kesim kafası yedek parçasıdır. Doğru seçim için ürün kodunu veya kafa modelinizi iletebilirsiniz; ücretsiz kargo ile stoktan gönderilir.",
+      "shortDescription": "Seal Ring Yaylı Conta Beyaz WSXLH-P256-01 — fiber lazer kesim kafası yedek parçası. Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "999.00",
+      "price": "999.00",
+      "priceTax": "1198.80",
+      "currencyCode": "TRY",
+      "stockStatus": "IN_STOCK",
+      "stockQuantity": 50,
+      "sku": "HTCRNG007",
+      "status": "publish",
+      "manufacturer": "",
+      "keywords": [],
+      "sourceUrl": "https://www.htclazer.com/seal-ring-yayli-conta-beyaz-wsxlh-p256-01",
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-yedek-parcalar",
+            "databaseId": 0,
+            "name": "Yedek Parçalar",
+            "slug": "yedek-parcalar",
+            "description": "Seal ring, conta, sıkma halkası ve diğer kesim/kaynak kafası yedek parçaları."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": []
+      },
+      "image": {
+        "sourceUrl": "/media/products/HTCRNG007/02f10b7051f18dd6b555b0ec0b5c62b9.jpg",
+        "altText": "Seal Ring Yaylı Conta Beyaz WSXLH-P256-01"
+      },
+      "machines": [],
+      "descriptionNotes": []
+    },
+    {
+      "id": "htc-new-htcrng002",
+      "databaseId": 2283,
+      "sourceProductId": "HTCRNG002",
+      "model": "HTCRNG002",
+      "name": "Seal Ring Yaylı Conta Beyaz WSXLH-P298-01",
+      "slug": "seal-ring-yayli-conta-beyaz-wsxlh-p298-01-htcrng002",
+      "description": "Seal Ring Yaylı Conta Beyaz WSXLH-P298-01, yaygın fiber lazer kesim kafalarıyla uyumlu olarak üretilen bir kesim kafası yedek parçasıdır. Stoktan hızlı kargolanır; ücretsiz kargo ve teknik destek Lazer Online güvencesiyle sunulur.",
+      "shortDescription": "Seal Ring Yaylı Conta Beyaz WSXLH-P298-01 — fiber lazer kesim kafası yedek parçası. Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "999.00",
+      "price": "999.00",
+      "priceTax": "1198.80",
+      "currencyCode": "TRY",
+      "stockStatus": "IN_STOCK",
+      "stockQuantity": 50,
+      "sku": "HTCRNG002",
+      "status": "publish",
+      "manufacturer": "",
+      "keywords": [],
+      "sourceUrl": "https://www.htclazer.com/seal-ring-yayli-conta-beyaz-wsxlh-p298-01",
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-yedek-parcalar",
+            "databaseId": 0,
+            "name": "Yedek Parçalar",
+            "slug": "yedek-parcalar",
+            "description": "Seal ring, conta, sıkma halkası ve diğer kesim/kaynak kafası yedek parçaları."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": []
+      },
+      "image": {
+        "sourceUrl": "/media/products/HTCRNG002/02f10b7051f18dd6b555b0ec0b5c62b9.jpg",
+        "altText": "Seal Ring Yaylı Conta Beyaz WSXLH-P298-01"
+      },
+      "machines": [],
+      "descriptionNotes": []
+    },
+    {
+      "id": "htc-new-htcrng010",
+      "databaseId": 2284,
+      "sourceProductId": "HTCRNG010",
+      "model": "HTCRNG010",
+      "name": "Seal Ring Yaylı Conta Sarı PLLH-W545-1H",
+      "slug": "seal-ring-yayli-conta-sari-pllh-w545-1h-htcrng010",
+      "description": "Yaygın fiber lazer kafa kullanan makineler için geliştirilen Seal Ring Yaylı Conta Sarı PLLH-W545-1H, yüksek güç altında kararlı performans sunan bir kesim kafası yedek parçasıdır. Doğru seçim için ürün kodunu veya kafa modelinizi iletebilirsiniz; ücretsiz kargo ile stoktan gönderilir.",
+      "shortDescription": "Seal Ring Yaylı Conta Sarı PLLH-W545-1H — fiber lazer kesim kafası yedek parçası. Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "999.00",
+      "price": "999.00",
+      "priceTax": "1198.80",
+      "currencyCode": "TRY",
+      "stockStatus": "IN_STOCK",
+      "stockQuantity": 50,
+      "sku": "HTCRNG010",
+      "status": "publish",
+      "manufacturer": "",
+      "keywords": [],
+      "sourceUrl": "https://www.htclazer.com/seal-ring-yayli-conta-sari-pllh-w545-1h",
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-yedek-parcalar",
+            "databaseId": 0,
+            "name": "Yedek Parçalar",
+            "slug": "yedek-parcalar",
+            "description": "Seal ring, conta, sıkma halkası ve diğer kesim/kaynak kafası yedek parçaları."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": []
+      },
+      "image": {
+        "sourceUrl": "/media/products/HTCRNG010/02f10b7051f18dd6b555b0ec0b5c62b9.jpg",
+        "altText": "Seal Ring Yaylı Conta Sarı PLLH-W545-1H"
+      },
+      "machines": [],
+      "descriptionNotes": []
+    },
+    {
+      "id": "htc-new-htctem002",
+      "databaseId": 2285,
+      "sourceProductId": "HTCTEM002",
+      "model": "HTCTEM002",
+      "name": "Temizlik Bezi (Kağıt) 100 yaprak 100x150mm",
+      "slug": "temizlik-bezi-kagit-100-yaprak-100x150mm-htctem002",
+      "description": "Yaygın fiber lazer kafa kullanan makineler için geliştirilen Temizlik Bezi (Kağıt) 100 yaprak 100x150mm, yüksek güç altında kararlı performans sunan bir optik temizlik/güvenlik ürünüdür. Doğru seçim için ürün kodunu veya kafa modelinizi iletebilirsiniz; ücretsiz kargo ile stoktan gönderilir.",
+      "shortDescription": "Temizlik Bezi (Kağıt) 100 yaprak 100x150mm — optik temizlik ve lazer güvenlik ürünü. Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "599.00",
+      "price": "599.00",
+      "priceTax": "718.80",
+      "currencyCode": "TRY",
+      "stockStatus": "IN_STOCK",
+      "stockQuantity": 50,
+      "sku": "HTCTEM002",
+      "status": "publish",
+      "manufacturer": "",
+      "keywords": [],
+      "sourceUrl": "https://www.htclazer.com/korumacami-htclazer-seramik-durma-ermaksan-nukon-precitec-lazer-lazerkesim-procutter-durmazlar-lazersarfmalzeme-fiber-cam-lazeryedekparca-lazercam-fiberlazer-2-sensorinsert",
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-temizlik-guvenlik",
+            "databaseId": 0,
+            "name": "Temizlik & Güvenlik",
+            "slug": "temizlik-guvenlik",
+            "description": "Optik temizlik sıvısı, temizlik bezi, temizlik çubuğu ve lazer güvenlik gözlüğü."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": []
+      },
+      "image": {
+        "sourceUrl": "/media/products/HTCTEM002/1a6b49659320a81828f4db2465153e23.jpg",
+        "altText": "Temizlik Bezi (Kağıt) 100 yaprak 100x150mm"
+      },
+      "machines": [],
+      "descriptionNotes": []
+    },
+    {
+      "id": "htc-new-htctem007",
+      "databaseId": 2286,
+      "sourceProductId": "HTCTEM007",
+      "model": "HTCTEM007",
+      "name": "Optik Temizlik Çubuğu Küçük Boy",
+      "slug": "optik-temizlik-cubugu-kucuk-boy-htctem007",
+      "description": "Üretiminizi durdurmadan yenileyebileceğiniz Optik Temizlik Çubuğu Küçük Boy, yaygın fiber lazer kafalar için doğru ölçü ve işçilikle hazırlanan bir optik temizlik/güvenlik ürünüdür. Ücretsiz kargo ile stoktan hızlı teslim edilir; ölçü uyumundan emin değilseniz kafa modelinizi paylaşmanız yeterlidir.",
+      "shortDescription": "Optik Temizlik Çubuğu Küçük Boy — optik temizlik ve lazer güvenlik ürünü. Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "1099.00",
+      "price": "1099.00",
+      "priceTax": "1318.80",
+      "currencyCode": "TRY",
+      "stockStatus": "IN_STOCK",
+      "stockQuantity": 50,
+      "sku": "HTCTEM007",
+      "status": "publish",
+      "manufacturer": "",
+      "keywords": [],
+      "sourceUrl": "https://www.htclazer.com/korumacami-htclazer-seramik-durma-ermaksan-nukon-precitec-lazer-lazerkesim-procutter-durmazlar-lazersarfmalzeme-fiber-cam-lazeryedekparca-lazercam-fiberlazer",
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-temizlik-guvenlik",
+            "databaseId": 0,
+            "name": "Temizlik & Güvenlik",
+            "slug": "temizlik-guvenlik",
+            "description": "Optik temizlik sıvısı, temizlik bezi, temizlik çubuğu ve lazer güvenlik gözlüğü."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": []
+      },
+      "image": {
+        "sourceUrl": "/media/products/HTCTEM007/b353eda7e08a3e7526031c2b99578883.jpg",
+        "altText": "Optik Temizlik Çubuğu Küçük Boy"
+      },
+      "machines": [],
+      "descriptionNotes": []
+    },
+    {
+      "id": "htc-new-htclns002",
+      "databaseId": 2287,
+      "sourceProductId": "HTCLNS002",
+      "model": "HTCLNS002",
+      "name": "Precitec OG Y D37 Kolimatör Lens F100",
+      "slug": "precitec-og-y-d37-kolimator-lens-f100-htclns002",
+      "description": "Precitec OG Y D37 Kolimatör Lens F100, Precitec ve eşdeğeri kesim kafalarıyla uyumlu olarak üretilen bir optik lenstir. Sahada en çok Durma, Ermaksan, Dener, MVD ve Accurl lazer kesim makinelerinde tercih edilir. Stoktan hızlı kargolanır; ücretsiz kargo ve teknik destek Lazer Online güvencesiyle sunulur.",
+      "shortDescription": "Precitec OG Y D37 Kolimatör Lens F100 — fiber lazer odak/kolimatör lensi. Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "42732.49",
+      "price": "42732.49",
+      "priceTax": "51278.99",
+      "currencyCode": "TRY",
+      "stockStatus": "IN_STOCK",
+      "stockQuantity": 50,
+      "sku": "HTCLNS002",
+      "status": "publish",
+      "manufacturer": "PRECITEC",
+      "keywords": [],
+      "sourceUrl": "https://www.htclazer.com/precitec-og-y-d37-kolimator-lens-f100",
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-lensler",
+            "databaseId": 0,
+            "name": "Lensler",
+            "slug": "lensler",
+            "description": "Kolimatör, odak ve kaynak lazer lensleri."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": []
+      },
+      "image": {
+        "sourceUrl": "/media/products/HTCLNS002/7d7e116af2eab5c9c0775dc5349416d8.jpg",
+        "altText": "Precitec OG Y D37 Kolimatör Lens F100"
+      },
+      "machines": [
+        "Durma",
+        "Ermaksan",
+        "Dener",
+        "MVD",
+        "Accurl"
+      ],
+      "descriptionNotes": []
+    },
+    {
+      "id": "htc-new-htclns001",
+      "databaseId": 2288,
+      "sourceProductId": "HTCLNS001",
+      "model": "HTCLNS001",
+      "name": "Precitec OG Y D37 P0595-70894 - P0595-60126 Focus Lens F150",
+      "slug": "precitec-og-y-d37-p0595-70894-p0595-60126-focus-lens-f150-htclns001",
+      "description": "Precitec ve eşdeğeri kafa kullanan makineler için geliştirilen Precitec OG Y D37 P0595-70894 - P0595-60126 Focus Lens F150, yüksek güç altında kararlı performans sunan bir optik lenstir. Durma, Ermaksan, Dener, MVD ve Accurl makinelerinde çalışan operatörlerin düzenli yenilediği sarflar arasındadır. Doğru seçim için ürün kodunu veya kafa modelinizi iletebilirsiniz; ücretsiz kargo ile stoktan gönderilir.",
+      "shortDescription": "Precitec OG Y D37 P0595-70894 - P0595-60126 Focus Lens F150 — fiber lazer odak/kolimatör lensi. Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "32049.36",
+      "price": "32049.36",
+      "priceTax": "38459.23",
+      "currencyCode": "TRY",
+      "stockStatus": "IN_STOCK",
+      "stockQuantity": 50,
+      "sku": "HTCLNS001",
+      "status": "publish",
+      "manufacturer": "PRECITEC",
+      "keywords": [],
+      "sourceUrl": "https://www.htclazer.com/precitec-og-y-d37-focus-lens-f150",
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-lensler",
+            "databaseId": 0,
+            "name": "Lensler",
+            "slug": "lensler",
+            "description": "Kolimatör, odak ve kaynak lazer lensleri."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": []
+      },
+      "image": {
+        "sourceUrl": "/media/products/HTCLNS001/eec2eb17f729c383d2242a875d8218a6.jpg",
+        "altText": "Precitec OG Y D37 P0595-70894 - P0595-60126 Focus Lens F150"
+      },
+      "machines": [
+        "Durma",
+        "Ermaksan",
+        "Dener",
+        "MVD",
+        "Accurl"
+      ],
+      "descriptionNotes": []
+    },
+    {
+      "id": "htc-new-htctem009",
+      "databaseId": 2289,
+      "sourceProductId": "HTCTEM009",
+      "model": "HTCTEM009",
+      "name": "Temizlik Bezi (Mikro fiber %100 İz Bırakmaz ) 100 Adet",
+      "slug": "temizlik-bezi-mikro-fiber-100-i-z-birakmaz-100-adet-htctem009",
+      "description": "Temizlik Bezi (Mikro fiber %100 İz Bırakmaz ) 100 Adet, yaygın fiber lazer kesim kafalarıyla uyumlu olarak üretilen bir optik temizlik/güvenlik ürünüdür. Stoktan hızlı kargolanır; ücretsiz kargo ve teknik destek Lazer Online güvencesiyle sunulur.",
+      "shortDescription": "Temizlik Bezi (Mikro fiber %100 İz Bırakmaz ) 100 Adet — optik temizlik ve lazer güvenlik ürünü. Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "1999.00",
+      "price": "1999.00",
+      "priceTax": "2398.80",
+      "currencyCode": "TRY",
+      "stockStatus": "IN_STOCK",
+      "stockQuantity": 50,
+      "sku": "HTCTEM009",
+      "status": "publish",
+      "manufacturer": "",
+      "keywords": [],
+      "sourceUrl": "https://www.htclazer.com/temizlik-bezi-mikro-fiber-100-iz-birakmaz-100-adet",
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-temizlik-guvenlik",
+            "databaseId": 0,
+            "name": "Temizlik & Güvenlik",
+            "slug": "temizlik-guvenlik",
+            "description": "Optik temizlik sıvısı, temizlik bezi, temizlik çubuğu ve lazer güvenlik gözlüğü."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": []
+      },
+      "image": {
+        "sourceUrl": "/media/products/HTCTEM009/dcc98747ecba0a55165f362a15e2b4a7.jpg",
+        "altText": "Temizlik Bezi (Mikro fiber %100 İz Bırakmaz ) 100 Adet"
+      },
+      "machines": [],
+      "descriptionNotes": []
+    },
+    {
+      "id": "htc-new-htcyed101",
+      "databaseId": 2290,
+      "sourceProductId": "HTCYED101",
+      "model": "HTCYED101",
+      "name": "OD 7 + Lazer Işını Koruma Gözlüğü",
+      "slug": "od-7-lazer-isini-koruma-gozlugu-htcyed101",
+      "description": "Üretiminizi durdurmadan yenileyebileceğiniz OD 7 + Lazer Işını Koruma Gözlüğü, yaygın fiber lazer kafalar için doğru ölçü ve işçilikle hazırlanan bir optik temizlik/güvenlik ürünüdür. Ücretsiz kargo ile stoktan hızlı teslim edilir; ölçü uyumundan emin değilseniz kafa modelinizi paylaşmanız yeterlidir.",
+      "shortDescription": "OD 7 + Lazer Işını Koruma Gözlüğü — optik temizlik ve lazer güvenlik ürünü. Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "4085.85",
+      "price": "4085.85",
+      "priceTax": "4903.02",
+      "currencyCode": "TRY",
+      "stockStatus": "IN_STOCK",
+      "stockQuantity": 50,
+      "sku": "HTCYED101",
+      "status": "publish",
+      "manufacturer": "",
+      "keywords": [],
+      "sourceUrl": "https://www.htclazer.com/od-7-lazer-isini-koruma-gozlugu",
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-temizlik-guvenlik",
+            "databaseId": 0,
+            "name": "Temizlik & Güvenlik",
+            "slug": "temizlik-guvenlik",
+            "description": "Optik temizlik sıvısı, temizlik bezi, temizlik çubuğu ve lazer güvenlik gözlüğü."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": []
+      },
+      "image": {
+        "sourceUrl": "/media/products/HTCYED101/8070f18f8fcff70cf03b576d482262a6.jpg",
+        "altText": "OD 7 + Lazer Işını Koruma Gözlüğü"
+      },
+      "machines": [],
+      "descriptionNotes": []
+    },
+    {
+      "id": "htc-new-htcyed002",
+      "databaseId": 2291,
+      "sourceProductId": "HTCYED002",
+      "model": "HTCYED002",
+      "name": "Precitec OG Y D37 Alt Koruma Camı Sarı O-Ring P0595-59131",
+      "slug": "precitec-og-y-d37-alt-koruma-cami-sari-o-ring-p0595-59131-htcyed002",
+      "description": "Üretiminizi durdurmadan yenileyebileceğiniz Precitec OG Y D37 Alt Koruma Camı Sarı O-Ring P0595-59131, Precitec ve eşdeğeri kafalar için doğru ölçü ve işçilikle hazırlanan bir lens koruma camıdır. Durma, Ermaksan, Dener, MVD ve Accurl gibi makinelerle birlikte yaygın olarak kullanılır. Ücretsiz kargo ile stoktan hızlı teslim edilir; ölçü uyumundan emin değilseniz kafa modelinizi paylaşmanız yeterlidir.",
+      "shortDescription": "Precitec OG Y D37 Alt Koruma Camı Sarı O-Ring P0595-59131 — fiber lazer lens koruma camı. Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "1299.00",
+      "price": "1299.00",
+      "priceTax": "1558.80",
+      "currencyCode": "TRY",
+      "stockStatus": "IN_STOCK",
+      "stockQuantity": 50,
+      "sku": "HTCYED002",
+      "status": "publish",
+      "manufacturer": "PRECITEC",
+      "keywords": [],
+      "sourceUrl": "https://www.htclazer.com/precitec-og-y-d37-alt-koruma-cami-sari-o-ring-p0595-59131",
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-koruma-camlari",
+            "databaseId": 0,
+            "name": "Koruma Camları",
+            "slug": "koruma-camlari",
+            "description": "Fiber lazer kesim ve kaynak kafaları için lens koruma camları."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": []
+      },
+      "image": {
+        "sourceUrl": "/media/products/HTCYED002/3de8e7ea257acc5233727eff35a54458.jpg",
+        "altText": "Precitec OG Y D37 Alt Koruma Camı Sarı O-Ring P0595-59131"
+      },
+      "machines": [
+        "Durma",
+        "Ermaksan",
+        "Dener",
+        "MVD",
+        "Accurl"
+      ],
+      "descriptionNotes": []
+    },
+    {
+      "id": "htc-new-htccam2152",
+      "databaseId": 2292,
+      "sourceProductId": "HTCCAM2152",
+      "model": "HTCCAM2152",
+      "name": "D21.5 d2 Procutter Kolimatör / Lens Koruma Camı",
+      "slug": "d21-5-d2-procutter-kolimator-lens-koruma-cami-htccam2152",
+      "description": "Üretiminizi durdurmadan yenileyebileceğiniz D21.5 d2 Procutter Kolimatör / Lens Koruma Camı, yaygın fiber lazer kafalar için doğru ölçü ve işçilikle hazırlanan bir lens koruma camıdır. Durma, Ermaksan, Dener, MVD ve Accurl gibi makinelerle birlikte yaygın olarak kullanılır. Ücretsiz kargo ile stoktan hızlı teslim edilir; ölçü uyumundan emin değilseniz kafa modelinizi paylaşmanız yeterlidir.",
+      "shortDescription": "D21.5 d2 Procutter Kolimatör / Lens Koruma Camı — fiber lazer lens koruma camı. Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "249.00",
+      "price": "249.00",
+      "priceTax": "298.80",
+      "currencyCode": "TRY",
+      "stockStatus": "IN_STOCK",
+      "stockQuantity": 50,
+      "sku": "HTCCAM2152",
+      "status": "publish",
+      "manufacturer": "",
+      "keywords": [],
+      "sourceUrl": "https://www.htclazer.com/precitec-og-d21-5-d2-p0588-1022-00002-procutter-kolimator-koruyucu-cam",
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-koruma-camlari",
+            "databaseId": 0,
+            "name": "Koruma Camları",
+            "slug": "koruma-camlari",
+            "description": "Fiber lazer kesim ve kaynak kafaları için lens koruma camları."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": []
+      },
+      "image": {
+        "sourceUrl": "/media/products/HTCCAM2152/7457d0ddb74e89d6df9c98f825207818.jpg",
+        "altText": "D21.5 d2 Procutter Kolimatör / Lens Koruma Camı"
+      },
+      "machines": [
+        "Durma",
+        "Ermaksan",
+        "Dener",
+        "MVD",
+        "Accurl"
+      ],
+      "descriptionNotes": []
+    },
+    {
+      "id": "htc-new-htccam2442",
+      "databaseId": 2293,
+      "sourceProductId": "HTCCAM2442",
+      "model": "HTCCAM2442",
+      "name": "D24.4 d2 Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi)",
+      "slug": "d24-4-d2-lens-koruma-cami-japon-ham-madde-99-isin-i-letimi-htccam2442",
+      "description": "D24.4 d2 Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi), yaygın fiber lazer kesim kafalarıyla uyumlu olarak üretilen bir lens koruma camıdır. Stoktan hızlı kargolanır; ücretsiz kargo ve teknik destek Lazer Online güvencesiyle sunulur.",
+      "shortDescription": "D24.4 d2 Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi) — fiber lazer lens koruma camı. Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "199.00",
+      "price": "199.00",
+      "priceTax": "238.80",
+      "currencyCode": "TRY",
+      "stockStatus": "IN_STOCK",
+      "stockQuantity": 50,
+      "sku": "HTCCAM2442",
+      "status": "publish",
+      "manufacturer": "",
+      "keywords": [],
+      "sourceUrl": "https://www.htclazer.com/d30-d4-lens-koruma-cami",
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-koruma-camlari",
+            "databaseId": 0,
+            "name": "Koruma Camları",
+            "slug": "koruma-camlari",
+            "description": "Fiber lazer kesim ve kaynak kafaları için lens koruma camları."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": []
+      },
+      "image": {
+        "sourceUrl": "/media/products/HTCCAM2442/a020a2103befc78b56f53f1f9e633509.jpg",
+        "altText": "D24.4 d2 Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi)"
+      },
+      "machines": [],
+      "descriptionNotes": []
+    },
+    {
+      "id": "htc-new-htccam304",
+      "databaseId": 2294,
+      "sourceProductId": "HTCCAM304",
+      "model": "HTCCAM304",
+      "name": "D30 d4 Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi)",
+      "slug": "d30-d4-lens-koruma-cami-japon-ham-madde-99-isin-i-letimi-htccam304",
+      "description": "Üretiminizi durdurmadan yenileyebileceğiniz D30 d4 Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi), yaygın fiber lazer kafalar için doğru ölçü ve işçilikle hazırlanan bir lens koruma camıdır. Ücretsiz kargo ile stoktan hızlı teslim edilir; ölçü uyumundan emin değilseniz kafa modelinizi paylaşmanız yeterlidir.",
+      "shortDescription": "D30 d4 Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi) — fiber lazer lens koruma camı. Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "199.00",
+      "price": "199.00",
+      "priceTax": "238.80",
+      "currencyCode": "TRY",
+      "stockStatus": "IN_STOCK",
+      "stockQuantity": 50,
+      "sku": "HTCCAM304",
+      "status": "publish",
+      "manufacturer": "",
+      "keywords": [],
+      "sourceUrl": "https://www.htclazer.com/lens-koruma-cami-og-y-d30-d4-10kw-lens-koruma-cami",
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-koruma-camlari",
+            "databaseId": 0,
+            "name": "Koruma Camları",
+            "slug": "koruma-camlari",
+            "description": "Fiber lazer kesim ve kaynak kafaları için lens koruma camları."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": []
+      },
+      "image": {
+        "sourceUrl": "/media/products/HTCCAM304/a020a2103befc78b56f53f1f9e633509.jpg",
+        "altText": "D30 d4 Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi)"
+      },
+      "machines": [],
+      "descriptionNotes": []
+    },
+    {
+      "id": "htc-new-htccam305",
+      "databaseId": 2295,
+      "sourceProductId": "HTCCAM305",
+      "model": "HTCCAM305",
+      "name": "D30 d5 RayTools, Precitec, Trumpf Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi)",
+      "slug": "d30-d5-raytools-precitec-trumpf-lens-koruma-cami-japon-ham-madde-99-isin-i-letimi-htccam305",
+      "description": "Precitec ve eşdeğeri kafa kullanan makineler için geliştirilen D30 d5 RayTools, Precitec, Trumpf Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi), yüksek güç altında kararlı performans sunan bir lens koruma camıdır. Doğru seçim için ürün kodunu veya kafa modelinizi iletebilirsiniz; ücretsiz kargo ile stoktan gönderilir.",
+      "shortDescription": "D30 d5 RayTools, Precitec, Trumpf Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi) — fiber lazer lens koruma camı. Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "199.00",
+      "price": "199.00",
+      "priceTax": "238.80",
+      "currencyCode": "TRY",
+      "stockStatus": "IN_STOCK",
+      "stockQuantity": 50,
+      "sku": "HTCCAM305",
+      "status": "publish",
+      "manufacturer": "PRECITEC",
+      "keywords": [],
+      "sourceUrl": "https://www.htclazer.com/og-y-d30-d5-lens-koruma-cami-trumpf-precitec-raytools-p0795-1201-00002",
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-koruma-camlari",
+            "databaseId": 0,
+            "name": "Koruma Camları",
+            "slug": "koruma-camlari",
+            "description": "Fiber lazer kesim ve kaynak kafaları için lens koruma camları."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": []
+      },
+      "image": {
+        "sourceUrl": "/media/products/HTCCAM305/fa2f751cee4471e48ff2162f12586350.jpg",
+        "altText": "D30 d5 RayTools, Precitec, Trumpf Lens Koruma Camı (Japon Ham Madde-%99 Işın İletimi)"
+      },
+      "machines": [],
+      "descriptionNotes": []
+    },
+    {
+      "id": "htc-new-htccam375",
+      "databaseId": 2296,
+      "sourceProductId": "HTCCAM375",
+      "model": "HTCCAM375",
+      "name": "D37 d5 Lens Koruma Camı",
+      "slug": "d37-d5-lens-koruma-cami-htccam375",
+      "description": "D37 d5 Lens Koruma Camı, yaygın fiber lazer kesim kafalarıyla uyumlu olarak üretilen bir lens koruma camıdır. Stoktan hızlı kargolanır; ücretsiz kargo ve teknik destek Lazer Online güvencesiyle sunulur.",
+      "shortDescription": "D37 d5 Lens Koruma Camı — fiber lazer lens koruma camı. Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "249.00",
+      "price": "249.00",
+      "priceTax": "298.80",
+      "currencyCode": "TRY",
+      "stockStatus": "IN_STOCK",
+      "stockQuantity": 50,
+      "sku": "HTCCAM375",
+      "status": "publish",
+      "manufacturer": "",
+      "keywords": [],
+      "sourceUrl": "https://www.htclazer.com/d34-d5-boci-lens-koruma-cami-alt",
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-koruma-camlari",
+            "databaseId": 0,
+            "name": "Koruma Camları",
+            "slug": "koruma-camlari",
+            "description": "Fiber lazer kesim ve kaynak kafaları için lens koruma camları."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": []
+      },
+      "image": {
+        "sourceUrl": "/media/products/HTCCAM375/7457d0ddb74e89d6df9c98f825207818.jpg",
+        "altText": "D37 d5 Lens Koruma Camı"
+      },
+      "machines": [],
+      "descriptionNotes": []
+    },
+    {
+      "id": "htc-new-htccam405",
+      "databaseId": 2297,
+      "sourceProductId": "HTCCAM405",
+      "model": "HTCCAM405",
+      "name": "D40 d5 Lens Koruma Camı",
+      "slug": "d40-d5-lens-koruma-cami-htccam405",
+      "description": "D40 d5 Lens Koruma Camı, yaygın fiber lazer kesim kafalarıyla uyumlu olarak üretilen bir lens koruma camıdır. Stoktan hızlı kargolanır; ücretsiz kargo ve teknik destek Lazer Online güvencesiyle sunulur.",
+      "shortDescription": "D40 d5 Lens Koruma Camı — fiber lazer lens koruma camı. Stokta, hızlı kargo ve teknik destek — Lazer Online.",
+      "regularPrice": "249.00",
+      "price": "249.00",
+      "priceTax": "298.80",
+      "currencyCode": "TRY",
+      "stockStatus": "IN_STOCK",
+      "stockQuantity": 50,
+      "sku": "HTCCAM405",
+      "status": "publish",
+      "manufacturer": "",
+      "keywords": [],
+      "sourceUrl": "https://www.htclazer.com/d37-d5-lens-koruma-cami",
+      "categories": {
+        "nodes": [
+          {
+            "id": "cat-koruma-camlari",
+            "databaseId": 0,
+            "name": "Koruma Camları",
+            "slug": "koruma-camlari",
+            "description": "Fiber lazer kesim ve kaynak kafaları için lens koruma camları."
+          }
+        ]
+      },
+      "attributes": {
+        "nodes": []
+      },
+      "image": {
+        "sourceUrl": "/media/products/HTCCAM405/7457d0ddb74e89d6df9c98f825207818.jpg",
+        "altText": "D40 d5 Lens Koruma Camı"
+      },
+      "machines": [],
+      "descriptionNotes": []
     }
   ]
 }

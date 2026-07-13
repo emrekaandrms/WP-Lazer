@@ -191,6 +191,72 @@ export const categorySeo: Record<string, CategorySeo> = {
       'fiber lazer kaynak malzemeleri',
     ],
   },
+
+  'yedek-parcalar': {
+    metaTitle: 'Fiber Lazer Kesim Kafası Yedek Parçaları – Seal Ring, Conta, Sıkma Halkası',
+    metaDescription:
+      'Fiber lazer kesim ve kaynak kafaları için seal ring, yaylı conta, seramik sıkma halkası ve diğer yedek parçalar. Precitec, Raytools ve WSX uyumlu, stokta.',
+    heading: 'Kesim Kafası Yedek Parçaları',
+    intro: [
+      'Fiber lazer kesim kafaları, seramik ve koruma camının yanı sıra seal ring (yaylı conta), sıkma halkası ve sensör insert gibi küçük ama kritik yedek parçalara da ihtiyaç duyar. Bu parçalar gaz sızdırmazlığını, elektriksel yalıtımı ve kafanın mekanik bütünlüğünü korur.',
+      'Kataloğumuzda çeşitli renk ve kod varyasyonlarında seal ring/yaylı conta, seramik sıkma halkası, sensör insert, komple kesim kafası ve bağlantı kabloları (RF kablo) yer alır. Her parça, belirli bir kafa modeline özel ölçü ve toleransla üretilir.',
+      'Doğru parçayı seçmek için kafanızın marka-modelini veya mevcut parçanın üzerindeki kodu paylaşın; uygun yedek parçayı birlikte belirleyelim.',
+    ],
+    faq: [
+      {
+        question: 'Seal ring (yaylı conta) ne işe yarar?',
+        answer:
+          'Kesim kafası içindeki gaz sızdırmazlığını sağlar; aşınmış veya sertleşmiş seal ring gaz kaçağına ve kesim kalitesinde düşüşe yol açabilir.',
+      },
+      {
+        question: 'Doğru seal ring/conta kodunu nasıl bulurum?',
+        answer:
+          'Mevcut parçanın üzerinde yazan kodu (örn. JQLH-P425-02) veya kafanızın marka-modelini paylaşın; katalogda uyumlu kodu birlikte belirleyelim.',
+      },
+      {
+        question: 'Sıkma halkası ile seramik aynı parça mı?',
+        answer:
+          'Hayır. Sıkma halkası, seramiği veya nozulu yerinde sabitleyen ayrı bir bağlantı parçasıdır; seramiğin kendisi değildir.',
+      },
+    ],
+    keywords: [
+      'seal ring', 'yaylı conta', 'lazer kesim kafası yedek parça', 'seramik sıkma halkası',
+      'precitec yedek parça', 'sensör insert', 'kesim kafası conta',
+    ],
+  },
+
+  'temizlik-guvenlik': {
+    metaTitle: 'Fiber Lazer Optik Temizlik ve Güvenlik Ürünleri Fiyatları',
+    metaDescription:
+      'Fiber lazer optik yüzeyler için temizlik sıvısı, temizlik bezi, temizlik çubuğu ve lazer güvenlik gözlüğü. İz bırakmaz, optik yüzeye uygun, stokta.',
+    heading: 'Optik Temizlik & Güvenlik Ürünleri',
+    intro: [
+      'Koruma camı, seramik ve lens gibi optik yüzeylerin temiz tutulması, kesim kalitesini ve sarf ömrünü doğrudan etkiler. Yanlış malzeme veya kirli bir bezle yapılan temizlik, optik yüzeyde çizik ve kalıcı hasara yol açabilir.',
+      'Kataloğumuzda optik yüzeylere uygun temizlik sıvıları (aseton ve izopropil bazlı), iz bırakmayan mikrofiber ve kağıt temizlik bezleri, farklı boylarda temizlik çubukları ve lazer ışınına karşı koruyucu güvenlik gözlüğü yer alır.',
+      'Düzenli ve doğru temizlik, koruma camı ve lens gibi sarfların ömrünü uzatarak değişim sıklığını azaltır.',
+    ],
+    faq: [
+      {
+        question: 'Optik yüzeyleri hangi sıvıyla temizlemeliyim?',
+        answer:
+          'İzopropil veya aseton bazlı, optik yüzeyler için üretilmiş temizlik sıvıları kullanılmalıdır; ev tipi temizlik ürünleri kaplamaya zarar verebilir.',
+      },
+      {
+        question: 'Mikrofiber bez ile kağıt bez arasındaki fark nedir?',
+        answer:
+          '%100 iz bırakmaz mikrofiber bez tekrar kullanılabilir ve hassas yüzeyler için idealdir; kağıt bez ise tek kullanımlık, hızlı ve hijyenik bir alternatiftir.',
+      },
+      {
+        question: 'Lazer güvenlik gözlüğü gerekli mi?',
+        answer:
+          'Evet. Fiber lazer ışını gözle görülmese de ciddi göz hasarına yol açabilir; çalışma dalga boyuna uygun optik yoğunlukta (OD) güvenlik gözlüğü kullanılması önerilir.',
+      },
+    ],
+    keywords: [
+      'optik temizlik sıvısı', 'lazer temizlik bezi', 'optik temizlik çubuğu', 'lazer güvenlik gözlüğü',
+      'mikrofiber temizlik bezi', 'lens temizlik seti',
+    ],
+  },
 }
 
 export function getCategorySeo(slug: string): CategorySeo | undefined {
